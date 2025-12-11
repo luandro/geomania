@@ -1,6 +1,8 @@
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import { QuizQuestion, Country } from '@/types/quiz';
 import { Button } from '@/components/ui/button';
+import { useLanguage } from '@/i18n/LanguageContext';
+import { formatPopulation } from '@/i18n/translations';
 
 interface PopulationQuestionProps {
   question: QuizQuestion;
@@ -9,32 +11,28 @@ interface PopulationQuestionProps {
 }
 
 export const PopulationQuestion = ({ question, onAnswer, onNext }: PopulationQuestionProps) => {
+  const { t, language } = useLanguage();
   const [selectedAnswer, setSelectedAnswer] = useState<Country | null>(null);
   const [answered, setAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [isLastQuestion, setIsLastQuestion] = useState(false);
 
-  // Pick two countries for comparison
-  const [countryA, countryB] = useMemo(() => {
-    const sorted = [...question.options].sort((a, b) => b.population - a.population);
-    return [sorted[0], sorted[1]];
-  }, [question.options]);
-
-  // The correct answer is the one with higher population
-  const correctCountry = countryA.population > countryB.population ? countryA : countryB;
+  // Get the two countries from comparedCountries or fall back to options
+  const [countryA, countryB] = question.comparedCountries || [question.options[0], question.options[1]];
+  
+  // The correct answer is already set as question.correctAnswer
+  const correctCountry = question.correctAnswer;
 
   const handleAnswer = async (country: Country) => {
     if (answered) return;
     
     setSelectedAnswer(country);
     
-    // For population mode, we check against the higher population country
-    const correct = country.id === correctCountry.id;
-    setIsCorrect(correct);
-    
-    const result = await onAnswer(correct ? question.correctAnswer : question.options[0]);
+    // For population mode, pass the selected country directly
+    const result = await onAnswer(country);
     
     if (result) {
+      setIsCorrect(result.isCorrect);
       setIsLastQuestion(result.isLastQuestion);
       setAnswered(true);
     }
@@ -44,13 +42,6 @@ export const PopulationQuestion = ({ question, onAnswer, onNext }: PopulationQue
     setSelectedAnswer(null);
     setAnswered(false);
     onNext();
-  };
-
-  const formatPopulation = (pop: number) => {
-    if (pop >= 1000000000) return `${(pop / 1000000000).toFixed(2)}B`;
-    if (pop >= 1000000) return `${(pop / 1000000).toFixed(1)}M`;
-    if (pop >= 1000) return `${(pop / 1000).toFixed(1)}K`;
-    return pop.toString();
   };
 
   const getButtonVariant = (country: Country) => {
@@ -68,14 +59,14 @@ export const PopulationQuestion = ({ question, onAnswer, onNext }: PopulationQue
   };
 
   return (
-    <div className="w-full max-w-2xl mx-auto fade-in">
-      <div className="mb-8 text-center">
-        <h2 className="text-2xl font-bold mb-6 text-foreground">
-          Which country has the larger population?
+    <div className="w-full max-w-2xl mx-auto fade-in px-2">
+      <div className="mb-6 sm:mb-8 text-center">
+        <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-foreground">
+          {t.populationQuestion}
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-6">
         {[countryA, countryB].map((country, index) => (
           <Button
             key={country.id}
@@ -83,18 +74,20 @@ export const PopulationQuestion = ({ question, onAnswer, onNext }: PopulationQue
             size="answer"
             onClick={() => handleAnswer(country)}
             disabled={answered}
-            className={`flex flex-col items-center gap-4 p-6 h-auto slide-up`}
+            className="flex flex-col items-center gap-3 sm:gap-4 p-4 sm:p-6 h-auto min-h-[140px] sm:min-h-[180px] slide-up"
             style={{ animationDelay: `${index * 0.15}s` }}
           >
             <img
               src={country.flag_url}
               alt={country.name}
-              className="w-24 h-16 object-contain rounded shadow-sm"
+              className="w-20 sm:w-24 h-12 sm:h-16 object-contain rounded shadow-sm"
             />
-            <span className="text-lg font-bold">{country.name}</span>
+            <span className="text-base sm:text-lg font-bold text-center leading-tight">
+              {country.name}
+            </span>
             {answered && (
-              <span className="text-sm font-medium opacity-80">
-                Pop: {formatPopulation(country.population)}
+              <span className="text-xs sm:text-sm font-medium opacity-80">
+                {t.population}: {formatPopulation(country.population, language)}
               </span>
             )}
           </Button>
@@ -103,14 +96,14 @@ export const PopulationQuestion = ({ question, onAnswer, onNext }: PopulationQue
 
       {answered && (
         <div className="text-center bounce-in">
-          <p className={`text-lg font-semibold mb-4 ${isCorrect ? 'text-success' : 'text-destructive'}`}>
+          <p className={`text-base sm:text-lg font-semibold mb-4 ${isCorrect ? 'text-success' : 'text-destructive'}`}>
             {isCorrect 
-              ? '🎉 Correct!' 
-              : `❌ Wrong! ${correctCountry.name} has ${formatPopulation(correctCountry.population)} people`
+              ? t.correct
+              : `${t.incorrect} ${t.wrongPopulation.replace('{country}', correctCountry.name).replace('{population}', formatPopulation(correctCountry.population, language))}`
             }
           </p>
-          <Button variant="hero" size="lg" onClick={handleNext}>
-            {isLastQuestion ? 'See Results' : 'Next Question'}
+          <Button variant="hero" size="lg" onClick={handleNext} className="w-full sm:w-auto">
+            {isLastQuestion ? t.seeResults : t.nextQuestion}
           </Button>
         </div>
       )}

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { QuizQuestion, Country } from '@/types/quiz';
 import { Button } from '@/components/ui/button';
+import { useLanguage } from '@/i18n/LanguageContext';
 
 interface CapitalQuestionProps {
   question: QuizQuestion;
@@ -9,6 +10,7 @@ interface CapitalQuestionProps {
 }
 
 export const CapitalQuestion = ({ question, onAnswer, onNext }: CapitalQuestionProps) => {
+  const { t } = useLanguage();
   const [selectedAnswer, setSelectedAnswer] = useState<Country | null>(null);
   const [answered, setAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
@@ -48,24 +50,24 @@ export const CapitalQuestion = ({ question, onAnswer, onNext }: CapitalQuestionP
   };
 
   return (
-    <div className="w-full max-w-2xl mx-auto fade-in">
-      <div className="mb-8 text-center">
-        <h2 className="text-2xl font-bold mb-2 text-foreground">
-          What is the capital of
+    <div className="w-full max-w-2xl mx-auto fade-in px-2">
+      <div className="mb-6 sm:mb-8 text-center">
+        <h2 className="text-xl sm:text-2xl font-bold mb-2 text-foreground">
+          {t.capitalQuestion}
         </h2>
-        <div className="flex items-center justify-center gap-4 mb-6">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-4 sm:mb-6">
           <img
             src={question.correctAnswer.flag_url}
             alt={question.correctAnswer.name}
-            className="w-12 h-8 object-contain rounded shadow-sm"
+            className="w-10 sm:w-12 h-6 sm:h-8 object-contain rounded shadow-sm"
           />
-          <span className="text-3xl font-extrabold text-primary">
+          <span className="text-2xl sm:text-3xl font-extrabold text-primary text-center">
             {question.correctAnswer.name}
           </span>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-6">
         {question.options.map((option, index) => (
           <Button
             key={option.id}
@@ -73,7 +75,7 @@ export const CapitalQuestion = ({ question, onAnswer, onNext }: CapitalQuestionP
             size="answer"
             onClick={() => handleAnswer(option)}
             disabled={answered}
-            className={`w-full slide-up`}
+            className="w-full min-h-[52px] slide-up"
             style={{ animationDelay: `${index * 0.1}s` }}
           >
             {option.capital}
@@ -83,11 +85,14 @@ export const CapitalQuestion = ({ question, onAnswer, onNext }: CapitalQuestionP
 
       {answered && (
         <div className="text-center bounce-in">
-          <p className={`text-lg font-semibold mb-4 ${isCorrect ? 'text-success' : 'text-destructive'}`}>
-            {isCorrect ? '🎉 Correct!' : `❌ Wrong! The capital is ${question.correctAnswer.capital}`}
+          <p className={`text-base sm:text-lg font-semibold mb-4 ${isCorrect ? 'text-success' : 'text-destructive'}`}>
+            {isCorrect 
+              ? t.correct 
+              : `${t.incorrect} ${t.wrongCapital.replace('{capital}', question.correctAnswer.capital)}`
+            }
           </p>
-          <Button variant="hero" size="lg" onClick={handleNext}>
-            {isLastQuestion ? 'See Results' : 'Next Question'}
+          <Button variant="hero" size="lg" onClick={handleNext} className="w-full sm:w-auto">
+            {isLastQuestion ? t.seeResults : t.nextQuestion}
           </Button>
         </div>
       )}

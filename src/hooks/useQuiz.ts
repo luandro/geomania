@@ -6,6 +6,9 @@ import { Json } from '@/integrations/supabase/types';
 const TOTAL_QUESTIONS = 10;
 const OPTIONS_COUNT = 4;
 
+/**
+ * Fisher-Yates shuffle algorithm for randomizing arrays
+ */
 function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array];
   for (let i = shuffled.length - 1; i > 0; i--) {
@@ -15,12 +18,60 @@ function shuffleArray<T>(array: T[]): T[] {
   return shuffled;
 }
 
+/**
+ * Generates quiz questions based on game mode.
+ * For population mode, each question compares exactly 2 countries.
+ * Ensures no duplicate questions within a session.
+ */
 function generateQuestions(countries: Country[], mode: GameMode): QuizQuestion[] {
-  const shuffledCountries = shuffleArray(countries);
+  // Filter countries with valid population data for population mode
+  const validCountries = mode === 'population' 
+    ? countries.filter(c => c.population > 0)
+    : countries;
+  
+  if (validCountries.length < TOTAL_QUESTIONS * 2) {
+    console.warn('Not enough valid countries for quiz');
+    return [];
+  }
+
+  if (mode === 'population') {
+    // For population mode: pick pairs of countries
+    const shuffledCountries = shuffleArray(validCountries);
+    const usedCountryIds = new Set<string>();
+    const questions: QuizQuestion[] = [];
+
+    for (let i = 0; i < shuffledCountries.length - 1 && questions.length < TOTAL_QUESTIONS; i += 2) {
+      const countryA = shuffledCountries[i];
+      const countryB = shuffledCountries[i + 1];
+
+      // Skip if we've already used either country
+      if (usedCountryIds.has(countryA.id) || usedCountryIds.has(countryB.id)) {
+        continue;
+      }
+
+      usedCountryIds.add(countryA.id);
+      usedCountryIds.add(countryB.id);
+
+      // The correct answer is the country with higher population
+      const correctCountry = countryA.population > countryB.population ? countryA : countryB;
+
+      questions.push({
+        id: crypto.randomUUID(),
+        correctAnswer: correctCountry,
+        options: [countryA, countryB], // Only 2 options for population mode
+        comparedCountries: [countryA, countryB],
+      });
+    }
+
+    return questions;
+  }
+
+  // For flag and capital modes: standard 4-option questions
+  const shuffledCountries = shuffleArray(validCountries);
   const selectedCountries = shuffledCountries.slice(0, TOTAL_QUESTIONS);
   
   return selectedCountries.map((correctCountry) => {
-    const otherCountries = countries.filter(c => c.id !== correctCountry.id);
+    const otherCountries = validCountries.filter(c => c.id !== correctCountry.id);
     const shuffledOthers = shuffleArray(otherCountries);
     const wrongOptions = shuffledOthers.slice(0, OPTIONS_COUNT - 1);
     
@@ -44,6 +95,12 @@ export const useQuiz = (countries: Country[]) => {
     setIsLoading(true);
     
     const questions = generateQuestions(countries, mode);
+    
+    if (questions.length === 0) {
+      console.error('Failed to generate questions');
+      setIsLoading(false);
+      return;
+    }
     
     const { data, error } = await supabase
       .from('quiz_sessions')
@@ -97,7 +154,6 @@ export const useQuiz = (countries: Country[]) => {
       score: newScore,
       questions: updatedQuestions,
       completed: isLastQuestion,
-      currentQuestionIndex: isLastQuestion ? session.currentQuestionIndex : session.currentQuestionIndex,
     };
     
     setSession(updatedSession);

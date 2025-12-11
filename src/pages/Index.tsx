@@ -9,34 +9,37 @@ import { ResultsScreen } from '@/components/quiz/ResultsScreen';
 import { LoadingSpinner } from '@/components/quiz/LoadingSpinner';
 import { GameModeConfig, GameMode } from '@/types/quiz';
 import { Globe } from 'lucide-react';
-
-const gameModes: GameModeConfig[] = [
-  {
-    mode: 'flag',
-    title: 'Flag Guess',
-    description: 'Identify countries by their flags',
-    icon: 'flag',
-    color: 'primary',
-  },
-  {
-    mode: 'capital',
-    title: 'Capital Guess',
-    description: 'Match countries with their capital cities',
-    icon: 'capital',
-    color: 'secondary',
-  },
-  {
-    mode: 'population',
-    title: 'Population Compare',
-    description: 'Guess which country has more people',
-    icon: 'population',
-    color: 'accent',
-  },
-];
+import { useLanguage } from '@/i18n/LanguageContext';
 
 const Index = () => {
+  const { t } = useLanguage();
   const { data: countries, isLoading: countriesLoading, error } = useCountries();
   const { session, currentQuestion, isLoading, startQuiz, answerQuestion, nextQuestion, resetQuiz } = useQuiz(countries || []);
+
+  // Game mode configs - titles/descriptions come from translations
+  const gameModes: GameModeConfig[] = [
+    {
+      mode: 'flag',
+      title: t.gameModes.flag,
+      description: t.gameModeDescriptions.flag,
+      icon: 'flag',
+      color: 'primary',
+    },
+    {
+      mode: 'capital',
+      title: t.gameModes.capital,
+      description: t.gameModeDescriptions.capital,
+      icon: 'capital',
+      color: 'secondary',
+    },
+    {
+      mode: 'population',
+      title: t.gameModes.population,
+      description: t.gameModeDescriptions.population,
+      icon: 'population',
+      color: 'accent',
+    },
+  ];
 
   const handleStartQuiz = async (mode: GameMode) => {
     await startQuiz(mode);
@@ -50,10 +53,10 @@ const Index = () => {
 
   if (error) {
     return (
-      <div className="min-h-screen bg-background flex items-center justify-center">
+      <div className="min-h-screen bg-background flex items-center justify-center p-4">
         <div className="text-center">
-          <h2 className="text-2xl font-bold text-destructive mb-2">Oops!</h2>
-          <p className="text-muted-foreground">Failed to load countries. Please refresh the page.</p>
+          <h2 className="text-xl sm:text-2xl font-bold text-destructive mb-2">{t.oops}</h2>
+          <p className="text-muted-foreground text-sm sm:text-base">{t.failedToLoad}</p>
         </div>
       </div>
     );
@@ -71,7 +74,7 @@ const Index = () => {
           onBack={resetQuiz}
           showBackButton
         />
-        <main className="flex-1 flex items-center justify-center p-6">
+        <main className="flex-1 flex items-center justify-center p-3 sm:p-6">
           <ResultsScreen
             session={session}
             onPlayAgain={handlePlayAgain}
@@ -94,7 +97,7 @@ const Index = () => {
           onBack={resetQuiz}
           showBackButton
         />
-        <main className="flex-1 flex items-center justify-center p-6">
+        <main className="flex-1 flex items-center justify-center p-3 sm:p-6">
           {session.gameMode === 'flag' && (
             <FlagQuestion
               key={currentQuestion.id}
@@ -128,27 +131,26 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <QuizHeader />
-      <main className="flex-1 flex items-center justify-center p-6">
-        <div className="max-w-4xl mx-auto text-center">
+      <main className="flex-1 flex items-center justify-center p-4 sm:p-6">
+        <div className="w-full max-w-4xl mx-auto text-center">
           {countriesLoading || isLoading ? (
             <LoadingSpinner />
           ) : (
             <div className="fade-in">
-              <div className="mb-8">
-                <div className="inline-flex items-center justify-center w-20 h-20 rounded-full quiz-gradient mb-6 bounce-in">
-                  <Globe className="w-10 h-10 text-primary-foreground" />
+              <div className="mb-6 sm:mb-8">
+                <div className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 rounded-full quiz-gradient mb-4 sm:mb-6 bounce-in">
+                  <Globe className="w-8 h-8 sm:w-10 sm:h-10 text-primary-foreground" />
                 </div>
-                <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-foreground">
-                  Welcome to <span className="text-primary">GeoQuiz</span>
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3 sm:mb-4 text-foreground">
+                  {t.welcome} <span className="text-primary">{t.welcomeHighlight}</span>
                 </h1>
-                <p className="text-lg text-muted-foreground max-w-xl mx-auto">
-                  Test your geography knowledge! Identify flags, capitals, and compare populations
-                  from {countries?.length || 0} countries around the world.
+                <p className="text-base sm:text-lg text-muted-foreground max-w-xl mx-auto px-2">
+                  {t.landingDescription.replace('{count}', String(countries?.length || 0))}
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 slide-up" style={{ animationDelay: '0.2s' }}>
-                {gameModes.map((config, index) => (
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 slide-up px-2" style={{ animationDelay: '0.2s' }}>
+                {gameModes.map((config) => (
                   <GameModeCard
                     key={config.mode}
                     config={config}
@@ -158,8 +160,8 @@ const Index = () => {
                 ))}
               </div>
 
-              <p className="mt-8 text-sm text-muted-foreground">
-                Each quiz has 10 questions. Good luck! 🌍
+              <p className="mt-6 sm:mt-8 text-xs sm:text-sm text-muted-foreground">
+                {t.quizInfo}
               </p>
             </div>
           )}

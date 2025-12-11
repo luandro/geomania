@@ -112,10 +112,31 @@
     @apply border-border;
   }
 
+  html {
+    /* Prevent horizontal scroll on mobile */
+    overflow-x: hidden;
+  }
+
   body {
     @apply bg-background text-foreground font-sans antialiased;
     font-family: 'Poppins', sans-serif;
+    /* Ensure proper touch targets and prevent zoom on input focus */
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
   }
+}
+
+/* Ensure minimum touch target size for accessibility */
+@layer utilities {
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Background utility for flag display */
+.bg-quiz-flag {
+  background-color: hsl(var(--quiz-flag-bg));
 }
 
 @layer utilities {

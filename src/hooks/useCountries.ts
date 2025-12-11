@@ -1,19 +1,9 @@
-import { useQuery } from '@tanstack/react-query';
-import { supabase } from '@/integrations/supabase/client';
+import { countries } from '@/data/countries';
 import { Country } from '@/types/quiz';
 
-export const useCountries = () => {
-  return useQuery({
-    queryKey: ['countries'],
-    queryFn: async (): Promise<Country[]> => {
-      const { data, error } = await supabase
-        .from('countries')
-        .select('*')
-        .order('name');
-      
-      if (error) throw error;
-      return data || [];
-    },
-    staleTime: 1000 * 60 * 60, // 1 hour
-  });
-};
+// Local, synchronous country source to avoid Supabase dependency.
+export const useCountries = () => ({
+  data: countries as Country[],
+  isLoading: false,
+  error: null as unknown,
+});

@@ -15,6 +15,8 @@ export interface QuizQuestion {
   options: Country[];
   userAnswer?: Country;
   isCorrect?: boolean;
+  // For population mode: store the two countries being compared
+  comparedCountries?: [Country, Country];
 }
 
 export interface QuizSession {

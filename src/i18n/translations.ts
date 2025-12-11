@@ -58,6 +58,10 @@ export interface Translations {
   wrongAnswer: string;
   wrongCapital: string;
   wrongPopulation: string;
+  typeYourAnswer: string;
+  typeAnswerPlaceholder: string;
+  submitAnswer: string;
+  invalidAnswer: string;
   
   // Buttons
   nextQuestion: string;
@@ -143,6 +147,10 @@ export const translations: Record<SupportedLanguage, Translations> = {
     wrongAnswer: 'It was {answer}',
     wrongCapital: 'The capital is {capital}',
     wrongPopulation: '{country} has {population} people',
+    typeYourAnswer: 'Type your answer below (country or capital).',
+    typeAnswerPlaceholder: 'Start typing a country or capital city...',
+    submitAnswer: 'Submit Answer',
+    invalidAnswer: 'Choose a valid country or capital from the list.',
     
     // Buttons
     nextQuestion: 'Next Question',
@@ -226,6 +234,10 @@ export const translations: Record<SupportedLanguage, Translations> = {
     wrongAnswer: 'Era {answer}',
     wrongCapital: 'A capital é {capital}',
     wrongPopulation: '{country} tem {population} habitantes',
+    typeYourAnswer: 'Digite sua resposta abaixo (país ou capital).',
+    typeAnswerPlaceholder: 'Comece digitando um país ou capital...',
+    submitAnswer: 'Enviar resposta',
+    invalidAnswer: 'Escolha um país ou capital válido da lista.',
     
     // Buttons
     nextQuestion: 'Próxima Pergunta',

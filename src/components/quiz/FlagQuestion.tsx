@@ -1,20 +1,30 @@
 import { useState } from 'react';
-import { QuizQuestion, Country } from '@/types/quiz';
+import { QuizQuestion, Country, Difficulty } from '@/types/quiz';
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import { useLanguage } from '@/i18n/LanguageContext';
+import { buildAnswerSuggestions, findCountryMatch } from '@/lib/answerMatching';
 
 interface FlagQuestionProps {
   question: QuizQuestion;
   onAnswer: (country: Country) => Promise<{ isCorrect: boolean; isLastQuestion: boolean } | undefined>;
   onNext: () => void;
+  difficulty: Difficulty;
+  allCountries: Country[];
 }
 
-export const FlagQuestion = ({ question, onAnswer, onNext }: FlagQuestionProps) => {
+export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountries }: FlagQuestionProps) => {
   const { t } = useLanguage();
   const [selectedAnswer, setSelectedAnswer] = useState<Country | null>(null);
   const [answered, setAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [isLastQuestion, setIsLastQuestion] = useState(false);
+  const [typedAnswer, setTypedAnswer] = useState('');
+  const [inputError, setInputError] = useState('');
+
+  const isGodMode = difficulty === 'god_mode';
+  const suggestions = buildAnswerSuggestions(allCountries);
+  const dataListId = `flag-suggestions-${question.id}`;
 
   const handleAnswer = async (country: Country) => {
     if (answered) return;
@@ -32,6 +42,8 @@ export const FlagQuestion = ({ question, onAnswer, onNext }: FlagQuestionProps) 
   const handleNext = () => {
     setSelectedAnswer(null);
     setAnswered(false);
+    setTypedAnswer('');
+    setInputError('');
     onNext();
   };
 
@@ -47,6 +59,21 @@ export const FlagQuestion = ({ question, onAnswer, onNext }: FlagQuestionProps) 
     }
     
     return 'quiz';
+  };
+
+  const handleSubmitTyped = async (event?: React.FormEvent) => {
+    event?.preventDefault();
+    if (answered) return;
+
+    const match = findCountryMatch(allCountries, typedAnswer);
+
+    if (!match) {
+      setInputError(t.invalidAnswer);
+      return;
+    }
+
+    setInputError('');
+    await handleAnswer(match);
   };
 
   return (
@@ -65,21 +92,44 @@ export const FlagQuestion = ({ question, onAnswer, onNext }: FlagQuestionProps) 
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-6">
-        {question.options.map((option, index) => (
-          <Button
-            key={option.id}
-            variant={getButtonVariant(option)}
-            size="answer"
-            onClick={() => handleAnswer(option)}
+      {isGodMode ? (
+        <form onSubmit={handleSubmitTyped} className="space-y-3 mb-6 max-w-xl mx-auto">
+          <Input
+            value={typedAnswer}
+            onChange={(e) => setTypedAnswer(e.target.value)}
+            placeholder={t.typeAnswerPlaceholder}
+            list={dataListId}
+            autoComplete="off"
             disabled={answered}
-            className="w-full min-h-[52px] slide-up"
-            style={{ animationDelay: `${index * 0.1}s` }}
-          >
-            {option.name}
+            className="h-12 text-base"
+          />
+          <datalist id={dataListId}>
+            {suggestions.map((suggestion) => (
+              <option value={suggestion} key={suggestion} />
+            ))}
+          </datalist>
+          {inputError && <p className="text-sm text-destructive">{inputError}</p>}
+          <Button type="submit" variant="hero" size="lg" disabled={answered || !typedAnswer.trim()} className="w-full sm:w-auto">
+            {t.submitAnswer}
           </Button>
-        ))}
-      </div>
+        </form>
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-6">
+          {question.options.map((option, index) => (
+            <Button
+              key={option.id}
+              variant={getButtonVariant(option)}
+              size="answer"
+              onClick={() => handleAnswer(option)}
+              disabled={answered}
+              className="w-full min-h-[52px] slide-up"
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
+              {option.name}
+            </Button>
+          ))}
+        </div>
+      )}
 
       {answered && (
         <div className="text-center bounce-in">

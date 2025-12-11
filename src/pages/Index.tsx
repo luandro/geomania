@@ -122,6 +122,8 @@ const Index = () => {
               question={currentQuestion}
               onAnswer={answerQuestion}
               onNext={nextQuestion}
+              difficulty={session.difficulty}
+              allCountries={countries || []}
             />
           )}
           {session.gameMode === 'capital' && (
@@ -130,6 +132,8 @@ const Index = () => {
               question={currentQuestion}
               onAnswer={answerQuestion}
               onNext={nextQuestion}
+              difficulty={session.difficulty}
+              allCountries={countries || []}
             />
           )}
           {session.gameMode === 'population' && (

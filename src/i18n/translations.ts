@@ -28,6 +28,24 @@ export interface Translations {
   welcomeHighlight: string;
   landingDescription: string;
   quizInfo: string;
+  selectDifficulty: string;
+  difficultyDescription: string;
+
+  difficulty: {
+    easy: string;
+    medium: string;
+    hard: string;
+    super_hard: string;
+    god_mode: string;
+  };
+
+  difficultyDescriptions: {
+    easy: string;
+    medium: string;
+    hard: string;
+    super_hard: string;
+    god_mode: string;
+  };
   
   // Questions
   flagQuestion: string;
@@ -96,6 +114,23 @@ export const translations: Record<SupportedLanguage, Translations> = {
     welcomeHighlight: 'GeoQuiz',
     landingDescription: 'Test your geography knowledge! Identify flags, capitals, and compare populations from {count} countries around the world.',
     quizInfo: 'Each quiz has 10 questions. Good luck! 🌍',
+    selectDifficulty: 'Select Difficulty',
+    difficultyDescription: 'Choose your challenge level',
+    
+    difficulty: {
+      easy: 'Easy',
+      medium: 'Medium',
+      hard: 'Hard',
+      super_hard: 'Super Hard',
+      god_mode: 'God Mode',
+    },
+    difficultyDescriptions: {
+      easy: 'Common countries, distinctive choices',
+      medium: 'Mix of well-known and mid-size nations',
+      hard: 'Smaller countries, trickier options',
+      super_hard: 'Islands, similar flags, close populations',
+      god_mode: 'The most obscure nations on Earth',
+    },
     
     // Questions
     flagQuestion: 'Which country does this flag belong to?',
@@ -162,6 +197,23 @@ export const translations: Record<SupportedLanguage, Translations> = {
     welcomeHighlight: 'GeoQuiz',
     landingDescription: 'Teste seus conhecimentos de geografia! Identifique bandeiras, capitais e compare populações de {count} países ao redor do mundo.',
     quizInfo: 'Cada quiz tem 10 perguntas. Boa sorte! 🌍',
+    selectDifficulty: 'Selecione a Dificuldade',
+    difficultyDescription: 'Escolha o seu nível de desafio',
+
+    difficulty: {
+      easy: 'Fácil',
+      medium: 'Médio',
+      hard: 'Difícil',
+      super_hard: 'Super Difícil',
+      god_mode: 'Modo Deus',
+    },
+    difficultyDescriptions: {
+      easy: 'Países comuns, escolhas distintas',
+      medium: 'Mistura de nações conhecidas e médias',
+      hard: 'Países menores, opções mais difíceis',
+      super_hard: 'Ilhas, bandeiras similares, populações próximas',
+      god_mode: 'As nações mais obscuras da Terra',
+    },
     
     // Questions
     flagQuestion: 'A qual país pertence esta bandeira?',
@@ -213,7 +265,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
  * Returns 'pt-BR' if the browser language starts with 'pt', otherwise 'en'.
  */
 export function detectLanguage(): SupportedLanguage {
-  const browserLang = navigator.language || (navigator as any).userLanguage || 'en';
+  const browserLang = navigator.language || (navigator as { userLanguage?: string }).userLanguage || 'en';
   
   if (browserLang.toLowerCase().startsWith('pt')) {
     return 'pt-BR';

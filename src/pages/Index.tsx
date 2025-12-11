@@ -1,13 +1,15 @@
+import { useState } from 'react';
 import { useCountries } from '@/hooks/useCountries';
 import { useQuiz } from '@/hooks/useQuiz';
 import { QuizHeader } from '@/components/quiz/QuizHeader';
 import { GameModeCard } from '@/components/quiz/GameModeCard';
+import { DifficultySelector } from '@/components/quiz/DifficultySelector';
 import { FlagQuestion } from '@/components/quiz/FlagQuestion';
 import { CapitalQuestion } from '@/components/quiz/CapitalQuestion';
 import { PopulationQuestion } from '@/components/quiz/PopulationQuestion';
 import { ResultsScreen } from '@/components/quiz/ResultsScreen';
 import { LoadingSpinner } from '@/components/quiz/LoadingSpinner';
-import { GameModeConfig, GameMode } from '@/types/quiz';
+import { GameModeConfig, GameMode, Difficulty } from '@/types/quiz';
 import { Globe } from 'lucide-react';
 import { useLanguage } from '@/i18n/LanguageContext';
 
@@ -15,6 +17,7 @@ const Index = () => {
   const { t } = useLanguage();
   const { data: countries, isLoading: countriesLoading, error } = useCountries();
   const { session, currentQuestion, isLoading, startQuiz, answerQuestion, nextQuestion, resetQuiz } = useQuiz(countries || []);
+  const [selectedMode, setSelectedMode] = useState<GameMode | null>(null);
 
   // Game mode configs - titles/descriptions come from translations
   const gameModes: GameModeConfig[] = [
@@ -41,13 +44,28 @@ const Index = () => {
     },
   ];
 
-  const handleStartQuiz = async (mode: GameMode) => {
-    await startQuiz(mode);
+  const handleSelectMode = (mode: GameMode) => {
+    setSelectedMode(mode);
+  };
+
+  const handleSelectDifficulty = async (difficulty: Difficulty) => {
+    if (selectedMode) {
+      await startQuiz(selectedMode, difficulty);
+    }
+  };
+
+  const handleBackToModes = () => {
+    setSelectedMode(null);
+  };
+
+  const handleReset = () => {
+    resetQuiz();
+    setSelectedMode(null);
   };
 
   const handlePlayAgain = async () => {
     if (session) {
-      await startQuiz(session.gameMode);
+      await startQuiz(session.gameMode, session.difficulty);
     }
   };
 
@@ -71,14 +89,14 @@ const Index = () => {
           currentQuestion={session.currentQuestionIndex}
           totalQuestions={session.totalQuestions}
           score={session.score}
-          onBack={resetQuiz}
+          onBack={handleReset}
           showBackButton
         />
         <main className="flex-1 flex items-center justify-center p-3 sm:p-6">
           <ResultsScreen
             session={session}
             onPlayAgain={handlePlayAgain}
-            onGoHome={resetQuiz}
+            onGoHome={handleReset}
           />
         </main>
       </div>
@@ -94,7 +112,7 @@ const Index = () => {
           currentQuestion={session.currentQuestionIndex}
           totalQuestions={session.totalQuestions}
           score={session.score}
-          onBack={resetQuiz}
+          onBack={handleReset}
           showBackButton
         />
         <main className="flex-1 flex items-center justify-center p-3 sm:p-6">
@@ -127,7 +145,21 @@ const Index = () => {
     );
   }
 
-  // Show landing page
+  // Show Difficulty Selection
+  if (selectedMode && !session) {
+    return (
+       <div className="min-h-screen bg-background flex flex-col">
+         <QuizHeader onBack={handleBackToModes} showBackButton />
+         <main className="flex-1 flex items-center justify-center p-3 sm:p-6">
+            <div className="w-full max-w-4xl mx-auto">
+               <DifficultySelector onSelect={handleSelectDifficulty} disabled={isLoading} />
+            </div>
+         </main>
+       </div>
+    );
+ }
+
+  // Show landing page (Game Mode Selection)
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <QuizHeader />
@@ -154,7 +186,7 @@ const Index = () => {
                   <GameModeCard
                     key={config.mode}
                     config={config}
-                    onSelect={() => handleStartQuiz(config.mode)}
+                    onSelect={() => handleSelectMode(config.mode)}
                     disabled={!countries || countries.length < 10}
                   />
                 ))}

@@ -1,3 +1,5 @@
+export type Difficulty = 'easy' | 'medium' | 'hard' | 'super_hard' | 'god_mode';
+
 export interface Country {
   id: string;
   name: string;
@@ -5,6 +7,7 @@ export interface Country {
   flag_url: string;
   population: number;
   region: string;
+  difficulty: Difficulty;
 }
 
 export type GameMode = 'flag' | 'capital' | 'population';
@@ -22,6 +25,7 @@ export interface QuizQuestion {
 export interface QuizSession {
   id: string;
   gameMode: GameMode;
+  difficulty: Difficulty;
   score: number;
   totalQuestions: number;
   currentQuestionIndex: number;

@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { formatPopulation } from '@/i18n/translations';
 import { getLocalizedCountryName } from '@/lib/localization';
+import { getAssetUrl } from '@/lib/assets';
 
 interface PopulationQuestionProps {
   question: QuizQuestion;
@@ -90,7 +91,7 @@ export const PopulationQuestion = ({ question, onAnswer, onNext }: PopulationQue
             style={{ animationDelay: `${index * 0.15}s` }}
           >
             <img
-              src={country.flag_url}
+              src={getAssetUrl(country.flag_url)}
               alt={getLocalizedCountryName(country, language)}
               className="w-14 sm:w-16 h-8 sm:h-10 object-contain rounded shadow-sm"
             />

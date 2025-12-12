@@ -4,6 +4,7 @@ import { Trophy, Star, Target, RotateCcw, Home } from 'lucide-react';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { formatPopulation } from '@/i18n/translations';
 import { getLocalizedCapital, getLocalizedCountryName } from '@/lib/localization';
+import { getAssetUrl } from '@/lib/assets';
 
 interface ResultsScreenProps {
   session: QuizSession;
@@ -61,7 +62,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
                 isCountryACorrect ? 'bg-success/20' : ''
               } ${q.userAnswer?.id === countryA.id && !q.isCorrect ? 'ring-2 ring-destructive' : ''}`}>
                 <img
-                  src={countryA.flag_url}
+                  src={getAssetUrl(countryA.flag_url)}
                   alt={getLocalizedCountryName(countryA, language)}
                   className="w-6 h-4 object-contain rounded"
                 />
@@ -82,7 +83,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
                 !isCountryACorrect ? 'bg-success/20' : ''
               } ${q.userAnswer?.id === countryB.id && !q.isCorrect ? 'ring-2 ring-destructive' : ''}`}>
                 <img
-                  src={countryB.flag_url}
+                  src={getAssetUrl(countryB.flag_url)}
                   alt={getLocalizedCountryName(countryB, language)}
                   className="w-6 h-4 object-contain rounded"
                 />
@@ -117,7 +118,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
           </span>
           <div className="flex items-center gap-2 min-w-0">
             <img
-              src={q.correctAnswer.flag_url}
+              src={getAssetUrl(q.correctAnswer.flag_url)}
               alt={getLocalizedCountryName(q.correctAnswer, language)}
               className="w-6 h-4 object-contain rounded shrink-0"
             />

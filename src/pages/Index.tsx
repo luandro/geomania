@@ -12,6 +12,7 @@ import { LoadingSpinner } from '@/components/quiz/LoadingSpinner';
 import { GameModeConfig, GameMode, Difficulty } from '@/types/quiz';
 import { Globe } from 'lucide-react';
 import { useLanguage } from '@/i18n/LanguageContext';
+import { getAssetUrl } from '@/lib/assets';
 
 const Index = () => {
   const { t } = useLanguage();
@@ -175,7 +176,7 @@ const Index = () => {
             <div className="fade-in">
               <div className="mb-6 sm:mb-8">
                 <div className="inline-flex items-center justify-center w-40 h-40 sm:w-56 sm:h-56 rounded-full quiz-gradient mb-4 sm:mb-6 bounce-in ring-4 ring-primary/40 shadow-2xl overflow-hidden">
-                  <img src="/kuromi_map.svg" alt="Kuromi map" className="w-full h-full object-contain" />
+                  <img src={getAssetUrl('/kuromi_map.svg')} alt="Kuromi map" className="w-full h-full object-contain" />
                 </div>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3 sm:mb-4 text-foreground drop-shadow">
                   {t.welcome} <span className="text-primary">{t.welcomeHighlight}</span>

@@ -5,6 +5,7 @@ import { Input } from '@/components/ui/input';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { buildAnswerSuggestions, findCountryMatch } from '@/lib/answerMatching';
 import { getLocalizedCountryName } from '@/lib/localization';
+import { getAssetUrl } from '@/lib/assets';
 
 interface FlagQuestionProps {
   question: QuizQuestion;
@@ -96,7 +97,7 @@ export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountr
         </h2>
         <div className="bg-quiz-flag rounded-xl p-3 sm:p-4 inline-block flag-shadow">
           <img
-            src={question.correctAnswer.flag_url}
+            src={getAssetUrl(question.correctAnswer.flag_url)}
             alt={getLocalizedCountryName(question.correctAnswer, language)}
             className="w-32 sm:w-40 h-20 sm:h-24 object-contain rounded-lg"
             loading="eager"

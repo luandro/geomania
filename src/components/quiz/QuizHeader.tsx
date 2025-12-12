@@ -3,6 +3,7 @@ import { Globe, ArrowLeft, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { useLanguage } from '@/i18n/LanguageContext';
+import { getAssetUrl } from '@/lib/assets';
 
 interface QuizHeaderProps {
   gameMode?: GameMode;
@@ -47,7 +48,7 @@ export const QuizHeader = ({
           )}
           <div className="flex items-center gap-2 min-w-0">
             <div className="relative flex items-center gap-2">
-              <img src="/kuromi.svg" alt="Kuromi" className="w-8 h-8 sm:w-9 sm:h-9 drop-shadow" />
+              <img src={getAssetUrl('/kuromi.svg')} alt="Kuromi" className="w-8 h-8 sm:w-9 sm:h-9 drop-shadow" />
               <div>
                 <h1 className="text-lg sm:text-xl font-extrabold text-primary-foreground truncate">
                   {t.appName}

@@ -89,8 +89,10 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "eslint --fix",
-      "tsc --noEmit"
+      "eslint --fix"
+    ],
+    "*.{ts,tsx,json}": [
+      "bash -c 'tsc --noEmit'"
     ]
   }
 }

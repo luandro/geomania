@@ -5,6 +5,7 @@ import { Input } from '@/components/ui/input';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { buildAnswerSuggestions, findCountryMatch } from '@/lib/answerMatching';
 import { getLocalizedCapital, getLocalizedCountryName } from '@/lib/localization';
+import { getAssetUrl } from '@/lib/assets';
 
 interface CapitalQuestionProps {
   question: QuizQuestion;
@@ -96,7 +97,7 @@ export const CapitalQuestion = ({ question, onAnswer, onNext, difficulty, allCou
         </h2>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-4 sm:mb-6">
           <img
-            src={question.correctAnswer.flag_url}
+            src={getAssetUrl(question.correctAnswer.flag_url)}
             alt={getLocalizedCountryName(question.correctAnswer, language)}
             className="w-8 sm:w-10 h-5 sm:h-6 object-contain rounded shadow-sm"
           />

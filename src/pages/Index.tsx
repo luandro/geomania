@@ -174,7 +174,7 @@ const Index = () => {
             <LoadingSpinner />
           ) : (
             <div className="fade-in">
-              <div className="mb-6 sm:mb-8">
+              <div className="mb-6 sm:mb-8 flex flex-col items-center">
                 <div className="inline-flex items-center justify-center w-40 h-40 sm:w-56 sm:h-56 rounded-full quiz-gradient mb-4 sm:mb-6 bounce-in ring-4 ring-primary/40 shadow-2xl overflow-hidden">
                   <img src={getAssetUrl('/kuromi_map.svg')} alt="Kuromi map" className="w-full h-full object-contain" />
                 </div>

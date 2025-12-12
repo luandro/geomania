@@ -152,16 +152,16 @@ const Index = () => {
   // Show Difficulty Selection
   if (selectedMode && !session) {
     return (
-       <div className="min-h-screen bg-background flex flex-col">
-         <QuizHeader onBack={handleBackToModes} showBackButton />
-         <main className="flex-1 flex items-center justify-center p-3 sm:p-6">
-            <div className="w-full max-w-4xl mx-auto">
-               <DifficultySelector onSelect={handleSelectDifficulty} disabled={isLoading} />
-            </div>
-         </main>
-       </div>
+      <div className="min-h-screen bg-background flex flex-col">
+        <QuizHeader onBack={handleBackToModes} showBackButton />
+        <main className="flex-1 flex items-center justify-center p-3 sm:p-6">
+          <div className="w-full max-w-4xl mx-auto">
+            <DifficultySelector onSelect={handleSelectDifficulty} disabled={isLoading} />
+          </div>
+        </main>
+      </div>
     );
- }
+  }
 
   // Show landing page (Game Mode Selection)
   return (
@@ -174,7 +174,7 @@ const Index = () => {
           ) : (
             <div className="fade-in">
               <div className="mb-6 sm:mb-8">
-                <div className="inline-flex items-center justify-center w-24 h-24 sm:w-28 sm:h-28 rounded-full quiz-gradient mb-4 sm:mb-6 bounce-in ring-4 ring-primary/40 shadow-2xl overflow-hidden">
+                <div className="inline-flex items-center justify-center w-40 h-40 sm:w-56 sm:h-56 rounded-full quiz-gradient mb-4 sm:mb-6 bounce-in ring-4 ring-primary/40 shadow-2xl overflow-hidden">
                   <img src="/kuromi_map.svg" alt="Kuromi map" className="w-full h-full object-contain" />
                 </div>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3 sm:mb-4 text-foreground drop-shadow">

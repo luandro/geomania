@@ -300,6 +300,17 @@
   100% { transform: scale(1); opacity: 1; }
 }
 
+@keyframes arcade-pulse {
+  0%, 100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 8px rgba(255, 20, 147, 0.4));
+  }
+  50% {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 16px rgba(255, 105, 180, 0.6)) drop-shadow(0 0 24px rgba(255, 20, 147, 0.3));
+  }
+}
+
 /* Arcade circular buttons (Kuromi style) */
 @layer utilities {
   .arcade-round {
@@ -418,6 +429,10 @@
 
   .arcade-round:hover .stroke-text {
     transform: translate(0.5px, -0.5px);
+  }
+
+  .arcade-text-pulse {
+    animation: arcade-pulse 2.5s ease-in-out infinite;
   }
 }
 

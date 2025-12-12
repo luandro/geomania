@@ -36,11 +36,8 @@ export const DifficultySelector = ({ onSelect, disabled }: DifficultySelectorPro
             <div className={`arcade-round arcade-round-md ${diff.ring}`}>
               <div className="flex flex-col items-center justify-center h-full w-full text-white font-extrabold uppercase tracking-wide text-lg relative">
                 <span className="text-3xl mb-1 drop-shadow-[0_4px_6px_rgba(0,0,0,0.35)]">{diff.icon}</span>
-                <span className="relative drop-shadow-[0_4px_6px_rgba(0,0,0,0.35)] px-3 leading-tight">
-                  <span className="absolute inset-0 text-white stroke-text pointer-events-none">
-                    {t.difficulty[diff.id]}
-                  </span>
-                  <span className="relative z-10">{t.difficulty[diff.id]}</span>
+                <span className="drop-shadow-[0_4px_6px_rgba(0,0,0,0.35)] px-3 leading-tight stroke-text">
+                  {t.difficulty[diff.id]}
                 </span>
               </div>
             </div>

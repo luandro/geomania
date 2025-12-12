@@ -406,10 +406,18 @@
 
   /* Text stroke helper for button labels */
   .stroke-text {
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.55);
-    text-stroke: 1.5px rgba(0, 0, 0, 0.55);
+    color: #fff;
+    text-shadow:
+      -1.5px -1.5px 0 rgba(0, 0, 0, 0.55),
+      1.5px -1.5px 0 rgba(0, 0, 0, 0.55),
+      -1.5px 1.5px 0 rgba(0, 0, 0, 0.55),
+      1.5px 1.5px 0 rgba(0, 0, 0, 0.55);
+    display: inline-block;
+    transition: transform 120ms ease;
+  }
+
+  .arcade-round:hover .stroke-text {
+    transform: translate(0.5px, -0.5px);
   }
 }
 

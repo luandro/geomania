@@ -17,11 +17,8 @@ export const GameModeCard = ({ config, onSelect, disabled }: GameModeCardProps) 
       aria-label={config.title}
       className="relative flex items-center justify-center arcade-round arcade-round-lg text-foreground font-black uppercase tracking-wide text-xl sm:text-2xl"
     >
-      <span className="drop-shadow-[0_6px_8px_rgba(0,0,0,0.4)] text-white text-center px-4 font-extrabold tracking-widest uppercase relative leading-tight">
-        <span className="absolute inset-0 text-white stroke-text pointer-events-none">
-          {config.title}
-        </span>
-        <span className="relative z-10">{config.title}</span>
+      <span className="drop-shadow-[0_6px_8px_rgba(0,0,0,0.4)] text-white text-center px-4 font-extrabold tracking-widest uppercase leading-tight stroke-text">
+        {config.title}
       </span>
       <span className="sr-only">{config.description}</span>
     </Button>

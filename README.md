@@ -60,6 +60,21 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
+## Country data
+
+All country-related data (base fields + localizations + enrichments) lives in `src/data/countries.ts`.
+
+- Update/regenerate the dataset: `npm run update:countries`
+- Also refresh local flag assets: `npm run update:countries -- --download-flags`
+
+Optional:
+- Set `COUNTRY_DATA_USER_AGENT` when running the updater (Wikidata Query Service etiquette).
+
+Data sources used by the updater script:
+- REST Countries (base country fields + translations)
+- World Bank API (economics like GDP)
+- Wikidata SPARQL (politics/culture enrichments)
+
 ## How can I deploy this project?
 
 Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.

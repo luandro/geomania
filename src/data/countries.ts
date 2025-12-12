@@ -8,34 +8,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 103603,
     "difficulty": "god_mode",
-    "flag_url": "/flags/857125d7b490.webp",
+    "flag_url": "/flags/857125d7b490.svg",
     "codes": {
       "iso2": "AG",
       "iso3": "ATG",
       "numeric": "028"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Antígua e Barbuda",
-        "capital": "Saint John's"
+        "capital": "Saint John's",
+        "officialName": "Antigua and Barbuda"
+      },
+      "ar": {
+        "name": "أنتيغوا وبربودا ",
+        "capital": "Saint John's",
+        "officialName": "أنتيغوا وبربودا "
+      },
+      "es": {
+        "name": "Antigua y Barbuda",
+        "capital": "Saint John's",
+        "officialName": "Antigua y Barbuda"
+      },
+      "fr": {
+        "name": "Antigua-et-Barbuda",
+        "capital": "Saint John's",
+        "officialName": "Antigua-et-Barbuda"
+      },
+      "it": {
+        "name": "Antigua e Barbuda",
+        "capital": "Saint John's",
+        "officialName": "Antigua e Barbuda"
+      },
+      "ru": {
+        "name": "Антигуа и Барбуда",
+        "capital": "Saint John's",
+        "officialName": "Антигуа и Барбуда"
+      },
+      "zh-CN": {
+        "name": "安提瓜和巴布达",
+        "capital": "Saint John's",
+        "officialName": "安提瓜和巴布达"
+      },
+      "en": {
+        "name": "Antigua and Barbuda",
+        "capital": "Saint John's",
+        "officialName": "Antigua and Barbuda"
       }
     },
     "economics": {
@@ -47,7 +65,26 @@ export const countries: CountryData[] = [
       "headOfState": "Charles III",
       "headOfGovernment": "Gaston Browne",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -57,36 +94,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 784043,
     "difficulty": "super_hard",
-    "flag_url": "/flags/65a4745d1eaa.webp",
+    "flag_url": "/flags/65a4745d1eaa.svg",
     "codes": {
       "iso2": "BT",
       "iso3": "BTN",
       "numeric": "064"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Butão",
-        "capital": "Thimphu"
+        "capital": "Thimphu",
+        "officialName": "Kingdom of Bhutan"
+      },
+      "ar": {
+        "name": "بوتان",
+        "capital": "Thimphu",
+        "officialName": "بوتان مملكة "
+      },
+      "es": {
+        "name": "Bhután",
+        "capital": "Thimphu",
+        "officialName": "el Reino de Bhután"
+      },
+      "fr": {
+        "name": "Bhoutan",
+        "capital": "Thimphu",
+        "officialName": "le Royaume du Bhoutan"
+      },
+      "it": {
+        "name": "Bhutan",
+        "capital": "Thimphu",
+        "officialName": "Regno del Bhutan"
+      },
+      "ru": {
+        "name": "Бутан",
+        "capital": "Thimphu",
+        "officialName": "Королевство Бутан"
+      },
+      "zh-CN": {
+        "name": "不 丹",
+        "capital": "Thimphu",
+        "officialName": "不丹王国"
+      },
+      "en": {
+        "name": "Bhutan",
+        "capital": "Thimphu",
+        "officialName": "Kingdom of Bhutan"
       }
     },
     "economics": {
@@ -98,7 +151,7 @@ export const countries: CountryData[] = [
       "headOfState": "Jigme Khesar Namgyel Wangchuck",
       "headOfGovernment": "Tshering Tobgay",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -112,7 +165,28 @@ export const countries: CountryData[] = [
           "name": "Mahāyāna"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -122,34 +196,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 58927633,
     "difficulty": "easy",
-    "flag_url": "/flags/93ff074ca77b.webp",
+    "flag_url": "/flags/93ff074ca77b.svg",
     "codes": {
       "iso2": "IT",
       "iso3": "ITA",
       "numeric": "380"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Itália",
-        "capital": "Roma"
+        "capital": "Roma",
+        "officialName": "Italian Republic"
+      },
+      "ar": {
+        "name": "إيطاليا",
+        "capital": "Rome",
+        "officialName": "الإيطالية الجمهورية "
+      },
+      "es": {
+        "name": "Italia",
+        "capital": "Rome",
+        "officialName": "la República Italiana"
+      },
+      "fr": {
+        "name": "Italie",
+        "capital": "Rome",
+        "officialName": "la République italienne"
+      },
+      "it": {
+        "name": "Italia",
+        "capital": "Rome",
+        "officialName": "Repubblica italiana"
+      },
+      "ru": {
+        "name": "Италия",
+        "capital": "Rome",
+        "officialName": "Итальянская Республика"
+      },
+      "zh-CN": {
+        "name": "意大利",
+        "capital": "Rome",
+        "officialName": "意大利共和国"
+      },
+      "en": {
+        "name": "Italy",
+        "capital": "Rome",
+        "officialName": "Italian Republic"
       }
     },
     "economics": {
@@ -161,7 +253,26 @@ export const countries: CountryData[] = [
       "headOfState": "Sergio Mattarella",
       "headOfGovernment": "Giorgia Meloni",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -171,34 +282,52 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 10643,
     "difficulty": "god_mode",
-    "flag_url": "/flags/cdd81eda496f.webp",
+    "flag_url": "/flags/cdd81eda496f.svg",
     "codes": {
       "iso2": "TV",
       "iso3": "TUV",
       "numeric": "798"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Tuvalu",
-        "capital": "Funafuti"
+        "capital": "Funafuti",
+        "officialName": "Tuvalu"
+      },
+      "ar": {
+        "name": "توفالو",
+        "capital": "Funafuti",
+        "officialName": "توفالو"
+      },
+      "es": {
+        "name": "Tuvalu",
+        "capital": "Funafuti",
+        "officialName": "Tuvalu"
+      },
+      "fr": {
+        "name": "Tuvalu",
+        "capital": "Funafuti",
+        "officialName": "les Tuvalu"
+      },
+      "it": {
+        "name": "Tuvalu",
+        "capital": "Funafuti",
+        "officialName": "Tuvalu"
+      },
+      "ru": {
+        "name": "Тувалу",
+        "capital": "Funafuti",
+        "officialName": "Тувалу"
+      },
+      "zh-CN": {
+        "name": "图瓦卢",
+        "capital": "Funafuti",
+        "officialName": "图瓦卢"
+      },
+      "en": {
+        "name": "Tuvalu",
+        "capital": "Funafuti",
+        "officialName": "Tuvalu"
       }
     },
     "economics": {
@@ -209,7 +338,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Charles III",
       "headOfGovernment": "Feleti Teo",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -219,37 +367,44 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 16010,
     "difficulty": "god_mode",
-    "flag_url": "/flags/4d3825459428.webp",
+    "flag_url": "/flags/4d3825459428.svg",
     "codes": {
       "iso2": "AI",
       "iso3": "AIA",
       "numeric": "660"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Anguilla",
-        "capital": "The Valley"
+        "capital": "The Valley",
+        "officialName": "Anguilla"
+      },
+      "en": {
+        "name": "Anguilla",
+        "capital": "The Valley",
+        "officialName": "Anguilla"
       }
     },
     "politics": {
       "headOfGovernment": "Ellis Webster",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -259,34 +414,52 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 27536874,
     "difficulty": "easy",
-    "flag_url": "/flags/c585f1decb98.webp",
+    "flag_url": "/flags/c585f1decb98.svg",
     "codes": {
       "iso2": "AU",
       "iso3": "AUS",
       "numeric": "036"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Austrália",
-        "capital": "Canberra"
+        "capital": "Canberra",
+        "officialName": "Commonwealth of Australia"
+      },
+      "ar": {
+        "name": "أستراليا",
+        "capital": "Canberra",
+        "officialName": "أستراليا"
+      },
+      "es": {
+        "name": "Australia",
+        "capital": "Canberra",
+        "officialName": "Australia"
+      },
+      "fr": {
+        "name": "Australie",
+        "capital": "Canberra",
+        "officialName": "l'Australie"
+      },
+      "it": {
+        "name": "Australia",
+        "capital": "Canberra",
+        "officialName": "Australia"
+      },
+      "ru": {
+        "name": "Австралия",
+        "capital": "Canberra",
+        "officialName": "Австралия"
+      },
+      "zh-CN": {
+        "name": "澳大利亚",
+        "capital": "Canberra",
+        "officialName": "澳大利亚"
+      },
+      "en": {
+        "name": "Australia",
+        "capital": "Canberra",
+        "officialName": "Commonwealth of Australia"
       }
     },
     "economics": {
@@ -295,10 +468,29 @@ export const countries: CountryData[] = [
       "year": 2024
     },
     "politics": {
-      "headOfState": "Charles III",
+      "headOfState": "Charles III; Peter Cosgrove",
       "headOfGovernment": "Anthony Albanese",
       "governmentType": "constitutional monarchy; federation; representative democracy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -308,34 +500,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 417634,
     "difficulty": "super_hard",
-    "flag_url": "/flags/01aa028bb421.webp",
+    "flag_url": "/flags/01aa028bb421.svg",
     "codes": {
       "iso2": "BZ",
       "iso3": "BLZ",
       "numeric": "084"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Belize",
-        "capital": "Belmopan"
+        "capital": "Belmopan",
+        "officialName": "Belize"
+      },
+      "ar": {
+        "name": "بليز",
+        "capital": "Belmopan",
+        "officialName": "بليز"
+      },
+      "es": {
+        "name": "Belice",
+        "capital": "Belmopan",
+        "officialName": "Belice"
+      },
+      "fr": {
+        "name": "Belize",
+        "capital": "Belmopan",
+        "officialName": "le Belize"
+      },
+      "it": {
+        "name": "Belize",
+        "capital": "Belmopan",
+        "officialName": "Belize"
+      },
+      "ru": {
+        "name": "Белиз",
+        "capital": "Belmopan",
+        "officialName": "Белиз"
+      },
+      "zh-CN": {
+        "name": "伯利兹",
+        "capital": "Belmopan",
+        "officialName": "伯利兹"
+      },
+      "en": {
+        "name": "Belize",
+        "capital": "Belmopan",
+        "officialName": "Belize"
       }
     },
     "economics": {
@@ -347,7 +557,26 @@ export const countries: CountryData[] = [
       "headOfState": "Charles III",
       "headOfGovernment": "Johnny Briceño",
       "governmentType": "constitutional monarchy; parliamentary monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -357,34 +586,52 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 321409,
     "difficulty": "god_mode",
-    "flag_url": "/flags/0fc226118263.webp",
+    "flag_url": "/flags/0fc226118263.svg",
     "codes": {
       "iso2": "VU",
       "iso3": "VUT",
       "numeric": "548"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Vanuatu",
-        "capital": "Port Vila"
+        "capital": "Port Vila",
+        "officialName": "Republic of Vanuatu"
+      },
+      "ar": {
+        "name": "فانواتو",
+        "capital": "Port Vila",
+        "officialName": "جمهورية فانواتو "
+      },
+      "es": {
+        "name": "Vanuatu",
+        "capital": "Port Vila",
+        "officialName": "la República de Vanuatu"
+      },
+      "fr": {
+        "name": "Vanuatu",
+        "capital": "Port Vila",
+        "officialName": "la République de Vanuatu"
+      },
+      "it": {
+        "name": "Vanuatu",
+        "capital": "Port Vila",
+        "officialName": "Repubblica di Vanuatu"
+      },
+      "ru": {
+        "name": "Вануату",
+        "capital": "Port Vila",
+        "officialName": "Республика Вануату"
+      },
+      "zh-CN": {
+        "name": "瓦努阿图",
+        "capital": "Port Vila",
+        "officialName": "瓦努阿图共和国"
+      },
+      "en": {
+        "name": "Vanuatu",
+        "capital": "Port Vila",
+        "officialName": "Republic of Vanuatu"
       }
     },
     "economics": {
@@ -395,7 +642,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Nikenike Vurobaravu",
       "headOfGovernment": "Bob Loughman",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -405,34 +671,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 9109280,
     "difficulty": "hard",
-    "flag_url": "/flags/0b778819fc27.webp",
+    "flag_url": "/flags/0b778819fc27.svg",
     "codes": {
       "iso2": "BY",
       "iso3": "BLR",
       "numeric": "112"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Bielorússia",
-        "capital": "Minsk"
+        "capital": "Minsk",
+        "officialName": "Republic of Belarus"
+      },
+      "ar": {
+        "name": "بيلاروس",
+        "capital": "Minsk",
+        "officialName": "بيلاروس جمهورية "
+      },
+      "es": {
+        "name": "Belarús",
+        "capital": "Minsk",
+        "officialName": "la República de Belarús"
+      },
+      "fr": {
+        "name": "Bélarus",
+        "capital": "Minsk",
+        "officialName": "la République du Bélarus"
+      },
+      "it": {
+        "name": "Bielorussia",
+        "capital": "Minsk",
+        "officialName": "Repubblica di Bielorussia"
+      },
+      "ru": {
+        "name": "Беларусь",
+        "capital": "Minsk",
+        "officialName": "Республика Беларусь"
+      },
+      "zh-CN": {
+        "name": "白俄罗斯",
+        "capital": "Minsk",
+        "officialName": "白俄罗斯共和国"
+      },
+      "en": {
+        "name": "Belarus",
+        "capital": "Minsk",
+        "officialName": "Republic of Belarus"
       }
     },
     "economics": {
@@ -444,7 +728,26 @@ export const countries: CountryData[] = [
       "headOfState": "Alexander Lukashenko",
       "headOfGovernment": "Alaksandar Turčyn",
       "governmentType": "presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -454,34 +757,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 1243741,
     "difficulty": "super_hard",
-    "flag_url": "/flags/3562494677b9.webp",
+    "flag_url": "/flags/3562494677b9.svg",
     "codes": {
       "iso2": "MU",
       "iso3": "MUS",
       "numeric": "480"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Maurício",
-        "capital": "Port Louis"
+        "capital": "Port Louis",
+        "officialName": "Republic of Mauritius"
+      },
+      "ar": {
+        "name": "موريشيوس",
+        "capital": "Port Louis",
+        "officialName": "موريشيوس جمهورية "
+      },
+      "es": {
+        "name": "Mauricio",
+        "capital": "Port Louis",
+        "officialName": "la República de Mauricio"
+      },
+      "fr": {
+        "name": "Maurice",
+        "capital": "Port Louis",
+        "officialName": "la République de Maurice"
+      },
+      "it": {
+        "name": "Maurizio",
+        "capital": "Port Louis",
+        "officialName": "Repubblica di Maurizio"
+      },
+      "ru": {
+        "name": "Маврикий",
+        "capital": "Port Louis",
+        "officialName": "Республика Маврикий"
+      },
+      "zh-CN": {
+        "name": "毛里求斯",
+        "capital": "Port Louis",
+        "officialName": "毛里求斯共和国"
+      },
+      "en": {
+        "name": "Mauritius",
+        "capital": "Port Louis",
+        "officialName": "Republic of Mauritius"
       }
     },
     "economics": {
@@ -493,7 +814,26 @@ export const countries: CountryData[] = [
       "headOfState": "Dharam Gokhool",
       "headOfGovernment": "Pravind Jugnauth",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -503,34 +843,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 7647000,
     "difficulty": "hard",
-    "flag_url": "/flags/84308789368f.webp",
+    "flag_url": "/flags/84308789368f.svg",
     "codes": {
       "iso2": "LA",
       "iso3": "LAO",
       "numeric": "418"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Laos",
-        "capital": "Vienciana"
+        "capital": "Vienciana",
+        "officialName": "Lao People's Democratic Republic"
+      },
+      "ar": {
+        "name": "الشعبية الديمقراطية لاو جمهورية ",
+        "capital": "Vientiane",
+        "officialName": "الشعبية الديمقراطية لاو جمهورية "
+      },
+      "es": {
+        "name": "República Democrática Popular Lao",
+        "capital": "Vientiane",
+        "officialName": "la República Democrática Popular Lao"
+      },
+      "fr": {
+        "name": "République démocratique populaire lao",
+        "capital": "Vientiane",
+        "officialName": "la République démocratique populaire lao"
+      },
+      "it": {
+        "name": "Repubblica democratica popolare del Laos",
+        "capital": "Vientiane",
+        "officialName": "Repubblica democratica popolare del Laos"
+      },
+      "ru": {
+        "name": "Лаосская Народно-Демократическая Республика",
+        "capital": "Vientiane",
+        "officialName": "Лаосская Народно-Демократическая Республика"
+      },
+      "zh-CN": {
+        "name": "老挝人民民主共和国",
+        "capital": "Vientiane",
+        "officialName": "老挝人民民主共和国"
+      },
+      "en": {
+        "name": "Laos",
+        "capital": "Vientiane",
+        "officialName": "Lao People's Democratic Republic"
       }
     },
     "economics": {
@@ -542,7 +900,26 @@ export const countries: CountryData[] = [
       "headOfState": "Thongloun Sisoulith",
       "headOfGovernment": "Phankham Viphavan",
       "governmentType": "communist dictatorship; people's republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -552,34 +929,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 18593258,
     "difficulty": "medium",
-    "flag_url": "/flags/4a724471c49b.webp",
+    "flag_url": "/flags/4a724471c49b.svg",
     "codes": {
       "iso2": "SN",
       "iso3": "SEN",
       "numeric": "686"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Senegal",
-        "capital": "Dakar"
+        "capital": "Dakar",
+        "officialName": "Republic of Senegal"
+      },
+      "ar": {
+        "name": "السنغال",
+        "capital": "Dakar",
+        "officialName": "السنغال جمهورية "
+      },
+      "es": {
+        "name": "Senegal",
+        "capital": "Dakar",
+        "officialName": "la República del Senegal"
+      },
+      "fr": {
+        "name": "Sénégal",
+        "capital": "Dakar",
+        "officialName": "la République du Sénégal"
+      },
+      "it": {
+        "name": "Senegal",
+        "capital": "Dakar",
+        "officialName": "Repubblica del Senegal"
+      },
+      "ru": {
+        "name": "Сенегал",
+        "capital": "Dakar",
+        "officialName": "Республика Сенегал"
+      },
+      "zh-CN": {
+        "name": "塞内加尔",
+        "capital": "Dakar",
+        "officialName": "塞内加尔共和国"
+      },
+      "en": {
+        "name": "Senegal",
+        "capital": "Dakar",
+        "officialName": "Republic of Senegal"
       }
     },
     "economics": {
@@ -591,7 +986,26 @@ export const countries: CountryData[] = [
       "headOfState": "Bassirou Diomaye Faye",
       "headOfGovernment": "Bassirou Diomaye Faye",
       "governmentType": "presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -601,34 +1015,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 85664944,
     "difficulty": "easy",
-    "flag_url": "/flags/8d7d5397f884.webp",
+    "flag_url": "/flags/8d7d5397f884.svg",
     "codes": {
       "iso2": "TR",
       "iso3": "TUR",
       "numeric": "792"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Turquia",
-        "capital": "Ankara"
+        "capital": "Ankara",
+        "officialName": "Republic of Turkey"
+      },
+      "ar": {
+        "name": "تركيا",
+        "capital": "Ankara",
+        "officialName": "الجمهورية التركية "
+      },
+      "es": {
+        "name": "Turquía",
+        "capital": "Ankara",
+        "officialName": "la República de Turquía"
+      },
+      "fr": {
+        "name": "Turquie",
+        "capital": "Ankara",
+        "officialName": "la République turque"
+      },
+      "it": {
+        "name": "Turchia",
+        "capital": "Ankara",
+        "officialName": "Repubblica di Turchia"
+      },
+      "ru": {
+        "name": "Турция",
+        "capital": "Ankara",
+        "officialName": "Турецкая Республика"
+      },
+      "zh-CN": {
+        "name": "土耳其",
+        "capital": "Ankara",
+        "officialName": "土耳其共和国"
+      },
+      "en": {
+        "name": "Turkey",
+        "capital": "Ankara",
+        "officialName": "Republic of Turkey"
       }
     },
     "economics": {
@@ -638,9 +1070,28 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfState": "Recep Tayyip Erdoğan",
-      "headOfGovernment": "Recep Tayyip Erdoğan",
+      "headOfGovernment": "Bülent Ulusu; Erdal İnönü; Recep Tayyip Erdoğan; Süleyman Demirel; Turgut Özal; Yıldırım Akbulut",
       "governmentType": "presidential system; unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -650,34 +1101,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 11365333,
     "difficulty": "hard",
-    "flag_url": "/flags/d27c899eb5eb.webp",
+    "flag_url": "/flags/d27c899eb5eb.svg",
     "codes": {
       "iso2": "BO",
       "iso3": "BOL",
       "numeric": "068"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Bolívia",
-        "capital": "Sucre"
+        "capital": "Sucre",
+        "officialName": "Plurinational State of Bolivia"
+      },
+      "ar": {
+        "name": "بوليفيا - دولة - المتعددة القوميات ",
+        "capital": "Sucre",
+        "officialName": "دولة بوليفيا المتعددة القوميات "
+      },
+      "es": {
+        "name": "Bolivia (Estado Plurinacional de)",
+        "capital": "Sucre",
+        "officialName": "Estado Plurinacional de Bolivia"
+      },
+      "fr": {
+        "name": "Bolivie (État plurinational de)",
+        "capital": "Sucre",
+        "officialName": "l'État plurinational de Bolivie"
+      },
+      "it": {
+        "name": "Bolivia (Stato plurinazionale della)",
+        "capital": "Sucre",
+        "officialName": "Stato plurinazionale della Bolivia"
+      },
+      "ru": {
+        "name": "Боливия (Многонациональное Государство)",
+        "capital": "Sucre",
+        "officialName": "Многонациональное Государство Боливия"
+      },
+      "zh-CN": {
+        "name": "玻利维亚（多民族国）",
+        "capital": "Sucre",
+        "officialName": "玻利维亚多民族国"
+      },
+      "en": {
+        "name": "Bolivia",
+        "capital": "Sucre",
+        "officialName": "Plurinational State of Bolivia"
       }
     },
     "economics": {
@@ -689,7 +1158,26 @@ export const countries: CountryData[] = [
       "headOfState": "Rodrigo Paz Pereira",
       "headOfGovernment": "Rodrigo Paz Pereira",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -699,36 +1187,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 21763170,
     "difficulty": "medium",
-    "flag_url": "/flags/cf4e7af70dc0.webp",
+    "flag_url": "/flags/cf4e7af70dc0.svg",
     "codes": {
       "iso2": "LK",
       "iso3": "LKA",
       "numeric": "144"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Sri Lanka",
-        "capital": "Sri Jayawardenepura Kotte"
+        "capital": "Sri Jayawardenepura Kotte",
+        "officialName": "Democratic Socialist Republic of Sri Lanka"
+      },
+      "ar": {
+        "name": "سري لانكا ",
+        "capital": "Sri Jayawardenepura Kotte",
+        "officialName": "جمهورية سري لانكا الاشتراكية الديمقراطية "
+      },
+      "es": {
+        "name": "Sri Lanka",
+        "capital": "Sri Jayawardenepura Kotte",
+        "officialName": "la República Socialista Democrática de Sri Lanka"
+      },
+      "fr": {
+        "name": "Sri Lanka",
+        "capital": "Sri Jayawardenepura Kotte",
+        "officialName": "la République socialiste démocratique de Sri Lanka"
+      },
+      "it": {
+        "name": "Sri Lanka",
+        "capital": "Sri Jayawardenepura Kotte",
+        "officialName": "Repubblica democratica socialista di Sri Lanka"
+      },
+      "ru": {
+        "name": "Шри-Ланка",
+        "capital": "Sri Jayawardenepura Kotte",
+        "officialName": "Демократическая Социалистическая Республика Шри-Ланка"
+      },
+      "zh-CN": {
+        "name": "斯里兰卡",
+        "capital": "Sri Jayawardenepura Kotte",
+        "officialName": "斯里兰卡民主社会主义共和国"
+      },
+      "en": {
+        "name": "Sri Lanka",
+        "capital": "Sri Jayawardenepura Kotte",
+        "officialName": "Democratic Socialist Republic of Sri Lanka"
       }
     },
     "economics": {
@@ -739,7 +1243,7 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Anura Kumara Dissanayake",
       "headOfGovernment": "Harini Amarasuriya",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -756,7 +1260,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -766,27 +1291,34 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 2188,
     "difficulty": "god_mode",
-    "flag_url": "/flags/ab175bc0988c.webp",
+    "flag_url": "/flags/ab175bc0988c.svg",
     "codes": {
       "iso2": "NF",
       "iso3": "NFK",
       "numeric": "574"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Ilha Norfolk",
+        "capital": "Kingston",
+        "officialName": "Territory of Norfolk Island"
+      },
+      "en": {
+        "name": "Norfolk Island",
+        "capital": "Kingston",
+        "officialName": "Territory of Norfolk Island"
+      }
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com"
-      }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Ilha Norfolk",
-        "capital": "Kingston"
+        "ptCapital": "manual+restcountries.com",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
     }
   },
@@ -797,34 +1329,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 1408280000,
     "difficulty": "easy",
-    "flag_url": "/flags/50c0152c2952.webp",
+    "flag_url": "/flags/50c0152c2952.svg",
     "codes": {
       "iso2": "CN",
       "iso3": "CHN",
       "numeric": "156"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "China",
-        "capital": "Pequim"
+        "capital": "Pequim",
+        "officialName": "People's Republic of China"
+      },
+      "ar": {
+        "name": "الصين",
+        "capital": "Beijing",
+        "officialName": "الشعبية الصين جمهورية "
+      },
+      "es": {
+        "name": "China",
+        "capital": "Beijing",
+        "officialName": "la República Popular China"
+      },
+      "fr": {
+        "name": "Chine",
+        "capital": "Beijing",
+        "officialName": "la République populaire de Chine"
+      },
+      "it": {
+        "name": "Cina",
+        "capital": "Beijing",
+        "officialName": "Repubblica popolare cinese"
+      },
+      "ru": {
+        "name": "Китай",
+        "capital": "Beijing",
+        "officialName": "Китайская Народная Республика"
+      },
+      "zh-CN": {
+        "name": "中 国",
+        "capital": "Beijing",
+        "officialName": "中华人民共和国"
+      },
+      "en": {
+        "name": "China",
+        "capital": "Beijing",
+        "officialName": "People's Republic of China"
       }
     },
     "economics": {
@@ -836,7 +1386,26 @@ export const countries: CountryData[] = [
       "headOfState": "Xi Jinping",
       "headOfGovernment": "Li Qiang",
       "governmentType": "communist dictatorship; constitutional republic; democratic centralism; parliamentary republic; republic; single-party system; unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -846,27 +1415,34 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 31980,
     "difficulty": "god_mode",
-    "flag_url": "/flags/4df20cd9ad94.webp",
+    "flag_url": "/flags/4df20cd9ad94.svg",
     "codes": {
       "iso2": "BQ",
       "iso3": "BES",
       "numeric": "535"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Países Baixos Caribenhos",
+        "capital": "Kralendijk",
+        "officialName": "Bonaire, Sint Eustatius and Saba"
+      },
+      "en": {
+        "name": "Caribbean Netherlands",
+        "capital": "Kralendijk",
+        "officialName": "Bonaire, Sint Eustatius and Saba"
+      }
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com"
-      }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Países Baixos Caribenhos",
-        "capital": "Kralendijk"
+        "ptCapital": "manual+restcountries.com",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
     }
   },
@@ -877,37 +1453,44 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 64781,
     "difficulty": "god_mode",
-    "flag_url": "/flags/c36e56954513.webp",
+    "flag_url": "/flags/c36e56954513.svg",
     "codes": {
       "iso2": "GG",
       "iso3": "GGY",
       "numeric": "831"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Guernsey",
-        "capital": "St. Peter Port"
+        "capital": "St. Peter Port",
+        "officialName": "Bailiwick of Guernsey"
+      },
+      "en": {
+        "name": "Guernsey",
+        "capital": "St. Peter Port",
+        "officialName": "Bailiwick of Guernsey"
       }
     },
     "politics": {
       "headOfState": "Charles III",
       "headOfGovernment": "Gavin St Pier",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -917,34 +1500,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 51662000,
     "difficulty": "medium",
-    "flag_url": "/flags/eb2230485d2d.webp",
+    "flag_url": "/flags/eb2230485d2d.svg",
     "codes": {
       "iso2": "SD",
       "iso3": "SDN",
       "numeric": "729"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Sudão",
-        "capital": "Khartoum"
+        "capital": "Khartoum",
+        "officialName": "Republic of the Sudan"
+      },
+      "ar": {
+        "name": "السودان",
+        "capital": "Khartoum",
+        "officialName": "السودان جمهورية "
+      },
+      "es": {
+        "name": "Sudán",
+        "capital": "Khartoum",
+        "officialName": "la República del Sudán"
+      },
+      "fr": {
+        "name": "Soudan",
+        "capital": "Khartoum",
+        "officialName": "la République du Soudan"
+      },
+      "it": {
+        "name": "Sudan",
+        "capital": "Khartoum",
+        "officialName": "Repubblica del Sudan"
+      },
+      "ru": {
+        "name": "Судан",
+        "capital": "Khartoum",
+        "officialName": "Республика Судан"
+      },
+      "zh-CN": {
+        "name": "苏 丹",
+        "capital": "Khartoum",
+        "officialName": "苏丹共和国"
+      },
+      "en": {
+        "name": "Sudan",
+        "capital": "Khartoum",
+        "officialName": "Republic of the Sudan"
       }
     },
     "economics": {
@@ -956,7 +1557,26 @@ export const countries: CountryData[] = [
       "headOfState": "Abdel Fattah al-Burhan",
       "headOfGovernment": "Abdalla Hamdok",
       "governmentType": "federal republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -966,36 +1586,43 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 320901,
     "difficulty": "super_hard",
-    "flag_url": "/flags/6f7079e25787.webp",
+    "flag_url": "/flags/6f7079e25787.svg",
     "codes": {
       "iso2": "YT",
       "iso3": "MYT",
       "numeric": "175"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Mayotte",
+        "capital": "Mamoudzou",
+        "officialName": "Department of Mayotte"
+      },
+      "en": {
+        "name": "Mayotte",
+        "capital": "Mamoudzou",
+        "officialName": "Department of Mayotte"
+      }
+    },
+    "politics": {
+      "headOfGovernment": "Ben Issa Ousseni",
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
         "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Mayotte",
-        "capital": "Mamoudzou"
-      }
-    },
-    "politics": {
-      "headOfGovernment": "Ben Issa Ousseni",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
     }
   },
   {
@@ -1005,27 +1632,34 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 10562,
     "difficulty": "god_mode",
-    "flag_url": "/flags/c19e43c6398c.webp",
+    "flag_url": "/flags/c19e43c6398c.svg",
     "codes": {
       "iso2": "BL",
       "iso3": "BLM",
       "numeric": "652"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "São Bartolomeu",
+        "capital": "Gustavia",
+        "officialName": "Collectivity of Saint Barthélemy"
+      },
+      "en": {
+        "name": "Saint Barthélemy",
+        "capital": "Gustavia",
+        "officialName": "Collectivity of Saint Barthélemy"
+      }
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com"
-      }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "São Bartolomeu",
-        "capital": "Gustavia"
+        "ptCapital": "manual+restcountries.com",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
     }
   },
@@ -1036,38 +1670,75 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 882,
     "difficulty": "god_mode",
-    "flag_url": "/flags/6be615130159.webp",
+    "flag_url": "/flags/6be615130159.svg",
     "codes": {
       "iso2": "VA",
       "iso3": "VAT",
       "numeric": "336"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Cidade do Vaticano",
-        "capital": "Vatican City"
+        "capital": "Vatican City",
+        "officialName": "Vatican City State"
+      },
+      "ar": {
+        "name": "الكرسي الرسولي ",
+        "capital": "Vatican City",
+        "officialName": "الكرسي الرسولي "
+      },
+      "es": {
+        "name": "Santa Sede",
+        "capital": "Vatican City",
+        "officialName": "la Santa Sede"
+      },
+      "fr": {
+        "name": "Saint-Siège",
+        "capital": "Vatican City",
+        "officialName": "le Saint-Siège"
+      },
+      "it": {
+        "name": "Santa Sede",
+        "capital": "Vatican City",
+        "officialName": "Santa Sede"
+      },
+      "ru": {
+        "name": "Святой Престол",
+        "capital": "Vatican City",
+        "officialName": "Святой Престол"
+      },
+      "zh-CN": {
+        "name": "教廷",
+        "capital": "Vatican City",
+        "officialName": "教廷"
+      },
+      "en": {
+        "name": "Vatican City",
+        "capital": "Vatican City",
+        "officialName": "Vatican City State"
       }
     },
     "politics": {
       "headOfState": "Leo XIV",
       "headOfGovernment": "Raffaella Petrini",
       "governmentType": "absolute monarchy; absolute theocratic monarchy; constitutional monarchy; elective monarchy; theocracy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1077,34 +1748,22 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 50828,
     "difficulty": "god_mode",
-    "flag_url": "/flags/1a3bb5b36152.webp",
+    "flag_url": "/flags/1a3bb5b36152.svg",
     "codes": {
       "iso2": "TC",
       "iso3": "TCA",
       "numeric": "796"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Ilhas Turks e Caicos",
-        "capital": "Cockburn Town"
+        "capital": "Cockburn Town",
+        "officialName": "Turks and Caicos Islands"
+      },
+      "en": {
+        "name": "Turks and Caicos Islands",
+        "capital": "Cockburn Town",
+        "officialName": "Turks and Caicos Islands"
       }
     },
     "economics": {
@@ -1114,8 +1773,27 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfState": "Charles III",
-      "headOfGovernment": "Washington Misick",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "headOfGovernment": "Rufus Ewing; Washington Misick",
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1125,34 +1803,22 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 156115,
     "difficulty": "god_mode",
-    "flag_url": "/flags/7a901629fb91.webp",
+    "flag_url": "/flags/7a901629fb91.svg",
     "codes": {
       "iso2": "CW",
       "iso3": "CUW",
       "numeric": "531"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "ilha da Curação",
-        "capital": "Willemstad"
+        "capital": "Willemstad",
+        "officialName": "Country of Curaçao"
+      },
+      "en": {
+        "name": "Curaçao",
+        "capital": "Willemstad",
+        "officialName": "Country of Curaçao"
       }
     },
     "economics": {
@@ -1164,7 +1830,26 @@ export const countries: CountryData[] = [
       "headOfState": "William Alexander of the Netherlands",
       "headOfGovernment": "Gilmar Pisas",
       "governmentType": "parliamentary democracy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1174,34 +1859,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 2359609,
     "difficulty": "hard",
-    "flag_url": "/flags/4cdb4fcebbed.webp",
+    "flag_url": "/flags/4cdb4fcebbed.svg",
     "codes": {
       "iso2": "BW",
       "iso3": "BWA",
       "numeric": "072"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Botswana",
-        "capital": "Gaborone"
+        "capital": "Gaborone",
+        "officialName": "Republic of Botswana"
+      },
+      "ar": {
+        "name": "بوتسوانا",
+        "capital": "Gaborone",
+        "officialName": "بوتسوانا جمهورية "
+      },
+      "es": {
+        "name": "Botswana",
+        "capital": "Gaborone",
+        "officialName": "la República de Botswana"
+      },
+      "fr": {
+        "name": "Botswana",
+        "capital": "Gaborone",
+        "officialName": "la République du Botswana"
+      },
+      "it": {
+        "name": "Botswana",
+        "capital": "Gaborone",
+        "officialName": "Repubblica del Botswana"
+      },
+      "ru": {
+        "name": "Ботсвана",
+        "capital": "Gaborone",
+        "officialName": "Республика Ботсвана"
+      },
+      "zh-CN": {
+        "name": "博茨瓦纳",
+        "capital": "Gaborone",
+        "officialName": "博茨瓦纳共和国"
+      },
+      "en": {
+        "name": "Botswana",
+        "capital": "Gaborone",
+        "officialName": "Republic of Botswana"
       }
     },
     "economics": {
@@ -1212,7 +1915,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Duma Boko",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1222,34 +1944,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 13224860,
     "difficulty": "hard",
-    "flag_url": "/flags/c94b56e02b7e.webp",
+    "flag_url": "/flags/c94b56e02b7e.svg",
     "codes": {
       "iso2": "BJ",
       "iso3": "BEN",
       "numeric": "204"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Benin",
-        "capital": "Porto-Novo"
+        "capital": "Porto-Novo",
+        "officialName": "Republic of Benin"
+      },
+      "ar": {
+        "name": "بنن",
+        "capital": "Porto-Novo",
+        "officialName": "جمهورية بنن "
+      },
+      "es": {
+        "name": "Benin",
+        "capital": "Porto-Novo",
+        "officialName": "la República de Benin"
+      },
+      "fr": {
+        "name": "Bénin",
+        "capital": "Porto-Novo",
+        "officialName": "la République du Bénin"
+      },
+      "it": {
+        "name": "Benin",
+        "capital": "Porto-Novo",
+        "officialName": "Repubblica del Benin"
+      },
+      "ru": {
+        "name": "Бенин",
+        "capital": "Porto-Novo",
+        "officialName": "Республика Бенин"
+      },
+      "zh-CN": {
+        "name": "贝 宁",
+        "capital": "Porto-Novo",
+        "officialName": "贝宁共和国"
+      },
+      "en": {
+        "name": "Benin",
+        "capital": "Porto-Novo",
+        "officialName": "Republic of Benin"
       }
     },
     "economics": {
@@ -1261,7 +2001,26 @@ export const countries: CountryData[] = [
       "headOfState": "Patrice Talon",
       "headOfGovernment": "Patrice Talon",
       "governmentType": "representative democracy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1271,34 +2030,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 2894886,
     "difficulty": "hard",
-    "flag_url": "/flags/2a200e0c356a.webp",
+    "flag_url": "/flags/2a200e0c356a.svg",
     "codes": {
       "iso2": "LT",
       "iso3": "LTU",
       "numeric": "440"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Lituânia",
-        "capital": "Vilnius"
+        "capital": "Vilnius",
+        "officialName": "Republic of Lithuania"
+      },
+      "ar": {
+        "name": "ليتوانيا",
+        "capital": "Vilnius",
+        "officialName": "جمهورية ليتوانيا "
+      },
+      "es": {
+        "name": "Lituania",
+        "capital": "Vilnius",
+        "officialName": "la República de Lituania"
+      },
+      "fr": {
+        "name": "Lituanie",
+        "capital": "Vilnius",
+        "officialName": "la République de Lituanie"
+      },
+      "it": {
+        "name": "Lituania",
+        "capital": "Vilnius",
+        "officialName": "Repubblica di Lituania"
+      },
+      "ru": {
+        "name": "Литва",
+        "capital": "Vilnius",
+        "officialName": "Литовская Республика"
+      },
+      "zh-CN": {
+        "name": "立陶宛",
+        "capital": "Vilnius",
+        "officialName": "立陶宛共和国"
+      },
+      "en": {
+        "name": "Lithuania",
+        "capital": "Vilnius",
+        "officialName": "Republic of Lithuania"
       }
     },
     "economics": {
@@ -1310,7 +2087,26 @@ export const countries: CountryData[] = [
       "headOfState": "Gitanas Nausėda",
       "headOfGovernment": "Inga Ruginienė",
       "governmentType": "parliamentary republic; semi-presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1320,37 +2116,44 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 4386,
     "difficulty": "god_mode",
-    "flag_url": "/flags/3eeceb71042d.webp",
+    "flag_url": "/flags/3eeceb71042d.svg",
     "codes": {
       "iso2": "MS",
       "iso3": "MSR",
       "numeric": "500"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Montserrat",
+        "capital": "Plymouth",
+        "officialName": "Montserrat"
+      },
+      "en": {
+        "name": "Montserrat",
+        "capital": "Plymouth",
+        "officialName": "Montserrat"
+      }
+    },
+    "politics": {
+      "headOfState": "Harriet Cross",
+      "headOfGovernment": "Donaldson Romeo; Reuben Meade",
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
         "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Montserrat",
-        "capital": "Plymouth"
-      }
-    },
-    "politics": {
-      "headOfState": "Harriet Cross",
-      "headOfGovernment": "Reuben Meade",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
     }
   },
   {
@@ -1360,36 +2163,43 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 39471,
     "difficulty": "god_mode",
-    "flag_url": "/flags/8270638c9a6f.webp",
+    "flag_url": "/flags/8270638c9a6f.svg",
     "codes": {
       "iso2": "VG",
       "iso3": "VGB",
       "numeric": "092"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Ilhas Virgens",
+        "capital": "Road Town",
+        "officialName": "Virgin Islands"
+      },
+      "en": {
+        "name": "British Virgin Islands",
+        "capital": "Road Town",
+        "officialName": "Virgin Islands"
+      }
+    },
+    "politics": {
+      "headOfGovernment": "Andrew Fahie",
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
         "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Ilhas Virgens",
-        "capital": "Road Town"
-      }
-    },
-    "politics": {
-      "headOfGovernment": "Andrew Fahie",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
     }
   },
   {
@@ -1399,34 +2209,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 12332788,
     "difficulty": "hard",
-    "flag_url": "/flags/ed13ad9a5761.webp",
+    "flag_url": "/flags/ed13ad9a5761.svg",
     "codes": {
       "iso2": "BI",
       "iso3": "BDI",
       "numeric": "108"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Burundi",
-        "capital": "Gitega"
+        "capital": "Gitega",
+        "officialName": "Republic of Burundi"
+      },
+      "ar": {
+        "name": "بوروندي",
+        "capital": "Gitega",
+        "officialName": "جمهورية بوروندي "
+      },
+      "es": {
+        "name": "Burundi",
+        "capital": "Gitega",
+        "officialName": "la República de Burundi"
+      },
+      "fr": {
+        "name": "Burundi",
+        "capital": "Gitega",
+        "officialName": "la République du Burundi"
+      },
+      "it": {
+        "name": "Burundi",
+        "capital": "Gitega",
+        "officialName": "Repubblica del Burundi"
+      },
+      "ru": {
+        "name": "Бурунди",
+        "capital": "Gitega",
+        "officialName": "Республика Бурунди"
+      },
+      "zh-CN": {
+        "name": "布隆迪",
+        "capital": "Gitega",
+        "officialName": "布隆迪共和国"
+      },
+      "en": {
+        "name": "Burundi",
+        "capital": "Gitega",
+        "officialName": "Republic of Burundi"
       }
     },
     "economics": {
@@ -1438,7 +2266,26 @@ export const countries: CountryData[] = [
       "headOfState": "Évariste Ndayishimiye",
       "headOfGovernment": "Gervais Ndirakobuca",
       "governmentType": "presidential system; representative democracy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1448,27 +2295,34 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 0,
     "difficulty": "god_mode",
-    "flag_url": "/flags/891cc7bec04d.webp",
+    "flag_url": "/flags/891cc7bec04d.svg",
     "codes": {
       "iso2": "UM",
       "iso3": "UMI",
       "numeric": "581"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Ilhas Menores Distantes dos Estados Unidos",
+        "capital": "Washington DC",
+        "officialName": "United States Minor Outlying Islands"
+      },
+      "en": {
+        "name": "United States Minor Outlying Islands",
+        "capital": "Washington DC",
+        "officialName": "United States Minor Outlying Islands"
+      }
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com"
-      }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Ilhas Menores Distantes dos Estados Unidos",
-        "capital": "Washington DC"
+        "ptCapital": "manual+restcountries.com",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
     }
   },
@@ -1479,34 +2333,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 5458600,
     "difficulty": "hard",
-    "flag_url": "/flags/32f987ecd367.webp",
+    "flag_url": "/flags/32f987ecd367.svg",
     "codes": {
       "iso2": "IE",
       "iso3": "IRL",
       "numeric": "372"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Irlanda",
-        "capital": "Dublin"
+        "capital": "Dublin",
+        "officialName": "Republic of Ireland"
+      },
+      "ar": {
+        "name": "آيرلندا",
+        "capital": "Dublin",
+        "officialName": "آيرلندا"
+      },
+      "es": {
+        "name": "Irlanda",
+        "capital": "Dublin",
+        "officialName": "Irlanda"
+      },
+      "fr": {
+        "name": "Irlande",
+        "capital": "Dublin",
+        "officialName": "l'Irlande"
+      },
+      "it": {
+        "name": "Irlanda",
+        "capital": "Dublin",
+        "officialName": "Irlanda"
+      },
+      "ru": {
+        "name": "Ирландия",
+        "capital": "Dublin",
+        "officialName": "Ирландия"
+      },
+      "zh-CN": {
+        "name": "爱尔兰",
+        "capital": "Dublin",
+        "officialName": "爱尔兰"
+      },
+      "en": {
+        "name": "Ireland",
+        "capital": "Dublin",
+        "officialName": "Republic of Ireland"
       }
     },
     "economics": {
@@ -1518,7 +2390,26 @@ export const countries: CountryData[] = [
       "headOfState": "Catherine Connolly",
       "headOfGovernment": "Micheál Martin",
       "governmentType": "republic; unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1528,34 +2419,52 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 750325,
     "difficulty": "super_hard",
-    "flag_url": "/flags/45f94055b7c7.webp",
+    "flag_url": "/flags/45f94055b7c7.svg",
     "codes": {
       "iso2": "SB",
       "iso3": "SLB",
       "numeric": "090"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Ilhas Salomão",
-        "capital": "Honiara"
+        "capital": "Honiara",
+        "officialName": "Solomon Islands"
+      },
+      "ar": {
+        "name": "جزر سليمان ",
+        "capital": "Honiara",
+        "officialName": "جزر سليمان "
+      },
+      "es": {
+        "name": "Islas Salomón",
+        "capital": "Honiara",
+        "officialName": "las Islas Salomón"
+      },
+      "fr": {
+        "name": "Îles Salomon",
+        "capital": "Honiara",
+        "officialName": "les Îles Salomon"
+      },
+      "it": {
+        "name": "Isole Salomone",
+        "capital": "Honiara",
+        "officialName": "Isole Salomone"
+      },
+      "ru": {
+        "name": "Соломоновы Острова",
+        "capital": "Honiara",
+        "officialName": "Соломоновы Острова"
+      },
+      "zh-CN": {
+        "name": "所罗门群岛",
+        "capital": "Honiara",
+        "officialName": "所罗门群岛"
+      },
+      "en": {
+        "name": "Solomon Islands",
+        "capital": "Honiara",
+        "officialName": "Solomon Islands"
       }
     },
     "economics": {
@@ -1566,7 +2475,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Charles III",
       "headOfGovernment": "Jeremiah Manele",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1576,34 +2504,22 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 64055,
     "difficulty": "god_mode",
-    "flag_url": "/flags/2fb2f533e014.webp",
+    "flag_url": "/flags/2fb2f533e014.svg",
     "codes": {
       "iso2": "BM",
       "iso3": "BMU",
       "numeric": "060"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Bermudas",
-        "capital": "Hamilton"
+        "capital": "Hamilton",
+        "officialName": "Bermuda"
+      },
+      "en": {
+        "name": "Bermuda",
+        "capital": "Hamilton",
+        "officialName": "Bermuda"
       }
     },
     "economics": {
@@ -1615,7 +2531,26 @@ export const countries: CountryData[] = [
       "headOfState": "John Rankin",
       "headOfGovernment": "E. David Burt",
       "governmentType": "British overseas territory; constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1625,36 +2560,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 5650325,
     "difficulty": "hard",
-    "flag_url": "/flags/243801106c4d.webp",
+    "flag_url": "/flags/243801106c4d.svg",
     "codes": {
       "iso2": "FI",
       "iso3": "FIN",
       "numeric": "246"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Finlândia",
-        "capital": "Helsínquia"
+        "capital": "Helsínquia",
+        "officialName": "Republic of Finland"
+      },
+      "ar": {
+        "name": "فنلندا",
+        "capital": "Helsinki",
+        "officialName": "فنلندا جمهورية "
+      },
+      "es": {
+        "name": "Finlandia",
+        "capital": "Helsinki",
+        "officialName": "la República de Finlandia"
+      },
+      "fr": {
+        "name": "Finlande",
+        "capital": "Helsinki",
+        "officialName": "la République de Finlande"
+      },
+      "it": {
+        "name": "Finlandia",
+        "capital": "Helsinki",
+        "officialName": "Repubblica di Finlandia"
+      },
+      "ru": {
+        "name": "Финляндия",
+        "capital": "Helsinki",
+        "officialName": "Финляндская Республика"
+      },
+      "zh-CN": {
+        "name": "芬 兰",
+        "capital": "Helsinki",
+        "officialName": "芬兰共和国"
+      },
+      "en": {
+        "name": "Finland",
+        "capital": "Helsinki",
+        "officialName": "Republic of Finland"
       }
     },
     "economics": {
@@ -1666,7 +2617,7 @@ export const countries: CountryData[] = [
       "headOfState": "Alexander Stubb",
       "headOfGovernment": "Petteri Orpo",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -1677,7 +2628,28 @@ export const countries: CountryData[] = [
           "name": "Finnish Orthodox Church"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1687,34 +2659,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 34350244,
     "difficulty": "medium",
-    "flag_url": "/flags/fdc224c5d688.webp",
+    "flag_url": "/flags/fdc224c5d688.svg",
     "codes": {
       "iso2": "PE",
       "iso3": "PER",
       "numeric": "604"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Perú",
-        "capital": "Lima"
+        "capital": "Lima",
+        "officialName": "Republic of Peru"
+      },
+      "ar": {
+        "name": "بيرو",
+        "capital": "Lima",
+        "officialName": "بيرو جمهورية "
+      },
+      "es": {
+        "name": "Perú",
+        "capital": "Lima",
+        "officialName": "la República del Perú"
+      },
+      "fr": {
+        "name": "Pérou",
+        "capital": "Lima",
+        "officialName": "la République du Pérou"
+      },
+      "it": {
+        "name": "Perù",
+        "capital": "Lima",
+        "officialName": "Repubblica del Perù"
+      },
+      "ru": {
+        "name": "Перу",
+        "capital": "Lima",
+        "officialName": "Республика Перу"
+      },
+      "zh-CN": {
+        "name": "秘 鲁",
+        "capital": "Lima",
+        "officialName": "秘鲁共和国"
+      },
+      "en": {
+        "name": "Peru",
+        "capital": "Lima",
+        "officialName": "Republic of Peru"
       }
     },
     "economics": {
@@ -1726,7 +2716,26 @@ export const countries: CountryData[] = [
       "headOfState": "José Jerí",
       "headOfGovernment": "José Jerí",
       "governmentType": "presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1736,36 +2745,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 169828911,
     "difficulty": "easy",
-    "flag_url": "/flags/8e07df26128d.webp",
+    "flag_url": "/flags/8e07df26128d.svg",
     "codes": {
       "iso2": "BD",
       "iso3": "BGD",
       "numeric": "050"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Bangladesh",
-        "capital": "Dhaka"
+        "capital": "Dhaka",
+        "officialName": "People's Republic of Bangladesh"
+      },
+      "ar": {
+        "name": "بنغلاديش",
+        "capital": "Dhaka",
+        "officialName": "الشعبية بنغلاديش جمهورية "
+      },
+      "es": {
+        "name": "Bangladesh",
+        "capital": "Dhaka",
+        "officialName": "la República Popular de Bangladesh"
+      },
+      "fr": {
+        "name": "Bangladesh",
+        "capital": "Dhaka",
+        "officialName": "la République populaire du Bangladesh"
+      },
+      "it": {
+        "name": "Bangladesh",
+        "capital": "Dhaka",
+        "officialName": "Repubblica popolare del Bangladesh"
+      },
+      "ru": {
+        "name": "Бангладеш",
+        "capital": "Dhaka",
+        "officialName": "Народная Республика Бангладеш"
+      },
+      "zh-CN": {
+        "name": "孟加拉国",
+        "capital": "Dhaka",
+        "officialName": "孟加拉人民共和国"
+      },
+      "en": {
+        "name": "Bangladesh",
+        "capital": "Dhaka",
+        "officialName": "People's Republic of Bangladesh"
       }
     },
     "economics": {
@@ -1777,7 +2802,7 @@ export const countries: CountryData[] = [
       "headOfState": "Mohammad Shahabuddin",
       "headOfGovernment": "Muhammad Yunus",
       "governmentType": "Westminster system; parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -1785,7 +2810,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1795,34 +2841,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 6011488,
     "difficulty": "hard",
-    "flag_url": "/flags/5f0bf3ff6b72.webp",
+    "flag_url": "/flags/5f0bf3ff6b72.svg",
     "codes": {
       "iso2": "DK",
       "iso3": "DNK",
       "numeric": "208"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Dinamarca",
-        "capital": "Copenhague"
+        "capital": "Copenhague",
+        "officialName": "Kingdom of Denmark"
+      },
+      "ar": {
+        "name": "الدانمرك",
+        "capital": "Copenhagen",
+        "officialName": "مملكة الدانمرك "
+      },
+      "es": {
+        "name": "Dinamarca",
+        "capital": "Copenhagen",
+        "officialName": "el Reino de Dinamarca"
+      },
+      "fr": {
+        "name": "Danemark",
+        "capital": "Copenhagen",
+        "officialName": "le Royaume du Danemark"
+      },
+      "it": {
+        "name": "Danimarca",
+        "capital": "Copenhagen",
+        "officialName": "Regno di Danimarca"
+      },
+      "ru": {
+        "name": "Дания",
+        "capital": "Copenhagen",
+        "officialName": "Королевство Дания"
+      },
+      "zh-CN": {
+        "name": "丹 麦",
+        "capital": "Copenhagen",
+        "officialName": "丹麦王国"
+      },
+      "en": {
+        "name": "Denmark",
+        "capital": "Copenhagen",
+        "officialName": "Kingdom of Denmark"
       }
     },
     "economics": {
@@ -1834,7 +2898,26 @@ export const countries: CountryData[] = [
       "headOfState": "Frederik X of Denmark",
       "headOfGovernment": "Mette Frederiksen",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1844,34 +2927,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 110872,
     "difficulty": "god_mode",
-    "flag_url": "/flags/f0e7c891e75a.webp",
+    "flag_url": "/flags/f0e7c891e75a.svg",
     "codes": {
       "iso2": "VC",
       "iso3": "VCT",
       "numeric": "670"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "São Vincente e Granadinas",
-        "capital": "Kingstown"
+        "capital": "Kingstown",
+        "officialName": "Saint Vincent and the Grenadines"
+      },
+      "ar": {
+        "name": "سانت فنسنت وجزر غرينادين ",
+        "capital": "Kingstown",
+        "officialName": "سانت فنسنت وجزر غرينادين "
+      },
+      "es": {
+        "name": "San Vicente y las Granadinas",
+        "capital": "Kingstown",
+        "officialName": "San Vicente y las Granadinas"
+      },
+      "fr": {
+        "name": "Saint-Vincent-et-les Grenadines",
+        "capital": "Kingstown",
+        "officialName": "Saint-Vincent-et-les Grenadines"
+      },
+      "it": {
+        "name": "Saint Vincent e Grenadine",
+        "capital": "Kingstown",
+        "officialName": "Saint Vincent e Grenadine"
+      },
+      "ru": {
+        "name": "Сент-Винсент и Гренадины",
+        "capital": "Kingstown",
+        "officialName": "Сент-Винсент и Гренадины"
+      },
+      "zh-CN": {
+        "name": "圣文森特和格林纳丁斯",
+        "capital": "Kingstown",
+        "officialName": "圣文森特和格林纳丁斯"
+      },
+      "en": {
+        "name": "Saint Vincent and the Grenadines",
+        "capital": "Kingstown",
+        "officialName": "Saint Vincent and the Grenadines"
       }
     },
     "economics": {
@@ -1883,7 +2984,26 @@ export const countries: CountryData[] = [
       "headOfState": "Charles III",
       "headOfGovernment": "Godwin Friday",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1893,34 +3013,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 10771504,
     "difficulty": "hard",
-    "flag_url": "/flags/ea1353c9c329.webp",
+    "flag_url": "/flags/ea1353c9c329.svg",
     "codes": {
       "iso2": "DO",
       "iso3": "DOM",
       "numeric": "214"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "República Dominicana",
-        "capital": "Santo Domingo"
+        "capital": "Santo Domingo",
+        "officialName": "Dominican Republic"
+      },
+      "ar": {
+        "name": "الجمهورية الدومينيكية ",
+        "capital": "Santo Domingo",
+        "officialName": "الجمهورية الدومينيكية "
+      },
+      "es": {
+        "name": "República Dominicana",
+        "capital": "Santo Domingo",
+        "officialName": "la República Dominicana"
+      },
+      "fr": {
+        "name": "République dominicaine",
+        "capital": "Santo Domingo",
+        "officialName": "la République dominicaine"
+      },
+      "it": {
+        "name": "Repubblica dominicana",
+        "capital": "Santo Domingo",
+        "officialName": "Repubblica dominicana"
+      },
+      "ru": {
+        "name": "Доминиканская Республика",
+        "capital": "Santo Domingo",
+        "officialName": "Доминиканская Республика"
+      },
+      "zh-CN": {
+        "name": "多米尼加共和国",
+        "capital": "Santo Domingo",
+        "officialName": "多米尼加共和国"
+      },
+      "en": {
+        "name": "Dominican Republic",
+        "capital": "Santo Domingo",
+        "officialName": "Dominican Republic"
       }
     },
     "economics": {
@@ -1931,7 +3069,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Luis Abinader",
       "headOfGovernment": "Luis Abinader",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1941,34 +3098,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 2749076,
     "difficulty": "hard",
-    "flag_url": "/flags/562017f663ea.webp",
+    "flag_url": "/flags/562017f663ea.svg",
     "codes": {
       "iso2": "MD",
       "iso3": "MDA",
       "numeric": "498"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Moldávia",
-        "capital": "Chișinău"
+        "capital": "Chișinău",
+        "officialName": "Republic of Moldova"
+      },
+      "ar": {
+        "name": "جمهورية مولدوفا ",
+        "capital": "Chișinău",
+        "officialName": "جمهورية مولدوفا "
+      },
+      "es": {
+        "name": "República de Moldova",
+        "capital": "Chișinău",
+        "officialName": "la República de Moldova"
+      },
+      "fr": {
+        "name": "République de Moldova",
+        "capital": "Chișinău",
+        "officialName": "la République de Moldova"
+      },
+      "it": {
+        "name": "Repubblica di Moldova",
+        "capital": "Chișinău",
+        "officialName": "Repubblica di Moldova"
+      },
+      "ru": {
+        "name": "Республика Молдова",
+        "capital": "Chișinău",
+        "officialName": "Республика Молдова"
+      },
+      "zh-CN": {
+        "name": "摩尔多瓦共和国",
+        "capital": "Chișinău",
+        "officialName": "摩尔多瓦共和国"
+      },
+      "en": {
+        "name": "Moldova",
+        "capital": "Chișinău",
+        "officialName": "Republic of Moldova"
       }
     },
     "economics": {
@@ -1980,7 +3155,26 @@ export const countries: CountryData[] = [
       "headOfState": "Maia Sandu",
       "headOfGovernment": "Alexandru Munteanu",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -1990,34 +3184,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 6437360,
     "difficulty": "hard",
-    "flag_url": "/flags/9e44a91f69c5.webp",
+    "flag_url": "/flags/9e44a91f69c5.svg",
     "codes": {
       "iso2": "BG",
       "iso3": "BGR",
       "numeric": "100"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Bulgária",
-        "capital": "Sofia"
+        "capital": "Sofia",
+        "officialName": "Republic of Bulgaria"
+      },
+      "ar": {
+        "name": "بلغاريا",
+        "capital": "Sofia",
+        "officialName": "جمهورية بلغاريا "
+      },
+      "es": {
+        "name": "Bulgaria",
+        "capital": "Sofia",
+        "officialName": "la República de Bulgaria"
+      },
+      "fr": {
+        "name": "Bulgarie",
+        "capital": "Sofia",
+        "officialName": "la République de Bulgarie"
+      },
+      "it": {
+        "name": "Bulgaria",
+        "capital": "Sofia",
+        "officialName": "Repubblica di Bulgaria"
+      },
+      "ru": {
+        "name": "Болгария",
+        "capital": "Sofia",
+        "officialName": "Республика Болгария"
+      },
+      "zh-CN": {
+        "name": "保加利亚",
+        "capital": "Sofia",
+        "officialName": "保加利亚共和国"
+      },
+      "en": {
+        "name": "Bulgaria",
+        "capital": "Sofia",
+        "officialName": "Republic of Bulgaria"
       }
     },
     "economics": {
@@ -2027,9 +3239,28 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfState": "Rumen Radev",
-      "headOfGovernment": "Rossen Jeliazkov",
+      "headOfGovernment": "Kiril Petkov; Rossen Jeliazkov",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2039,34 +3270,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 5309625,
     "difficulty": "hard",
-    "flag_url": "/flags/1c982c8437b8.webp",
+    "flag_url": "/flags/1c982c8437b8.svg",
     "codes": {
       "iso2": "CR",
       "iso3": "CRI",
       "numeric": "188"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Costa Rica",
-        "capital": "São José"
+        "capital": "São José",
+        "officialName": "Republic of Costa Rica"
+      },
+      "ar": {
+        "name": "كوستاريكا",
+        "capital": "San José",
+        "officialName": "جمهورية كوستاريكا "
+      },
+      "es": {
+        "name": "Costa Rica",
+        "capital": "San José",
+        "officialName": "la República de Costa Rica"
+      },
+      "fr": {
+        "name": "Costa Rica",
+        "capital": "San José",
+        "officialName": "la République du Costa Rica"
+      },
+      "it": {
+        "name": "Costa Rica",
+        "capital": "San José",
+        "officialName": "Repubblica di Costa Rica"
+      },
+      "ru": {
+        "name": "Коста-Рика",
+        "capital": "San José",
+        "officialName": "Республика Коста-Рика"
+      },
+      "zh-CN": {
+        "name": "哥斯达黎加",
+        "capital": "San José",
+        "officialName": "哥斯达黎加共和国"
+      },
+      "en": {
+        "name": "Costa Rica",
+        "capital": "San José",
+        "officialName": "Republic of Costa Rica"
       }
     },
     "economics": {
@@ -2077,7 +3326,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Rodrigo Chaves",
       "headOfGovernment": "Rodrigo Chaves",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2087,34 +3355,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 3022401,
     "difficulty": "hard",
-    "flag_url": "/flags/62b09943d686.webp",
+    "flag_url": "/flags/62b09943d686.svg",
     "codes": {
       "iso2": "NA",
       "iso3": "NAM",
       "numeric": "516"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Namíbia",
-        "capital": "Windhoek"
+        "capital": "Windhoek",
+        "officialName": "Republic of Namibia"
+      },
+      "ar": {
+        "name": "ناميبيا",
+        "capital": "Windhoek",
+        "officialName": "جمهورية ناميبيا "
+      },
+      "es": {
+        "name": "Namibia",
+        "capital": "Windhoek",
+        "officialName": "la República de Namibia"
+      },
+      "fr": {
+        "name": "Namibie",
+        "capital": "Windhoek",
+        "officialName": "la République de Namibie"
+      },
+      "it": {
+        "name": "Namibia",
+        "capital": "Windhoek",
+        "officialName": "Repubblica di Namibia"
+      },
+      "ru": {
+        "name": "Намибия",
+        "capital": "Windhoek",
+        "officialName": "Республика Намибия"
+      },
+      "zh-CN": {
+        "name": "纳米比亚",
+        "capital": "Windhoek",
+        "officialName": "纳米比亚共和国"
+      },
+      "en": {
+        "name": "Namibia",
+        "capital": "Windhoek",
+        "officialName": "Republic of Namibia"
       }
     },
     "economics": {
@@ -2125,7 +3411,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Netumbo Nandi-Ndaitwah",
       "headOfGovernment": "Elijah Ngurare",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2135,27 +3440,34 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 2530,
     "difficulty": "god_mode",
-    "flag_url": "/flags/b0b2bcb4426d.webp",
+    "flag_url": "/flags/b0b2bcb4426d.svg",
     "codes": {
       "iso2": "SJ",
       "iso3": "SJM",
       "numeric": "744"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Ilhas Svalbard e Jan Mayen",
+        "capital": "Longyearbyen",
+        "officialName": "Svalbard og Jan Mayen"
+      },
+      "en": {
+        "name": "Svalbard and Jan Mayen",
+        "capital": "Longyearbyen",
+        "officialName": "Svalbard og Jan Mayen"
+      }
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com"
-      }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Ilhas Svalbard e Jan Mayen",
-        "capital": "Longyearbyen"
+        "ptCapital": "manual+restcountries.com",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
     }
   },
@@ -2166,34 +3478,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 681973,
     "difficulty": "super_hard",
-    "flag_url": "/flags/68f453c00d9c.webp",
+    "flag_url": "/flags/68f453c00d9c.svg",
     "codes": {
       "iso2": "LU",
       "iso3": "LUX",
       "numeric": "442"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Luxemburgo",
-        "capital": "Luxembourg"
+        "capital": "Luxembourg",
+        "officialName": "Grand Duchy of Luxembourg"
+      },
+      "ar": {
+        "name": "لكسمبرغ",
+        "capital": "Luxembourg",
+        "officialName": "الكبرى لكسمبرغ دوقية "
+      },
+      "es": {
+        "name": "Luxemburgo",
+        "capital": "Luxembourg",
+        "officialName": "el Gran Ducado de Luxemburgo"
+      },
+      "fr": {
+        "name": "Luxembourg",
+        "capital": "Luxembourg",
+        "officialName": "le Grand-Duché de Luxembourg"
+      },
+      "it": {
+        "name": "Lussemburgo",
+        "capital": "Luxembourg",
+        "officialName": "Granducato di Lussemburgo"
+      },
+      "ru": {
+        "name": "Люксембург",
+        "capital": "Luxembourg",
+        "officialName": "Великое Герцогство Люксембург"
+      },
+      "zh-CN": {
+        "name": "卢森堡",
+        "capital": "Luxembourg",
+        "officialName": "卢森堡大公国"
+      },
+      "en": {
+        "name": "Luxembourg",
+        "capital": "Luxembourg",
+        "officialName": "Grand Duchy of Luxembourg"
       }
     },
     "economics": {
@@ -2203,9 +3533,28 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfState": "Guillaume V, Grand Duke of Luxembourg",
-      "headOfGovernment": "Luc Frieden",
+      "headOfGovernment": "Charles-Mathias Simons; Emmanuel Servais; Félix de Blochausen; Gaspard-Théodore-Ignace de la Fontaine; Hubert Loutsch; Jean-Jacques Willmar; Joseph Bech; Luc Frieden; Léon Kauffman; Mathias Mongenast; Paul Eyschen; Pierre Dupong; Pierre Frieden; Pierre Prüm; Victor Thorn; Victor de Tornaco; Édouard Thilges; Émile Reuter",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2215,36 +3564,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 146028325,
     "difficulty": "easy",
-    "flag_url": "/flags/90a6d53df47e.webp",
+    "flag_url": "/flags/90a6d53df47e.svg",
     "codes": {
       "iso2": "RU",
       "iso3": "RUS",
       "numeric": "643"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Rússia",
-        "capital": "Moscou"
+        "capital": "Moscou",
+        "officialName": "Russian Federation"
+      },
+      "ar": {
+        "name": "الاتحاد الروسي ",
+        "capital": "Moscow",
+        "officialName": "الاتحاد الروسي "
+      },
+      "es": {
+        "name": "Federación de Rusia",
+        "capital": "Moscow",
+        "officialName": "la Federación de Rusia"
+      },
+      "fr": {
+        "name": "Fédération de Russie",
+        "capital": "Moscow",
+        "officialName": "la Fédération de Russie"
+      },
+      "it": {
+        "name": "Russia",
+        "capital": "Moscow",
+        "officialName": "Federazione russa"
+      },
+      "ru": {
+        "name": "Российская Федерация",
+        "capital": "Moscow",
+        "officialName": "Российская Федерация"
+      },
+      "zh-CN": {
+        "name": "俄罗斯联邦",
+        "capital": "Moscow",
+        "officialName": "俄罗斯联邦"
+      },
+      "en": {
+        "name": "Russia",
+        "capital": "Moscow",
+        "officialName": "Russian Federation"
       }
     },
     "economics": {
@@ -2256,7 +3621,7 @@ export const countries: CountryData[] = [
       "headOfState": "Vladimir Putin",
       "headOfGovernment": "Mikhail Mishustin",
       "governmentType": "super-presidential republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -2264,7 +3629,28 @@ export const countries: CountryData[] = [
           "name": "non-denominational"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2274,36 +3660,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 11294243,
     "difficulty": "hard",
-    "flag_url": "/flags/ad66f728dcd1.webp",
+    "flag_url": "/flags/ad66f728dcd1.svg",
     "codes": {
       "iso2": "AE",
       "iso3": "ARE",
       "numeric": "784"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Emirados Árabes Unidos",
-        "capital": "Abu Dhabi"
+        "capital": "Abu Dhabi",
+        "officialName": "United Arab Emirates"
+      },
+      "ar": {
+        "name": "المتحدة العربية الإمارات ",
+        "capital": "Abu Dhabi",
+        "officialName": "المتحدة العربية الإمارات "
+      },
+      "es": {
+        "name": "Emiratos Árabes Unidos",
+        "capital": "Abu Dhabi",
+        "officialName": "los Emiratos Árabes Unidos"
+      },
+      "fr": {
+        "name": "Émirats arabes unis",
+        "capital": "Abu Dhabi",
+        "officialName": "les Émirats arabes unis"
+      },
+      "it": {
+        "name": "Emirati arabi uniti",
+        "capital": "Abu Dhabi",
+        "officialName": "Emirati arabi uniti"
+      },
+      "ru": {
+        "name": "Объединенные Арабские Эмираты",
+        "capital": "Abu Dhabi",
+        "officialName": "Объединенные Арабские Эмираты"
+      },
+      "zh-CN": {
+        "name": "阿拉伯联合酋长国",
+        "capital": "Abu Dhabi",
+        "officialName": "阿拉伯联合酋长国"
+      },
+      "en": {
+        "name": "United Arab Emirates",
+        "capital": "Abu Dhabi",
+        "officialName": "United Arab Emirates"
       }
     },
     "economics": {
@@ -2315,7 +3717,7 @@ export const countries: CountryData[] = [
       "headOfState": "Mohammed Bin Zayed Al Nahyan",
       "headOfGovernment": "Mohammed bin Rashid Al Maktoum",
       "governmentType": "absolute monarchy; constitutional monarchy; federal monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -2323,7 +3725,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2333,34 +3756,22 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 41349,
     "difficulty": "god_mode",
-    "flag_url": "/flags/e45f3443568e.webp",
+    "flag_url": "/flags/e45f3443568e.svg",
     "codes": {
       "iso2": "SX",
       "iso3": "SXM",
       "numeric": "534"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "São Martinho",
-        "capital": "Philipsburg"
+        "capital": "Philipsburg",
+        "officialName": "Sint Maarten"
+      },
+      "en": {
+        "name": "Sint Maarten",
+        "capital": "Philipsburg",
+        "officialName": "Sint Maarten"
       }
     },
     "economics": {
@@ -2369,9 +3780,28 @@ export const countries: CountryData[] = [
       "year": 2024
     },
     "politics": {
-      "headOfState": "Eugene Holiday",
+      "headOfState": "Eugene Holiday; William Alexander of the Netherlands",
       "headOfGovernment": "Leona Marlin-Romeo",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2381,36 +3811,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 398165,
     "difficulty": "super_hard",
-    "flag_url": "/flags/f1ebd231a348.webp",
+    "flag_url": "/flags/f1ebd231a348.svg",
     "codes": {
       "iso2": "BS",
       "iso3": "BHS",
       "numeric": "044"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Bahamas",
-        "capital": "Nassau"
+        "capital": "Nassau",
+        "officialName": "Commonwealth of the Bahamas"
+      },
+      "ar": {
+        "name": "البهاما جزر ",
+        "capital": "Nassau",
+        "officialName": "البهاما جزر كمنولث "
+      },
+      "es": {
+        "name": "Bahamas",
+        "capital": "Nassau",
+        "officialName": "el Commonwealth de las Bahamas"
+      },
+      "fr": {
+        "name": "Bahamas",
+        "capital": "Nassau",
+        "officialName": "le Commonwealth des Bahamas"
+      },
+      "it": {
+        "name": "Bahamas",
+        "capital": "Nassau",
+        "officialName": "Commonwealth delle Bahamas"
+      },
+      "ru": {
+        "name": "Багамские Острова",
+        "capital": "Nassau",
+        "officialName": "Содружество Багамских Островов"
+      },
+      "zh-CN": {
+        "name": "巴哈马",
+        "capital": "Nassau",
+        "officialName": "巴哈马国"
+      },
+      "en": {
+        "name": "Bahamas",
+        "capital": "Nassau",
+        "officialName": "Commonwealth of the Bahamas"
       }
     },
     "economics": {
@@ -2422,7 +3868,7 @@ export const countries: CountryData[] = [
       "headOfState": "Charles III",
       "headOfGovernment": "Philip \"Brave\" Davis",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -2430,7 +3876,28 @@ export const countries: CountryData[] = [
           "name": "Christianity"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2440,36 +3907,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 123210000,
     "difficulty": "easy",
-    "flag_url": "/flags/59ae856cd788.webp",
+    "flag_url": "/flags/59ae856cd788.svg",
     "codes": {
       "iso2": "JP",
       "iso3": "JPN",
       "numeric": "392"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Japão",
-        "capital": "Tokyo"
+        "capital": "Tokyo",
+        "officialName": "Japan"
+      },
+      "ar": {
+        "name": "اليابان",
+        "capital": "Tokyo",
+        "officialName": "اليابان"
+      },
+      "es": {
+        "name": "Japón",
+        "capital": "Tokyo",
+        "officialName": "el Japón"
+      },
+      "fr": {
+        "name": "Japon",
+        "capital": "Tokyo",
+        "officialName": "le Japon"
+      },
+      "it": {
+        "name": "Giappone",
+        "capital": "Tokyo",
+        "officialName": "Giappone"
+      },
+      "ru": {
+        "name": "Япония",
+        "capital": "Tokyo",
+        "officialName": "Япония"
+      },
+      "zh-CN": {
+        "name": "日 本",
+        "capital": "Tokyo",
+        "officialName": "日本国"
+      },
+      "en": {
+        "name": "Japan",
+        "capital": "Tokyo",
+        "officialName": "Japan"
       }
     },
     "economics": {
@@ -2481,7 +3964,7 @@ export const countries: CountryData[] = [
       "headOfState": "Naruhito",
       "headOfGovernment": "Takaichi Sanae",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -2495,7 +3978,28 @@ export const countries: CountryData[] = [
           "name": "Shinto"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2505,34 +4009,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 223800000,
     "difficulty": "easy",
-    "flag_url": "/flags/3383e4237141.webp",
+    "flag_url": "/flags/3383e4237141.svg",
     "codes": {
       "iso2": "NG",
       "iso3": "NGA",
       "numeric": "566"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Nigéria",
-        "capital": "Abuja"
+        "capital": "Abuja",
+        "officialName": "Federal Republic of Nigeria"
+      },
+      "ar": {
+        "name": "نيجيريا",
+        "capital": "Abuja",
+        "officialName": "الاتحادية نيجيريا جمهورية "
+      },
+      "es": {
+        "name": "Nigeria",
+        "capital": "Abuja",
+        "officialName": "la República Federal de Nigeria"
+      },
+      "fr": {
+        "name": "Nigéria",
+        "capital": "Abuja",
+        "officialName": "la République fédérale du Nigéria"
+      },
+      "it": {
+        "name": "Nigeria",
+        "capital": "Abuja",
+        "officialName": "Repubblica federale della Nigeria"
+      },
+      "ru": {
+        "name": "Нигерия",
+        "capital": "Abuja",
+        "officialName": "Федеративная Республика Нигерия"
+      },
+      "zh-CN": {
+        "name": "尼日利亚",
+        "capital": "Abuja",
+        "officialName": "尼日利亚联邦共和国"
+      },
+      "en": {
+        "name": "Nigeria",
+        "capital": "Abuja",
+        "officialName": "Federal Republic of Nigeria"
       }
     },
     "economics": {
@@ -2544,7 +4066,26 @@ export const countries: CountryData[] = [
       "headOfState": "Bola Ahmed Tinubu",
       "headOfGovernment": "Bola Ahmed Tinubu",
       "governmentType": "federal republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2554,34 +4095,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 33742380,
     "difficulty": "medium",
-    "flag_url": "/flags/fc4f9c94394e.webp",
+    "flag_url": "/flags/fc4f9c94394e.svg",
     "codes": {
       "iso2": "GH",
       "iso3": "GHA",
       "numeric": "288"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Gana",
-        "capital": "Accra"
+        "capital": "Accra",
+        "officialName": "Republic of Ghana"
+      },
+      "ar": {
+        "name": "غانا",
+        "capital": "Accra",
+        "officialName": "غانا جمهورية "
+      },
+      "es": {
+        "name": "Ghana",
+        "capital": "Accra",
+        "officialName": "la República de Ghana"
+      },
+      "fr": {
+        "name": "Ghana",
+        "capital": "Accra",
+        "officialName": "la République du Ghana"
+      },
+      "it": {
+        "name": "Ghana",
+        "capital": "Accra",
+        "officialName": "Repubblica del Ghana"
+      },
+      "ru": {
+        "name": "Гана",
+        "capital": "Accra",
+        "officialName": "Республика Гана"
+      },
+      "zh-CN": {
+        "name": "加 纳",
+        "capital": "Accra",
+        "officialName": "加纳共和国"
+      },
+      "en": {
+        "name": "Ghana",
+        "capital": "Accra",
+        "officialName": "Republic of Ghana"
       }
     },
     "economics": {
@@ -2593,7 +4152,26 @@ export const countries: CountryData[] = [
       "headOfState": "John Mahama",
       "headOfGovernment": "Nana Akufo-Addo",
       "governmentType": "democracy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2603,34 +4181,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 9077691,
     "difficulty": "hard",
-    "flag_url": "/flags/18ebb96f406c.webp",
+    "flag_url": "/flags/18ebb96f406c.svg",
     "codes": {
       "iso2": "SL",
       "iso3": "SLE",
       "numeric": "694"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Serra Leoa",
-        "capital": "Freetown"
+        "capital": "Freetown",
+        "officialName": "Republic of Sierra Leone"
+      },
+      "ar": {
+        "name": "سيراليون",
+        "capital": "Freetown",
+        "officialName": "جمهورية سيراليون "
+      },
+      "es": {
+        "name": "Sierra Leona",
+        "capital": "Freetown",
+        "officialName": "la República de Sierra Leona"
+      },
+      "fr": {
+        "name": "Sierra Leone",
+        "capital": "Freetown",
+        "officialName": "la République de Sierra Leone"
+      },
+      "it": {
+        "name": "Sierra Leone",
+        "capital": "Freetown",
+        "officialName": "Repubblica di Sierra Leone"
+      },
+      "ru": {
+        "name": "Сьерра-Леоне",
+        "capital": "Freetown",
+        "officialName": "Республика Сьерра-Леоне"
+      },
+      "zh-CN": {
+        "name": "塞拉利昂",
+        "capital": "Freetown",
+        "officialName": "塞拉利昂共和国"
+      },
+      "en": {
+        "name": "Sierra Leone",
+        "capital": "Freetown",
+        "officialName": "Republic of Sierra Leone"
       }
     },
     "economics": {
@@ -2642,7 +4238,26 @@ export const countries: CountryData[] = [
       "headOfState": "Julius Maada Bio",
       "headOfGovernment": "David Sengeh",
       "governmentType": "presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2652,37 +4267,44 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 5819,
     "difficulty": "god_mode",
-    "flag_url": "/flags/3faa1be7fff1.webp",
+    "flag_url": "/flags/3faa1be7fff1.svg",
     "codes": {
       "iso2": "PM",
       "iso3": "SPM",
       "numeric": "666"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Saint-Pierre e Miquelon",
-        "capital": "Saint-Pierre"
+        "capital": "Saint-Pierre",
+        "officialName": "Saint Pierre and Miquelon"
+      },
+      "en": {
+        "name": "Saint Pierre and Miquelon",
+        "capital": "Saint-Pierre",
+        "officialName": "Saint Pierre and Miquelon"
       }
     },
     "politics": {
       "headOfGovernment": "Stéphane Artano",
       "governmentType": "overseas collectivity of France",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2692,34 +4314,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 2363314,
     "difficulty": "hard",
-    "flag_url": "/flags/e83f024f9a11.webp",
+    "flag_url": "/flags/e83f024f9a11.svg",
     "codes": {
       "iso2": "AL",
       "iso3": "ALB",
       "numeric": "008"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Albânia",
-        "capital": "Tirana"
+        "capital": "Tirana",
+        "officialName": "Republic of Albania"
+      },
+      "ar": {
+        "name": "ألبانيا",
+        "capital": "Tirana",
+        "officialName": "ألبانيا جمهورية "
+      },
+      "es": {
+        "name": "Albania",
+        "capital": "Tirana",
+        "officialName": "la República de Albania"
+      },
+      "fr": {
+        "name": "Albanie",
+        "capital": "Tirana",
+        "officialName": "la République d'Albanie"
+      },
+      "it": {
+        "name": "Albania",
+        "capital": "Tirana",
+        "officialName": "Repubblica d'Albania"
+      },
+      "ru": {
+        "name": "Албания",
+        "capital": "Tirana",
+        "officialName": "Республика Албания"
+      },
+      "zh-CN": {
+        "name": "阿尔巴尼亚",
+        "capital": "Tirana",
+        "officialName": "阿尔巴尼亚共和国"
+      },
+      "en": {
+        "name": "Albania",
+        "capital": "Tirana",
+        "officialName": "Republic of Albania"
       }
     },
     "economics": {
@@ -2728,10 +4368,29 @@ export const countries: CountryData[] = [
       "year": 2024
     },
     "politics": {
-      "headOfState": "Bajram Begaj",
+      "headOfState": "Bajram Begaj; Ilir Meta",
       "headOfGovernment": "Edi Rama",
       "governmentType": "parliamentary system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2741,27 +4400,64 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 2608,
     "difficulty": "god_mode",
-    "flag_url": "/flags/c3fcefdff6a2.webp",
+    "flag_url": "/flags/c3fcefdff6a2.svg",
     "codes": {
       "iso2": "TK",
       "iso3": "TKL",
       "numeric": "772"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Tokelau",
+        "capital": "Fakaofo",
+        "officialName": "Tokelau"
+      },
+      "ar": {
+        "name": "منتسب عضو - توكيلاو ",
+        "capital": "Fakaofo",
+        "officialName": "توكيلاو"
+      },
+      "es": {
+        "name": "Tokelau (Miembro Asociado)",
+        "capital": "Fakaofo",
+        "officialName": "Tokelau"
+      },
+      "fr": {
+        "name": "Tokélaou (Membre associé)",
+        "capital": "Fakaofo",
+        "officialName": "les Tokélaou"
+      },
+      "it": {
+        "name": "Tokelau (Membro associato)",
+        "capital": "Fakaofo",
+        "officialName": "Tokelau"
+      },
+      "ru": {
+        "name": "Токелау (ассоциированный член)",
+        "capital": "Fakaofo",
+        "officialName": "Токелау"
+      },
+      "zh-CN": {
+        "name": "托克劳（准成员）",
+        "capital": "Fakaofo",
+        "officialName": "托克劳"
+      },
+      "en": {
+        "name": "Tokelau",
+        "capital": "Fakaofo",
+        "officialName": "Tokelau"
+      }
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com"
-      }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Tokelau",
-        "capital": "Fakaofo"
+        "ptCapital": "manual+restcountries.com",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
     }
   },
@@ -2772,36 +4468,43 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 5651,
     "difficulty": "god_mode",
-    "flag_url": "/flags/58259e2006f0.webp",
+    "flag_url": "/flags/58259e2006f0.svg",
     "codes": {
       "iso2": "SH",
       "iso3": "SHN",
       "numeric": "654"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Santa Helena, Ascensão e Tristão da Cunha",
+        "capital": "Jamestown",
+        "officialName": "Saint Helena, Ascension and Tristan da Cunha"
+      },
+      "en": {
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "capital": "Jamestown",
+        "officialName": "Saint Helena, Ascension and Tristan da Cunha"
+      }
+    },
+    "politics": {
+      "headOfGovernment": "Philip Rushbrook",
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
         "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Santa Helena, Ascensão e Tristão da Cunha",
-        "capital": "Jamestown"
-      }
-    },
-    "politics": {
-      "headOfGovernment": "Philip Rushbrook",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
     }
   },
   {
@@ -2811,34 +4514,52 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 100179,
     "difficulty": "god_mode",
-    "flag_url": "/flags/32ad1aca2ef1.webp",
+    "flag_url": "/flags/32ad1aca2ef1.svg",
     "codes": {
       "iso2": "TO",
       "iso3": "TON",
       "numeric": "776"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Tonga",
-        "capital": "Nuku'alofa"
+        "capital": "Nuku'alofa",
+        "officialName": "Kingdom of Tonga"
+      },
+      "ar": {
+        "name": "تونغا",
+        "capital": "Nuku'alofa",
+        "officialName": "تونغا مملكة "
+      },
+      "es": {
+        "name": "Tonga",
+        "capital": "Nuku'alofa",
+        "officialName": "el Reino de Tonga"
+      },
+      "fr": {
+        "name": "Tonga",
+        "capital": "Nuku'alofa",
+        "officialName": "le Royaume des Tonga"
+      },
+      "it": {
+        "name": "Tonga",
+        "capital": "Nuku'alofa",
+        "officialName": "Regno di Tonga"
+      },
+      "ru": {
+        "name": "Тонга",
+        "capital": "Nuku'alofa",
+        "officialName": "Королевство Тонга"
+      },
+      "zh-CN": {
+        "name": "汤 加",
+        "capital": "Nuku'alofa",
+        "officialName": "汤加王国"
+      },
+      "en": {
+        "name": "Tonga",
+        "capital": "Nuku'alofa",
+        "officialName": "Kingdom of Tonga"
       }
     },
     "economics": {
@@ -2849,7 +4570,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Tupou VI of Tonga",
       "headOfGovernment": "ʻAisake Eke",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2859,34 +4599,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 7057841,
     "difficulty": "hard",
-    "flag_url": "/flags/700530bf6ed3.webp",
+    "flag_url": "/flags/700530bf6ed3.svg",
     "codes": {
       "iso2": "TM",
       "iso3": "TKM",
       "numeric": "795"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Turquemenistão",
-        "capital": "Ashgabat"
+        "capital": "Ashgabat",
+        "officialName": "Turkmenistan"
+      },
+      "ar": {
+        "name": "تركمانستان",
+        "capital": "Ashgabat",
+        "officialName": "تركمانستان"
+      },
+      "es": {
+        "name": "Turkmenistán",
+        "capital": "Ashgabat",
+        "officialName": "Turkmenistán"
+      },
+      "fr": {
+        "name": "Turkménistan",
+        "capital": "Ashgabat",
+        "officialName": "le Turkménistan"
+      },
+      "it": {
+        "name": "Turkmenistan",
+        "capital": "Ashgabat",
+        "officialName": "Repubblica di Turkmenistan"
+      },
+      "ru": {
+        "name": "Туркменистан",
+        "capital": "Ashgabat",
+        "officialName": "Туркменистан"
+      },
+      "zh-CN": {
+        "name": "土库曼斯坦",
+        "capital": "Ashgabat",
+        "officialName": "土库曼斯坦"
+      },
+      "en": {
+        "name": "Turkmenistan",
+        "capital": "Ashgabat",
+        "officialName": "Turkmenistan"
       }
     },
     "economics": {
@@ -2898,7 +4656,26 @@ export const countries: CountryData[] = [
       "headOfState": "Serdar Berdimuhamedow",
       "headOfGovernment": "Serdar Berdimuhamedow",
       "governmentType": "presidential system; republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2908,34 +4685,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 1066809,
     "difficulty": "god_mode",
-    "flag_url": "/flags/e993659a9393.webp",
+    "flag_url": "/flags/e993659a9393.svg",
     "codes": {
       "iso2": "DJ",
       "iso3": "DJI",
       "numeric": "262"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Djibouti",
-        "capital": "Djibouti"
+        "capital": "Djibouti",
+        "officialName": "Republic of Djibouti"
+      },
+      "ar": {
+        "name": "جيبوتي",
+        "capital": "Djibouti",
+        "officialName": "جيبوتي جمهورية "
+      },
+      "es": {
+        "name": "Djibouti",
+        "capital": "Djibouti",
+        "officialName": "la República de Djibouti"
+      },
+      "fr": {
+        "name": "Djibouti",
+        "capital": "Djibouti",
+        "officialName": "la République de Djibouti"
+      },
+      "it": {
+        "name": "Gibuti",
+        "capital": "Djibouti",
+        "officialName": "Repubblica di Gibuti"
+      },
+      "ru": {
+        "name": "Джибути",
+        "capital": "Djibouti",
+        "officialName": "Республика Джибути"
+      },
+      "zh-CN": {
+        "name": "吉布提",
+        "capital": "Djibouti",
+        "officialName": "吉布提共和国"
+      },
+      "en": {
+        "name": "Djibouti",
+        "capital": "Djibouti",
+        "officialName": "Republic of Djibouti"
       }
     },
     "economics": {
@@ -2946,7 +4741,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Ismail Omar Guelleh",
       "headOfGovernment": "Abdoulkader Kamil Mohamed",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -2956,34 +4770,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 6470307,
     "difficulty": "hard",
-    "flag_url": "/flags/adb537cb8385.webp",
+    "flag_url": "/flags/adb537cb8385.svg",
     "codes": {
       "iso2": "CF",
       "iso3": "CAF",
       "numeric": "140"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "República Centro-Africana",
-        "capital": "Bangui"
+        "capital": "Bangui",
+        "officialName": "Central African Republic"
+      },
+      "ar": {
+        "name": "الوسطى أفريقيا جمهورية ",
+        "capital": "Bangui",
+        "officialName": "الوسطى أفريقيا جمهورية "
+      },
+      "es": {
+        "name": "República Centroafricana",
+        "capital": "Bangui",
+        "officialName": "la República Centroafricana"
+      },
+      "fr": {
+        "name": "République centrafricaine",
+        "capital": "Bangui",
+        "officialName": "la République centrafricaine"
+      },
+      "it": {
+        "name": "Repubblica centrafricana",
+        "capital": "Bangui",
+        "officialName": "Repubblica centrafricana"
+      },
+      "ru": {
+        "name": "Центральноафриканская Республика",
+        "capital": "Bangui",
+        "officialName": "Центральноафриканская Республика"
+      },
+      "zh-CN": {
+        "name": "中非共和国",
+        "capital": "Bangui",
+        "officialName": "中非共和国"
+      },
+      "en": {
+        "name": "Central African Republic",
+        "capital": "Bangui",
+        "officialName": "Central African Republic"
       }
     },
     "economics": {
@@ -2992,9 +4824,28 @@ export const countries: CountryData[] = [
       "year": 2024
     },
     "politics": {
-      "headOfState": "Faustin-Archange Touadéra",
+      "headOfState": "Faustin-Archange Touadéra; François Bozizé",
       "headOfGovernment": "Félix Moloua",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3004,34 +4855,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 5490000,
     "difficulty": "hard",
-    "flag_url": "/flags/8a57a440886c.webp",
+    "flag_url": "/flags/8a57a440886c.svg",
     "codes": {
       "iso2": "LB",
       "iso3": "LBN",
       "numeric": "422"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Líbano",
-        "capital": "Beirut"
+        "capital": "Beirut",
+        "officialName": "Lebanese Republic"
+      },
+      "ar": {
+        "name": "لبنان",
+        "capital": "Beirut",
+        "officialName": "اللبنانية الجمهورية "
+      },
+      "es": {
+        "name": "Líbano",
+        "capital": "Beirut",
+        "officialName": "la República libanesa"
+      },
+      "fr": {
+        "name": "Liban",
+        "capital": "Beirut",
+        "officialName": "la République libanaise"
+      },
+      "it": {
+        "name": "Libano",
+        "capital": "Beirut",
+        "officialName": "Repubblica libanese"
+      },
+      "ru": {
+        "name": "Ливан",
+        "capital": "Beirut",
+        "officialName": "Ливанская Республика"
+      },
+      "zh-CN": {
+        "name": "黎巴嫩",
+        "capital": "Beirut",
+        "officialName": "黎巴嫩共和国"
+      },
+      "en": {
+        "name": "Lebanon",
+        "capital": "Beirut",
+        "officialName": "Lebanese Republic"
       }
     },
     "economics": {
@@ -3043,7 +4912,26 @@ export const countries: CountryData[] = [
       "headOfState": "Joseph Aoun",
       "headOfGovernment": "Nawaf Salam",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3053,34 +4941,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 1829000,
     "difficulty": "super_hard",
-    "flag_url": "/flags/15bc5d87cc42.webp",
+    "flag_url": "/flags/15bc5d87cc42.svg",
     "codes": {
       "iso2": "LV",
       "iso3": "LVA",
       "numeric": "428"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Letónia",
-        "capital": "Riga"
+        "capital": "Riga",
+        "officialName": "Republic of Latvia"
+      },
+      "ar": {
+        "name": "لاتفيا",
+        "capital": "Riga",
+        "officialName": "جمهورية لاتفيا "
+      },
+      "es": {
+        "name": "Letonia",
+        "capital": "Riga",
+        "officialName": "la República de Letonia"
+      },
+      "fr": {
+        "name": "Lettonie",
+        "capital": "Riga",
+        "officialName": "la République de Lettonie"
+      },
+      "it": {
+        "name": "Lettonia",
+        "capital": "Riga",
+        "officialName": "Repubblica di Lettonia"
+      },
+      "ru": {
+        "name": "Латвия",
+        "capital": "Riga",
+        "officialName": "Латвийская Республика"
+      },
+      "zh-CN": {
+        "name": "拉脱维亚",
+        "capital": "Riga",
+        "officialName": "拉脱维亚共和国"
+      },
+      "en": {
+        "name": "Latvia",
+        "capital": "Riga",
+        "officialName": "Republic of Latvia"
       }
     },
     "economics": {
@@ -3092,7 +4998,26 @@ export const countries: CountryData[] = [
       "headOfState": "Edgars Rinkēvičs",
       "headOfGovernment": "Evika Siliņa",
       "governmentType": "parliamentary republic; republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3102,27 +5027,34 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 593,
     "difficulty": "god_mode",
-    "flag_url": "/flags/e7a78e3b97e5.webp",
+    "flag_url": "/flags/e7a78e3b97e5.svg",
     "codes": {
       "iso2": "CC",
       "iso3": "CCK",
       "numeric": "166"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Ilhas Cocos (Keeling)",
+        "capital": "West Island",
+        "officialName": "Territory of the Cocos (Keeling) Islands"
+      },
+      "en": {
+        "name": "Cocos (Keeling) Islands",
+        "capital": "West Island",
+        "officialName": "Territory of the Cocos (Keeling) Islands"
+      }
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com"
-      }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Ilhas Cocos (Keeling)",
-        "capital": "West Island"
+        "ptCapital": "manual+restcountries.com",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
     }
   },
@@ -3133,34 +5065,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 2422712,
     "difficulty": "hard",
-    "flag_url": "/flags/1097bf50dd7f.webp",
+    "flag_url": "/flags/1097bf50dd7f.svg",
     "codes": {
       "iso2": "GM",
       "iso3": "GMB",
       "numeric": "270"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Gâmbia",
-        "capital": "Banjul"
+        "capital": "Banjul",
+        "officialName": "Republic of the Gambia"
+      },
+      "ar": {
+        "name": "غامبيا",
+        "capital": "Banjul",
+        "officialName": "الإسلامية غامبيا جمهورية "
+      },
+      "es": {
+        "name": "Gambia",
+        "capital": "Banjul",
+        "officialName": "República Islámica de Gambia"
+      },
+      "fr": {
+        "name": "Gambie",
+        "capital": "Banjul",
+        "officialName": "République islamique de Gambie"
+      },
+      "it": {
+        "name": "Gambia",
+        "capital": "Banjul",
+        "officialName": "Repubblica islamica del Gambia"
+      },
+      "ru": {
+        "name": "Гамбия",
+        "capital": "Banjul",
+        "officialName": "Исламская Республика Гамбия"
+      },
+      "zh-CN": {
+        "name": "冈比亚",
+        "capital": "Banjul",
+        "officialName": "冈比亚伊斯兰共和国"
+      },
+      "en": {
+        "name": "Gambia",
+        "capital": "Banjul",
+        "officialName": "Republic of the Gambia"
       }
     },
     "economics": {
@@ -3172,7 +5122,26 @@ export const countries: CountryData[] = [
       "headOfState": "Adama Barrow",
       "headOfGovernment": "Adama Barrow",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3182,34 +5151,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 9892632,
     "difficulty": "hard",
-    "flag_url": "/flags/5a381f836ae9.webp",
+    "flag_url": "/flags/5a381f836ae9.svg",
     "codes": {
       "iso2": "HN",
       "iso3": "HND",
       "numeric": "340"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Honduras",
-        "capital": "Tegucigalpa"
+        "capital": "Tegucigalpa",
+        "officialName": "Republic of Honduras"
+      },
+      "ar": {
+        "name": "هندوراس",
+        "capital": "Tegucigalpa",
+        "officialName": "هندوراس جمهورية "
+      },
+      "es": {
+        "name": "Honduras",
+        "capital": "Tegucigalpa",
+        "officialName": "la República de Honduras"
+      },
+      "fr": {
+        "name": "Honduras",
+        "capital": "Tegucigalpa",
+        "officialName": "la République du Honduras"
+      },
+      "it": {
+        "name": "Honduras",
+        "capital": "Tegucigalpa",
+        "officialName": "Repubblica di Honduras"
+      },
+      "ru": {
+        "name": "Гондурас",
+        "capital": "Tegucigalpa",
+        "officialName": "Республика Гондурас"
+      },
+      "zh-CN": {
+        "name": "洪都拉斯",
+        "capital": "Tegucigalpa",
+        "officialName": "洪都拉斯共和国"
+      },
+      "en": {
+        "name": "Honduras",
+        "capital": "Tegucigalpa",
+        "officialName": "Republic of Honduras"
       }
     },
     "economics": {
@@ -3221,7 +5208,26 @@ export const countries: CountryData[] = [
       "headOfState": "Xiomara Castro",
       "headOfGovernment": "Xiomara Castro",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3231,37 +5237,74 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 1681,
     "difficulty": "god_mode",
-    "flag_url": "/flags/56979bcbcec3.webp",
+    "flag_url": "/flags/56979bcbcec3.svg",
     "codes": {
       "iso2": "NU",
       "iso3": "NIU",
       "numeric": "570"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Niue",
-        "capital": "Alofi"
+        "capital": "Alofi",
+        "officialName": "Niue"
+      },
+      "ar": {
+        "name": "نيوى",
+        "capital": "Alofi",
+        "officialName": "نيوى"
+      },
+      "es": {
+        "name": "Niue",
+        "capital": "Alofi",
+        "officialName": "Niue"
+      },
+      "fr": {
+        "name": "Nioué",
+        "capital": "Alofi",
+        "officialName": "Nioué"
+      },
+      "it": {
+        "name": "Niue",
+        "capital": "Alofi",
+        "officialName": "Niue"
+      },
+      "ru": {
+        "name": "Ниуэ",
+        "capital": "Alofi",
+        "officialName": "Ниуэ"
+      },
+      "zh-CN": {
+        "name": "纽 埃",
+        "capital": "Alofi",
+        "officialName": "纽埃共和国"
+      },
+      "en": {
+        "name": "Niue",
+        "capital": "Alofi",
+        "officialName": "Niue"
       }
     },
     "politics": {
       "headOfState": "Charles III",
       "headOfGovernment": "Dalton Tagelagi",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3271,34 +5314,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 4927532,
     "difficulty": "hard",
-    "flag_url": "/flags/5f54f2d82d16.webp",
+    "flag_url": "/flags/5f54f2d82d16.svg",
     "codes": {
       "iso2": "MR",
       "iso3": "MRT",
       "numeric": "478"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Mauritânia",
-        "capital": "Nouakchott"
+        "capital": "Nouakchott",
+        "officialName": "Islamic Republic of Mauritania"
+      },
+      "ar": {
+        "name": "موريتانيا",
+        "capital": "Nouakchott",
+        "officialName": "الجمهورية الإسلامية الموريتانية "
+      },
+      "es": {
+        "name": "Mauritania",
+        "capital": "Nouakchott",
+        "officialName": "la República Islámica de Mauritania"
+      },
+      "fr": {
+        "name": "Mauritanie",
+        "capital": "Nouakchott",
+        "officialName": "la République islamique de Mauritanie"
+      },
+      "it": {
+        "name": "Mauritania",
+        "capital": "Nouakchott",
+        "officialName": "Repubblica islamica di Mauritania"
+      },
+      "ru": {
+        "name": "Мавритания",
+        "capital": "Nouakchott",
+        "officialName": "Исламская Республика Мавритания"
+      },
+      "zh-CN": {
+        "name": "毛里塔尼亚",
+        "capital": "Nouakchott",
+        "officialName": "毛里塔尼亚伊斯兰共和国"
+      },
+      "en": {
+        "name": "Mauritania",
+        "capital": "Nouakchott",
+        "officialName": "Islamic Republic of Mauritania"
       }
     },
     "economics": {
@@ -3309,7 +5370,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Mohamed Ould Ghazouani",
       "headOfGovernment": "Moctar Ould Djay",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3319,27 +5399,34 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 1585566,
     "difficulty": "super_hard",
-    "flag_url": "/flags/c2bab6893136.webp",
+    "flag_url": "/flags/c2bab6893136.svg",
     "codes": {
       "iso2": "XK",
       "iso3": "UNK",
       "numeric": ""
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Kosovo",
+        "capital": "Pristina",
+        "officialName": "Republic of Kosovo"
+      },
+      "en": {
+        "name": "Kosovo",
+        "capital": "Pristina",
+        "officialName": "Republic of Kosovo"
+      }
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com"
-      }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Kosovo",
-        "capital": "Pristina"
+        "ptCapital": "manual+restcountries.com",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
     }
   },
@@ -3350,36 +5437,43 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 11620,
     "difficulty": "god_mode",
-    "flag_url": "/flags/a30298951e49.webp",
+    "flag_url": "/flags/a30298951e49.svg",
     "codes": {
       "iso2": "WF",
       "iso3": "WLF",
       "numeric": "876"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Wallis e Futuna",
+        "capital": "Mata-Utu",
+        "officialName": "Territory of the Wallis and Futuna Islands"
+      },
+      "en": {
+        "name": "Wallis and Futuna",
+        "capital": "Mata-Utu",
+        "officialName": "Territory of the Wallis and Futuna Islands"
+      }
+    },
+    "politics": {
+      "governmentType": "republic",
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
         "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Wallis e Futuna",
-        "capital": "Mata-Utu"
-      }
-    },
-    "politics": {
-      "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
     }
   },
   {
@@ -3389,34 +5483,22 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 279500,
     "difficulty": "super_hard",
-    "flag_url": "/flags/a2454b0373e9.webp",
+    "flag_url": "/flags/a2454b0373e9.svg",
     "codes": {
       "iso2": "PF",
       "iso3": "PYF",
       "numeric": "258"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Polinésia Francesa",
-        "capital": "Papeetē"
+        "capital": "Papeetē",
+        "officialName": "French Polynesia"
+      },
+      "en": {
+        "name": "French Polynesia",
+        "capital": "Papeetē",
+        "officialName": "French Polynesia"
       }
     },
     "economics": {
@@ -3426,7 +5508,26 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfGovernment": "Édouard Fritch",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3436,34 +5537,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 8095498,
     "difficulty": "hard",
-    "flag_url": "/flags/7d6b68079d46.webp",
+    "flag_url": "/flags/7d6b68079d46.svg",
     "codes": {
       "iso2": "TG",
       "iso3": "TGO",
       "numeric": "768"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Togo",
-        "capital": "Lomé"
+        "capital": "Lomé",
+        "officialName": "Togolese Republic"
+      },
+      "ar": {
+        "name": "توغو",
+        "capital": "Lomé",
+        "officialName": "توغو جمهورية "
+      },
+      "es": {
+        "name": "Togo",
+        "capital": "Lomé",
+        "officialName": "la República Togolesa"
+      },
+      "fr": {
+        "name": "Togo",
+        "capital": "Lomé",
+        "officialName": "la République togolaise"
+      },
+      "it": {
+        "name": "Togo",
+        "capital": "Lomé",
+        "officialName": "Repubblica del Togo"
+      },
+      "ru": {
+        "name": "Того",
+        "capital": "Lomé",
+        "officialName": "Тоголезская Республика"
+      },
+      "zh-CN": {
+        "name": "多 哥",
+        "capital": "Lomé",
+        "officialName": "多哥共和国"
+      },
+      "en": {
+        "name": "Togo",
+        "capital": "Lomé",
+        "officialName": "Togolese Republic"
       }
     },
     "economics": {
@@ -3474,7 +5593,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Jean-Lucien Savi de Tové",
       "headOfGovernment": "Faure Essozimna Gnassingbé",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3484,34 +5622,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 11825551,
     "difficulty": "hard",
-    "flag_url": "/flags/90d693d30a3f.webp",
+    "flag_url": "/flags/90d693d30a3f.svg",
     "codes": {
       "iso2": "BE",
       "iso3": "BEL",
       "numeric": "056"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Bélgica",
-        "capital": "Bruxelas"
+        "capital": "Bruxelas",
+        "officialName": "Kingdom of Belgium"
+      },
+      "ar": {
+        "name": "بلجيكا",
+        "capital": "Brussels",
+        "officialName": "بلجيكا مملكة "
+      },
+      "es": {
+        "name": "Bélgica",
+        "capital": "Brussels",
+        "officialName": "el Reino de Bélgica"
+      },
+      "fr": {
+        "name": "Belgique",
+        "capital": "Brussels",
+        "officialName": "le Royaume de Belgique"
+      },
+      "it": {
+        "name": "Belgio",
+        "capital": "Brussels",
+        "officialName": "Regno del Belgio"
+      },
+      "ru": {
+        "name": "Бельгия",
+        "capital": "Brussels",
+        "officialName": "Королевство Бельгия"
+      },
+      "zh-CN": {
+        "name": "比利时",
+        "capital": "Brussels",
+        "officialName": "比利时王国"
+      },
+      "en": {
+        "name": "Belgium",
+        "capital": "Brussels",
+        "officialName": "Kingdom of Belgium"
       }
     },
     "economics": {
@@ -3523,7 +5679,26 @@ export const countries: CountryData[] = [
       "headOfState": "Philippe of Belgium",
       "headOfGovernment": "Bart De Wever",
       "governmentType": "constitutional monarchy; parliamentary monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3533,34 +5708,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 19693423,
     "difficulty": "medium",
-    "flag_url": "/flags/71c4d741f010.webp",
+    "flag_url": "/flags/71c4d741f010.svg",
     "codes": {
       "iso2": "ZM",
       "iso3": "ZMB",
       "numeric": "894"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Zâmbia",
-        "capital": "Lusaka"
+        "capital": "Lusaka",
+        "officialName": "Republic of Zambia"
+      },
+      "ar": {
+        "name": "زامبيا",
+        "capital": "Lusaka",
+        "officialName": "جمهورية زامبيا "
+      },
+      "es": {
+        "name": "Zambia",
+        "capital": "Lusaka",
+        "officialName": "la República de Zambia"
+      },
+      "fr": {
+        "name": "Zambie",
+        "capital": "Lusaka",
+        "officialName": "la République de Zambie"
+      },
+      "it": {
+        "name": "Zambia",
+        "capital": "Lusaka",
+        "officialName": "Repubblica dello Zambia"
+      },
+      "ru": {
+        "name": "Замбия",
+        "capital": "Lusaka",
+        "officialName": "Республика Замбия"
+      },
+      "zh-CN": {
+        "name": "赞比亚",
+        "capital": "Lusaka",
+        "officialName": "赞比亚共和国"
+      },
+      "en": {
+        "name": "Zambia",
+        "capital": "Lusaka",
+        "officialName": "Republic of Zambia"
       }
     },
     "economics": {
@@ -3572,7 +5765,26 @@ export const countries: CountryData[] = [
       "headOfState": "Hakainde Hichilema",
       "headOfGovernment": "Edgar Lungu",
       "governmentType": "presidential system; representative democracy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3582,34 +5794,22 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 84738,
     "difficulty": "god_mode",
-    "flag_url": "/flags/e65f846b5591.webp",
+    "flag_url": "/flags/e65f846b5591.svg",
     "codes": {
       "iso2": "KY",
       "iso3": "CYM",
       "numeric": "136"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Ilhas Caimão",
-        "capital": "George Town"
+        "capital": "George Town",
+        "officialName": "Cayman Islands"
+      },
+      "en": {
+        "name": "Cayman Islands",
+        "capital": "George Town",
+        "officialName": "Cayman Islands"
       }
     },
     "economics": {
@@ -3621,7 +5821,26 @@ export const countries: CountryData[] = [
       "headOfState": "Charles III",
       "headOfGovernment": "Andre M. Ebanks",
       "governmentType": "British overseas territory",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3631,36 +5850,43 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 35,
     "difficulty": "god_mode",
-    "flag_url": "/flags/8fbc212f7da3.webp",
+    "flag_url": "/flags/8fbc212f7da3.svg",
     "codes": {
       "iso2": "PN",
       "iso3": "PCN",
       "numeric": "612"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Ilhas Pitcairn",
+        "capital": "Adamstown",
+        "officialName": "Pitcairn Group of Islands"
+      },
+      "en": {
+        "name": "Pitcairn Islands",
+        "capital": "Adamstown",
+        "officialName": "Pitcairn Group of Islands"
+      }
+    },
+    "politics": {
+      "headOfGovernment": "Charlene Warren-Peu",
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
         "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Ilhas Pitcairn",
-        "capital": "Adamstown"
-      }
-    },
-    "politics": {
-      "headOfGovernment": "Charlene Warren-Peu",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
     }
   },
   {
@@ -3670,37 +5896,74 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 15040,
     "difficulty": "god_mode",
-    "flag_url": "/flags/3d94574b0856.webp",
+    "flag_url": "/flags/3d94574b0856.svg",
     "codes": {
       "iso2": "CK",
       "iso3": "COK",
       "numeric": "184"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Ilhas Cook",
-        "capital": "Avarua"
+        "capital": "Avarua",
+        "officialName": "Cook Islands"
+      },
+      "ar": {
+        "name": "كوك جزر ",
+        "capital": "Avarua",
+        "officialName": "كوك جزر "
+      },
+      "es": {
+        "name": "Islas Cook",
+        "capital": "Avarua",
+        "officialName": "las Islas Cook"
+      },
+      "fr": {
+        "name": "Îles Cook",
+        "capital": "Avarua",
+        "officialName": "les Îles Cook"
+      },
+      "it": {
+        "name": "Isole Cook",
+        "capital": "Avarua",
+        "officialName": "Isole Cook"
+      },
+      "ru": {
+        "name": "Острова Кука",
+        "capital": "Avarua",
+        "officialName": "Острова Кука"
+      },
+      "zh-CN": {
+        "name": "库克群岛",
+        "capital": "Avarua",
+        "officialName": "库克群岛"
+      },
+      "en": {
+        "name": "Cook Islands",
+        "capital": "Avarua",
+        "officialName": "Cook Islands"
       }
     },
     "politics": {
       "headOfState": "Charles III",
       "headOfGovernment": "Mark Brown",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3710,34 +5973,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 31727042,
     "difficulty": "medium",
-    "flag_url": "/flags/48a1b7dc93ba.webp",
+    "flag_url": "/flags/48a1b7dc93ba.svg",
     "codes": {
       "iso2": "MG",
       "iso3": "MDG",
       "numeric": "450"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Madagáscar",
-        "capital": "Antananarivo"
+        "capital": "Antananarivo",
+        "officialName": "Republic of Madagascar"
+      },
+      "ar": {
+        "name": "مدغشقر",
+        "capital": "Antananarivo",
+        "officialName": "جمهورية مدغشقر "
+      },
+      "es": {
+        "name": "Madagascar",
+        "capital": "Antananarivo",
+        "officialName": "la República de Madagascar"
+      },
+      "fr": {
+        "name": "Madagascar",
+        "capital": "Antananarivo",
+        "officialName": "la République de Madagascar"
+      },
+      "it": {
+        "name": "Madagascar",
+        "capital": "Antananarivo",
+        "officialName": "Repubblica del Madagascar"
+      },
+      "ru": {
+        "name": "Мадагаскар",
+        "capital": "Antananarivo",
+        "officialName": "Республика Мадагаскар"
+      },
+      "zh-CN": {
+        "name": "马达加斯加",
+        "capital": "Antananarivo",
+        "officialName": "马达加斯加共和国"
+      },
+      "en": {
+        "name": "Madagascar",
+        "capital": "Antananarivo",
+        "officialName": "Republic of Madagascar"
       }
     },
     "economics": {
@@ -3746,10 +6027,29 @@ export const countries: CountryData[] = [
       "year": 2024
     },
     "politics": {
-      "headOfState": "Michael Randrianirina",
+      "headOfState": "Andry Rajoelina; Michael Randrianirina",
       "headOfGovernment": "Ruphin Zafisambo",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3759,34 +6059,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 623327,
     "difficulty": "super_hard",
-    "flag_url": "/flags/f830720f3e3b.webp",
+    "flag_url": "/flags/f830720f3e3b.svg",
     "codes": {
       "iso2": "ME",
       "iso3": "MNE",
       "numeric": "499"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Montenegro",
-        "capital": "Podgorica"
+        "capital": "Podgorica",
+        "officialName": "Montenegro"
+      },
+      "ar": {
+        "name": "الأسود الجبل ",
+        "capital": "Podgorica",
+        "officialName": "الأسود الجبل "
+      },
+      "es": {
+        "name": "Montenegro",
+        "capital": "Podgorica",
+        "officialName": "Montenegro"
+      },
+      "fr": {
+        "name": "Monténégro",
+        "capital": "Podgorica",
+        "officialName": "le Monténégro"
+      },
+      "it": {
+        "name": "Montenegro",
+        "capital": "Podgorica",
+        "officialName": "Montenegro"
+      },
+      "ru": {
+        "name": "Черногория",
+        "capital": "Podgorica",
+        "officialName": "Черногория"
+      },
+      "zh-CN": {
+        "name": "黑山",
+        "capital": "Podgorica",
+        "officialName": "黑山"
+      },
+      "en": {
+        "name": "Montenegro",
+        "capital": "Podgorica",
+        "officialName": "Montenegro"
       }
     },
     "economics": {
@@ -3798,7 +6116,26 @@ export const countries: CountryData[] = [
       "headOfState": "Jakov Milatović",
       "headOfGovernment": "Milojko Spajić",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3808,36 +6145,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 51159889,
     "difficulty": "easy",
-    "flag_url": "/flags/745f3fed25fd.webp",
+    "flag_url": "/flags/745f3fed25fd.svg",
     "codes": {
       "iso2": "KR",
       "iso3": "KOR",
       "numeric": "410"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Coreia do Sul",
-        "capital": "Seul"
+        "capital": "Seul",
+        "officialName": "Republic of Korea"
+      },
+      "ar": {
+        "name": "جمهورية كوريا ",
+        "capital": "Seoul",
+        "officialName": "جمهورية كوريا "
+      },
+      "es": {
+        "name": "República de Corea",
+        "capital": "Seoul",
+        "officialName": "la República de Corea"
+      },
+      "fr": {
+        "name": "République de Corée",
+        "capital": "Seoul",
+        "officialName": "la République de Corée"
+      },
+      "it": {
+        "name": "Repubblica di Corea",
+        "capital": "Seoul",
+        "officialName": "Repubblica di Corea"
+      },
+      "ru": {
+        "name": "Республика Корея",
+        "capital": "Seoul",
+        "officialName": "Республика Корея"
+      },
+      "zh-CN": {
+        "name": "大韩民国",
+        "capital": "Seoul",
+        "officialName": "大韩民国"
+      },
+      "en": {
+        "name": "South Korea",
+        "capital": "Seoul",
+        "officialName": "Republic of Korea"
       }
     },
     "economics": {
@@ -3849,7 +6202,7 @@ export const countries: CountryData[] = [
       "headOfState": "Lee Jae Myung",
       "headOfGovernment": "Lee Jae Myung",
       "governmentType": "presidential system; republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -3863,7 +6216,28 @@ export const countries: CountryData[] = [
           "name": "Protestantism"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3873,34 +6247,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 111652998,
     "difficulty": "easy",
-    "flag_url": "/flags/4ac53897ac29.webp",
+    "flag_url": "/flags/4ac53897ac29.svg",
     "codes": {
       "iso2": "ET",
       "iso3": "ETH",
       "numeric": "231"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Etiópia",
-        "capital": "Addis Ababa"
+        "capital": "Addis Ababa",
+        "officialName": "Federal Democratic Republic of Ethiopia"
+      },
+      "ar": {
+        "name": "إثيوبيا",
+        "capital": "Addis Ababa",
+        "officialName": "جمهورية إثيوبيا الديمقراطية الاتحادية "
+      },
+      "es": {
+        "name": "Etiopía",
+        "capital": "Addis Ababa",
+        "officialName": "la República Democrática Federal de Etiopía"
+      },
+      "fr": {
+        "name": "Éthiopie",
+        "capital": "Addis Ababa",
+        "officialName": "la République fédérale démocratique d'Éthiopie"
+      },
+      "it": {
+        "name": "Etiopia",
+        "capital": "Addis Ababa",
+        "officialName": "Repubblica federale democratica di Etiopia"
+      },
+      "ru": {
+        "name": "Эфиопия",
+        "capital": "Addis Ababa",
+        "officialName": "Федеративная Демократическая Республика Эфиопия"
+      },
+      "zh-CN": {
+        "name": "埃塞俄比亚",
+        "capital": "Addis Ababa",
+        "officialName": "埃塞俄比亚联邦民主共和国"
+      },
+      "en": {
+        "name": "Ethiopia",
+        "capital": "Addis Ababa",
+        "officialName": "Federal Democratic Republic of Ethiopia"
       }
     },
     "economics": {
@@ -3912,7 +6304,26 @@ export const countries: CountryData[] = [
       "headOfState": "Taye Atske Selassie",
       "headOfGovernment": "Abiy Ahmed",
       "governmentType": "federal republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3922,34 +6333,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 3544835,
     "difficulty": "hard",
-    "flag_url": "/flags/336134156bdf.webp",
+    "flag_url": "/flags/336134156bdf.svg",
     "codes": {
       "iso2": "MN",
       "iso3": "MNG",
       "numeric": "496"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Mongólia",
-        "capital": "Ulan Bator"
+        "capital": "Ulan Bator",
+        "officialName": "Mongolia"
+      },
+      "ar": {
+        "name": "منغوليا",
+        "capital": "Ulan Bator",
+        "officialName": "منغوليا"
+      },
+      "es": {
+        "name": "Mongolia",
+        "capital": "Ulan Bator",
+        "officialName": "Mongolia"
+      },
+      "fr": {
+        "name": "Mongolie",
+        "capital": "Ulan Bator",
+        "officialName": "la Mongolie"
+      },
+      "it": {
+        "name": "Mongolia",
+        "capital": "Ulan Bator",
+        "officialName": "Mongolia"
+      },
+      "ru": {
+        "name": "Монголия",
+        "capital": "Ulan Bator",
+        "officialName": "Монголия"
+      },
+      "zh-CN": {
+        "name": "蒙 古",
+        "capital": "Ulan Bator",
+        "officialName": "蒙古国"
+      },
+      "en": {
+        "name": "Mongolia",
+        "capital": "Ulan Bator",
+        "officialName": "Mongolia"
       }
     },
     "economics": {
@@ -3959,9 +6388,28 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfState": "Khurelsukh Ukhnaa",
-      "headOfGovernment": "Luvsannamsrain Oyun-Erdene",
+      "headOfGovernment": "Gombojavyn Zandanshatar",
       "governmentType": "parliamentary system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -3971,34 +6419,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 5413813,
     "difficulty": "hard",
-    "flag_url": "/flags/85e8b4499e56.webp",
+    "flag_url": "/flags/85e8b4499e56.svg",
     "codes": {
       "iso2": "SK",
       "iso3": "SVK",
       "numeric": "703"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Eslováquia",
-        "capital": "Bratislava"
+        "capital": "Bratislava",
+        "officialName": "Slovak Republic"
+      },
+      "ar": {
+        "name": "سلوفاكيا",
+        "capital": "Bratislava",
+        "officialName": "السلوفاكية الجمهورية "
+      },
+      "es": {
+        "name": "Eslovaquia",
+        "capital": "Bratislava",
+        "officialName": "la República Eslovaca"
+      },
+      "fr": {
+        "name": "Slovaquie",
+        "capital": "Bratislava",
+        "officialName": "la République slovaque"
+      },
+      "it": {
+        "name": "Slovacchia",
+        "capital": "Bratislava",
+        "officialName": "Repubblica slovacca"
+      },
+      "ru": {
+        "name": "Словакия",
+        "capital": "Bratislava",
+        "officialName": "Словацкая Республика"
+      },
+      "zh-CN": {
+        "name": "斯洛伐克",
+        "capital": "Bratislava",
+        "officialName": "斯洛伐克共和国"
+      },
+      "en": {
+        "name": "Slovakia",
+        "capital": "Bratislava",
+        "officialName": "Slovak Republic"
       }
     },
     "economics": {
@@ -4010,7 +6476,26 @@ export const countries: CountryData[] = [
       "headOfState": "Peter Pellegrini",
       "headOfGovernment": "Robert Fico",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4020,34 +6505,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 9748007,
     "difficulty": "hard",
-    "flag_url": "/flags/950662956e75.webp",
+    "flag_url": "/flags/950662956e75.svg",
     "codes": {
       "iso2": "CU",
       "iso3": "CUB",
       "numeric": "192"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Cuba",
-        "capital": "Havana"
+        "capital": "Havana",
+        "officialName": "Republic of Cuba"
+      },
+      "ar": {
+        "name": "كوبا",
+        "capital": "Havana",
+        "officialName": "جمهورية كوبا "
+      },
+      "es": {
+        "name": "Cuba",
+        "capital": "Havana",
+        "officialName": "la República de Cuba"
+      },
+      "fr": {
+        "name": "Cuba",
+        "capital": "Havana",
+        "officialName": "la République de Cuba"
+      },
+      "it": {
+        "name": "Cuba",
+        "capital": "Havana",
+        "officialName": "Repubblica di Cuba"
+      },
+      "ru": {
+        "name": "Куба",
+        "capital": "Havana",
+        "officialName": "Республика Куба"
+      },
+      "zh-CN": {
+        "name": "古 巴",
+        "capital": "Havana",
+        "officialName": "古巴共和国"
+      },
+      "en": {
+        "name": "Cuba",
+        "capital": "Havana",
+        "officialName": "Republic of Cuba"
       }
     },
     "economics": {
@@ -4059,7 +6562,26 @@ export const countries: CountryData[] = [
       "headOfState": "Miguel Díaz-Canel",
       "headOfGovernment": "Manuel Marrero Cruz",
       "governmentType": "unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4069,34 +6591,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 18079810,
     "difficulty": "medium",
-    "flag_url": "/flags/5f211d4244df.webp",
+    "flag_url": "/flags/5f211d4244df.svg",
     "codes": {
       "iso2": "GT",
       "iso3": "GTM",
       "numeric": "320"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Guatemala",
-        "capital": "Cidade da Guatemala"
+        "capital": "Cidade da Guatemala",
+        "officialName": "Republic of Guatemala"
+      },
+      "ar": {
+        "name": "غواتيمالا",
+        "capital": "Guatemala City",
+        "officialName": "جمهورية غواتيمالا "
+      },
+      "es": {
+        "name": "Guatemala",
+        "capital": "Guatemala City",
+        "officialName": "la República de Guatemala"
+      },
+      "fr": {
+        "name": "Guatemala",
+        "capital": "Guatemala City",
+        "officialName": "la République du Guatemala"
+      },
+      "it": {
+        "name": "Guatemala",
+        "capital": "Guatemala City",
+        "officialName": "Repubblica del Guatemala"
+      },
+      "ru": {
+        "name": "Гватемала",
+        "capital": "Guatemala City",
+        "officialName": "Республика Гватемала"
+      },
+      "zh-CN": {
+        "name": "危地马拉",
+        "capital": "Guatemala City",
+        "officialName": "危地马拉共和国"
+      },
+      "en": {
+        "name": "Guatemala",
+        "capital": "Guatemala City",
+        "officialName": "Republic of Guatemala"
       }
     },
     "economics": {
@@ -4108,7 +6648,26 @@ export const countries: CountryData[] = [
       "headOfState": "Bernardo Arévalo de León",
       "headOfGovernment": "Bernardo Arévalo de León",
       "governmentType": "presidential system; representative democracy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4118,36 +6677,43 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 292354,
     "difficulty": "super_hard",
-    "flag_url": "/flags/4f862ba62dc8.webp",
+    "flag_url": "/flags/4f862ba62dc8.svg",
     "codes": {
       "iso2": "GF",
       "iso3": "GUF",
       "numeric": "254"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Guiana Francesa",
+        "capital": "Cayenne",
+        "officialName": "Guiana"
+      },
+      "en": {
+        "name": "French Guiana",
+        "capital": "Cayenne",
+        "officialName": "Guiana"
+      }
+    },
+    "politics": {
+      "headOfGovernment": "Rodolphe Alexandre",
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
         "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Guiana Francesa",
-        "capital": "Cayenne"
-      }
-    },
-    "politics": {
-      "headOfGovernment": "Rodolphe Alexandre",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
     }
   },
   {
@@ -4157,34 +6723,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 5606944,
     "difficulty": "hard",
-    "flag_url": "/flags/1d43cfed6bbe.webp",
+    "flag_url": "/flags/1d43cfed6bbe.svg",
     "codes": {
       "iso2": "NO",
       "iso3": "NOR",
       "numeric": "578"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Noruega",
-        "capital": "Oslo"
+        "capital": "Oslo",
+        "officialName": "Kingdom of Norway"
+      },
+      "ar": {
+        "name": "النرويج",
+        "capital": "Oslo",
+        "officialName": "النرويج مملكة "
+      },
+      "es": {
+        "name": "Noruega",
+        "capital": "Oslo",
+        "officialName": "el Reino de Noruega"
+      },
+      "fr": {
+        "name": "Norvège",
+        "capital": "Oslo",
+        "officialName": "le Royaume de Norvège"
+      },
+      "it": {
+        "name": "Norvegia",
+        "capital": "Oslo",
+        "officialName": "Regno di Norvegia"
+      },
+      "ru": {
+        "name": "Норвегия",
+        "capital": "Oslo",
+        "officialName": "Королевство Норвегия"
+      },
+      "zh-CN": {
+        "name": "挪 威",
+        "capital": "Oslo",
+        "officialName": "挪威王国"
+      },
+      "en": {
+        "name": "Norway",
+        "capital": "Oslo",
+        "officialName": "Kingdom of Norway"
       }
     },
     "economics": {
@@ -4196,7 +6780,26 @@ export const countries: CountryData[] = [
       "headOfState": "Harald V of Norway",
       "headOfGovernment": "Jonas Gahr Støre",
       "governmentType": "constitutional monarchy; representative democracy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4206,34 +6809,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 109021,
     "difficulty": "god_mode",
-    "flag_url": "/flags/e0eae764f2c0.webp",
+    "flag_url": "/flags/e0eae764f2c0.svg",
     "codes": {
       "iso2": "GD",
       "iso3": "GRD",
       "numeric": "308"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Granada",
-        "capital": "St. George's"
+        "capital": "St. George's",
+        "officialName": "Grenada"
+      },
+      "ar": {
+        "name": "غرينادا",
+        "capital": "St. George's",
+        "officialName": "غرينادا"
+      },
+      "es": {
+        "name": "Granada",
+        "capital": "St. George's",
+        "officialName": "Granada"
+      },
+      "fr": {
+        "name": "Grenade",
+        "capital": "St. George's",
+        "officialName": "la Grenade"
+      },
+      "it": {
+        "name": "Grenada",
+        "capital": "St. George's",
+        "officialName": "Grenada"
+      },
+      "ru": {
+        "name": "Гренада",
+        "capital": "St. George's",
+        "officialName": "Гренада"
+      },
+      "zh-CN": {
+        "name": "格林纳达",
+        "capital": "St. George's",
+        "officialName": "格林纳达"
+      },
+      "en": {
+        "name": "Grenada",
+        "capital": "St. George's",
+        "officialName": "Grenada"
       }
     },
     "economics": {
@@ -4244,7 +6865,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Charles III",
       "headOfGovernment": "Dickon Mitchell",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4254,36 +6894,43 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 896175,
     "difficulty": "super_hard",
-    "flag_url": "/flags/0a4eb82db24d.webp",
+    "flag_url": "/flags/0a4eb82db24d.svg",
     "codes": {
       "iso2": "RE",
       "iso3": "REU",
       "numeric": "638"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Reunião",
+        "capital": "Saint-Denis",
+        "officialName": "Réunion Island"
+      },
+      "en": {
+        "name": "Réunion",
+        "capital": "Saint-Denis",
+        "officialName": "Réunion Island"
+      }
+    },
+    "politics": {
+      "headOfGovernment": "Camille Sudre; Huguette Bello; Margie Sudre; Mario Hoarau; Paul Vergès; Pierre Lagourgue; Yves Barau",
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
         "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Reunião",
-        "capital": "Saint-Denis"
-      }
-    },
-    "politics": {
-      "headOfGovernment": "Huguette Bello",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
     }
   },
   {
@@ -4293,34 +6940,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 20206953,
     "difficulty": "medium",
-    "flag_url": "/flags/c42f58010802.webp",
+    "flag_url": "/flags/c42f58010802.svg",
     "codes": {
       "iso2": "CL",
       "iso3": "CHL",
       "numeric": "152"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Chile",
-        "capital": "Santiago"
+        "capital": "Santiago",
+        "officialName": "Republic of Chile"
+      },
+      "ar": {
+        "name": "شيلى",
+        "capital": "Santiago",
+        "officialName": "جمهورية شيلى "
+      },
+      "es": {
+        "name": "Chile",
+        "capital": "Santiago",
+        "officialName": "la República de Chile"
+      },
+      "fr": {
+        "name": "Chili",
+        "capital": "Santiago",
+        "officialName": "la République du Chili"
+      },
+      "it": {
+        "name": "Cile",
+        "capital": "Santiago",
+        "officialName": "Repubblica del Cile"
+      },
+      "ru": {
+        "name": "Чили",
+        "capital": "Santiago",
+        "officialName": "Республика Чили"
+      },
+      "zh-CN": {
+        "name": "智 利",
+        "capital": "Santiago",
+        "officialName": "智利共和国"
+      },
+      "en": {
+        "name": "Chile",
+        "capital": "Santiago",
+        "officialName": "Republic of Chile"
       }
     },
     "economics": {
@@ -4332,7 +6997,26 @@ export const countries: CountryData[] = [
       "headOfState": "Gabriel Boric",
       "headOfGovernment": "Gabriel Boric",
       "governmentType": "democratic republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4342,34 +7026,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 53057212,
     "difficulty": "medium",
-    "flag_url": "/flags/c91bd9c288c0.webp",
+    "flag_url": "/flags/c91bd9c288c0.svg",
     "codes": {
       "iso2": "CO",
       "iso3": "COL",
       "numeric": "170"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Colômbia",
-        "capital": "Bogotá"
+        "capital": "Bogotá",
+        "officialName": "Republic of Colombia"
+      },
+      "ar": {
+        "name": "كولومبيا",
+        "capital": "Bogotá",
+        "officialName": "جمهورية كولومبيا "
+      },
+      "es": {
+        "name": "Colombia",
+        "capital": "Bogotá",
+        "officialName": "la República de Colombia"
+      },
+      "fr": {
+        "name": "Colombie",
+        "capital": "Bogotá",
+        "officialName": "la République de Colombie"
+      },
+      "it": {
+        "name": "Colombia",
+        "capital": "Bogotá",
+        "officialName": "Repubblica di Colombia"
+      },
+      "ru": {
+        "name": "Колумбия",
+        "capital": "Bogotá",
+        "officialName": "Республика Колумбия"
+      },
+      "zh-CN": {
+        "name": "哥伦比亚",
+        "capital": "Bogotá",
+        "officialName": "哥伦比亚共和国"
+      },
+      "en": {
+        "name": "Colombia",
+        "capital": "Bogotá",
+        "officialName": "Republic of Colombia"
       }
     },
     "economics": {
@@ -4381,7 +7083,26 @@ export const countries: CountryData[] = [
       "headOfState": "Gustavo Petro",
       "headOfGovernment": "Gustavo Petro",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4391,36 +7112,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 35300280,
     "difficulty": "easy",
-    "flag_url": "/flags/c4a0e55ab2d7.webp",
+    "flag_url": "/flags/c4a0e55ab2d7.svg",
     "codes": {
       "iso2": "SA",
       "iso3": "SAU",
       "numeric": "682"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Arábia Saudita",
-        "capital": "Riade"
+        "capital": "Riade",
+        "officialName": "Kingdom of Saudi Arabia"
+      },
+      "ar": {
+        "name": "السعودية العربية المملكة ",
+        "capital": "Riyadh",
+        "officialName": "السعودية العربية المملكة "
+      },
+      "es": {
+        "name": "Arabia Saudita",
+        "capital": "Riyadh",
+        "officialName": "el Reino de la Arabia Saudita"
+      },
+      "fr": {
+        "name": "Arabie saoudite",
+        "capital": "Riyadh",
+        "officialName": "le Royaume d'Arabie saoudite"
+      },
+      "it": {
+        "name": "Arabia Saudita",
+        "capital": "Riyadh",
+        "officialName": "Regno dell'Arabia Saudita"
+      },
+      "ru": {
+        "name": "Саудовская Аравия",
+        "capital": "Riyadh",
+        "officialName": "Королевство Саудовская Аравия"
+      },
+      "zh-CN": {
+        "name": "沙特阿拉伯",
+        "capital": "Riyadh",
+        "officialName": "沙特阿拉伯王国"
+      },
+      "en": {
+        "name": "Saudi Arabia",
+        "capital": "Riyadh",
+        "officialName": "Kingdom of Saudi Arabia"
       }
     },
     "economics": {
@@ -4432,7 +7169,7 @@ export const countries: CountryData[] = [
       "headOfState": "Salman bin Abdulaziz Al Saud",
       "headOfGovernment": "Salman bin Abdulaziz Al Saud",
       "governmentType": "absolute monarchy; monarchy; theocracy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -4440,7 +7177,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4450,36 +7208,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 10134800,
     "difficulty": "hard",
-    "flag_url": "/flags/77173ace11f1.webp",
+    "flag_url": "/flags/77173ace11f1.svg",
     "codes": {
       "iso2": "IL",
       "iso3": "ISR",
       "numeric": "376"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Israel",
-        "capital": "Jerusalém"
+        "capital": "Jerusalém",
+        "officialName": "State of Israel"
+      },
+      "ar": {
+        "name": "إسرائيل",
+        "capital": "Jerusalem",
+        "officialName": "إسرائيل دولة "
+      },
+      "es": {
+        "name": "Israel",
+        "capital": "Jerusalem",
+        "officialName": "el Estado de Israel"
+      },
+      "fr": {
+        "name": "Israël",
+        "capital": "Jerusalem",
+        "officialName": "l'État d'Israël"
+      },
+      "it": {
+        "name": "Israele",
+        "capital": "Jerusalem",
+        "officialName": "Stato d'Israele"
+      },
+      "ru": {
+        "name": "Израиль",
+        "capital": "Jerusalem",
+        "officialName": "Государство Израиль"
+      },
+      "zh-CN": {
+        "name": "以色列",
+        "capital": "Jerusalem",
+        "officialName": "以色列国"
+      },
+      "en": {
+        "name": "Israel",
+        "capital": "Jerusalem",
+        "officialName": "State of Israel"
       }
     },
     "economics": {
@@ -4491,7 +7265,7 @@ export const countries: CountryData[] = [
       "headOfState": "Isaac Herzog",
       "headOfGovernment": "Benjamin Netanyahu",
       "governmentType": "parliamentary republic; unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -4508,7 +7282,28 @@ export const countries: CountryData[] = [
           "name": "Judaism"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4518,34 +7313,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 83491249,
     "difficulty": "easy",
-    "flag_url": "/flags/b2c01c8a8a0d.webp",
+    "flag_url": "/flags/b2c01c8a8a0d.svg",
     "codes": {
       "iso2": "DE",
       "iso3": "DEU",
       "numeric": "276"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Alemanha",
-        "capital": "Berlim"
+        "capital": "Berlim",
+        "officialName": "Federal Republic of Germany"
+      },
+      "ar": {
+        "name": "ألمانيا",
+        "capital": "Berlin",
+        "officialName": "الاتحادية ألمانيا جمهورية "
+      },
+      "es": {
+        "name": "Alemania",
+        "capital": "Berlin",
+        "officialName": "la República Federal de Alemania"
+      },
+      "fr": {
+        "name": "Allemagne",
+        "capital": "Berlin",
+        "officialName": "la République fédérale d'Allemagne"
+      },
+      "it": {
+        "name": "Germania",
+        "capital": "Berlin",
+        "officialName": "Repubblica federale di Germania"
+      },
+      "ru": {
+        "name": "Германия",
+        "capital": "Berlin",
+        "officialName": "Федеративная Республика Германия"
+      },
+      "zh-CN": {
+        "name": "德 国",
+        "capital": "Berlin",
+        "officialName": "德意志联邦共和国"
+      },
+      "en": {
+        "name": "Germany",
+        "capital": "Berlin",
+        "officialName": "Federal Republic of Germany"
       }
     },
     "economics": {
@@ -4557,7 +7370,26 @@ export const countries: CountryData[] = [
       "headOfState": "Frank-Walter Steinmeier",
       "headOfGovernment": "Friedrich Merz",
       "governmentType": "federal parliamentary republic; federation; parliamentary republic; republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4567,34 +7399,52 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 5324700,
     "difficulty": "hard",
-    "flag_url": "/flags/edbeb1a1fe08.webp",
+    "flag_url": "/flags/edbeb1a1fe08.svg",
     "codes": {
       "iso2": "NZ",
       "iso3": "NZL",
       "numeric": "554"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Nova Zelândia",
-        "capital": "Wellington"
+        "capital": "Wellington",
+        "officialName": "New Zealand"
+      },
+      "ar": {
+        "name": "نيوزيلندا",
+        "capital": "Wellington",
+        "officialName": "نيوزيلندا"
+      },
+      "es": {
+        "name": "Nueva Zelandia",
+        "capital": "Wellington",
+        "officialName": "Nueva Zelandia"
+      },
+      "fr": {
+        "name": "Nouvelle-Zélande",
+        "capital": "Wellington",
+        "officialName": "la Nouvelle-Zélande"
+      },
+      "it": {
+        "name": "Nuova Zelanda",
+        "capital": "Wellington",
+        "officialName": "Nuova Zelanda"
+      },
+      "ru": {
+        "name": "Новая Зеландия",
+        "capital": "Wellington",
+        "officialName": "Новая Зеландия"
+      },
+      "zh-CN": {
+        "name": "新西兰",
+        "capital": "Wellington",
+        "officialName": "新西兰"
+      },
+      "en": {
+        "name": "New Zealand",
+        "capital": "Wellington",
+        "officialName": "New Zealand"
       }
     },
     "economics": {
@@ -4606,7 +7456,26 @@ export const countries: CountryData[] = [
       "headOfState": "Charles III",
       "headOfGovernment": "Christopher Luxon",
       "governmentType": "parliamentary monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4616,34 +7485,22 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 56542,
     "difficulty": "god_mode",
-    "flag_url": "/flags/f71ef5459640.webp",
+    "flag_url": "/flags/f71ef5459640.svg",
     "codes": {
       "iso2": "GL",
       "iso3": "GRL",
       "numeric": "304"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Gronelândia",
-        "capital": "Nuuk"
+        "capital": "Nuuk",
+        "officialName": "Greenland"
+      },
+      "en": {
+        "name": "Greenland",
+        "capital": "Nuuk",
+        "officialName": "Greenland"
       }
     },
     "economics": {
@@ -4655,7 +7512,26 @@ export const countries: CountryData[] = [
       "headOfState": "Frederik X of Denmark",
       "headOfGovernment": "Jens-Frederik Nielsen",
       "governmentType": "parliamentary monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4665,34 +7541,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 7281800,
     "difficulty": "hard",
-    "flag_url": "/flags/92150179d1b6.webp",
+    "flag_url": "/flags/92150179d1b6.svg",
     "codes": {
       "iso2": "KG",
       "iso3": "KGZ",
       "numeric": "417"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Quirguistão",
-        "capital": "Bishkek"
+        "capital": "Bishkek",
+        "officialName": "Kyrgyz Republic"
+      },
+      "ar": {
+        "name": "قيرغيزستان",
+        "capital": "Bishkek",
+        "officialName": "جمهورية القيرغيز "
+      },
+      "es": {
+        "name": "Kirguistán",
+        "capital": "Bishkek",
+        "officialName": "la República Kirguisa"
+      },
+      "fr": {
+        "name": "Kirghizistan",
+        "capital": "Bishkek",
+        "officialName": "la République kirghize"
+      },
+      "it": {
+        "name": "Kirghizistan",
+        "capital": "Bishkek",
+        "officialName": "Repubblica di Kirghizistan"
+      },
+      "ru": {
+        "name": "Кыргызстан",
+        "capital": "Bishkek",
+        "officialName": "Кыргызская Республика"
+      },
+      "zh-CN": {
+        "name": "吉尔吉斯斯坦",
+        "capital": "Bishkek",
+        "officialName": "吉尔吉斯共和国"
+      },
+      "en": {
+        "name": "Kyrgyzstan",
+        "capital": "Bishkek",
+        "officialName": "Kyrgyz Republic"
       }
     },
     "economics": {
@@ -4704,7 +7598,26 @@ export const countries: CountryData[] = [
       "headOfState": "Sadyr Japarov",
       "headOfGovernment": "Adylbek Kasymaliev",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4714,34 +7627,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 6029976,
     "difficulty": "hard",
-    "flag_url": "/flags/c0c6826b73e6.webp",
+    "flag_url": "/flags/c0c6826b73e6.svg",
     "codes": {
       "iso2": "SV",
       "iso3": "SLV",
       "numeric": "222"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "El Salvador",
-        "capital": "San Salvador"
+        "capital": "San Salvador",
+        "officialName": "Republic of El Salvador"
+      },
+      "ar": {
+        "name": "السلفادور",
+        "capital": "San Salvador",
+        "officialName": "السلفادور جمهورية "
+      },
+      "es": {
+        "name": "El Salvador",
+        "capital": "San Salvador",
+        "officialName": "la República de El Salvador"
+      },
+      "fr": {
+        "name": "El Salvador",
+        "capital": "San Salvador",
+        "officialName": "la République d'El Salvador"
+      },
+      "it": {
+        "name": "El Salvador",
+        "capital": "San Salvador",
+        "officialName": "Repubblica di El Salvador"
+      },
+      "ru": {
+        "name": "Сальвадор",
+        "capital": "San Salvador",
+        "officialName": "Республика Эль-Сальвадор"
+      },
+      "zh-CN": {
+        "name": "萨尔瓦多",
+        "capital": "San Salvador",
+        "officialName": "萨尔瓦多共和国"
+      },
+      "en": {
+        "name": "El Salvador",
+        "capital": "San Salvador",
+        "officialName": "Republic of El Salvador"
       }
     },
     "economics": {
@@ -4753,7 +7684,26 @@ export const countries: CountryData[] = [
       "headOfState": "Nayib Bukele",
       "headOfGovernment": "Nayib Bukele",
       "governmentType": "presidential system; representative democracy; republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4763,34 +7713,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 54885,
     "difficulty": "god_mode",
-    "flag_url": "/flags/9e063a38c68a.webp",
+    "flag_url": "/flags/9e063a38c68a.svg",
     "codes": {
       "iso2": "FO",
       "iso3": "FRO",
       "numeric": "234"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Ilhas Faroé",
-        "capital": "Tórshavn"
+        "capital": "Tórshavn",
+        "officialName": "Faroe Islands"
+      },
+      "ar": {
+        "name": "جزر فيرويه ",
+        "capital": "Tórshavn",
+        "officialName": "جزر فيرويه "
+      },
+      "es": {
+        "name": "Islas Feroe (Miembro Asociado)",
+        "capital": "Tórshavn",
+        "officialName": "las Islas Feroe"
+      },
+      "fr": {
+        "name": "Îles Féroé (Membre associé)",
+        "capital": "Tórshavn",
+        "officialName": "les Îles Féroé"
+      },
+      "it": {
+        "name": "Isole Faer øer",
+        "capital": "Tórshavn",
+        "officialName": "Isole Faer øer"
+      },
+      "ru": {
+        "name": "Фарерские Острова (ассоциированный член)",
+        "capital": "Tórshavn",
+        "officialName": "Фарерские Острова"
+      },
+      "zh-CN": {
+        "name": "法罗群岛 (准成员)",
+        "capital": "Tórshavn",
+        "officialName": "法罗群岛"
+      },
+      "en": {
+        "name": "Faroe Islands",
+        "capital": "Tórshavn",
+        "officialName": "Faroe Islands"
       }
     },
     "economics": {
@@ -4801,7 +7769,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Frederik X of Denmark",
       "headOfGovernment": "Aksel V. Johannesen",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4811,34 +7798,52 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 16733,
     "difficulty": "god_mode",
-    "flag_url": "/flags/dd9818413c9e.webp",
+    "flag_url": "/flags/dd9818413c9e.svg",
     "codes": {
       "iso2": "PW",
       "iso3": "PLW",
       "numeric": "585"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Palau",
-        "capital": "Ngerulmud"
+        "capital": "Ngerulmud",
+        "officialName": "Republic of Palau"
+      },
+      "ar": {
+        "name": "بالاو",
+        "capital": "Ngerulmud",
+        "officialName": "جمهورية بالاو "
+      },
+      "es": {
+        "name": "Palau",
+        "capital": "Ngerulmud",
+        "officialName": "la República de Palau"
+      },
+      "fr": {
+        "name": "Palaos",
+        "capital": "Ngerulmud",
+        "officialName": "la République des Palaos"
+      },
+      "it": {
+        "name": "Palau",
+        "capital": "Ngerulmud",
+        "officialName": "Repubblica di Palau"
+      },
+      "ru": {
+        "name": "Палау",
+        "capital": "Ngerulmud",
+        "officialName": "Республика Палау"
+      },
+      "zh-CN": {
+        "name": "帕劳",
+        "capital": "Ngerulmud",
+        "officialName": "帕劳共和国"
+      },
+      "en": {
+        "name": "Palau",
+        "capital": "Ngerulmud",
+        "officialName": "Republic of Palau"
       }
     },
     "economics": {
@@ -4849,7 +7854,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Surangel Whipps Jr.",
       "headOfGovernment": "Surangel Whipps Jr.",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4859,36 +7883,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 574250,
     "difficulty": "super_hard",
-    "flag_url": "/flags/79f9550e0271.webp",
+    "flag_url": "/flags/79f9550e0271.svg",
     "codes": {
       "iso2": "MT",
       "iso3": "MLT",
       "numeric": "470"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Malta",
-        "capital": "Valletta"
+        "capital": "Valletta",
+        "officialName": "Republic of Malta"
+      },
+      "ar": {
+        "name": "مالطة",
+        "capital": "Valletta",
+        "officialName": "جمهورية مالطة "
+      },
+      "es": {
+        "name": "Malta",
+        "capital": "Valletta",
+        "officialName": "la República de Malta"
+      },
+      "fr": {
+        "name": "Malte",
+        "capital": "Valletta",
+        "officialName": "la République de Malte"
+      },
+      "it": {
+        "name": "Malta",
+        "capital": "Valletta",
+        "officialName": "Repubblica di Malta"
+      },
+      "ru": {
+        "name": "Мальта",
+        "capital": "Valletta",
+        "officialName": "Республика Мальта"
+      },
+      "zh-CN": {
+        "name": "马耳他",
+        "capital": "Valletta",
+        "officialName": "马耳他共和国"
+      },
+      "en": {
+        "name": "Malta",
+        "capital": "Valletta",
+        "officialName": "Republic of Malta"
       }
     },
     "economics": {
@@ -4900,7 +7940,7 @@ export const countries: CountryData[] = [
       "headOfState": "Myriam Spiteri Debono",
       "headOfGovernment": "Robert Abela",
       "governmentType": "parliamentary democracy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -4908,7 +7948,28 @@ export const countries: CountryData[] = [
           "name": "Christianity"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4918,34 +7979,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 25620000,
     "difficulty": "medium",
-    "flag_url": "/flags/38e64378dcc9.webp",
+    "flag_url": "/flags/38e64378dcc9.svg",
     "codes": {
       "iso2": "SY",
       "iso3": "SYR",
       "numeric": "760"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Síria",
-        "capital": "Damasco"
+        "capital": "Damasco",
+        "officialName": "Syrian Arab Republic"
+      },
+      "ar": {
+        "name": "الجمهورية العربية السورية ",
+        "capital": "Damascus",
+        "officialName": "الجمهورية العربية السورية "
+      },
+      "es": {
+        "name": "República Árabe Siria",
+        "capital": "Damascus",
+        "officialName": "la República Árabe Siria"
+      },
+      "fr": {
+        "name": "République arabe syrienne",
+        "capital": "Damascus",
+        "officialName": "la République arabe syrienne"
+      },
+      "it": {
+        "name": "Siria",
+        "capital": "Damascus",
+        "officialName": "Repubblica araba siriana"
+      },
+      "ru": {
+        "name": "Сирийская Арабская Республика",
+        "capital": "Damascus",
+        "officialName": "Сирийская Арабская Республика"
+      },
+      "zh-CN": {
+        "name": "阿拉伯叙利亚共和国",
+        "capital": "Damascus",
+        "officialName": "阿拉伯叙利亚共和国"
+      },
+      "en": {
+        "name": "Syria",
+        "capital": "Damascus",
+        "officialName": "Syrian Arab Republic"
       }
     },
     "economics": {
@@ -4955,7 +8034,26 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "governmentType": "semi-presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -4965,36 +8063,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 1391221,
     "difficulty": "super_hard",
-    "flag_url": "/flags/4246e6406ccf.webp",
+    "flag_url": "/flags/4246e6406ccf.svg",
     "codes": {
       "iso2": "TL",
       "iso3": "TLS",
       "numeric": "626"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Timor-Leste",
-        "capital": "Dili"
+        "capital": "Dili",
+        "officialName": "Democratic Republic of Timor-Leste"
+      },
+      "ar": {
+        "name": "ليشتى تيمور- ",
+        "capital": "Dili",
+        "officialName": "الديمقراطية ليشتى تيمور- جمهورية "
+      },
+      "es": {
+        "name": "Timor-Leste",
+        "capital": "Dili",
+        "officialName": "la República Democrática de Timor-Leste"
+      },
+      "fr": {
+        "name": "Timor-Leste",
+        "capital": "Dili",
+        "officialName": "la République démocratique du Timor-Leste"
+      },
+      "it": {
+        "name": "Timor-Leste",
+        "capital": "Dili",
+        "officialName": "Repubblica democratica di Timor-Leste"
+      },
+      "ru": {
+        "name": "Тимор-Лешти",
+        "capital": "Dili",
+        "officialName": "Демократическая Республика Тимор-Лешти"
+      },
+      "zh-CN": {
+        "name": "东帝汶",
+        "capital": "Dili",
+        "officialName": "东帝汶民主共和国"
+      },
+      "en": {
+        "name": "Timor-Leste",
+        "capital": "Dili",
+        "officialName": "Democratic Republic of Timor-Leste"
       }
     },
     "economics": {
@@ -5006,7 +8120,7 @@ export const countries: CountryData[] = [
       "headOfState": "José Ramos-Horta",
       "headOfGovernment": "Xanana Gusmão",
       "governmentType": "republic; semi-presidential system; unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -5020,7 +8134,28 @@ export const countries: CountryData[] = [
           "name": "Protestantism"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5030,34 +8165,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 3866233,
     "difficulty": "hard",
-    "flag_url": "/flags/f17f6b658c4b.webp",
+    "flag_url": "/flags/f17f6b658c4b.svg",
     "codes": {
       "iso2": "HR",
       "iso3": "HRV",
       "numeric": "191"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Croácia",
-        "capital": "Zagreb"
+        "capital": "Zagreb",
+        "officialName": "Republic of Croatia"
+      },
+      "ar": {
+        "name": "كرواتيا",
+        "capital": "Zagreb",
+        "officialName": "جمهورية كرواتيا "
+      },
+      "es": {
+        "name": "Croacia",
+        "capital": "Zagreb",
+        "officialName": "la República de Croacia"
+      },
+      "fr": {
+        "name": "Croatie",
+        "capital": "Zagreb",
+        "officialName": "la République de Croatie"
+      },
+      "it": {
+        "name": "Croazia",
+        "capital": "Zagreb",
+        "officialName": "Repubblica di Croazia"
+      },
+      "ru": {
+        "name": "Хорватия",
+        "capital": "Zagreb",
+        "officialName": "Республика Хорватия"
+      },
+      "zh-CN": {
+        "name": "克罗地亚",
+        "capital": "Zagreb",
+        "officialName": "克罗地亚共和国"
+      },
+      "en": {
+        "name": "Croatia",
+        "capital": "Zagreb",
+        "officialName": "Republic of Croatia"
       }
     },
     "economics": {
@@ -5069,7 +8222,26 @@ export const countries: CountryData[] = [
       "headOfState": "Zoran Milanović",
       "headOfGovernment": "Andrej Plenković",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5079,34 +8251,52 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 11781559,
     "difficulty": "hard",
-    "flag_url": "/flags/52399c5ffe27.webp",
+    "flag_url": "/flags/52399c5ffe27.svg",
     "codes": {
       "iso2": "PG",
       "iso3": "PNG",
       "numeric": "598"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Papua Nova Guiné",
-        "capital": "Port Moresby"
+        "capital": "Port Moresby",
+        "officialName": "Independent State of Papua New Guinea"
+      },
+      "ar": {
+        "name": "الجديدة غينيا بابوا ",
+        "capital": "Port Moresby",
+        "officialName": "المستقلة الجديدة غينيا بابوا دولة "
+      },
+      "es": {
+        "name": "Papua Nueva Guinea",
+        "capital": "Port Moresby",
+        "officialName": "Estado Independiente de Papua Nueva Guinea"
+      },
+      "fr": {
+        "name": "Papouasie-Nouvelle-Guinée",
+        "capital": "Port Moresby",
+        "officialName": "État indépendant de Papouasie-Nouvelle-Guinée"
+      },
+      "it": {
+        "name": "Papua Nuova Guinea",
+        "capital": "Port Moresby",
+        "officialName": "Stato indipendente di Papua Nuova Guinea"
+      },
+      "ru": {
+        "name": "Папуа-Новая Гвинея",
+        "capital": "Port Moresby",
+        "officialName": "Независимое государство Папуа-Новая Гвинея"
+      },
+      "zh-CN": {
+        "name": "巴布亚新几内亚",
+        "capital": "Port Moresby",
+        "officialName": "巴布亚新几内亚独立国"
+      },
+      "en": {
+        "name": "Papua New Guinea",
+        "capital": "Port Moresby",
+        "officialName": "Independent State of Papua New Guinea"
       }
     },
     "economics": {
@@ -5117,7 +8307,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Charles III",
       "headOfGovernment": "James Marape",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5127,34 +8336,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 18100436,
     "difficulty": "medium",
-    "flag_url": "/flags/63c8807c2fd9.webp",
+    "flag_url": "/flags/63c8807c2fd9.svg",
     "codes": {
       "iso2": "NL",
       "iso3": "NLD",
       "numeric": "528"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Holanda",
-        "capital": "Amsterdam"
+        "capital": "Amsterdam",
+        "officialName": "Kingdom of the Netherlands"
+      },
+      "ar": {
+        "name": "هولندا",
+        "capital": "Amsterdam",
+        "officialName": "هولندا مملكة "
+      },
+      "es": {
+        "name": "Países Bajos",
+        "capital": "Amsterdam",
+        "officialName": "el Reino de los Países Bajos"
+      },
+      "fr": {
+        "name": "Pays-Bas",
+        "capital": "Amsterdam",
+        "officialName": "le Royaume des Pays-Bas"
+      },
+      "it": {
+        "name": "Paesi Bassi",
+        "capital": "Amsterdam",
+        "officialName": "Regno dei Paesi Bassi"
+      },
+      "ru": {
+        "name": "Нидерланды",
+        "capital": "Amsterdam",
+        "officialName": "Королевство Нидерландов"
+      },
+      "zh-CN": {
+        "name": "荷 兰",
+        "capital": "Amsterdam",
+        "officialName": "荷兰王国"
+      },
+      "en": {
+        "name": "Netherlands",
+        "capital": "Amsterdam",
+        "officialName": "Kingdom of the Netherlands"
       }
     },
     "economics": {
@@ -5166,7 +8393,26 @@ export const countries: CountryData[] = [
       "headOfState": "William Alexander of the Netherlands",
       "headOfGovernment": "Dick Schoof",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5176,34 +8422,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 5248621,
     "difficulty": "hard",
-    "flag_url": "/flags/1a8ee6c730a3.webp",
+    "flag_url": "/flags/1a8ee6c730a3.svg",
     "codes": {
       "iso2": "LR",
       "iso3": "LBR",
       "numeric": "430"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Libéria",
-        "capital": "Monrovia"
+        "capital": "Monrovia",
+        "officialName": "Republic of Liberia"
+      },
+      "ar": {
+        "name": "ليبريا",
+        "capital": "Monrovia",
+        "officialName": "جمهورية ليبريا "
+      },
+      "es": {
+        "name": "Liberia",
+        "capital": "Monrovia",
+        "officialName": "la República de Liberia"
+      },
+      "fr": {
+        "name": "Libéria",
+        "capital": "Monrovia",
+        "officialName": "la République du Libéria"
+      },
+      "it": {
+        "name": "Liberia",
+        "capital": "Monrovia",
+        "officialName": "Repubblica di Liberia"
+      },
+      "ru": {
+        "name": "Либерия",
+        "capital": "Monrovia",
+        "officialName": "Республика Либерия"
+      },
+      "zh-CN": {
+        "name": "利比里亚",
+        "capital": "Monrovia",
+        "officialName": "利比里亚共和国"
+      },
+      "en": {
+        "name": "Liberia",
+        "capital": "Monrovia",
+        "officialName": "Republic of Liberia"
       }
     },
     "economics": {
@@ -5214,7 +8478,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Joseph Boakai",
       "headOfGovernment": "Joseph Boakai",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5224,34 +8507,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 19655000,
     "difficulty": "medium",
-    "flag_url": "/flags/7d28ff3bd433.webp",
+    "flag_url": "/flags/7d28ff3bd433.svg",
     "codes": {
       "iso2": "SO",
       "iso3": "SOM",
       "numeric": "706"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Somália",
-        "capital": "Mogadishu"
+        "capital": "Mogadishu",
+        "officialName": "Federal Republic of Somalia"
+      },
+      "ar": {
+        "name": "الصومال",
+        "capital": "Mogadishu",
+        "officialName": "جمهورية الصومال الإتحادية "
+      },
+      "es": {
+        "name": "Somalia",
+        "capital": "Mogadishu",
+        "officialName": "la República Federal de Somalia"
+      },
+      "fr": {
+        "name": "Somalie",
+        "capital": "Mogadishu",
+        "officialName": "la République fédérale de Somalie"
+      },
+      "it": {
+        "name": "Somalia",
+        "capital": "Mogadishu",
+        "officialName": "Repubblica Federale di Somalia"
+      },
+      "ru": {
+        "name": "Сомали",
+        "capital": "Mogadishu",
+        "officialName": "Федеративная Республика Сомали"
+      },
+      "zh-CN": {
+        "name": "索马里",
+        "capital": "Mogadishu",
+        "officialName": "索马里联邦共和国"
+      },
+      "en": {
+        "name": "Somalia",
+        "capital": "Mogadishu",
+        "officialName": "Federal Republic of Somalia"
       }
     },
     "economics": {
@@ -5263,7 +8564,26 @@ export const countries: CountryData[] = [
       "headOfState": "Hassan Sheikh Mohamud",
       "headOfGovernment": "Mohamed Hussein Roble",
       "governmentType": "federal republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5273,34 +8593,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 28517000,
     "difficulty": "medium",
-    "flag_url": "/flags/7942e84ee77f.webp",
+    "flag_url": "/flags/7942e84ee77f.svg",
     "codes": {
       "iso2": "VE",
       "iso3": "VEN",
       "numeric": "862"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Venezuela",
-        "capital": "Caracas"
+        "capital": "Caracas",
+        "officialName": "Bolivarian Republic of Venezuela"
+      },
+      "ar": {
+        "name": "البوليفارية - جمهورية - فنزويلا ",
+        "capital": "Caracas",
+        "officialName": "البوليفارية فنزويلا جمهورية "
+      },
+      "es": {
+        "name": "Venezuela (República Bolivariana de)",
+        "capital": "Caracas",
+        "officialName": "la República Bolivariana de Venezuela"
+      },
+      "fr": {
+        "name": "Venezuela (République bolivarienne du)",
+        "capital": "Caracas",
+        "officialName": "la République bolivarienne du Venezuela"
+      },
+      "it": {
+        "name": "Venezuela (Repubblica bolivariana di)",
+        "capital": "Caracas",
+        "officialName": "Repubblica bolivariana di Venezuela"
+      },
+      "ru": {
+        "name": "Венесуэла (Боливарианская Республика)",
+        "capital": "Caracas",
+        "officialName": "Боливарианская Республика Венесуэла"
+      },
+      "zh-CN": {
+        "name": "委内瑞拉 (玻利瓦尔共和国)",
+        "capital": "Caracas",
+        "officialName": "委内瑞拉玻利瓦尔共和国"
+      },
+      "en": {
+        "name": "Venezuela",
+        "capital": "Caracas",
+        "officialName": "Bolivarian Republic of Venezuela"
       }
     },
     "economics": {
@@ -5309,10 +8647,29 @@ export const countries: CountryData[] = [
       "year": 2014
     },
     "politics": {
-      "headOfState": "Juan Guaidó",
-      "headOfGovernment": "Nicolás Maduro",
+      "headOfState": "Nicolás Maduro",
+      "headOfGovernment": "Juan Guaidó; Nicolás Maduro",
       "governmentType": "federal republic; presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5322,34 +8679,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 11867032,
     "difficulty": "hard",
-    "flag_url": "/flags/08134d7a6fb3.webp",
+    "flag_url": "/flags/08134d7a6fb3.svg",
     "codes": {
       "iso2": "HT",
       "iso3": "HTI",
       "numeric": "332"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Haiti",
-        "capital": "Porto Príncipe"
+        "capital": "Porto Príncipe",
+        "officialName": "Republic of Haiti"
+      },
+      "ar": {
+        "name": "هايتي",
+        "capital": "Port-au-Prince",
+        "officialName": "جمهورية هايتي "
+      },
+      "es": {
+        "name": "Haití",
+        "capital": "Port-au-Prince",
+        "officialName": "la República de Haití"
+      },
+      "fr": {
+        "name": "Haïti",
+        "capital": "Port-au-Prince",
+        "officialName": "la République d'Haïti"
+      },
+      "it": {
+        "name": "Haiti",
+        "capital": "Port-au-Prince",
+        "officialName": "Repubblica di Haiti"
+      },
+      "ru": {
+        "name": "Гаити",
+        "capital": "Port-au-Prince",
+        "officialName": "Республика Гаити"
+      },
+      "zh-CN": {
+        "name": "海 地",
+        "capital": "Port-au-Prince",
+        "officialName": "海地共和国"
+      },
+      "en": {
+        "name": "Haiti",
+        "capital": "Port-au-Prince",
+        "officialName": "Republic of Haiti"
       }
     },
     "economics": {
@@ -5360,7 +8735,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Transitional Presidential Council",
       "headOfGovernment": "Alix Didier Fils-Aimé",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5370,36 +8764,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 47400000,
     "difficulty": "medium",
-    "flag_url": "/flags/d854169a7fa8.webp",
+    "flag_url": "/flags/d854169a7fa8.svg",
     "codes": {
       "iso2": "DZ",
       "iso3": "DZA",
       "numeric": "012"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Argélia",
-        "capital": "Argel"
+        "capital": "Argel",
+        "officialName": "People's Democratic Republic of Algeria"
+      },
+      "ar": {
+        "name": "الجزائر",
+        "capital": "Algiers",
+        "officialName": "الجمهورية الجزائرية الديمقراطية الشعبية "
+      },
+      "es": {
+        "name": "Argelia",
+        "capital": "Algiers",
+        "officialName": "la República Argelina Democrática y Popular"
+      },
+      "fr": {
+        "name": "Algérie",
+        "capital": "Algiers",
+        "officialName": "la République algérienne démocratique et populaire"
+      },
+      "it": {
+        "name": "Algeria",
+        "capital": "Algiers",
+        "officialName": "Repubblica algerina democratica e popolare"
+      },
+      "ru": {
+        "name": "Алжир",
+        "capital": "Algiers",
+        "officialName": "Алжирская Народная Демократическая Республика"
+      },
+      "zh-CN": {
+        "name": "阿尔及利亚",
+        "capital": "Algiers",
+        "officialName": "阿尔及利亚民主人民共和国"
+      },
+      "en": {
+        "name": "Algeria",
+        "capital": "Algiers",
+        "officialName": "People's Democratic Republic of Algeria"
       }
     },
     "economics": {
@@ -5411,7 +8821,7 @@ export const countries: CountryData[] = [
       "headOfState": "Abdelmadjid Tebboune",
       "headOfGovernment": "Sifi Ghrieb",
       "governmentType": "semi-presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -5419,7 +8829,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5429,34 +8860,22 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 47329,
     "difficulty": "god_mode",
-    "flag_url": "/flags/121df8383ce4.webp",
+    "flag_url": "/flags/121df8383ce4.svg",
     "codes": {
       "iso2": "MP",
       "iso3": "MNP",
       "numeric": "580"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Marianas Setentrionais",
-        "capital": "Saipan"
+        "capital": "Saipan",
+        "officialName": "Commonwealth of the Northern Mariana Islands"
+      },
+      "en": {
+        "name": "Northern Mariana Islands",
+        "capital": "Saipan",
+        "officialName": "Commonwealth of the Northern Mariana Islands"
       }
     },
     "economics": {
@@ -5466,7 +8885,26 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfGovernment": "David M. Apatang",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5476,36 +8914,43 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 31496,
     "difficulty": "god_mode",
-    "flag_url": "/flags/de9853028627.webp",
+    "flag_url": "/flags/de9853028627.svg",
     "codes": {
       "iso2": "MF",
       "iso3": "MAF",
       "numeric": "663"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "São Martinho",
-        "capital": "Marigot"
+        "capital": "Marigot",
+        "officialName": "Saint Martin"
+      },
+      "en": {
+        "name": "Saint Martin",
+        "capital": "Marigot",
+        "officialName": "Saint Martin"
       }
     },
     "economics": {
       "gdpUsd": 649206156.194207,
       "gdpPerCapitaUsd": 21668.3740927942,
       "year": 2021
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5515,34 +8960,22 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 107566,
     "difficulty": "god_mode",
-    "flag_url": "/flags/2fcc9256ec11.webp",
+    "flag_url": "/flags/2fcc9256ec11.svg",
     "codes": {
       "iso2": "AW",
       "iso3": "ABW",
       "numeric": "533"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Aruba",
-        "capital": "Oranjestad"
+        "capital": "Oranjestad",
+        "officialName": "Aruba"
+      },
+      "en": {
+        "name": "Aruba",
+        "capital": "Oranjestad",
+        "officialName": "Aruba"
       }
     },
     "economics": {
@@ -5554,7 +8987,26 @@ export const countries: CountryData[] = [
       "headOfState": "William Alexander of the Netherlands",
       "headOfGovernment": "Evelyn Wever-Croes",
       "governmentType": "monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5564,34 +9016,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 107271260,
     "difficulty": "easy",
-    "flag_url": "/flags/b116c99a2c11.webp",
+    "flag_url": "/flags/b116c99a2c11.svg",
     "codes": {
       "iso2": "EG",
       "iso3": "EGY",
       "numeric": "818"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Egito",
-        "capital": "Cairo"
+        "capital": "Cairo",
+        "officialName": "Arab Republic of Egypt"
+      },
+      "ar": {
+        "name": "مصر",
+        "capital": "Cairo",
+        "officialName": "العربية مصر جمهورية "
+      },
+      "es": {
+        "name": "Egipto",
+        "capital": "Cairo",
+        "officialName": "la República Árabe de Egipto"
+      },
+      "fr": {
+        "name": "Égypte",
+        "capital": "Cairo",
+        "officialName": "la République arabe d'Égypte"
+      },
+      "it": {
+        "name": "Egitto",
+        "capital": "Cairo",
+        "officialName": "Repubblica araba d'Egitto"
+      },
+      "ru": {
+        "name": "Египет",
+        "capital": "Cairo",
+        "officialName": "Арабская Республика Египет"
+      },
+      "zh-CN": {
+        "name": "埃 及",
+        "capital": "Cairo",
+        "officialName": "阿拉伯埃及共和国"
+      },
+      "en": {
+        "name": "Egypt",
+        "capital": "Cairo",
+        "officialName": "Arab Republic of Egypt"
       }
     },
     "economics": {
@@ -5603,7 +9073,26 @@ export const countries: CountryData[] = [
       "headOfState": "Abdel Fattah el-Sisi",
       "headOfGovernment": "Mostafa Madbouly",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5613,34 +9102,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 20734262,
     "difficulty": "medium",
-    "flag_url": "/flags/e46e98b84eb3.webp",
+    "flag_url": "/flags/e46e98b84eb3.svg",
     "codes": {
       "iso2": "MW",
       "iso3": "MWI",
       "numeric": "454"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Malawi",
-        "capital": "Lilongwe"
+        "capital": "Lilongwe",
+        "officialName": "Republic of Malawi"
+      },
+      "ar": {
+        "name": "ملاوي",
+        "capital": "Lilongwe",
+        "officialName": "جمهورية ملاوي "
+      },
+      "es": {
+        "name": "Malawi",
+        "capital": "Lilongwe",
+        "officialName": "la República de Malawi"
+      },
+      "fr": {
+        "name": "Malawi",
+        "capital": "Lilongwe",
+        "officialName": "la République du Malawi"
+      },
+      "it": {
+        "name": "Malawi",
+        "capital": "Lilongwe",
+        "officialName": "Repubblica del Malawi"
+      },
+      "ru": {
+        "name": "Малави",
+        "capital": "Lilongwe",
+        "officialName": "Республика Малави"
+      },
+      "zh-CN": {
+        "name": "马拉维",
+        "capital": "Lilongwe",
+        "officialName": "马拉维共和国"
+      },
+      "en": {
+        "name": "Malawi",
+        "capital": "Lilongwe",
+        "officialName": "Republic of Malawi"
       }
     },
     "economics": {
@@ -5649,9 +9156,28 @@ export const countries: CountryData[] = [
       "year": 2024
     },
     "politics": {
-      "headOfState": "Peter Mutharika",
+      "headOfState": "Lazarus Chakwera; Peter Mutharika",
       "headOfGovernment": "Lazarus Chakwera",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5661,34 +9187,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 1668768,
     "difficulty": "super_hard",
-    "flag_url": "/flags/ad3ec7d3f833.webp",
+    "flag_url": "/flags/ad3ec7d3f833.svg",
     "codes": {
       "iso2": "GQ",
       "iso3": "GNQ",
       "numeric": "226"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Guiné Equatorial",
-        "capital": "Malabo"
+        "capital": "Malabo",
+        "officialName": "Republic of Equatorial Guinea"
+      },
+      "ar": {
+        "name": "الاستوائية غينيا ",
+        "capital": "Malabo",
+        "officialName": "الاستوائية غينيا جمهورية "
+      },
+      "es": {
+        "name": "Guinea Ecuatorial",
+        "capital": "Malabo",
+        "officialName": "la República de Guinea Ecuatorial"
+      },
+      "fr": {
+        "name": "Guinée équatoriale",
+        "capital": "Malabo",
+        "officialName": "la République de Guinée équatoriale"
+      },
+      "it": {
+        "name": "Guinea equatoriale",
+        "capital": "Malabo",
+        "officialName": "Repubblica di Guinea equatoriale"
+      },
+      "ru": {
+        "name": "Экваториальная Гвинея",
+        "capital": "Malabo",
+        "officialName": "Республика Экваториальная Гвинея"
+      },
+      "zh-CN": {
+        "name": "赤道几内亚",
+        "capital": "Malabo",
+        "officialName": "赤道几内亚共和国"
+      },
+      "en": {
+        "name": "Equatorial Guinea",
+        "capital": "Malabo",
+        "officialName": "Republic of Equatorial Guinea"
       }
     },
     "economics": {
@@ -5699,7 +9243,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Teodoro Obiang",
       "headOfGovernment": "Manuel Osa Nsue Nsua",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5709,34 +9272,22 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 87146,
     "difficulty": "god_mode",
-    "flag_url": "/flags/7eaf8b79c41d.webp",
+    "flag_url": "/flags/7eaf8b79c41d.svg",
     "codes": {
       "iso2": "VI",
       "iso3": "VIR",
       "numeric": "850"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Ilhas Virgens dos Estados Unidos",
-        "capital": "Charlotte Amalie"
+        "capital": "Charlotte Amalie",
+        "officialName": "Virgin Islands of the United States"
+      },
+      "en": {
+        "name": "United States Virgin Islands",
+        "capital": "Charlotte Amalie",
+        "officialName": "Virgin Islands of the United States"
       }
     },
     "economics": {
@@ -5746,7 +9297,26 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfGovernment": "Albert Bryan Jr.",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5756,34 +9326,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 18103660,
     "difficulty": "medium",
-    "flag_url": "/flags/f4cb75e90ad0.webp",
+    "flag_url": "/flags/f4cb75e90ad0.svg",
     "codes": {
       "iso2": "EC",
       "iso3": "ECU",
       "numeric": "218"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Equador",
-        "capital": "Quito"
+        "capital": "Quito",
+        "officialName": "Republic of Ecuador"
+      },
+      "ar": {
+        "name": "إكوادور",
+        "capital": "Quito",
+        "officialName": "إكوادور جمهورية "
+      },
+      "es": {
+        "name": "Ecuador",
+        "capital": "Quito",
+        "officialName": "la República del Ecuador"
+      },
+      "fr": {
+        "name": "Équateur",
+        "capital": "Quito",
+        "officialName": "la République de l'Équateur"
+      },
+      "it": {
+        "name": "Ecuador",
+        "capital": "Quito",
+        "officialName": "Repubblica dell'Ecuador"
+      },
+      "ru": {
+        "name": "Эквадор",
+        "capital": "Quito",
+        "officialName": "Республика Эквадор"
+      },
+      "zh-CN": {
+        "name": "厄瓜多尔",
+        "capital": "Quito",
+        "officialName": "厄瓜多尔共和国"
+      },
+      "en": {
+        "name": "Ecuador",
+        "capital": "Quito",
+        "officialName": "Republic of Ecuador"
       }
     },
     "economics": {
@@ -5795,7 +9383,26 @@ export const countries: CountryData[] = [
       "headOfState": "Daniel Noboa",
       "headOfGovernment": "Daniel Noboa",
       "governmentType": "presidential system; republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5805,34 +9412,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 37859698,
     "difficulty": "medium",
-    "flag_url": "/flags/1c438aa8cb19.webp",
+    "flag_url": "/flags/1c438aa8cb19.svg",
     "codes": {
       "iso2": "UZ",
       "iso3": "UZB",
       "numeric": "860"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Uzbequistão",
-        "capital": "Tashkent"
+        "capital": "Tashkent",
+        "officialName": "Republic of Uzbekistan"
+      },
+      "ar": {
+        "name": "أوزبكستان",
+        "capital": "Tashkent",
+        "officialName": "جمهورية أوزبكستان "
+      },
+      "es": {
+        "name": "Uzbekistán",
+        "capital": "Tashkent",
+        "officialName": "la República de Uzbekistán"
+      },
+      "fr": {
+        "name": "Ouzbékistan",
+        "capital": "Tashkent",
+        "officialName": "la République d'Ouzbékistan"
+      },
+      "it": {
+        "name": "Uzbekistan",
+        "capital": "Tashkent",
+        "officialName": "Repubblica dell'Uzbekistan"
+      },
+      "ru": {
+        "name": "Узбекистан",
+        "capital": "Tashkent",
+        "officialName": "Республика Узбекистан"
+      },
+      "zh-CN": {
+        "name": "乌兹别克斯坦",
+        "capital": "Tashkent",
+        "officialName": "乌兹别克斯坦共和国"
+      },
+      "en": {
+        "name": "Uzbekistan",
+        "capital": "Tashkent",
+        "officialName": "Republic of Uzbekistan"
       }
     },
     "economics": {
@@ -5844,7 +9469,26 @@ export const countries: CountryData[] = [
       "headOfState": "Shavkat Mirziyoyev",
       "headOfGovernment": "Abdulla Aripov",
       "governmentType": "presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5854,34 +9498,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 2469296,
     "difficulty": "hard",
-    "flag_url": "/flags/67e218f2bddb.webp",
+    "flag_url": "/flags/67e218f2bddb.svg",
     "codes": {
       "iso2": "GA",
       "iso3": "GAB",
       "numeric": "266"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Gabão",
-        "capital": "Libreville"
+        "capital": "Libreville",
+        "officialName": "Gabonese Republic"
+      },
+      "ar": {
+        "name": "غابون",
+        "capital": "Libreville",
+        "officialName": "الجمهورية الغابونية "
+      },
+      "es": {
+        "name": "Gabón",
+        "capital": "Libreville",
+        "officialName": "la República Gabonesa"
+      },
+      "fr": {
+        "name": "Gabon",
+        "capital": "Libreville",
+        "officialName": "la République gabonaise"
+      },
+      "it": {
+        "name": "Gabon",
+        "capital": "Libreville",
+        "officialName": "Repubblica gabonese"
+      },
+      "ru": {
+        "name": "Габон",
+        "capital": "Libreville",
+        "officialName": "Габонская Республика"
+      },
+      "zh-CN": {
+        "name": "加 蓬",
+        "capital": "Libreville",
+        "officialName": "加蓬共和国"
+      },
+      "en": {
+        "name": "Gabon",
+        "capital": "Libreville",
+        "officialName": "Gabonese Republic"
       }
     },
     "economics": {
@@ -5893,7 +9555,26 @@ export const countries: CountryData[] = [
       "headOfState": "Brice Clotaire Oligui Nguema",
       "headOfGovernment": "Raymond Ndong Sima",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5903,34 +9584,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 15786898,
     "difficulty": "medium",
-    "flag_url": "/flags/4ab82b97ed70.webp",
+    "flag_url": "/flags/4ab82b97ed70.svg",
     "codes": {
       "iso2": "SS",
       "iso3": "SSD",
       "numeric": "728"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Sudão do Sul",
-        "capital": "Juba"
+        "capital": "Juba",
+        "officialName": "Republic of South Sudan"
+      },
+      "ar": {
+        "name": "السودان جنوب ",
+        "capital": "Juba",
+        "officialName": "السودان جنوب جمهورية "
+      },
+      "es": {
+        "name": "Sudán del Sur",
+        "capital": "Juba",
+        "officialName": "la República de Sudán del Sur"
+      },
+      "fr": {
+        "name": "Soudan du Sud",
+        "capital": "Juba",
+        "officialName": "République du Soudan du Sud"
+      },
+      "it": {
+        "name": "Sud Sudan",
+        "capital": "Juba",
+        "officialName": "Repubblica del Sud Sudan"
+      },
+      "ru": {
+        "name": "Южный Судан",
+        "capital": "Juba",
+        "officialName": "Республика Южный Судан"
+      },
+      "zh-CN": {
+        "name": "南苏丹",
+        "capital": "Juba",
+        "officialName": "南苏丹共和国"
+      },
+      "en": {
+        "name": "South Sudan",
+        "capital": "Juba",
+        "officialName": "Republic of South Sudan"
       }
     },
     "economics": {
@@ -5942,7 +9641,26 @@ export const countries: CountryData[] = [
       "headOfState": "Salva Kiir Mayardit",
       "headOfGovernment": "Salva Kiir Mayardit",
       "governmentType": "federal republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -5952,36 +9670,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 85961000,
     "difficulty": "easy",
-    "flag_url": "/flags/d4328f17fc46.webp",
+    "flag_url": "/flags/d4328f17fc46.svg",
     "codes": {
       "iso2": "IR",
       "iso3": "IRN",
       "numeric": "364"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Irão",
-        "capital": "Teerã"
+        "capital": "Teerã",
+        "officialName": "Islamic Republic of Iran"
+      },
+      "ar": {
+        "name": "الإسلامية - جمهورية - إيران ",
+        "capital": "Tehran",
+        "officialName": "الإسلامية إيران جمهورية "
+      },
+      "es": {
+        "name": "Irán",
+        "capital": "Tehran",
+        "officialName": "la República Islámica del Irán"
+      },
+      "fr": {
+        "name": "Iran",
+        "capital": "Tehran",
+        "officialName": "la République islamique d'Iran"
+      },
+      "it": {
+        "name": "Iran",
+        "capital": "Tehran",
+        "officialName": "Repubblica islamica dell'Iran"
+      },
+      "ru": {
+        "name": "Иран (Исламская Республика)",
+        "capital": "Tehran",
+        "officialName": "Исламская Республика Иран"
+      },
+      "zh-CN": {
+        "name": "伊 朗(伊斯兰共和国)",
+        "capital": "Tehran",
+        "officialName": "伊朗伊斯兰共和国"
+      },
+      "en": {
+        "name": "Iran",
+        "capital": "Tehran",
+        "officialName": "Islamic Republic of Iran"
       }
     },
     "economics": {
@@ -5993,7 +9727,7 @@ export const countries: CountryData[] = [
       "headOfState": "Ali Khamenei",
       "headOfGovernment": "Masoud Pezeshkian",
       "governmentType": "Islamic Republic; presidential system; theocracy; unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -6001,7 +9735,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6011,34 +9766,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 20426568,
     "difficulty": "medium",
-    "flag_url": "/flags/4451df5780fe.webp",
+    "flag_url": "/flags/4451df5780fe.svg",
     "codes": {
       "iso2": "KZ",
       "iso3": "KAZ",
       "numeric": "398"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Cazaquistão",
-        "capital": "Astana"
+        "capital": "Astana",
+        "officialName": "Republic of Kazakhstan"
+      },
+      "ar": {
+        "name": "كازاخستان",
+        "capital": "Astana",
+        "officialName": "جمهورية كازاخستان "
+      },
+      "es": {
+        "name": "Kazajstán",
+        "capital": "Astana",
+        "officialName": "la República de Kazajstán"
+      },
+      "fr": {
+        "name": "Kazakhstan",
+        "capital": "Astana",
+        "officialName": "la République du Kazakhstan"
+      },
+      "it": {
+        "name": "Kazakistan",
+        "capital": "Astana",
+        "officialName": "Repubblica del Kazakhstan"
+      },
+      "ru": {
+        "name": "Казахстан",
+        "capital": "Astana",
+        "officialName": "Республика Казахстан"
+      },
+      "zh-CN": {
+        "name": "哈萨克斯坦",
+        "capital": "Astana",
+        "officialName": "哈萨克斯坦共和国"
+      },
+      "en": {
+        "name": "Kazakhstan",
+        "capital": "Astana",
+        "officialName": "Republic of Kazakhstan"
       }
     },
     "economics": {
@@ -6050,7 +9823,26 @@ export const countries: CountryData[] = [
       "headOfState": "Kassym-Jomart Tokayev",
       "headOfGovernment": "Älihan Smaiylov",
       "governmentType": "presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6060,34 +9852,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 6803886,
     "difficulty": "hard",
-    "flag_url": "/flags/53dafebc5552.webp",
+    "flag_url": "/flags/53dafebc5552.svg",
     "codes": {
       "iso2": "NI",
       "iso3": "NIC",
       "numeric": "558"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Nicarágua",
-        "capital": "Managua"
+        "capital": "Managua",
+        "officialName": "Republic of Nicaragua"
+      },
+      "ar": {
+        "name": "نيكاراغوا",
+        "capital": "Managua",
+        "officialName": "جمهورية  نيكاراغوا "
+      },
+      "es": {
+        "name": "Nicaragua",
+        "capital": "Managua",
+        "officialName": "la República de Nicaragua"
+      },
+      "fr": {
+        "name": "Nicaragua",
+        "capital": "Managua",
+        "officialName": "la République du Nicaragua"
+      },
+      "it": {
+        "name": "Nicaragua",
+        "capital": "Managua",
+        "officialName": "Repubblica di Nicaragua"
+      },
+      "ru": {
+        "name": "Никарагуа",
+        "capital": "Managua",
+        "officialName": "Республика Никарагуа"
+      },
+      "zh-CN": {
+        "name": "尼加拉瓜",
+        "capital": "Managua",
+        "officialName": "尼加拉瓜共和国"
+      },
+      "en": {
+        "name": "Nicaragua",
+        "capital": "Managua",
+        "officialName": "Republic of Nicaragua"
       }
     },
     "economics": {
@@ -6099,7 +9909,26 @@ export const countries: CountryData[] = [
       "headOfState": "Daniel Ortega",
       "headOfGovernment": "Daniel Ortega",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6109,36 +9938,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 391810,
     "difficulty": "super_hard",
-    "flag_url": "/flags/9eb5c59d7008.webp",
+    "flag_url": "/flags/9eb5c59d7008.svg",
     "codes": {
       "iso2": "IS",
       "iso3": "ISL",
       "numeric": "352"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Islândia",
-        "capital": "Reykjavik"
+        "capital": "Reykjavik",
+        "officialName": "Iceland"
+      },
+      "ar": {
+        "name": "آيسلندا",
+        "capital": "Reykjavik",
+        "officialName": "آيسلندا جمهورية "
+      },
+      "es": {
+        "name": "Islandia",
+        "capital": "Reykjavik",
+        "officialName": "la República de Islandia"
+      },
+      "fr": {
+        "name": "Islande",
+        "capital": "Reykjavik",
+        "officialName": "la République d'Islande"
+      },
+      "it": {
+        "name": "Islanda",
+        "capital": "Reykjavik",
+        "officialName": "Repubblica d'Islanda"
+      },
+      "ru": {
+        "name": "Исландия",
+        "capital": "Reykjavik",
+        "officialName": "Республика Исландия"
+      },
+      "zh-CN": {
+        "name": "冰 岛",
+        "capital": "Reykjavik",
+        "officialName": "冰岛共和国"
+      },
+      "en": {
+        "name": "Iceland",
+        "capital": "Reykjavik",
+        "officialName": "Iceland"
       }
     },
     "economics": {
@@ -6150,7 +9995,7 @@ export const countries: CountryData[] = [
       "headOfState": "Halla Tómasdóttir",
       "headOfGovernment": "Kristrún Mjöll Frostadóttir",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -6158,7 +10003,28 @@ export const countries: CountryData[] = [
           "name": "Lutheranism"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6168,34 +10034,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 2130638,
     "difficulty": "hard",
-    "flag_url": "/flags/70ef838ec62b.webp",
+    "flag_url": "/flags/70ef838ec62b.svg",
     "codes": {
       "iso2": "SI",
       "iso3": "SVN",
       "numeric": "705"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Eslovénia",
-        "capital": "Ljubljana"
+        "capital": "Ljubljana",
+        "officialName": "Republic of Slovenia"
+      },
+      "ar": {
+        "name": "سلوفينيا",
+        "capital": "Ljubljana",
+        "officialName": "جمهورية سلوفينيا "
+      },
+      "es": {
+        "name": "Eslovenia",
+        "capital": "Ljubljana",
+        "officialName": "la República de Eslovenia"
+      },
+      "fr": {
+        "name": "Slovénie",
+        "capital": "Ljubljana",
+        "officialName": "la République de Slovénie"
+      },
+      "it": {
+        "name": "Slovenia",
+        "capital": "Ljubljana",
+        "officialName": "Repubblica di Slovenia"
+      },
+      "ru": {
+        "name": "Словения",
+        "capital": "Ljubljana",
+        "officialName": "Республика Словения"
+      },
+      "zh-CN": {
+        "name": "斯洛文尼亚",
+        "capital": "Ljubljana",
+        "officialName": "斯洛文尼亚共和国"
+      },
+      "en": {
+        "name": "Slovenia",
+        "capital": "Ljubljana",
+        "officialName": "Republic of Slovenia"
       }
     },
     "economics": {
@@ -6207,7 +10091,26 @@ export const countries: CountryData[] = [
       "headOfState": "Nataša Pirc Musar",
       "headOfGovernment": "Robert Golob",
       "governmentType": "democratic republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6217,36 +10120,43 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 378561,
     "difficulty": "super_hard",
-    "flag_url": "/flags/3a022a67d34c.webp",
+    "flag_url": "/flags/3a022a67d34c.svg",
     "codes": {
       "iso2": "GP",
       "iso3": "GLP",
       "numeric": "312"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Guadalupe",
+        "capital": "Basse-Terre",
+        "officialName": "Guadeloupe"
+      },
+      "en": {
+        "name": "Guadeloupe",
+        "capital": "Basse-Terre",
+        "officialName": "Guadeloupe"
+      }
+    },
+    "politics": {
+      "headOfGovernment": "Ary Chalus; Josette Borel-Lincertin",
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
         "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Guadalupe",
-        "capital": "Basse-Terre"
-      }
-    },
-    "politics": {
-      "headOfGovernment": "Ary Chalus",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
     }
   },
   {
@@ -6256,34 +10166,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 29442327,
     "difficulty": "medium",
-    "flag_url": "/flags/1366ad341523.webp",
+    "flag_url": "/flags/1366ad341523.svg",
     "codes": {
       "iso2": "CM",
       "iso3": "CMR",
       "numeric": "120"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Camarões",
-        "capital": "Yaoundé"
+        "capital": "Yaoundé",
+        "officialName": "Republic of Cameroon"
+      },
+      "ar": {
+        "name": "الكاميرون",
+        "capital": "Yaoundé",
+        "officialName": "جمهورية الكاميرون "
+      },
+      "es": {
+        "name": "Camerún",
+        "capital": "Yaoundé",
+        "officialName": "la República del Camerún"
+      },
+      "fr": {
+        "name": "Cameroun",
+        "capital": "Yaoundé",
+        "officialName": "la République du Cameroun"
+      },
+      "it": {
+        "name": "Camerun",
+        "capital": "Yaoundé",
+        "officialName": "Repubblica del Camerun"
+      },
+      "ru": {
+        "name": "Камерун",
+        "capital": "Yaoundé",
+        "officialName": "Республика Камерун"
+      },
+      "zh-CN": {
+        "name": "喀麦隆",
+        "capital": "Yaoundé",
+        "officialName": "喀麦隆共和国"
+      },
+      "en": {
+        "name": "Cameroon",
+        "capital": "Yaoundé",
+        "officialName": "Republic of Cameroon"
       }
     },
     "economics": {
@@ -6295,7 +10223,26 @@ export const countries: CountryData[] = [
       "headOfState": "Paul Biya",
       "headOfGovernment": "Joseph Ngute",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6305,36 +10252,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 46735004,
     "difficulty": "easy",
-    "flag_url": "/flags/3a7395424646.webp",
+    "flag_url": "/flags/3a7395424646.svg",
     "codes": {
       "iso2": "AR",
       "iso3": "ARG",
       "numeric": "032"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Argentina",
-        "capital": "Buenos Aires"
+        "capital": "Buenos Aires",
+        "officialName": "Argentine Republic"
+      },
+      "ar": {
+        "name": "الأرجنتين",
+        "capital": "Buenos Aires",
+        "officialName": "جمهورية الأرجنتين "
+      },
+      "es": {
+        "name": "Argentina",
+        "capital": "Buenos Aires",
+        "officialName": "la República Argentina"
+      },
+      "fr": {
+        "name": "Argentine",
+        "capital": "Buenos Aires",
+        "officialName": "la République argentine"
+      },
+      "it": {
+        "name": "Argentina",
+        "capital": "Buenos Aires",
+        "officialName": "Repubblica argentina"
+      },
+      "ru": {
+        "name": "Аргентина",
+        "capital": "Buenos Aires",
+        "officialName": "Аргентинская Республика"
+      },
+      "zh-CN": {
+        "name": "阿根廷",
+        "capital": "Buenos Aires",
+        "officialName": "阿根廷共和国"
+      },
+      "en": {
+        "name": "Argentina",
+        "capital": "Buenos Aires",
+        "officialName": "Argentine Republic"
       }
     },
     "economics": {
@@ -6346,7 +10309,7 @@ export const countries: CountryData[] = [
       "headOfState": "Javier Milei",
       "headOfGovernment": "Javier Milei",
       "governmentType": "federal republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -6354,7 +10317,28 @@ export const countries: CountryData[] = [
           "name": "Catholic Church"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6364,34 +10348,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 10241722,
     "difficulty": "hard",
-    "flag_url": "/flags/0c341736c12d.webp",
+    "flag_url": "/flags/0c341736c12d.svg",
     "codes": {
       "iso2": "AZ",
       "iso3": "AZE",
       "numeric": "031"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Azerbeijão",
-        "capital": "Baku"
+        "capital": "Baku",
+        "officialName": "Republic of Azerbaijan"
+      },
+      "ar": {
+        "name": "أذربيجان",
+        "capital": "Baku",
+        "officialName": "الجمهورية الأذربيجانية "
+      },
+      "es": {
+        "name": "Azerbaiyán",
+        "capital": "Baku",
+        "officialName": "la República de Azerbaiyán"
+      },
+      "fr": {
+        "name": "Azerbaïdjan",
+        "capital": "Baku",
+        "officialName": "la République d'Azerbaïdjan"
+      },
+      "it": {
+        "name": "Azerbaigian",
+        "capital": "Baku",
+        "officialName": "Repubblica dell'Azerbaigian"
+      },
+      "ru": {
+        "name": "Азербайджан",
+        "capital": "Baku",
+        "officialName": "Азербайджанская Республика"
+      },
+      "zh-CN": {
+        "name": "阿塞拜疆",
+        "capital": "Baku",
+        "officialName": "阿塞拜疆共和国"
+      },
+      "en": {
+        "name": "Azerbaijan",
+        "capital": "Baku",
+        "officialName": "Republic of Azerbaijan"
       }
     },
     "economics": {
@@ -6403,7 +10405,26 @@ export const countries: CountryData[] = [
       "headOfState": "Ilham Aliyev",
       "headOfGovernment": "Ali Asadov",
       "governmentType": "republic; semi-presidential system; unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6413,34 +10434,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 45905417,
     "difficulty": "medium",
-    "flag_url": "/flags/431debec8207.webp",
+    "flag_url": "/flags/431debec8207.svg",
     "codes": {
       "iso2": "UG",
       "iso3": "UGA",
       "numeric": "800"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Uganda",
-        "capital": "Kampala"
+        "capital": "Kampala",
+        "officialName": "Republic of Uganda"
+      },
+      "ar": {
+        "name": "أوغندا",
+        "capital": "Kampala",
+        "officialName": "جمهورية أوغندا "
+      },
+      "es": {
+        "name": "Uganda",
+        "capital": "Kampala",
+        "officialName": "la República de Uganda"
+      },
+      "fr": {
+        "name": "Ouganda",
+        "capital": "Kampala",
+        "officialName": "la République de l'Ouganda"
+      },
+      "it": {
+        "name": "Uganda",
+        "capital": "Kampala",
+        "officialName": "Repubblica dell'Uganda"
+      },
+      "ru": {
+        "name": "Уганда",
+        "capital": "Kampala",
+        "officialName": "Республика Уганда"
+      },
+      "zh-CN": {
+        "name": "乌干达",
+        "capital": "Kampala",
+        "officialName": "乌干达共和国"
+      },
+      "en": {
+        "name": "Uganda",
+        "capital": "Kampala",
+        "officialName": "Republic of Uganda"
       }
     },
     "economics": {
@@ -6452,7 +10491,26 @@ export const countries: CountryData[] = [
       "headOfState": "Yoweri Museveni",
       "headOfGovernment": "Robinah Nabbanja",
       "governmentType": "presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6462,34 +10520,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 26312034,
     "difficulty": "medium",
-    "flag_url": "/flags/362234c02fd6.webp",
+    "flag_url": "/flags/362234c02fd6.svg",
     "codes": {
       "iso2": "NE",
       "iso3": "NER",
       "numeric": "562"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Níger",
-        "capital": "Niamey"
+        "capital": "Niamey",
+        "officialName": "Republic of Niger"
+      },
+      "ar": {
+        "name": "النيجر",
+        "capital": "Niamey",
+        "officialName": "جمهورية النيجر "
+      },
+      "es": {
+        "name": "Níger",
+        "capital": "Niamey",
+        "officialName": "la República del Níger"
+      },
+      "fr": {
+        "name": "Niger",
+        "capital": "Niamey",
+        "officialName": "la République du Niger"
+      },
+      "it": {
+        "name": "Niger",
+        "capital": "Niamey",
+        "officialName": "Repubblica del Niger"
+      },
+      "ru": {
+        "name": "Нигер",
+        "capital": "Niamey",
+        "officialName": "Республика Нигер"
+      },
+      "zh-CN": {
+        "name": "尼日尔",
+        "capital": "Niamey",
+        "officialName": "尼日尔共和国"
+      },
+      "en": {
+        "name": "Niger",
+        "capital": "Niamey",
+        "officialName": "Republic of Niger"
       }
     },
     "economics": {
@@ -6498,9 +10574,28 @@ export const countries: CountryData[] = [
       "year": 2024
     },
     "politics": {
-      "headOfState": "Abdourahamane Tchiani",
+      "headOfState": "Abdourahamane Tchiani; Hassoumi Massoudou",
       "headOfGovernment": "Ali Lamine Zeine",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6510,27 +10605,34 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 1692,
     "difficulty": "god_mode",
-    "flag_url": "/flags/e7f0cd839de6.webp",
+    "flag_url": "/flags/e7f0cd839de6.svg",
     "codes": {
       "iso2": "CX",
       "iso3": "CXR",
       "numeric": "162"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Ilha do Natal",
+        "capital": "Flying Fish Cove",
+        "officialName": "Territory of Christmas Island"
+      },
+      "en": {
+        "name": "Christmas Island",
+        "capital": "Flying Fish Cove",
+        "officialName": "Territory of Christmas Island"
+      }
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com"
-      }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Ilha do Natal",
-        "capital": "Flying Fish Cove"
+        "ptCapital": "manual+restcountries.com",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
     }
   },
@@ -6541,34 +10643,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 51316756,
     "difficulty": "medium",
-    "flag_url": "/flags/fd4953e76f43.webp",
+    "flag_url": "/flags/fd4953e76f43.svg",
     "codes": {
       "iso2": "MM",
       "iso3": "MMR",
       "numeric": "104"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Myanmar",
-        "capital": "Naypyidaw"
+        "capital": "Naypyidaw",
+        "officialName": "Republic of the Union of Myanmar"
+      },
+      "ar": {
+        "name": "ميانمار",
+        "capital": "Naypyidaw",
+        "officialName": "ميانمار اتحاد جمهورية "
+      },
+      "es": {
+        "name": "Myanmar",
+        "capital": "Naypyidaw",
+        "officialName": "la República de la Unión de Myanmar"
+      },
+      "fr": {
+        "name": "Myanmar",
+        "capital": "Naypyidaw",
+        "officialName": "République de l'Union du Myanmar"
+      },
+      "it": {
+        "name": "Myanmar",
+        "capital": "Naypyidaw",
+        "officialName": "Repubblica dell'Unione di Myanmar"
+      },
+      "ru": {
+        "name": "Мьянма",
+        "capital": "Naypyidaw",
+        "officialName": "Республика Союз Мьянма"
+      },
+      "zh-CN": {
+        "name": "缅 甸",
+        "capital": "Naypyidaw",
+        "officialName": "缅甸联邦共和国"
+      },
+      "en": {
+        "name": "Myanmar",
+        "capital": "Naypyidaw",
+        "officialName": "Republic of the Union of Myanmar"
       }
     },
     "economics": {
@@ -6580,7 +10700,26 @@ export const countries: CountryData[] = [
       "headOfState": "Myint Swe",
       "headOfGovernment": "Min Aung Hlaing",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6590,34 +10729,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 37392000,
     "difficulty": "medium",
-    "flag_url": "/flags/9cbbdd6cbd53.webp",
+    "flag_url": "/flags/9cbbdd6cbd53.svg",
     "codes": {
       "iso2": "PL",
       "iso3": "POL",
       "numeric": "616"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Polónia",
-        "capital": "Varsóvia"
+        "capital": "Varsóvia",
+        "officialName": "Republic of Poland"
+      },
+      "ar": {
+        "name": "بولندا",
+        "capital": "Warsaw",
+        "officialName": "جمهورية بولندا "
+      },
+      "es": {
+        "name": "Polonia",
+        "capital": "Warsaw",
+        "officialName": "la República de Polonia"
+      },
+      "fr": {
+        "name": "Pologne",
+        "capital": "Warsaw",
+        "officialName": "la République de Pologne"
+      },
+      "it": {
+        "name": "Polonia",
+        "capital": "Warsaw",
+        "officialName": "Repubblica di Polonia"
+      },
+      "ru": {
+        "name": "Польша",
+        "capital": "Warsaw",
+        "officialName": "Республика Польша"
+      },
+      "zh-CN": {
+        "name": "波 兰",
+        "capital": "Warsaw",
+        "officialName": "波兰共和国"
+      },
+      "en": {
+        "name": "Poland",
+        "capital": "Warsaw",
+        "officialName": "Republic of Poland"
       }
     },
     "economics": {
@@ -6629,7 +10786,26 @@ export const countries: CountryData[] = [
       "headOfState": "Karol Nawrocki",
       "headOfGovernment": "Donald Tusk",
       "governmentType": "parliamentary system; semi-presidential system; unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6639,34 +10815,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 11734000,
     "difficulty": "hard",
-    "flag_url": "/flags/136c67657614.webp",
+    "flag_url": "/flags/136c67657614.svg",
     "codes": {
       "iso2": "JO",
       "iso3": "JOR",
       "numeric": "400"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Jordânia",
-        "capital": "Amman"
+        "capital": "Amman",
+        "officialName": "Hashemite Kingdom of Jordan"
+      },
+      "ar": {
+        "name": "الأردن",
+        "capital": "Amman",
+        "officialName": "الهاشمية الأردنية المملكة "
+      },
+      "es": {
+        "name": "Jordania",
+        "capital": "Amman",
+        "officialName": "el Reino Hachemita de Jordania"
+      },
+      "fr": {
+        "name": "Jordanie",
+        "capital": "Amman",
+        "officialName": "le Royaume hachémite de Jordanie"
+      },
+      "it": {
+        "name": "Giordania",
+        "capital": "Amman",
+        "officialName": "Regno hascemita di Giordania"
+      },
+      "ru": {
+        "name": "Иордания",
+        "capital": "Amman",
+        "officialName": "Иорданское Хашимитское Королевство"
+      },
+      "zh-CN": {
+        "name": "约 旦",
+        "capital": "Amman",
+        "officialName": "约旦哈希姆王国"
+      },
+      "en": {
+        "name": "Jordan",
+        "capital": "Amman",
+        "officialName": "Hashemite Kingdom of Jordan"
       }
     },
     "economics": {
@@ -6677,7 +10871,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Abdullah II of Jordan",
       "headOfGovernment": "Jafar Hassan",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6687,36 +10900,22 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 7527500,
     "difficulty": "hard",
-    "flag_url": "/flags/f59372f70dc7.webp",
+    "flag_url": "/flags/f59372f70dc7.svg",
     "codes": {
       "iso2": "HK",
       "iso3": "HKG",
       "numeric": "344"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Hong Kong",
-        "capital": "City of Victoria"
+        "capital": "City of Victoria",
+        "officialName": "Hong Kong Special Administrative Region of the People's Republic of China"
+      },
+      "en": {
+        "name": "Hong Kong",
+        "capital": "City of Victoria",
+        "officialName": "Hong Kong Special Administrative Region of the People's Republic of China"
       }
     },
     "economics": {
@@ -6726,7 +10925,7 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfGovernment": "John Lee",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -6755,7 +10954,28 @@ export const countries: CountryData[] = [
           "name": "Taoism"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6765,34 +10985,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 112832000,
     "difficulty": "easy",
-    "flag_url": "/flags/7ee88c273342.webp",
+    "flag_url": "/flags/7ee88c273342.svg",
     "codes": {
       "iso2": "CD",
       "iso3": "COD",
       "numeric": "180"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "República Democrática do Congo",
-        "capital": "Kinshasa"
+        "capital": "Kinshasa",
+        "officialName": "Democratic Republic of the Congo"
+      },
+      "ar": {
+        "name": "الديمقراطية الكونغو جمهورية ",
+        "capital": "Kinshasa",
+        "officialName": "الديمقراطية الكونغو جمهورية "
+      },
+      "es": {
+        "name": "República Democrática del Congo",
+        "capital": "Kinshasa",
+        "officialName": "la República Democrática del Congo"
+      },
+      "fr": {
+        "name": "République démocratique du Congo",
+        "capital": "Kinshasa",
+        "officialName": "la République démocratique du Congo"
+      },
+      "it": {
+        "name": "Repubblica democratica del Congo",
+        "capital": "Kinshasa",
+        "officialName": "Repubblica democratica del Congo"
+      },
+      "ru": {
+        "name": "Демократическая Республика Конго",
+        "capital": "Kinshasa",
+        "officialName": "Демократическая Республика Конго"
+      },
+      "zh-CN": {
+        "name": "刚果民主共和国",
+        "capital": "Kinshasa",
+        "officialName": "刚果民主共和国"
+      },
+      "en": {
+        "name": "DR Congo",
+        "capital": "Kinshasa",
+        "officialName": "Democratic Republic of the Congo"
       }
     },
     "economics": {
@@ -6804,7 +11042,26 @@ export const countries: CountryData[] = [
       "headOfState": "Félix Tshisekedi",
       "headOfGovernment": "Ilunga Ilunkamba Sylvestre",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6814,34 +11071,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 3607000,
     "difficulty": "hard",
-    "flag_url": "/flags/eea67e4f9ca3.webp",
+    "flag_url": "/flags/eea67e4f9ca3.svg",
     "codes": {
       "iso2": "ER",
       "iso3": "ERI",
       "numeric": "232"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Eritreia",
-        "capital": "Asmara"
+        "capital": "Asmara",
+        "officialName": "State of Eritrea"
+      },
+      "ar": {
+        "name": "إريتريا",
+        "capital": "Asmara",
+        "officialName": "إريتريا دولة "
+      },
+      "es": {
+        "name": "Eritrea",
+        "capital": "Asmara",
+        "officialName": "el Estado de Eritrea"
+      },
+      "fr": {
+        "name": "Érythrée",
+        "capital": "Asmara",
+        "officialName": "l'État d'Érythrée"
+      },
+      "it": {
+        "name": "Eritrea",
+        "capital": "Asmara",
+        "officialName": "Stato di Eritrea"
+      },
+      "ru": {
+        "name": "Эритрея",
+        "capital": "Asmara",
+        "officialName": "Государство Эритрея"
+      },
+      "zh-CN": {
+        "name": "厄立特里亚",
+        "capital": "Asmara",
+        "officialName": "厄立特里亚国"
+      },
+      "en": {
+        "name": "Eritrea",
+        "capital": "Asmara",
+        "officialName": "State of Eritrea"
       }
     },
     "economics": {
@@ -6852,7 +11127,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Isaias Afwerki",
       "headOfGovernment": "Isaias Afwerki",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6862,34 +11156,52 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 120740,
     "difficulty": "god_mode",
-    "flag_url": "/flags/725789d8d08d.webp",
+    "flag_url": "/flags/725789d8d08d.svg",
     "codes": {
       "iso2": "KI",
       "iso3": "KIR",
       "numeric": "296"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Kiribati",
-        "capital": "South Tarawa"
+        "capital": "South Tarawa",
+        "officialName": "Independent and Sovereign Republic of Kiribati"
+      },
+      "ar": {
+        "name": "كيريباس",
+        "capital": "South Tarawa",
+        "officialName": "كيريباس  جمهورية "
+      },
+      "es": {
+        "name": "Kiribati",
+        "capital": "South Tarawa",
+        "officialName": "la República de Kiribati"
+      },
+      "fr": {
+        "name": "Kiribati",
+        "capital": "South Tarawa",
+        "officialName": "la République de Kiribati"
+      },
+      "it": {
+        "name": "Kiribati",
+        "capital": "South Tarawa",
+        "officialName": "Repubblica di Kiribati"
+      },
+      "ru": {
+        "name": "Кирибати",
+        "capital": "South Tarawa",
+        "officialName": "Республика Кирибати"
+      },
+      "zh-CN": {
+        "name": "基里巴斯",
+        "capital": "South Tarawa",
+        "officialName": "基里巴斯共和国"
+      },
+      "en": {
+        "name": "Kiribati",
+        "capital": "South Tarawa",
+        "officialName": "Independent and Sovereign Republic of Kiribati"
       }
     },
     "economics": {
@@ -6900,7 +11212,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Taneti Maamau",
       "headOfGovernment": "Taneti Maamau",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6910,34 +11241,52 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 42418,
     "difficulty": "god_mode",
-    "flag_url": "/flags/44455aa7039c.webp",
+    "flag_url": "/flags/44455aa7039c.svg",
     "codes": {
       "iso2": "MH",
       "iso3": "MHL",
       "numeric": "584"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Ilhas Marshall",
-        "capital": "Majuro"
+        "capital": "Majuro",
+        "officialName": "Republic of the Marshall Islands"
+      },
+      "ar": {
+        "name": "جزر مارشال ",
+        "capital": "Majuro",
+        "officialName": "جمهورية جزر مارشال "
+      },
+      "es": {
+        "name": "Islas Marshall",
+        "capital": "Majuro",
+        "officialName": "la República de las Islas Marshall"
+      },
+      "fr": {
+        "name": "Îles Marshall",
+        "capital": "Majuro",
+        "officialName": "la République des Îles Marshall"
+      },
+      "it": {
+        "name": "Isole Marshall",
+        "capital": "Majuro",
+        "officialName": "Repubblica delle Isole Marshall"
+      },
+      "ru": {
+        "name": "Маршалловы Острова",
+        "capital": "Majuro",
+        "officialName": "Республика Маршалловы Острова"
+      },
+      "zh-CN": {
+        "name": "马绍尔群岛",
+        "capital": "Majuro",
+        "officialName": "马绍尔群岛共和国"
+      },
+      "en": {
+        "name": "Marshall Islands",
+        "capital": "Majuro",
+        "officialName": "Republic of the Marshall Islands"
       }
     },
     "economics": {
@@ -6948,7 +11297,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Hilda Heine",
       "headOfGovernment": "Hilda Heine",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -6958,34 +11326,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 24070553,
     "difficulty": "medium",
-    "flag_url": "/flags/6c9f6ba6167f.webp",
+    "flag_url": "/flags/6c9f6ba6167f.svg",
     "codes": {
       "iso2": "BF",
       "iso3": "BFA",
       "numeric": "854"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Burkina Faso",
-        "capital": "Ouagadougou"
+        "capital": "Ouagadougou",
+        "officialName": "Burkina Faso"
+      },
+      "ar": {
+        "name": "بوركينا فاسو ",
+        "capital": "Ouagadougou",
+        "officialName": "بوركينا فاسو "
+      },
+      "es": {
+        "name": "Burkina Faso",
+        "capital": "Ouagadougou",
+        "officialName": "Burkina Faso"
+      },
+      "fr": {
+        "name": "Burkina Faso",
+        "capital": "Ouagadougou",
+        "officialName": "le Burkina Faso"
+      },
+      "it": {
+        "name": "Burkina Faso",
+        "capital": "Ouagadougou",
+        "officialName": "Burkina Faso"
+      },
+      "ru": {
+        "name": "Буркина-Фасо",
+        "capital": "Ouagadougou",
+        "officialName": "Буркина-Фасо"
+      },
+      "zh-CN": {
+        "name": "布基纳法索",
+        "capital": "Ouagadougou",
+        "officialName": "布基纳法索"
+      },
+      "en": {
+        "name": "Burkina Faso",
+        "capital": "Ouagadougou",
+        "officialName": "Burkina Faso"
       }
     },
     "economics": {
@@ -6997,7 +11383,26 @@ export const countries: CountryData[] = [
       "headOfState": "Ibrahim Traoré",
       "headOfGovernment": "Apollinaire Joachim Kyélem de Tambèla",
       "governmentType": "military junta; republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7007,34 +11412,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 17073087,
     "difficulty": "medium",
-    "flag_url": "/flags/13291c081522.webp",
+    "flag_url": "/flags/13291c081522.svg",
     "codes": {
       "iso2": "ZW",
       "iso3": "ZWE",
       "numeric": "716"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Zimbabwe",
-        "capital": "Harare"
+        "capital": "Harare",
+        "officialName": "Republic of Zimbabwe"
+      },
+      "ar": {
+        "name": "زمبابوي",
+        "capital": "Harare",
+        "officialName": "جمهورية زمبابوي "
+      },
+      "es": {
+        "name": "Zimbabwe",
+        "capital": "Harare",
+        "officialName": "la República de Zimbabwe"
+      },
+      "fr": {
+        "name": "Zimbabwe",
+        "capital": "Harare",
+        "officialName": "la République du Zimbabwe"
+      },
+      "it": {
+        "name": "Zimbabwe",
+        "capital": "Harare",
+        "officialName": "Repubblica dello Zimbabwe"
+      },
+      "ru": {
+        "name": "Зимбабве",
+        "capital": "Harare",
+        "officialName": "Республика Зимбабве"
+      },
+      "zh-CN": {
+        "name": "津巴布韦",
+        "capital": "Harare",
+        "officialName": "津巴布韦共和国"
+      },
+      "en": {
+        "name": "Zimbabwe",
+        "capital": "Harare",
+        "officialName": "Republic of Zimbabwe"
       }
     },
     "economics": {
@@ -7045,7 +11468,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Emmerson Mnangagwa",
       "headOfGovernment": "Emmerson Mnangagwa",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7055,34 +11497,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 53330978,
     "difficulty": "medium",
-    "flag_url": "/flags/3b5f7a488f45.webp",
+    "flag_url": "/flags/3b5f7a488f45.svg",
     "codes": {
       "iso2": "KE",
       "iso3": "KEN",
       "numeric": "404"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Quénia",
-        "capital": "Nairóbi"
+        "capital": "Nairóbi",
+        "officialName": "Republic of Kenya"
+      },
+      "ar": {
+        "name": "كينيا",
+        "capital": "Nairobi",
+        "officialName": "كينيا جمهورية "
+      },
+      "es": {
+        "name": "Kenya",
+        "capital": "Nairobi",
+        "officialName": "la República de Kenya"
+      },
+      "fr": {
+        "name": "Kenya",
+        "capital": "Nairobi",
+        "officialName": "la République du Kenya"
+      },
+      "it": {
+        "name": "Kenya",
+        "capital": "Nairobi",
+        "officialName": "Repubblica del Kenya"
+      },
+      "ru": {
+        "name": "Кения",
+        "capital": "Nairobi",
+        "officialName": "Республика Кения"
+      },
+      "zh-CN": {
+        "name": "肯尼亚",
+        "capital": "Nairobi",
+        "officialName": "肯尼亚共和国"
+      },
+      "en": {
+        "name": "Kenya",
+        "capital": "Nairobi",
+        "officialName": "Republic of Kenya"
       }
     },
     "economics": {
@@ -7093,7 +11553,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "William Ruto",
       "headOfGovernment": "William Ruto",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7103,36 +11582,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 919901,
     "difficulty": "god_mode",
-    "flag_url": "/flags/cf8bdfdd7f89.webp",
+    "flag_url": "/flags/cf8bdfdd7f89.svg",
     "codes": {
       "iso2": "KM",
       "iso3": "COM",
       "numeric": "174"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Comores",
-        "capital": "Moroni"
+        "capital": "Moroni",
+        "officialName": "Union of the Comoros"
+      },
+      "ar": {
+        "name": "جزر القمر ",
+        "capital": "Moroni",
+        "officialName": "اتحاد جزر القمر "
+      },
+      "es": {
+        "name": "Comoras",
+        "capital": "Moroni",
+        "officialName": "la Unión de las Comoras"
+      },
+      "fr": {
+        "name": "Comores",
+        "capital": "Moroni",
+        "officialName": "l'Union des Comores"
+      },
+      "it": {
+        "name": "Isole Comore",
+        "capital": "Moroni",
+        "officialName": "Unione delle Comore"
+      },
+      "ru": {
+        "name": "Коморские Острова",
+        "capital": "Moroni",
+        "officialName": "Союз Коморских Островов"
+      },
+      "zh-CN": {
+        "name": "科摩罗",
+        "capital": "Moroni",
+        "officialName": "科摩罗联盟"
+      },
+      "en": {
+        "name": "Comoros",
+        "capital": "Moroni",
+        "officialName": "Union of the Comoros"
       }
     },
     "economics": {
@@ -7144,7 +11639,7 @@ export const countries: CountryData[] = [
       "headOfState": "Azali Assoumani",
       "headOfGovernment": "Azali Assoumani",
       "governmentType": "federal republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -7152,7 +11647,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7162,37 +11678,44 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 38000,
     "difficulty": "god_mode",
-    "flag_url": "/flags/91ad0ddb5c28.webp",
+    "flag_url": "/flags/91ad0ddb5c28.svg",
     "codes": {
       "iso2": "GI",
       "iso3": "GIB",
       "numeric": "292"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Gibraltar",
-        "capital": "Gibraltar"
+        "capital": "Gibraltar",
+        "officialName": "Gibraltar"
+      },
+      "en": {
+        "name": "Gibraltar",
+        "capital": "Gibraltar",
+        "officialName": "Gibraltar"
       }
     },
     "politics": {
       "headOfState": "Charles III",
       "headOfGovernment": "Fabian Picardo",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7202,36 +11725,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 455500,
     "difficulty": "super_hard",
-    "flag_url": "/flags/0cd165045b47.webp",
+    "flag_url": "/flags/0cd165045b47.svg",
     "codes": {
       "iso2": "BN",
       "iso3": "BRN",
       "numeric": "096"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Brunei",
-        "capital": "Bandar Seri Begawan"
+        "capital": "Bandar Seri Begawan",
+        "officialName": "Nation of Brunei, Abode of Peace"
+      },
+      "ar": {
+        "name": "السلام دار برونى ",
+        "capital": "Bandar Seri Begawan",
+        "officialName": "السلام دار بروني "
+      },
+      "es": {
+        "name": "Brunei Darussalam",
+        "capital": "Bandar Seri Begawan",
+        "officialName": "Brunei Darussalam"
+      },
+      "fr": {
+        "name": "Brunéi Darussalam",
+        "capital": "Bandar Seri Begawan",
+        "officialName": "le Brunéi Darussalam"
+      },
+      "it": {
+        "name": "Brunei",
+        "capital": "Bandar Seri Begawan",
+        "officialName": "Stato di Brunei Darussalam"
+      },
+      "ru": {
+        "name": "Бруней-Даруссалам",
+        "capital": "Bandar Seri Begawan",
+        "officialName": "Бруней-Даруссалам"
+      },
+      "zh-CN": {
+        "name": "文莱达鲁萨兰国",
+        "capital": "Bandar Seri Begawan",
+        "officialName": "文莱达鲁萨兰国"
+      },
+      "en": {
+        "name": "Brunei",
+        "capital": "Bandar Seri Begawan",
+        "officialName": "Nation of Brunei, Abode of Peace"
       }
     },
     "economics": {
@@ -7243,7 +11782,7 @@ export const countries: CountryData[] = [
       "headOfState": "Hassanal Bolkiah I of Brunei",
       "headOfGovernment": "Hassanal Bolkiah I of Brunei",
       "governmentType": "Islamic state; absolute monarchy; unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -7257,7 +11796,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7267,34 +11827,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 10605098,
     "difficulty": "hard",
-    "flag_url": "/flags/295099c764e6.webp",
+    "flag_url": "/flags/295099c764e6.svg",
     "codes": {
       "iso2": "SE",
       "iso3": "SWE",
       "numeric": "752"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Suécia",
-        "capital": "Estocolmo"
+        "capital": "Estocolmo",
+        "officialName": "Kingdom of Sweden"
+      },
+      "ar": {
+        "name": "السويد",
+        "capital": "Stockholm",
+        "officialName": "مملكة السويد "
+      },
+      "es": {
+        "name": "Suecia",
+        "capital": "Stockholm",
+        "officialName": "el Reino de Suecia"
+      },
+      "fr": {
+        "name": "Suède",
+        "capital": "Stockholm",
+        "officialName": "le Royaume de Suède"
+      },
+      "it": {
+        "name": "Svezia",
+        "capital": "Stockholm",
+        "officialName": "Regno di Svezia"
+      },
+      "ru": {
+        "name": "Швеция",
+        "capital": "Stockholm",
+        "officialName": "Королевство Швеция"
+      },
+      "zh-CN": {
+        "name": "瑞 典",
+        "capital": "Stockholm",
+        "officialName": "瑞典王国"
+      },
+      "en": {
+        "name": "Sweden",
+        "capital": "Stockholm",
+        "officialName": "Kingdom of Sweden"
       }
     },
     "economics": {
@@ -7306,7 +11884,26 @@ export const countries: CountryData[] = [
       "headOfState": "Carl XVI Gustaf of Sweden",
       "headOfGovernment": "Ulf Kristersson",
       "governmentType": "constitutional monarchy; representative democracy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7316,34 +11913,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 2116427,
     "difficulty": "hard",
-    "flag_url": "/flags/7a1de3309cef.webp",
+    "flag_url": "/flags/7a1de3309cef.svg",
     "codes": {
       "iso2": "LS",
       "iso3": "LSO",
       "numeric": "426"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Lesoto",
-        "capital": "Maseru"
+        "capital": "Maseru",
+        "officialName": "Kingdom of Lesotho"
+      },
+      "ar": {
+        "name": "ليسوتو",
+        "capital": "Maseru",
+        "officialName": "ليسوتو مملكة "
+      },
+      "es": {
+        "name": "Lesotho",
+        "capital": "Maseru",
+        "officialName": "el Reino de Lesotho"
+      },
+      "fr": {
+        "name": "Lesotho",
+        "capital": "Maseru",
+        "officialName": "le Royaume du Lesotho"
+      },
+      "it": {
+        "name": "Lesotho",
+        "capital": "Maseru",
+        "officialName": "Regno di Lesotho"
+      },
+      "ru": {
+        "name": "Лесото",
+        "capital": "Maseru",
+        "officialName": "Королевство Лесото"
+      },
+      "zh-CN": {
+        "name": "莱索托",
+        "capital": "Maseru",
+        "officialName": "莱索托王国"
+      },
+      "en": {
+        "name": "Lesotho",
+        "capital": "Maseru",
+        "officialName": "Kingdom of Lesotho"
       }
     },
     "economics": {
@@ -7355,7 +11970,26 @@ export const countries: CountryData[] = [
       "headOfState": "Letsie III of Lesotho",
       "headOfGovernment": "Sam Matekane",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7365,34 +11999,22 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 84530,
     "difficulty": "god_mode",
-    "flag_url": "/flags/c896e722f496.webp",
+    "flag_url": "/flags/c896e722f496.svg",
     "codes": {
       "iso2": "IM",
       "iso3": "IMN",
       "numeric": "833"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Ilha de Man",
-        "capital": "Douglas"
+        "capital": "Douglas",
+        "officialName": "Isle of Man"
+      },
+      "en": {
+        "name": "Isle of Man",
+        "capital": "Douglas",
+        "officialName": "Isle of Man"
       }
     },
     "economics": {
@@ -7403,7 +12025,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Charles III",
       "headOfGovernment": "Howard Quayle",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7413,34 +12054,52 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 105564,
     "difficulty": "god_mode",
-    "flag_url": "/flags/1ae6d37bbeb9.webp",
+    "flag_url": "/flags/1ae6d37bbeb9.svg",
     "codes": {
       "iso2": "FM",
       "iso3": "FSM",
       "numeric": "583"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Micronésia",
-        "capital": "Palikir"
+        "capital": "Palikir",
+        "officialName": "Federated States of Micronesia"
+      },
+      "ar": {
+        "name": "ميكرونيزيا",
+        "capital": "Palikir",
+        "officialName": "الموحدة ميكرونيزيا ولايات "
+      },
+      "es": {
+        "name": "Micronesia (Estados Federados de)",
+        "capital": "Palikir",
+        "officialName": "los Estados Federados de Micronesia"
+      },
+      "fr": {
+        "name": "Micronésie (États fédérés de)",
+        "capital": "Palikir",
+        "officialName": "les États fédérés de Micronésie"
+      },
+      "it": {
+        "name": "Micronesia (Stati federati di)",
+        "capital": "Palikir",
+        "officialName": "Stati federati di Micronesia"
+      },
+      "ru": {
+        "name": "Микронезия (Федеративные Штаты)",
+        "capital": "Palikir",
+        "officialName": "Федеративные Штаты Микронезии"
+      },
+      "zh-CN": {
+        "name": "密克罗尼西亚(联邦)",
+        "capital": "Palikir",
+        "officialName": "密克罗尼西亚联邦"
+      },
+      "en": {
+        "name": "Micronesia",
+        "capital": "Palikir",
+        "officialName": "Federated States of Micronesia"
       }
     },
     "economics": {
@@ -7452,7 +12111,26 @@ export const countries: CountryData[] = [
       "headOfState": "Wesley Simina",
       "headOfGovernment": "Wesley Simina",
       "governmentType": "federal republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7462,34 +12140,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 68153004,
     "difficulty": "easy",
-    "flag_url": "/flags/749477020441.webp",
+    "flag_url": "/flags/749477020441.svg",
     "codes": {
       "iso2": "TZ",
       "iso3": "TZA",
       "numeric": "834"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Tanzânia",
-        "capital": "Dodoma"
+        "capital": "Dodoma",
+        "officialName": "United Republic of Tanzania"
+      },
+      "ar": {
+        "name": "جمهورية تنزانيا المتحدة ",
+        "capital": "Dodoma",
+        "officialName": "جمهورية تنزانيا المتحدة "
+      },
+      "es": {
+        "name": "República Unida de Tanzanía",
+        "capital": "Dodoma",
+        "officialName": "la República Unida de Tanzanía"
+      },
+      "fr": {
+        "name": "République-Unie de Tanzanie",
+        "capital": "Dodoma",
+        "officialName": "la République-Unie de Tanzanie"
+      },
+      "it": {
+        "name": "Repubblica unita di Tanzania",
+        "capital": "Dodoma",
+        "officialName": "Repubblica unita di Tanzania"
+      },
+      "ru": {
+        "name": "Объединенная Республика Танзания",
+        "capital": "Dodoma",
+        "officialName": "Объединенная Республика Танзания"
+      },
+      "zh-CN": {
+        "name": "坦桑尼亚联合共和国",
+        "capital": "Dodoma",
+        "officialName": "坦桑尼亚联合共和国"
+      },
+      "en": {
+        "name": "Tanzania",
+        "capital": "Dodoma",
+        "officialName": "United Republic of Tanzania"
       }
     },
     "economics": {
@@ -7500,7 +12196,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Samia Suluhu Hassan",
       "headOfGovernment": "Samia Suluhu Hassan",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7510,34 +12225,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 491233,
     "difficulty": "super_hard",
-    "flag_url": "/flags/85fde97e96c8.webp",
+    "flag_url": "/flags/85fde97e96c8.svg",
     "codes": {
       "iso2": "CV",
       "iso3": "CPV",
       "numeric": "132"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Cabo Verde",
-        "capital": "Praia"
+        "capital": "Praia",
+        "officialName": "Republic of Cabo Verde"
+      },
+      "ar": {
+        "name": "كابو فيردي ",
+        "capital": "Praia",
+        "officialName": "جمهورية كابو فيردي "
+      },
+      "es": {
+        "name": "Cabo Verde",
+        "capital": "Praia",
+        "officialName": "la República de Cabo Verde"
+      },
+      "fr": {
+        "name": "Cabo Verde",
+        "capital": "Praia",
+        "officialName": "la République de Cabo Verde"
+      },
+      "it": {
+        "name": "Cabo Verde",
+        "capital": "Praia",
+        "officialName": "Repubblica del Cabo Verde"
+      },
+      "ru": {
+        "name": "Кабо-Верде",
+        "capital": "Praia",
+        "officialName": "Республика Кабо-Верде"
+      },
+      "zh-CN": {
+        "name": "佛得角",
+        "capital": "Praia",
+        "officialName": "佛得角共和国"
+      },
+      "en": {
+        "name": "Cape Verde",
+        "capital": "Praia",
+        "officialName": "Republic of Cabo Verde"
       }
     },
     "economics": {
@@ -7549,7 +12282,26 @@ export const countries: CountryData[] = [
       "headOfState": "José Maria Neves",
       "headOfGovernment": "Ulisses Correia e Silva",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7559,36 +12311,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 43844000,
     "difficulty": "medium",
-    "flag_url": "/flags/f04ad4d28e19.webp",
+    "flag_url": "/flags/f04ad4d28e19.svg",
     "codes": {
       "iso2": "AF",
       "iso3": "AFG",
       "numeric": "004"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Afeganistão",
-        "capital": "Kabul"
+        "capital": "Kabul",
+        "officialName": "Islamic Republic of Afghanistan"
+      },
+      "ar": {
+        "name": "أفغانستان",
+        "capital": "Kabul",
+        "officialName": "جمهورية أفغانستان الإسلامية "
+      },
+      "es": {
+        "name": "Afganistán",
+        "capital": "Kabul",
+        "officialName": "la República Islámica del Afganistán"
+      },
+      "fr": {
+        "name": "Afghanistan",
+        "capital": "Kabul",
+        "officialName": "la République islamique d'Afghanistan"
+      },
+      "it": {
+        "name": "Afghanistan",
+        "capital": "Kabul",
+        "officialName": "Repubblica Islamica di Afghanistan  "
+      },
+      "ru": {
+        "name": "Афганистан",
+        "capital": "Kabul",
+        "officialName": "Исламская Республика Афганистан"
+      },
+      "zh-CN": {
+        "name": "阿富汗",
+        "capital": "Kabul",
+        "officialName": "阿富汗伊斯兰共和国"
+      },
+      "en": {
+        "name": "Afghanistan",
+        "capital": "Kabul",
+        "officialName": "Islamic Republic of Afghanistan"
       }
     },
     "economics": {
@@ -7600,7 +12368,7 @@ export const countries: CountryData[] = [
       "headOfState": "Hibatullah Akhundzada",
       "headOfGovernment": "Mohammad Hasan Akhund",
       "governmentType": "Emirate; theocracy; unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -7608,7 +12376,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7618,34 +12407,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 88406,
     "difficulty": "god_mode",
-    "flag_url": "/flags/fc4fcdd3cf80.webp",
+    "flag_url": "/flags/fc4fcdd3cf80.svg",
     "codes": {
       "iso2": "AD",
       "iso3": "AND",
       "numeric": "020"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Andorra",
-        "capital": "Andorra la Vella"
+        "capital": "Andorra la Vella",
+        "officialName": "Principality of Andorra"
+      },
+      "ar": {
+        "name": "أندورا",
+        "capital": "Andorra la Vella",
+        "officialName": "أندورا إمارة "
+      },
+      "es": {
+        "name": "Andorra",
+        "capital": "Andorra la Vella",
+        "officialName": "el Principado de Andorra"
+      },
+      "fr": {
+        "name": "Andorre",
+        "capital": "Andorra la Vella",
+        "officialName": "la Principauté d'Andorre"
+      },
+      "it": {
+        "name": "Andorra",
+        "capital": "Andorra la Vella",
+        "officialName": "Principato d'Andorra"
+      },
+      "ru": {
+        "name": "Андорра",
+        "capital": "Andorra la Vella",
+        "officialName": "Княжество Андорра"
+      },
+      "zh-CN": {
+        "name": "安道尔",
+        "capital": "Andorra la Vella",
+        "officialName": "安道尔公国"
+      },
+      "en": {
+        "name": "Andorra",
+        "capital": "Andorra la Vella",
+        "officialName": "Principality of Andorra"
       }
     },
     "economics": {
@@ -7654,10 +12461,29 @@ export const countries: CountryData[] = [
       "year": 2024
     },
     "politics": {
-      "headOfState": "Josep-Lluís Serrano Pentinat",
+      "headOfState": "Emmanuel Macron; Josep-Lluís Serrano Pentinat",
       "headOfGovernment": "Xavier Espot Zamora",
       "governmentType": "parliamentary coprincipality",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7667,36 +12493,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 10400720,
     "difficulty": "hard",
-    "flag_url": "/flags/4839625482ad.webp",
+    "flag_url": "/flags/4839625482ad.svg",
     "codes": {
       "iso2": "GR",
       "iso3": "GRC",
       "numeric": "300"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Grécia",
-        "capital": "Atenas"
+        "capital": "Atenas",
+        "officialName": "Hellenic Republic"
+      },
+      "ar": {
+        "name": "اليونان",
+        "capital": "Athens",
+        "officialName": "الهيلانية الجمهورية "
+      },
+      "es": {
+        "name": "Grecia",
+        "capital": "Athens",
+        "officialName": "la República Helénica"
+      },
+      "fr": {
+        "name": "Grèce",
+        "capital": "Athens",
+        "officialName": "la République hellénique"
+      },
+      "it": {
+        "name": "Grecia",
+        "capital": "Athens",
+        "officialName": "Repubblica ellenica"
+      },
+      "ru": {
+        "name": "Греция",
+        "capital": "Athens",
+        "officialName": "Греческая Республика"
+      },
+      "zh-CN": {
+        "name": "希 腊",
+        "capital": "Athens",
+        "officialName": "希腊共和国"
+      },
+      "en": {
+        "name": "Greece",
+        "capital": "Athens",
+        "officialName": "Hellenic Republic"
       }
     },
     "economics": {
@@ -7708,7 +12550,7 @@ export const countries: CountryData[] = [
       "headOfState": "Konstantinos Tasoulas",
       "headOfGovernment": "Kyriakos Mitsotakis",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -7716,7 +12558,28 @@ export const countries: CountryData[] = [
           "name": "Greek Orthodoxy"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7726,36 +12589,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 101343800,
     "difficulty": "easy",
-    "flag_url": "/flags/4558505e43ad.webp",
+    "flag_url": "/flags/4558505e43ad.svg",
     "codes": {
       "iso2": "VN",
       "iso3": "VNM",
       "numeric": "704"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Vietname",
-        "capital": "Hanói"
+        "capital": "Hanói",
+        "officialName": "Socialist Republic of Vietnam"
+      },
+      "ar": {
+        "name": "فييت نام ",
+        "capital": "Hanoi",
+        "officialName": "جمهورية فييت نام الاشتراكية "
+      },
+      "es": {
+        "name": "Viet Nam",
+        "capital": "Hanoi",
+        "officialName": "la República Socialista de Viet Nam"
+      },
+      "fr": {
+        "name": "Viet Nam",
+        "capital": "Hanoi",
+        "officialName": "la République socialiste du Viet Nam"
+      },
+      "it": {
+        "name": "Vietnam",
+        "capital": "Hanoi",
+        "officialName": "Repubblica socialista del Vietnam"
+      },
+      "ru": {
+        "name": "Вьетнам",
+        "capital": "Hanoi",
+        "officialName": "Социалистическая Республика Вьетнам"
+      },
+      "zh-CN": {
+        "name": "越 南",
+        "capital": "Hanoi",
+        "officialName": "越南社会主义共和国"
+      },
+      "en": {
+        "name": "Vietnam",
+        "capital": "Hanoi",
+        "officialName": "Socialist Republic of Vietnam"
       }
     },
     "economics": {
@@ -7767,7 +12646,7 @@ export const countries: CountryData[] = [
       "headOfState": "Tô Lâm",
       "headOfGovernment": "Phạm Minh Chính",
       "governmentType": "republic; single-party system; unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -7787,7 +12666,28 @@ export const countries: CountryData[] = [
           "name": "Protestantism"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7797,36 +12697,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 46118793,
     "difficulty": "medium",
-    "flag_url": "/flags/818d76d65864.webp",
+    "flag_url": "/flags/818d76d65864.svg",
     "codes": {
       "iso2": "IQ",
       "iso3": "IRQ",
       "numeric": "368"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Iraque",
-        "capital": "Bagdá"
+        "capital": "Bagdá",
+        "officialName": "Republic of Iraq"
+      },
+      "ar": {
+        "name": "العراق",
+        "capital": "Baghdad",
+        "officialName": "جمهورية العراق "
+      },
+      "es": {
+        "name": "Iraq",
+        "capital": "Baghdad",
+        "officialName": "la República del Iraq"
+      },
+      "fr": {
+        "name": "Iraq",
+        "capital": "Baghdad",
+        "officialName": "la République d'Iraq"
+      },
+      "it": {
+        "name": "Iraq",
+        "capital": "Baghdad",
+        "officialName": "Repubblica dell'Iraq"
+      },
+      "ru": {
+        "name": "Ирак",
+        "capital": "Baghdad",
+        "officialName": "Республика Ирак"
+      },
+      "zh-CN": {
+        "name": "伊拉克",
+        "capital": "Baghdad",
+        "officialName": "伊拉克共和国"
+      },
+      "en": {
+        "name": "Iraq",
+        "capital": "Baghdad",
+        "officialName": "Republic of Iraq"
       }
     },
     "economics": {
@@ -7838,7 +12754,7 @@ export const countries: CountryData[] = [
       "headOfState": "Abdul Latif Rashid",
       "headOfGovernment": "Muhammad Shia' al-Sudani",
       "governmentType": "federal republic; federation",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -7846,7 +12762,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7856,34 +12793,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 7459000,
     "difficulty": "hard",
-    "flag_url": "/flags/f6b323fdd9f9.webp",
+    "flag_url": "/flags/f6b323fdd9f9.svg",
     "codes": {
       "iso2": "LY",
       "iso3": "LBY",
       "numeric": "434"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Líbia",
-        "capital": "Tripoli"
+        "capital": "Tripoli",
+        "officialName": "State of Libya"
+      },
+      "ar": {
+        "name": "ليبيا",
+        "capital": "Tripoli",
+        "officialName": "ليبيا"
+      },
+      "es": {
+        "name": "Libia",
+        "capital": "Tripoli",
+        "officialName": "Libia"
+      },
+      "fr": {
+        "name": "Libye",
+        "capital": "Tripoli",
+        "officialName": "la Libye"
+      },
+      "it": {
+        "name": "Libia",
+        "capital": "Tripoli",
+        "officialName": "Libia"
+      },
+      "ru": {
+        "name": "Ливия",
+        "capital": "Tripoli",
+        "officialName": "Ливия"
+      },
+      "zh-CN": {
+        "name": "利比亚",
+        "capital": "Tripoli",
+        "officialName": "利比亚"
+      },
+      "en": {
+        "name": "Libya",
+        "capital": "Tripoli",
+        "officialName": "State of Libya"
       }
     },
     "economics": {
@@ -7892,10 +12847,29 @@ export const countries: CountryData[] = [
       "year": 2024
     },
     "politics": {
-      "headOfState": "Mohamed al-Menfi",
+      "headOfState": "Aguila Saleh Issa; Mohamed al-Menfi",
       "headOfGovernment": "Abd al-Hamid Dbeibeh",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7905,34 +12879,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 10749635,
     "difficulty": "hard",
-    "flag_url": "/flags/6636b31811ee.webp",
+    "flag_url": "/flags/6636b31811ee.svg",
     "codes": {
       "iso2": "PT",
       "iso3": "PRT",
       "numeric": "620"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Portugal",
-        "capital": "Lisboa"
+        "capital": "Lisboa",
+        "officialName": "Portuguese Republic"
+      },
+      "ar": {
+        "name": "البرتغال",
+        "capital": "Lisbon",
+        "officialName": "البرتغال جمهورية "
+      },
+      "es": {
+        "name": "Portugal",
+        "capital": "Lisbon",
+        "officialName": "la República Portuguesa"
+      },
+      "fr": {
+        "name": "Portugal",
+        "capital": "Lisbon",
+        "officialName": "la République portugaise"
+      },
+      "it": {
+        "name": "Portogallo",
+        "capital": "Lisbon",
+        "officialName": "Repubblica portoghese"
+      },
+      "ru": {
+        "name": "Португалия",
+        "capital": "Lisbon",
+        "officialName": "Португальская Республика"
+      },
+      "zh-CN": {
+        "name": "葡萄牙",
+        "capital": "Lisbon",
+        "officialName": "葡萄牙共和国"
+      },
+      "en": {
+        "name": "Portugal",
+        "capital": "Lisbon",
+        "officialName": "Portuguese Republic"
       }
     },
     "economics": {
@@ -7944,7 +12936,26 @@ export const countries: CountryData[] = [
       "headOfState": "Marcelo Rebelo de Sousa",
       "headOfGovernment": "Luís Montenegro",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -7954,36 +12965,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 241499431,
     "difficulty": "easy",
-    "flag_url": "/flags/ad1d0a33d147.webp",
+    "flag_url": "/flags/ad1d0a33d147.svg",
     "codes": {
       "iso2": "PK",
       "iso3": "PAK",
       "numeric": "586"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Paquistão",
-        "capital": "Islamabad"
+        "capital": "Islamabad",
+        "officialName": "Islamic Republic of Pakistan"
+      },
+      "ar": {
+        "name": "باكستان",
+        "capital": "Islamabad",
+        "officialName": "الإسلامية باكستان جمهورية "
+      },
+      "es": {
+        "name": "Pakistán",
+        "capital": "Islamabad",
+        "officialName": "la República Islámica del Pakistán"
+      },
+      "fr": {
+        "name": "Pakistan",
+        "capital": "Islamabad",
+        "officialName": "la République islamique du Pakistan"
+      },
+      "it": {
+        "name": "Pakistan",
+        "capital": "Islamabad",
+        "officialName": "Repubblica islamica del Pakistan"
+      },
+      "ru": {
+        "name": "Пакистан",
+        "capital": "Islamabad",
+        "officialName": "Исламская Республика Пакистан"
+      },
+      "zh-CN": {
+        "name": "巴基斯坦",
+        "capital": "Islamabad",
+        "officialName": "巴基斯坦伊斯兰共和国"
+      },
+      "en": {
+        "name": "Pakistan",
+        "capital": "Islamabad",
+        "officialName": "Islamic Republic of Pakistan"
       }
     },
     "economics": {
@@ -7995,7 +13022,7 @@ export const countries: CountryData[] = [
       "headOfState": "Asif Ali Zardari",
       "headOfGovernment": "Shehbaz Sharif",
       "governmentType": "federal republic; parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -8003,7 +13030,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8013,36 +13061,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 515132,
     "difficulty": "super_hard",
-    "flag_url": "/flags/b9aade37f226.webp",
+    "flag_url": "/flags/b9aade37f226.svg",
     "codes": {
       "iso2": "MV",
       "iso3": "MDV",
       "numeric": "462"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Maldivas",
-        "capital": "Malé"
+        "capital": "Malé",
+        "officialName": "Republic of the Maldives"
+      },
+      "ar": {
+        "name": "ملديف",
+        "capital": "Malé",
+        "officialName": "جمهورية ملديف "
+      },
+      "es": {
+        "name": "Maldivas",
+        "capital": "Malé",
+        "officialName": "la República de Maldivas"
+      },
+      "fr": {
+        "name": "Maldives",
+        "capital": "Malé",
+        "officialName": "la République des Maldives"
+      },
+      "it": {
+        "name": "Maldive",
+        "capital": "Malé",
+        "officialName": "Repubblica delle Maldive"
+      },
+      "ru": {
+        "name": "Мальдивы",
+        "capital": "Malé",
+        "officialName": "Мальдивская Республика"
+      },
+      "zh-CN": {
+        "name": "马尔代夫",
+        "capital": "Malé",
+        "officialName": "马尔代夫共和国"
+      },
+      "en": {
+        "name": "Maldives",
+        "capital": "Malé",
+        "officialName": "Republic of the Maldives"
       }
     },
     "economics": {
@@ -8053,7 +13117,7 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Mohamed Muizzu",
       "headOfGovernment": "Mohamed Muizzu",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -8061,7 +13125,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8071,36 +13156,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 36828330,
     "difficulty": "medium",
-    "flag_url": "/flags/52118e19d4ef.webp",
+    "flag_url": "/flags/52118e19d4ef.svg",
     "codes": {
       "iso2": "MA",
       "iso3": "MAR",
       "numeric": "504"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Marrocos",
-        "capital": "Rabat"
+        "capital": "Rabat",
+        "officialName": "Kingdom of Morocco"
+      },
+      "ar": {
+        "name": "المغرب",
+        "capital": "Rabat",
+        "officialName": "المملكة المغربية "
+      },
+      "es": {
+        "name": "Marruecos",
+        "capital": "Rabat",
+        "officialName": "el Reino de Marruecos"
+      },
+      "fr": {
+        "name": "Maroc",
+        "capital": "Rabat",
+        "officialName": "le Royaume du Maroc"
+      },
+      "it": {
+        "name": "Marocco",
+        "capital": "Rabat",
+        "officialName": "Regno del Marocco"
+      },
+      "ru": {
+        "name": "Марокко",
+        "capital": "Rabat",
+        "officialName": "Королевство Марокко"
+      },
+      "zh-CN": {
+        "name": "摩洛哥",
+        "capital": "Rabat",
+        "officialName": "摩洛哥王国"
+      },
+      "en": {
+        "name": "Morocco",
+        "capital": "Rabat",
+        "officialName": "Kingdom of Morocco"
       }
     },
     "economics": {
@@ -8112,7 +13213,7 @@ export const countries: CountryData[] = [
       "headOfState": "Mohammed VI of Morocco",
       "headOfGovernment": "Aziz Akhannouch",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -8120,7 +13221,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8130,36 +13252,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 3422000,
     "difficulty": "hard",
-    "flag_url": "/flags/586a6ebd7c83.webp",
+    "flag_url": "/flags/586a6ebd7c83.svg",
     "codes": {
       "iso2": "BA",
       "iso3": "BIH",
       "numeric": "070"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Bósnia e Herzegovina",
-        "capital": "Sarajevo"
+        "capital": "Sarajevo",
+        "officialName": "Bosnia and Herzegovina"
+      },
+      "ar": {
+        "name": "والهرسك البوسنة ",
+        "capital": "Sarajevo",
+        "officialName": "والهرسك البوسنة "
+      },
+      "es": {
+        "name": "Bosnia y Herzegovina",
+        "capital": "Sarajevo",
+        "officialName": "Bosnia y Herzegovina"
+      },
+      "fr": {
+        "name": "Bosnie-Herzégovine",
+        "capital": "Sarajevo",
+        "officialName": "la Bosnie-Herzégovine"
+      },
+      "it": {
+        "name": "Bosnia-Erzegovina",
+        "capital": "Sarajevo",
+        "officialName": "Bosnia-Erzegovina"
+      },
+      "ru": {
+        "name": "Босния и Герцеговина",
+        "capital": "Sarajevo",
+        "officialName": "Босния и Герцеговина"
+      },
+      "zh-CN": {
+        "name": "波斯尼亚和黑塞哥维那",
+        "capital": "Sarajevo",
+        "officialName": "波斯尼亚和黑塞哥维那"
+      },
+      "en": {
+        "name": "Bosnia and Herzegovina",
+        "capital": "Sarajevo",
+        "officialName": "Bosnia and Herzegovina"
       }
     },
     "economics": {
@@ -8168,10 +13306,10 @@ export const countries: CountryData[] = [
       "year": 2024
     },
     "politics": {
-      "headOfState": "Denis Bećirović",
+      "headOfState": "Denis Bećirović; Željka Cvijanović; Željko Komšić",
       "headOfGovernment": "Borjana Krišto",
       "governmentType": "federal republic; republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
     },
     "culture": {
       "religions": [
@@ -8188,7 +13326,28 @@ export const countries: CountryData[] = [
           "name": "Judaism"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8198,34 +13357,52 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 205557,
     "difficulty": "god_mode",
-    "flag_url": "/flags/0c474a68bcff.webp",
+    "flag_url": "/flags/0c474a68bcff.svg",
     "codes": {
       "iso2": "WS",
       "iso3": "WSM",
       "numeric": "882"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Samoa",
-        "capital": "Apia"
+        "capital": "Apia",
+        "officialName": "Independent State of Samoa"
+      },
+      "ar": {
+        "name": "ساموا",
+        "capital": "Apia",
+        "officialName": "المستقلة ساموا دولة "
+      },
+      "es": {
+        "name": "Samoa",
+        "capital": "Apia",
+        "officialName": "el Estado Independiente de Samoa"
+      },
+      "fr": {
+        "name": "Samoa",
+        "capital": "Apia",
+        "officialName": "l'État indépendant du Samoa"
+      },
+      "it": {
+        "name": "Samoa",
+        "capital": "Apia",
+        "officialName": "Stato indipendente di Samoa"
+      },
+      "ru": {
+        "name": "Самоа",
+        "capital": "Apia",
+        "officialName": "Независимое Государство Самоа"
+      },
+      "zh-CN": {
+        "name": "萨摩亚",
+        "capital": "Apia",
+        "officialName": "萨摩亚独立国"
+      },
+      "en": {
+        "name": "Samoa",
+        "capital": "Apia",
+        "officialName": "Independent State of Samoa"
       }
     },
     "economics": {
@@ -8234,9 +13411,28 @@ export const countries: CountryData[] = [
       "year": 2024
     },
     "politics": {
-      "headOfState": "Va'aletoa Sualauvi II",
-      "headOfGovernment": "Fiamē Naomi Mataʻafa",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "headOfState": "Tuilaʻepa Saʻilele Malielegaoi; Va'aletoa Sualauvi II",
+      "headOfGovernment": "Fiamē Naomi Mataʻafa; Tuilaʻepa Saʻilele Malielegaoi",
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8246,36 +13442,22 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 5483450,
     "difficulty": "hard",
-    "flag_url": "/flags/3c3bd7633ee6.webp",
+    "flag_url": "/flags/3c3bd7633ee6.svg",
     "codes": {
       "iso2": "PS",
       "iso3": "PSE",
       "numeric": "275"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Palestina",
-        "capital": "Ramallah"
+        "capital": "Ramallah",
+        "officialName": "State of Palestine"
+      },
+      "en": {
+        "name": "Palestine",
+        "capital": "Ramallah",
+        "officialName": "State of Palestine"
       }
     },
     "economics": {
@@ -8285,9 +13467,9 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfState": "Mahmoud Abbas",
-      "headOfGovernment": "Mohammad Mustafa",
+      "headOfGovernment": "Mohammad Mustafa; Mohammad Shtayyeh",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
     },
     "culture": {
       "religions": [
@@ -8298,7 +13480,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8308,36 +13511,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 5343630,
     "difficulty": "hard",
-    "flag_url": "/flags/e883a76a30b2.webp",
+    "flag_url": "/flags/e883a76a30b2.svg",
     "codes": {
       "iso2": "OM",
       "iso3": "OMN",
       "numeric": "512"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Omã",
-        "capital": "Muscat"
+        "capital": "Muscat",
+        "officialName": "Sultanate of Oman"
+      },
+      "ar": {
+        "name": "عمان",
+        "capital": "Muscat",
+        "officialName": "سلطنة عمان "
+      },
+      "es": {
+        "name": "Omán",
+        "capital": "Muscat",
+        "officialName": "la Sultanía de Omán"
+      },
+      "fr": {
+        "name": "Oman",
+        "capital": "Muscat",
+        "officialName": "le Sultanat d'Oman"
+      },
+      "it": {
+        "name": "Oman",
+        "capital": "Muscat",
+        "officialName": "Sultanato dell'Oman"
+      },
+      "ru": {
+        "name": "Оман",
+        "capital": "Muscat",
+        "officialName": "Султанат Оман"
+      },
+      "zh-CN": {
+        "name": "阿 曼",
+        "capital": "Muscat",
+        "officialName": "阿曼苏丹国"
+      },
+      "en": {
+        "name": "Oman",
+        "capital": "Muscat",
+        "officialName": "Sultanate of Oman"
       }
     },
     "economics": {
@@ -8349,7 +13568,7 @@ export const countries: CountryData[] = [
       "headOfState": "Haitham bin Tarik Al Said",
       "headOfGovernment": "Haitham bin Tarik Al Said",
       "governmentType": "absolute monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -8357,7 +13576,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8367,36 +13607,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 1594654,
     "difficulty": "super_hard",
-    "flag_url": "/flags/a23061616678.webp",
+    "flag_url": "/flags/a23061616678.svg",
     "codes": {
       "iso2": "BH",
       "iso3": "BHR",
       "numeric": "048"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Bahrein",
-        "capital": "Manama"
+        "capital": "Manama",
+        "officialName": "Kingdom of Bahrain"
+      },
+      "ar": {
+        "name": "البحرين",
+        "capital": "Manama",
+        "officialName": "مملكة البحرين "
+      },
+      "es": {
+        "name": "Bahrein",
+        "capital": "Manama",
+        "officialName": "el Reino de Bahrein"
+      },
+      "fr": {
+        "name": "Bahreïn",
+        "capital": "Manama",
+        "officialName": "le Royaume de Bahreïn"
+      },
+      "it": {
+        "name": "Bahrein",
+        "capital": "Manama",
+        "officialName": "Regno del Bahrein"
+      },
+      "ru": {
+        "name": "Бахрейн",
+        "capital": "Manama",
+        "officialName": "Королевство Бахрейн"
+      },
+      "zh-CN": {
+        "name": "巴 林",
+        "capital": "Manama",
+        "officialName": "巴林王国"
+      },
+      "en": {
+        "name": "Bahrain",
+        "capital": "Manama",
+        "officialName": "Kingdom of Bahrain"
       }
     },
     "economics": {
@@ -8408,7 +13664,7 @@ export const countries: CountryData[] = [
       "headOfState": "Hamad II of Bahrain",
       "headOfGovernment": "Salman bin Hamad, Crown Prince of Bahrain",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -8416,7 +13672,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8426,34 +13703,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 340110988,
     "difficulty": "easy",
-    "flag_url": "/flags/abafa4e09c01.webp",
+    "flag_url": "/flags/abafa4e09c01.svg",
     "codes": {
       "iso2": "US",
       "iso3": "USA",
       "numeric": "840"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Estados Unidos",
-        "capital": "Washington, D.C."
+        "capital": "Washington, D.C.",
+        "officialName": "United States of America"
+      },
+      "ar": {
+        "name": "الأمريكية المتحدة الولايات ",
+        "capital": "Washington, D.C.",
+        "officialName": "الأمريكية المتحدة الولايات "
+      },
+      "es": {
+        "name": "Estados Unidos de América",
+        "capital": "Washington, D.C.",
+        "officialName": "los Estados Unidos de América"
+      },
+      "fr": {
+        "name": "États-Unis d'Amérique",
+        "capital": "Washington, D.C.",
+        "officialName": "les États-Unis d'Amérique"
+      },
+      "it": {
+        "name": "Stati Uniti d`America",
+        "capital": "Washington, D.C.",
+        "officialName": "Stati Uniti d'America"
+      },
+      "ru": {
+        "name": "Соединенные Штаты Америки",
+        "capital": "Washington, D.C.",
+        "officialName": "Соединенные Штаты Америки"
+      },
+      "zh-CN": {
+        "name": "美 国",
+        "capital": "Washington, D.C.",
+        "officialName": "美利坚合众国"
+      },
+      "en": {
+        "name": "United States",
+        "capital": "Washington, D.C.",
+        "officialName": "United States of America"
       }
     },
     "economics": {
@@ -8465,7 +13760,26 @@ export const countries: CountryData[] = [
       "headOfState": "Donald Trump",
       "headOfGovernment": "Donald Trump",
       "governmentType": "federal republic; presidential system; republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8475,34 +13789,22 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 3203295,
     "difficulty": "hard",
-    "flag_url": "/flags/da7016ac5ce3.webp",
+    "flag_url": "/flags/da7016ac5ce3.svg",
     "codes": {
       "iso2": "PR",
       "iso3": "PRI",
       "numeric": "630"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Porto Rico",
-        "capital": "San Juan"
+        "capital": "San Juan",
+        "officialName": "Commonwealth of Puerto Rico"
+      },
+      "en": {
+        "name": "Puerto Rico",
+        "capital": "San Juan",
+        "officialName": "Commonwealth of Puerto Rico"
       }
     },
     "economics": {
@@ -8512,7 +13814,26 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfGovernment": "Jenniffer González",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8522,27 +13843,34 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 0,
     "difficulty": "god_mode",
-    "flag_url": "/flags/6b0e7e0d35d8.webp",
+    "flag_url": "/flags/6b0e7e0d35d8.svg",
     "codes": {
       "iso2": "IO",
       "iso3": "IOT",
       "numeric": "086"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Território Britânico do Oceano Índico",
+        "capital": "Diego Garcia",
+        "officialName": "British Indian Ocean Territory"
+      },
+      "en": {
+        "name": "British Indian Ocean Territory",
+        "capital": "Diego Garcia",
+        "officialName": "British Indian Ocean Territory"
+      }
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com"
-      }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Território Britânico do Oceano Índico",
-        "capital": "Diego Garcia"
+        "ptCapital": "manual+restcountries.com",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
     }
   },
@@ -8553,38 +13881,45 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 103267,
     "difficulty": "god_mode",
-    "flag_url": "/flags/5184a1cdb19a.webp",
+    "flag_url": "/flags/5184a1cdb19a.svg",
     "codes": {
       "iso2": "JE",
       "iso3": "JEY",
       "numeric": "832"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Jersey",
-        "capital": "Saint Helier"
+        "capital": "Saint Helier",
+        "officialName": "Bailiwick of Jersey"
+      },
+      "en": {
+        "name": "Jersey",
+        "capital": "Saint Helier",
+        "officialName": "Bailiwick of Jersey"
       }
     },
     "politics": {
       "headOfState": "Charles III",
       "headOfGovernment": "John Le Fondré",
       "governmentType": "constitutional monarchy; parliamentary democracy; parliamentary monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8594,34 +13929,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 1822612,
     "difficulty": "super_hard",
-    "flag_url": "/flags/4d8579a7f3d2.webp",
+    "flag_url": "/flags/4d8579a7f3d2.svg",
     "codes": {
       "iso2": "MK",
       "iso3": "MKD",
       "numeric": "807"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Macedónia do Norte",
-        "capital": "Skopje"
+        "capital": "Skopje",
+        "officialName": "Republic of North Macedonia"
+      },
+      "ar": {
+        "name": "جمهورية مقدونيا اليوغوسلافية السابقة ",
+        "capital": "Skopje",
+        "officialName": "جمهورية مقدونيا اليوغوسلافية السابقة "
+      },
+      "es": {
+        "name": "ex República Yugoslava de Macedonia",
+        "capital": "Skopje",
+        "officialName": "la ex República Yugoslava de Macedonia"
+      },
+      "fr": {
+        "name": "ex-République yougoslave de Macédoine",
+        "capital": "Skopje",
+        "officialName": "l'ex-République yougoslave de Macédoine"
+      },
+      "it": {
+        "name": "ex Repubblica jugoslava di Macedonia",
+        "capital": "Skopje",
+        "officialName": "L'ex Repubblica jugoslava di Macedonia"
+      },
+      "ru": {
+        "name": "бывшая югославская Республика Македония",
+        "capital": "Skopje",
+        "officialName": "бывшая югославская Республика Македония"
+      },
+      "zh-CN": {
+        "name": "前南斯拉夫的马其顿共和国",
+        "capital": "Skopje",
+        "officialName": "前南斯拉夫的马其顿共和国"
+      },
+      "en": {
+        "name": "North Macedonia",
+        "capital": "Skopje",
+        "officialName": "Republic of North Macedonia"
       }
     },
     "economics": {
@@ -8633,7 +13986,26 @@ export const countries: CountryData[] = [
       "headOfState": "Gordana Siljanovska-Davkova",
       "headOfGovernment": "Hristijan Mickoski",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8643,34 +14015,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 11972169,
     "difficulty": "hard",
-    "flag_url": "/flags/8e9f3fe372b3.webp",
+    "flag_url": "/flags/8e9f3fe372b3.svg",
     "codes": {
       "iso2": "TN",
       "iso3": "TUN",
       "numeric": "788"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Tunísia",
-        "capital": "Tunis"
+        "capital": "Tunis",
+        "officialName": "Tunisian Republic"
+      },
+      "ar": {
+        "name": "تونس",
+        "capital": "Tunis",
+        "officialName": "الجمهورية التونسية "
+      },
+      "es": {
+        "name": "Túnez",
+        "capital": "Tunis",
+        "officialName": "la República de Túnez"
+      },
+      "fr": {
+        "name": "Tunisie",
+        "capital": "Tunis",
+        "officialName": "la République tunisienne"
+      },
+      "it": {
+        "name": "Tunisia",
+        "capital": "Tunis",
+        "officialName": "Repubblica tunisina"
+      },
+      "ru": {
+        "name": "Тунис",
+        "capital": "Tunis",
+        "officialName": "Тунисская Республика"
+      },
+      "zh-CN": {
+        "name": "突尼斯",
+        "capital": "Tunis",
+        "officialName": "突尼斯共和国"
+      },
+      "en": {
+        "name": "Tunisia",
+        "capital": "Tunis",
+        "officialName": "Tunisian Republic"
       }
     },
     "economics": {
@@ -8682,7 +14072,26 @@ export const countries: CountryData[] = [
       "headOfState": "Kais Saied",
       "headOfGovernment": "Sarra Zaafrani",
       "governmentType": "parliamentary republic; semi-presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8692,34 +14101,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 1367764,
     "difficulty": "super_hard",
-    "flag_url": "/flags/686436afe1a4.webp",
+    "flag_url": "/flags/686436afe1a4.svg",
     "codes": {
       "iso2": "TT",
       "iso3": "TTO",
       "numeric": "780"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Trinidade e Tobago",
-        "capital": "Porto de Espanha"
+        "capital": "Porto de Espanha",
+        "officialName": "Republic of Trinidad and Tobago"
+      },
+      "ar": {
+        "name": "وتوباغو ترينيداد ",
+        "capital": "Port of Spain",
+        "officialName": "وتوباغو ترينيداد جمهورية "
+      },
+      "es": {
+        "name": "Trinidad y Tabago",
+        "capital": "Port of Spain",
+        "officialName": "la República de Trinidad y Tabago"
+      },
+      "fr": {
+        "name": "Trinité-et-Tobago",
+        "capital": "Port of Spain",
+        "officialName": "la République de Trinité-et-Tobago"
+      },
+      "it": {
+        "name": "Trinidad e Tobago",
+        "capital": "Port of Spain",
+        "officialName": "Repubblica di Trinidad e Tobago"
+      },
+      "ru": {
+        "name": "Тринидад и Тобаго",
+        "capital": "Port of Spain",
+        "officialName": "Республика Тринидад и Тобаго"
+      },
+      "zh-CN": {
+        "name": "特立尼达和多巴哥",
+        "capital": "Port of Spain",
+        "officialName": "特立尼达和多巴哥共和国"
+      },
+      "en": {
+        "name": "Trinidad and Tobago",
+        "capital": "Port of Spain",
+        "officialName": "Republic of Trinidad and Tobago"
       }
     },
     "economics": {
@@ -8731,7 +14158,26 @@ export const countries: CountryData[] = [
       "headOfState": "Christine Kangaloo",
       "headOfGovernment": "Kamla Persad-Bissessar",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8741,34 +14187,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 1369995,
     "difficulty": "super_hard",
-    "flag_url": "/flags/7275a5863bab.webp",
+    "flag_url": "/flags/7275a5863bab.svg",
     "codes": {
       "iso2": "EE",
       "iso3": "EST",
       "numeric": "233"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Estónia",
-        "capital": "Tallinn"
+        "capital": "Tallinn",
+        "officialName": "Republic of Estonia"
+      },
+      "ar": {
+        "name": "إستونيا",
+        "capital": "Tallinn",
+        "officialName": "جمهورية إستونيا "
+      },
+      "es": {
+        "name": "Estonia",
+        "capital": "Tallinn",
+        "officialName": "la República de Estonia"
+      },
+      "fr": {
+        "name": "Estonie",
+        "capital": "Tallinn",
+        "officialName": "la République d'Estonie"
+      },
+      "it": {
+        "name": "Estonia",
+        "capital": "Tallinn",
+        "officialName": "Repubblica di Estonia"
+      },
+      "ru": {
+        "name": "Эстония",
+        "capital": "Tallinn",
+        "officialName": "Эстонская Республика"
+      },
+      "zh-CN": {
+        "name": "爱沙尼亚",
+        "capital": "Tallinn",
+        "officialName": "爱沙尼亚共和国"
+      },
+      "en": {
+        "name": "Estonia",
+        "capital": "Tallinn",
+        "officialName": "Republic of Estonia"
       }
     },
     "economics": {
@@ -8778,9 +14242,28 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfState": "Alar Karis",
-      "headOfGovernment": "Kristen Michal",
+      "headOfGovernment": "Kaja Kallas; Kristen Michal",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8790,36 +14273,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 6110200,
     "difficulty": "hard",
-    "flag_url": "/flags/51e2a46721d1.webp",
+    "flag_url": "/flags/51e2a46721d1.svg",
     "codes": {
       "iso2": "SG",
       "iso3": "SGP",
       "numeric": "702"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Singapura",
-        "capital": "Singapore"
+        "capital": "Singapore",
+        "officialName": "Republic of Singapore"
+      },
+      "ar": {
+        "name": "سنغافورة",
+        "capital": "Singapore",
+        "officialName": "جمهورية سنغافورة "
+      },
+      "es": {
+        "name": "Singapur",
+        "capital": "Singapore",
+        "officialName": "la República de Singapur"
+      },
+      "fr": {
+        "name": "Singapour",
+        "capital": "Singapore",
+        "officialName": "la République de Singapour"
+      },
+      "it": {
+        "name": "Singapore",
+        "capital": "Singapore",
+        "officialName": "Repubblica di Singapore"
+      },
+      "ru": {
+        "name": "Сингапур",
+        "capital": "Singapore",
+        "officialName": "Республика Сингапур"
+      },
+      "zh-CN": {
+        "name": "新加坡",
+        "capital": "Singapore",
+        "officialName": "新加坡共和国"
+      },
+      "en": {
+        "name": "Singapore",
+        "capital": "Singapore",
+        "officialName": "Republic of Singapore"
       }
     },
     "economics": {
@@ -8831,7 +14330,7 @@ export const countries: CountryData[] = [
       "headOfState": "Tharman Shanmugaratnam",
       "headOfGovernment": "Lawrence Wong",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -8851,7 +14350,28 @@ export const countries: CountryData[] = [
           "name": "Taoism"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8861,34 +14381,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 4064780,
     "difficulty": "hard",
-    "flag_url": "/flags/d1775cdbcf90.webp",
+    "flag_url": "/flags/d1775cdbcf90.svg",
     "codes": {
       "iso2": "PA",
       "iso3": "PAN",
       "numeric": "591"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Panamá",
-        "capital": "Cidade do Panamá"
+        "capital": "Cidade do Panamá",
+        "officialName": "Republic of Panama"
+      },
+      "ar": {
+        "name": "بنما",
+        "capital": "Panama City",
+        "officialName": "بنما جمهورية "
+      },
+      "es": {
+        "name": "Panamá",
+        "capital": "Panama City",
+        "officialName": "la República de Panamá"
+      },
+      "fr": {
+        "name": "Panama",
+        "capital": "Panama City",
+        "officialName": "la République du Panama"
+      },
+      "it": {
+        "name": "Panama",
+        "capital": "Panama City",
+        "officialName": "Repubblica di Panama"
+      },
+      "ru": {
+        "name": "Панама",
+        "capital": "Panama City",
+        "officialName": "Республика Панама"
+      },
+      "zh-CN": {
+        "name": "巴拿马",
+        "capital": "Panama City",
+        "officialName": "巴拿马共和国"
+      },
+      "en": {
+        "name": "Panama",
+        "capital": "Panama City",
+        "officialName": "Republic of Panama"
       }
     },
     "economics": {
@@ -8900,7 +14438,26 @@ export const countries: CountryData[] = [
       "headOfState": "José Raúl Mulino",
       "headOfGovernment": "José Raúl Mulino",
       "governmentType": "presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8910,34 +14467,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 9082848,
     "difficulty": "hard",
-    "flag_url": "/flags/c32f5de8269a.webp",
+    "flag_url": "/flags/c32f5de8269a.svg",
     "codes": {
       "iso2": "CH",
       "iso3": "CHE",
       "numeric": "756"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Suíça",
-        "capital": "Bern"
+        "capital": "Bern",
+        "officialName": "Swiss Confederation"
+      },
+      "ar": {
+        "name": "سويسرا",
+        "capital": "Bern",
+        "officialName": "الاتحاد السويسري "
+      },
+      "es": {
+        "name": "Suiza",
+        "capital": "Bern",
+        "officialName": "la Confederación Suiza"
+      },
+      "fr": {
+        "name": "Suisse",
+        "capital": "Bern",
+        "officialName": "la Confédération suisse"
+      },
+      "it": {
+        "name": "Svizzera",
+        "capital": "Bern",
+        "officialName": "Confederazione svizzera"
+      },
+      "ru": {
+        "name": "Швейцария",
+        "capital": "Bern",
+        "officialName": "Швейцарская Конфедерация"
+      },
+      "zh-CN": {
+        "name": "瑞 士",
+        "capital": "Bern",
+        "officialName": "瑞士联邦"
+      },
+      "en": {
+        "name": "Switzerland",
+        "capital": "Bern",
+        "officialName": "Swiss Confederation"
       }
     },
     "economics": {
@@ -8949,7 +14524,26 @@ export const countries: CountryData[] = [
       "headOfState": "Swiss Federal Council",
       "headOfGovernment": "Swiss Federal Council",
       "governmentType": "directorial system; federal republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -8959,34 +14553,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 3499451,
     "difficulty": "hard",
-    "flag_url": "/flags/b7d177840ebb.webp",
+    "flag_url": "/flags/b7d177840ebb.svg",
     "codes": {
       "iso2": "UY",
       "iso3": "URY",
       "numeric": "858"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Uruguai",
-        "capital": "Montevideo"
+        "capital": "Montevideo",
+        "officialName": "Oriental Republic of Uruguay"
+      },
+      "ar": {
+        "name": "أوروغواي",
+        "capital": "Montevideo",
+        "officialName": "الشرقية أوروغواي جمهورية "
+      },
+      "es": {
+        "name": "Uruguay",
+        "capital": "Montevideo",
+        "officialName": "la República Oriental del Uruguay"
+      },
+      "fr": {
+        "name": "Uruguay",
+        "capital": "Montevideo",
+        "officialName": "la République orientale de l'Uruguay"
+      },
+      "it": {
+        "name": "Uruguay",
+        "capital": "Montevideo",
+        "officialName": "Repubblica orientale dell'Uruguay"
+      },
+      "ru": {
+        "name": "Уругвай",
+        "capital": "Montevideo",
+        "officialName": "Восточная Республика Уругвай"
+      },
+      "zh-CN": {
+        "name": "乌拉圭",
+        "capital": "Montevideo",
+        "officialName": "乌拉圭东岸共和国"
+      },
+      "en": {
+        "name": "Uruguay",
+        "capital": "Montevideo",
+        "officialName": "Oriental Republic of Uruguay"
       }
     },
     "economics": {
@@ -8998,7 +14610,26 @@ export const countries: CountryData[] = [
       "headOfState": "Yamandú Orsi",
       "headOfGovernment": "Yamandú Orsi",
       "governmentType": "participatory democracy; presidential system; republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9008,34 +14639,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 10499000,
     "difficulty": "hard",
-    "flag_url": "/flags/3c9e5562b466.webp",
+    "flag_url": "/flags/3c9e5562b466.svg",
     "codes": {
       "iso2": "TJ",
       "iso3": "TJK",
       "numeric": "762"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Tajiquistão",
-        "capital": "Dushanbe"
+        "capital": "Dushanbe",
+        "officialName": "Republic of Tajikistan"
+      },
+      "ar": {
+        "name": "طاجيكستان",
+        "capital": "Dushanbe",
+        "officialName": "جمهورية طاجيكستان "
+      },
+      "es": {
+        "name": "Tayikistán",
+        "capital": "Dushanbe",
+        "officialName": "la República de Tayikistán"
+      },
+      "fr": {
+        "name": "Tadjikistan",
+        "capital": "Dushanbe",
+        "officialName": "la République du Tadjikistan"
+      },
+      "it": {
+        "name": "Tagikistan",
+        "capital": "Dushanbe",
+        "officialName": "Repubblica del Tagikistan"
+      },
+      "ru": {
+        "name": "Таджикистан",
+        "capital": "Dushanbe",
+        "officialName": "Республика Таджикистан"
+      },
+      "zh-CN": {
+        "name": "塔吉克斯坦",
+        "capital": "Dushanbe",
+        "officialName": "塔吉克斯坦共和国"
+      },
+      "en": {
+        "name": "Tajikistan",
+        "capital": "Dushanbe",
+        "officialName": "Republic of Tajikistan"
       }
     },
     "economics": {
@@ -9047,7 +14696,26 @@ export const countries: CountryData[] = [
       "headOfState": "Emomali Rahmon",
       "headOfGovernment": "Kokhir Rasulzoda",
       "governmentType": "presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9057,40 +14725,29 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 23317031,
     "difficulty": "medium",
-    "flag_url": "/flags/fd8711d30c80.webp",
+    "flag_url": "/flags/fd8711d30c80.svg",
     "codes": {
       "iso2": "TW",
       "iso3": "TWN",
       "numeric": "158"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Ilha Formosa",
-        "capital": "Taipei"
+        "capital": "Taipei",
+        "officialName": "Republic of China (Taiwan)"
+      },
+      "en": {
+        "name": "Taiwan",
+        "capital": "Taipei",
+        "officialName": "Republic of China (Taiwan)"
       }
     },
     "politics": {
       "headOfState": "Lai Ching-te",
-      "headOfGovernment": "Cho Jung-tai",
+      "headOfGovernment": "Chang Chun-hsiung; Cho Jung-tai; Frank Hsieh; Lien Chan; Vincent Siew; Wu Den-yih",
       "governmentType": "constitutional republic; democracy; semi-presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
     },
     "culture": {
       "religions": [
@@ -9104,7 +14761,25 @@ export const countries: CountryData[] = [
           "name": "Taoism"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T16:33:23.621Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9114,34 +14789,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 63100945,
     "difficulty": "easy",
-    "flag_url": "/flags/c734baf75b88.webp",
+    "flag_url": "/flags/c734baf75b88.svg",
     "codes": {
       "iso2": "ZA",
       "iso3": "ZAF",
       "numeric": "710"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "África do Sul",
-        "capital": "Pretoria"
+        "capital": "Pretoria",
+        "officialName": "Republic of South Africa"
+      },
+      "ar": {
+        "name": "أفريقيا جنوب ",
+        "capital": "Pretoria",
+        "officialName": "أفريقيا جنوب جمهورية "
+      },
+      "es": {
+        "name": "Sudáfrica",
+        "capital": "Pretoria",
+        "officialName": "la República de Sudáfrica"
+      },
+      "fr": {
+        "name": "Afrique du Sud",
+        "capital": "Pretoria",
+        "officialName": "la République sud-africaine"
+      },
+      "it": {
+        "name": "Sudafrica",
+        "capital": "Pretoria",
+        "officialName": "Repubblica del Sudafrica"
+      },
+      "ru": {
+        "name": "Южная Африка",
+        "capital": "Pretoria",
+        "officialName": "Южно-Африканская Республика"
+      },
+      "zh-CN": {
+        "name": "南 非",
+        "capital": "Pretoria",
+        "officialName": "南非共和国"
+      },
+      "en": {
+        "name": "South Africa",
+        "capital": "Pretoria",
+        "officialName": "Republic of South Africa"
       }
     },
     "economics": {
@@ -9153,7 +14846,26 @@ export const countries: CountryData[] = [
       "headOfState": "Cyril Ramaphosa",
       "headOfGovernment": "Cyril Ramaphosa",
       "governmentType": "parliamentary republic; representative democracy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9163,34 +14875,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 40900,
     "difficulty": "god_mode",
-    "flag_url": "/flags/78f20cbb6f1d.webp",
+    "flag_url": "/flags/78f20cbb6f1d.svg",
     "codes": {
       "iso2": "LI",
       "iso3": "LIE",
       "numeric": "438"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Liechtenstein",
-        "capital": "Vaduz"
+        "capital": "Vaduz",
+        "officialName": "Principality of Liechtenstein"
+      },
+      "ar": {
+        "name": "لختنشتاين",
+        "capital": "Vaduz",
+        "officialName": "إمارة لختنشتاين "
+      },
+      "es": {
+        "name": "Liechtenstein",
+        "capital": "Vaduz",
+        "officialName": "el Principado de Liechtenstein"
+      },
+      "fr": {
+        "name": "Liechtenstein",
+        "capital": "Vaduz",
+        "officialName": "la Principauté du Liechtenstein"
+      },
+      "it": {
+        "name": "Liechtenstein",
+        "capital": "Vaduz",
+        "officialName": "Principato del Liechtenstein"
+      },
+      "ru": {
+        "name": "Лихтенштейн",
+        "capital": "Vaduz",
+        "officialName": "Княжество Лихтенштейн"
+      },
+      "zh-CN": {
+        "name": "列支敦士登",
+        "capital": "Vaduz",
+        "officialName": "列支敦士登公国"
+      },
+      "en": {
+        "name": "Liechtenstein",
+        "capital": "Vaduz",
+        "officialName": "Principality of Liechtenstein"
       }
     },
     "economics": {
@@ -9202,7 +14932,26 @@ export const countries: CountryData[] = [
       "headOfState": "Hans-Adam II, Prince of Liechtenstein",
       "headOfGovernment": "Daniel Risch",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9212,34 +14961,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 213421037,
     "difficulty": "easy",
-    "flag_url": "/flags/5c8f52ca2896.webp",
+    "flag_url": "/flags/5c8f52ca2896.svg",
     "codes": {
       "iso2": "BR",
       "iso3": "BRA",
       "numeric": "076"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Brasil",
-        "capital": "Brasília"
+        "capital": "Brasília",
+        "officialName": "Federative Republic of Brazil"
+      },
+      "ar": {
+        "name": "البرازيل",
+        "capital": "Brasília",
+        "officialName": "الجمهورية الاتحادية البرازيلية "
+      },
+      "es": {
+        "name": "Brasil",
+        "capital": "Brasília",
+        "officialName": "la República Federativa del Brasil"
+      },
+      "fr": {
+        "name": "Brésil",
+        "capital": "Brasília",
+        "officialName": "la République fédérative du Brésil"
+      },
+      "it": {
+        "name": "Brasile",
+        "capital": "Brasília",
+        "officialName": "Repubblica federativa del Brasile"
+      },
+      "ru": {
+        "name": "Бразилия",
+        "capital": "Brasília",
+        "officialName": "Федеративная Республика Бразилия"
+      },
+      "zh-CN": {
+        "name": "巴 西",
+        "capital": "Brasília",
+        "officialName": "巴西联邦共和国"
+      },
+      "en": {
+        "name": "Brazil",
+        "capital": "Brasília",
+        "officialName": "Federative Republic of Brazil"
       }
     },
     "economics": {
@@ -9251,7 +15018,26 @@ export const countries: CountryData[] = [
       "headOfState": "Luiz Inácio Lula da Silva",
       "headOfGovernment": "Luiz Inácio Lula da Silva",
       "governmentType": "federal republic; presidential system; representative democracy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9261,36 +15047,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 3076200,
     "difficulty": "hard",
-    "flag_url": "/flags/1d5a04fbeace.webp",
+    "flag_url": "/flags/1d5a04fbeace.svg",
     "codes": {
       "iso2": "AM",
       "iso3": "ARM",
       "numeric": "051"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Arménia",
-        "capital": "Yerevan"
+        "capital": "Yerevan",
+        "officialName": "Republic of Armenia"
+      },
+      "ar": {
+        "name": "أرمينيا",
+        "capital": "Yerevan",
+        "officialName": "أرمينيا جمهورية "
+      },
+      "es": {
+        "name": "Armenia",
+        "capital": "Yerevan",
+        "officialName": "la República de Armenia"
+      },
+      "fr": {
+        "name": "Arménie",
+        "capital": "Yerevan",
+        "officialName": "la République d'Arménie"
+      },
+      "it": {
+        "name": "Armenia",
+        "capital": "Yerevan",
+        "officialName": "Repubblica d'Armenia"
+      },
+      "ru": {
+        "name": "Армения",
+        "capital": "Yerevan",
+        "officialName": "Республика Армения"
+      },
+      "zh-CN": {
+        "name": "亚美尼亚",
+        "capital": "Yerevan",
+        "officialName": "亚美尼亚共和国"
+      },
+      "en": {
+        "name": "Armenia",
+        "capital": "Yerevan",
+        "officialName": "Republic of Armenia"
       }
     },
     "economics": {
@@ -9302,7 +15104,7 @@ export const countries: CountryData[] = [
       "headOfState": "Vahagn Khachatryan",
       "headOfGovernment": "Nikol Pashinyan",
       "governmentType": "parliamentary system; republic; unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -9310,7 +15112,28 @@ export const countries: CountryData[] = [
           "name": "Christianity"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9320,36 +15143,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 4000921,
     "difficulty": "hard",
-    "flag_url": "/flags/1c18bc2214f6.webp",
+    "flag_url": "/flags/1c18bc2214f6.svg",
     "codes": {
       "iso2": "GE",
       "iso3": "GEO",
       "numeric": "268"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Geórgia",
-        "capital": "Tbilisi"
+        "capital": "Tbilisi",
+        "officialName": "Georgia"
+      },
+      "ar": {
+        "name": "جورجيا",
+        "capital": "Tbilisi",
+        "officialName": "جورجيا"
+      },
+      "es": {
+        "name": "Georgia",
+        "capital": "Tbilisi",
+        "officialName": "Georgia"
+      },
+      "fr": {
+        "name": "Géorgie",
+        "capital": "Tbilisi",
+        "officialName": "la Géorgie"
+      },
+      "it": {
+        "name": "Georgia",
+        "capital": "Tbilisi",
+        "officialName": "Georgia"
+      },
+      "ru": {
+        "name": "Грузия",
+        "capital": "Tbilisi",
+        "officialName": "Грузия"
+      },
+      "zh-CN": {
+        "name": "格鲁吉亚",
+        "capital": "Tbilisi",
+        "officialName": "格鲁吉亚"
+      },
+      "en": {
+        "name": "Georgia",
+        "capital": "Tbilisi",
+        "officialName": "Georgia"
       }
     },
     "economics": {
@@ -9361,7 +15200,7 @@ export const countries: CountryData[] = [
       "headOfState": "Salome Zourabichvili",
       "headOfGovernment": "Irakli Kobakhidze",
       "governmentType": "parliamentary republic; republic; semi-presidential system; unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -9369,7 +15208,28 @@ export const countries: CountryData[] = [
           "name": "Georgian Orthodox Church"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9379,36 +15239,43 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 30654,
     "difficulty": "god_mode",
-    "flag_url": "/flags/29387896aa7c.webp",
+    "flag_url": "/flags/29387896aa7c.svg",
     "codes": {
       "iso2": "AX",
       "iso3": "ALA",
       "numeric": "248"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Alândia",
+        "capital": "Mariehamn",
+        "officialName": "Åland Islands"
+      },
+      "en": {
+        "name": "Åland Islands",
+        "capital": "Mariehamn",
+        "officialName": "Åland Islands"
+      }
+    },
+    "politics": {
+      "headOfGovernment": "Katrin Sjögren",
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
         "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Alândia",
-        "capital": "Mariehamn"
-      }
-    },
-    "politics": {
-      "headOfGovernment": "Katrin Sjögren",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
     }
   },
   {
@@ -9418,36 +15285,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 3173024,
     "difficulty": "hard",
-    "flag_url": "/flags/3fc81a2348ee.webp",
+    "flag_url": "/flags/3fc81a2348ee.svg",
     "codes": {
       "iso2": "QA",
       "iso3": "QAT",
       "numeric": "634"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Catar",
-        "capital": "Doha"
+        "capital": "Doha",
+        "officialName": "State of Qatar"
+      },
+      "ar": {
+        "name": "قطر",
+        "capital": "Doha",
+        "officialName": "قطر دولة "
+      },
+      "es": {
+        "name": "Qatar",
+        "capital": "Doha",
+        "officialName": "el Estado de Qatar"
+      },
+      "fr": {
+        "name": "Qatar",
+        "capital": "Doha",
+        "officialName": "l'État du Qatar"
+      },
+      "it": {
+        "name": "Qatar",
+        "capital": "Doha",
+        "officialName": "Stato del Qatar"
+      },
+      "ru": {
+        "name": "Катар",
+        "capital": "Doha",
+        "officialName": "Государство Катар"
+      },
+      "zh-CN": {
+        "name": "卡塔尔",
+        "capital": "Doha",
+        "officialName": "卡塔尔国"
+      },
+      "en": {
+        "name": "Qatar",
+        "capital": "Doha",
+        "officialName": "State of Qatar"
       }
     },
     "economics": {
@@ -9459,7 +15342,7 @@ export const countries: CountryData[] = [
       "headOfState": "Tamim bin Hamad Al",
       "headOfGovernment": "Mohammed bin Abdulrahman Al Thani",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -9467,7 +15350,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9477,34 +15381,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 67408,
     "difficulty": "god_mode",
-    "flag_url": "/flags/58289961b08e.webp",
+    "flag_url": "/flags/58289961b08e.svg",
     "codes": {
       "iso2": "DM",
       "iso3": "DMA",
       "numeric": "212"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Dominica",
-        "capital": "Roseau"
+        "capital": "Roseau",
+        "officialName": "Commonwealth of Dominica"
+      },
+      "ar": {
+        "name": "دومينيكا",
+        "capital": "Roseau",
+        "officialName": "كمنولث دومينيكا "
+      },
+      "es": {
+        "name": "Dominica",
+        "capital": "Roseau",
+        "officialName": "el Commonwealth de Dominica"
+      },
+      "fr": {
+        "name": "Dominique",
+        "capital": "Roseau",
+        "officialName": "le Commonwealth de la Dominique"
+      },
+      "it": {
+        "name": "Dominica",
+        "capital": "Roseau",
+        "officialName": "Commonwealth di Dominica"
+      },
+      "ru": {
+        "name": "Доминика",
+        "capital": "Roseau",
+        "officialName": "Содружество Доминики"
+      },
+      "zh-CN": {
+        "name": "多米尼克",
+        "capital": "Roseau",
+        "officialName": "多米尼克国"
+      },
+      "en": {
+        "name": "Dominica",
+        "capital": "Roseau",
+        "officialName": "Commonwealth of Dominica"
       }
     },
     "economics": {
@@ -9515,7 +15437,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Sylvanie Burton",
       "headOfGovernment": "Roosevelt Skerrit",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9525,34 +15466,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 32862000,
     "difficulty": "medium",
-    "flag_url": "/flags/5c86f5a8ea4a.webp",
+    "flag_url": "/flags/5c86f5a8ea4a.svg",
     "codes": {
       "iso2": "UA",
       "iso3": "UKR",
       "numeric": "804"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Ucrânia",
-        "capital": "Kyiv"
+        "capital": "Kyiv",
+        "officialName": "Ukraine"
+      },
+      "ar": {
+        "name": "أوكرانيا",
+        "capital": "Kyiv",
+        "officialName": "أوكرانيا"
+      },
+      "es": {
+        "name": "Ucrania",
+        "capital": "Kyiv",
+        "officialName": "Ucrania"
+      },
+      "fr": {
+        "name": "Ukraine",
+        "capital": "Kyiv",
+        "officialName": "l'Ukraine"
+      },
+      "it": {
+        "name": "Ucraina",
+        "capital": "Kyiv",
+        "officialName": "Ucraina"
+      },
+      "ru": {
+        "name": "Украина",
+        "capital": "Kyiv",
+        "officialName": "Украина"
+      },
+      "zh-CN": {
+        "name": "乌克兰",
+        "capital": "Kyiv",
+        "officialName": "乌克兰"
+      },
+      "en": {
+        "name": "Ukraine",
+        "capital": "Kyiv",
+        "officialName": "Ukraine"
       }
     },
     "economics": {
@@ -9564,7 +15523,26 @@ export const countries: CountryData[] = [
       "headOfState": "Volodymyr Zelenskyy",
       "headOfGovernment": "Yulia Svyrydenko",
       "governmentType": "semi-presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9574,34 +15552,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 14363931,
     "difficulty": "hard",
-    "flag_url": "/flags/3f7351456856.webp",
+    "flag_url": "/flags/3f7351456856.svg",
     "codes": {
       "iso2": "GN",
       "iso3": "GIN",
       "numeric": "324"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Guiné",
-        "capital": "Conakry"
+        "capital": "Conakry",
+        "officialName": "Republic of Guinea"
+      },
+      "ar": {
+        "name": "غينيا",
+        "capital": "Conakry",
+        "officialName": "جمهورية غينيا "
+      },
+      "es": {
+        "name": "Guinea",
+        "capital": "Conakry",
+        "officialName": "la República de Guinea"
+      },
+      "fr": {
+        "name": "Guinée",
+        "capital": "Conakry",
+        "officialName": "la République de Guinée"
+      },
+      "it": {
+        "name": "Guinea",
+        "capital": "Conakry",
+        "officialName": "Repubblica di Guinea"
+      },
+      "ru": {
+        "name": "Гвинея",
+        "capital": "Conakry",
+        "officialName": "Гвинейская Республика"
+      },
+      "zh-CN": {
+        "name": "几内亚",
+        "capital": "Conakry",
+        "officialName": "几内亚共和国"
+      },
+      "en": {
+        "name": "Guinea",
+        "capital": "Conakry",
+        "officialName": "Republic of Guinea"
       }
     },
     "economics": {
@@ -9613,7 +15609,26 @@ export const countries: CountryData[] = [
       "headOfState": "Mamady Doumbouya",
       "headOfGovernment": "Bah Oury",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9623,27 +15638,34 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 600904,
     "difficulty": "super_hard",
-    "flag_url": "/flags/24bbbc3fc81e.webp",
+    "flag_url": "/flags/24bbbc3fc81e.svg",
     "codes": {
       "iso2": "EH",
       "iso3": "ESH",
       "numeric": "732"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Saara Ocidental",
+        "capital": "El Aaiún",
+        "officialName": "Sahrawi Arab Democratic Republic"
+      },
+      "en": {
+        "name": "Western Sahara",
+        "capital": "El Aaiún",
+        "officialName": "Sahrawi Arab Democratic Republic"
+      }
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com"
-      }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Saara Ocidental",
-        "capital": "El Aaiún"
+        "ptCapital": "manual+restcountries.com",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
     }
   },
@@ -9654,36 +15676,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 10882341,
     "difficulty": "hard",
-    "flag_url": "/flags/3f57e4490d0c.webp",
+    "flag_url": "/flags/3f57e4490d0c.svg",
     "codes": {
       "iso2": "CZ",
       "iso3": "CZE",
       "numeric": "203"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Chéquia",
-        "capital": "Praga"
+        "capital": "Praga",
+        "officialName": "Czech Republic"
+      },
+      "ar": {
+        "name": "التشيكية الجمهورية ",
+        "capital": "Prague",
+        "officialName": "التشيكية الجمهورية "
+      },
+      "es": {
+        "name": "República Checa",
+        "capital": "Prague",
+        "officialName": "la República Checa"
+      },
+      "fr": {
+        "name": "République tchèque",
+        "capital": "Prague",
+        "officialName": "la République tchèque"
+      },
+      "it": {
+        "name": "Repubblica ceca",
+        "capital": "Prague",
+        "officialName": "Repubblica ceca"
+      },
+      "ru": {
+        "name": "Чешская Республика",
+        "capital": "Prague",
+        "officialName": "Чешская Республика"
+      },
+      "zh-CN": {
+        "name": "捷克共和国",
+        "capital": "Prague",
+        "officialName": "捷克共和国"
+      },
+      "en": {
+        "name": "Czechia",
+        "capital": "Prague",
+        "officialName": "Czech Republic"
       }
     },
     "economics": {
@@ -9695,7 +15733,7 @@ export const countries: CountryData[] = [
       "headOfState": "Petr Pavel",
       "headOfGovernment": "Andrej Babiš",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -9706,7 +15744,28 @@ export const countries: CountryData[] = [
           "name": "irreligion"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9716,34 +15775,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 9200931,
     "difficulty": "hard",
-    "flag_url": "/flags/7112733729f2.webp",
+    "flag_url": "/flags/7112733729f2.svg",
     "codes": {
       "iso2": "AT",
       "iso3": "AUT",
       "numeric": "040"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Áustria",
-        "capital": "Viena"
+        "capital": "Viena",
+        "officialName": "Republic of Austria"
+      },
+      "ar": {
+        "name": "النمسا",
+        "capital": "Vienna",
+        "officialName": "النمسا جمهورية "
+      },
+      "es": {
+        "name": "Austria",
+        "capital": "Vienna",
+        "officialName": "la República de Austria"
+      },
+      "fr": {
+        "name": "Autriche",
+        "capital": "Vienna",
+        "officialName": "la République d'Autriche"
+      },
+      "it": {
+        "name": "Austria",
+        "capital": "Vienna",
+        "officialName": "Repubblica d'Austria"
+      },
+      "ru": {
+        "name": "Австрия",
+        "capital": "Vienna",
+        "officialName": "Австрийская Республика"
+      },
+      "zh-CN": {
+        "name": "奥地利",
+        "capital": "Vienna",
+        "officialName": "奥地利共和国"
+      },
+      "en": {
+        "name": "Austria",
+        "capital": "Vienna",
+        "officialName": "Republic of Austria"
       }
     },
     "economics": {
@@ -9755,7 +15832,26 @@ export const countries: CountryData[] = [
       "headOfState": "Alexander Van der Bellen",
       "headOfGovernment": "Christian Stocker",
       "governmentType": "federal parliamentary republic; semi-presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9765,34 +15861,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 51320,
     "difficulty": "god_mode",
-    "flag_url": "/flags/a169296b702c.webp",
+    "flag_url": "/flags/a169296b702c.svg",
     "codes": {
       "iso2": "KN",
       "iso3": "KNA",
       "numeric": "659"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "São Cristóvão e Nevis",
-        "capital": "Basseterre"
+        "capital": "Basseterre",
+        "officialName": "Federation of Saint Christopher and Nevis"
+      },
+      "ar": {
+        "name": "ونيفيس كيتس سانت ",
+        "capital": "Basseterre",
+        "officialName": "ونيفيس كيتس سانت "
+      },
+      "es": {
+        "name": "Saint Kitts y Nevis",
+        "capital": "Basseterre",
+        "officialName": "Saint Kitts y Nevis"
+      },
+      "fr": {
+        "name": "Saint-Kitts-et-Nevis",
+        "capital": "Basseterre",
+        "officialName": "Saint-Kitts-et-Nevis"
+      },
+      "it": {
+        "name": "Saint Christopher e Nevis",
+        "capital": "Basseterre",
+        "officialName": "Federazione di Saint Kitts e Nevis"
+      },
+      "ru": {
+        "name": "Сент-Китс и Невис",
+        "capital": "Basseterre",
+        "officialName": "Сент-Китс и Невис"
+      },
+      "zh-CN": {
+        "name": "圣基茨和尼维斯",
+        "capital": "Basseterre",
+        "officialName": "圣基茨和尼维斯"
+      },
+      "en": {
+        "name": "Saint Kitts and Nevis",
+        "capital": "Basseterre",
+        "officialName": "Federation of Saint Christopher and Nevis"
       }
     },
     "economics": {
@@ -9804,7 +15918,26 @@ export const countries: CountryData[] = [
       "headOfState": "Charles III",
       "headOfGovernment": "Terrance Drew",
       "governmentType": "constitutional monarchy; federal monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9814,34 +15947,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 184100,
     "difficulty": "god_mode",
-    "flag_url": "/flags/187ef70e89e4.webp",
+    "flag_url": "/flags/187ef70e89e4.svg",
     "codes": {
       "iso2": "LC",
       "iso3": "LCA",
       "numeric": "662"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Santa Lúcia",
-        "capital": "Castries"
+        "capital": "Castries",
+        "officialName": "Saint Lucia"
+      },
+      "ar": {
+        "name": "لوسيا سانت ",
+        "capital": "Castries",
+        "officialName": "لوسيا سانت "
+      },
+      "es": {
+        "name": "Santa Lucía",
+        "capital": "Castries",
+        "officialName": "Santa Lucía"
+      },
+      "fr": {
+        "name": "Sainte-Lucie",
+        "capital": "Castries",
+        "officialName": "Sainte-Lucie"
+      },
+      "it": {
+        "name": "Santa Lucia  ",
+        "capital": "Castries",
+        "officialName": "Santa Lucia  "
+      },
+      "ru": {
+        "name": "Сент-Люсия",
+        "capital": "Castries",
+        "officialName": "Сент-Люсия"
+      },
+      "zh-CN": {
+        "name": "圣卢西亚",
+        "capital": "Castries",
+        "officialName": "圣卢西亚"
+      },
+      "en": {
+        "name": "Saint Lucia",
+        "capital": "Castries",
+        "officialName": "Saint Lucia"
       }
     },
     "economics": {
@@ -9853,7 +16004,26 @@ export const countries: CountryData[] = [
       "headOfState": "Charles III",
       "headOfGovernment": "Philip J. Pierre",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9863,36 +16033,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 32684503,
     "difficulty": "medium",
-    "flag_url": "/flags/cc3d6b2176eb.webp",
+    "flag_url": "/flags/cc3d6b2176eb.svg",
     "codes": {
       "iso2": "YE",
       "iso3": "YEM",
       "numeric": "887"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Iémen",
-        "capital": "Sana'a"
+        "capital": "Sana'a",
+        "officialName": "Republic of Yemen"
+      },
+      "ar": {
+        "name": "اليمن",
+        "capital": "Sana'a",
+        "officialName": "الجمهورية اليمنية "
+      },
+      "es": {
+        "name": "Yemen",
+        "capital": "Sana'a",
+        "officialName": "la República del Yemen"
+      },
+      "fr": {
+        "name": "Yémen",
+        "capital": "Sana'a",
+        "officialName": "la République du Yémen"
+      },
+      "it": {
+        "name": "Yemen",
+        "capital": "Sana'a",
+        "officialName": "Repubblica dello Yemen"
+      },
+      "ru": {
+        "name": "Йемен",
+        "capital": "Sana'a",
+        "officialName": "Йеменская Республика"
+      },
+      "zh-CN": {
+        "name": "也 门",
+        "capital": "Sana'a",
+        "officialName": "也门共和国"
+      },
+      "en": {
+        "name": "Yemen",
+        "capital": "Sana'a",
+        "officialName": "Republic of Yemen"
       }
     },
     "economics": {
@@ -9904,7 +16090,7 @@ export const countries: CountryData[] = [
       "headOfState": "Rashad al-Alimi",
       "headOfGovernment": "Maeen Abdulmalik Saeed",
       "governmentType": "presidential system; republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -9912,7 +16098,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9922,34 +16129,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 14104969,
     "difficulty": "hard",
-    "flag_url": "/flags/b57e6c30643e.webp",
+    "flag_url": "/flags/b57e6c30643e.svg",
     "codes": {
       "iso2": "RW",
       "iso3": "RWA",
       "numeric": "646"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Ruanda",
-        "capital": "Kigali"
+        "capital": "Kigali",
+        "officialName": "Republic of Rwanda"
+      },
+      "ar": {
+        "name": "رواندا",
+        "capital": "Kigali",
+        "officialName": "رواندا  جمهورية "
+      },
+      "es": {
+        "name": "Rwanda",
+        "capital": "Kigali",
+        "officialName": "la República de Rwanda"
+      },
+      "fr": {
+        "name": "Rwanda",
+        "capital": "Kigali",
+        "officialName": "la République du Rwanda"
+      },
+      "it": {
+        "name": "Ruanda",
+        "capital": "Kigali",
+        "officialName": "Repubblica del Ruanda"
+      },
+      "ru": {
+        "name": "Руанда",
+        "capital": "Kigali",
+        "officialName": "Республика Руанда"
+      },
+      "zh-CN": {
+        "name": "卢旺达",
+        "capital": "Kigali",
+        "officialName": "卢旺达共和国"
+      },
+      "en": {
+        "name": "Rwanda",
+        "capital": "Kigali",
+        "officialName": "Republic of Rwanda"
       }
     },
     "economics": {
@@ -9961,7 +16186,26 @@ export const countries: CountryData[] = [
       "headOfState": "Paul Kagame",
       "headOfGovernment": "Justin Nsengiyumva",
       "governmentType": "semi-presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -9971,36 +16215,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 38423,
     "difficulty": "god_mode",
-    "flag_url": "/flags/8870e6cbc014.webp",
+    "flag_url": "/flags/8870e6cbc014.svg",
     "codes": {
       "iso2": "MC",
       "iso3": "MCO",
       "numeric": "492"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Mónaco",
-        "capital": "Monaco"
+        "capital": "Monaco",
+        "officialName": "Principality of Monaco"
+      },
+      "ar": {
+        "name": "موناكو",
+        "capital": "Monaco",
+        "officialName": "إمارة موناكو "
+      },
+      "es": {
+        "name": "Mónaco",
+        "capital": "Monaco",
+        "officialName": "el Principado de Mónaco"
+      },
+      "fr": {
+        "name": "Monaco",
+        "capital": "Monaco",
+        "officialName": "la Principauté de Monaco"
+      },
+      "it": {
+        "name": "Monaco",
+        "capital": "Monaco",
+        "officialName": "Principato di Monaco"
+      },
+      "ru": {
+        "name": "Монако",
+        "capital": "Monaco",
+        "officialName": "Княжество Монако"
+      },
+      "zh-CN": {
+        "name": "摩纳哥",
+        "capital": "Monaco",
+        "officialName": "摩纳哥公国"
+      },
+      "en": {
+        "name": "Monaco",
+        "capital": "Monaco",
+        "officialName": "Principality of Monaco"
       }
     },
     "economics": {
@@ -10012,7 +16272,7 @@ export const countries: CountryData[] = [
       "headOfState": "Albert II, Prince of Monaco",
       "headOfGovernment": "Philippe Mettoux",
       "governmentType": "constitutional monarchy; hereditary monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -10020,7 +16280,28 @@ export const countries: CountryData[] = [
           "name": "Catholicism"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10030,34 +16311,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 209607,
     "difficulty": "god_mode",
-    "flag_url": "/flags/11d6cd9fdcc9.webp",
+    "flag_url": "/flags/11d6cd9fdcc9.svg",
     "codes": {
       "iso2": "ST",
       "iso3": "STP",
       "numeric": "678"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "São Tomé e Príncipe",
-        "capital": "São Tomé"
+        "capital": "São Tomé",
+        "officialName": "Democratic Republic of São Tomé and Príncipe"
+      },
+      "ar": {
+        "name": "وبرنسيبي تومي سان ",
+        "capital": "São Tomé",
+        "officialName": "الديمقراطية وبرنسيبي تومي سان جمهورية "
+      },
+      "es": {
+        "name": "Santo Tomé y Príncipe",
+        "capital": "São Tomé",
+        "officialName": "la República Democrática de Santo Tomé y Príncipe"
+      },
+      "fr": {
+        "name": "Sao Tomé-et-Principe",
+        "capital": "São Tomé",
+        "officialName": "la République démocratique de Sao Tomé-et-Principe"
+      },
+      "it": {
+        "name": "São Tomé e Príncipe",
+        "capital": "São Tomé",
+        "officialName": "Repubblica democratica di São Tomé e Príncipe"
+      },
+      "ru": {
+        "name": "Сан-Томе и Принсипи",
+        "capital": "São Tomé",
+        "officialName": "Демократическая Республика Сан-Томе и Принсипи"
+      },
+      "zh-CN": {
+        "name": "圣多美和普林西比",
+        "capital": "São Tomé",
+        "officialName": "圣多美和普林西比民主共和国"
+      },
+      "en": {
+        "name": "São Tomé and Príncipe",
+        "capital": "São Tomé",
+        "officialName": "Democratic Republic of São Tomé and Príncipe"
       }
     },
     "economics": {
@@ -10068,7 +16367,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Carlos Vila Nova",
       "headOfGovernment": "Américo Ramos",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10078,34 +16396,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 6142180,
     "difficulty": "hard",
-    "flag_url": "/flags/3f67429c6a30.webp",
+    "flag_url": "/flags/3f67429c6a30.svg",
     "codes": {
       "iso2": "CG",
       "iso3": "COG",
       "numeric": "178"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Congo",
-        "capital": "Brazzaville"
+        "capital": "Brazzaville",
+        "officialName": "Republic of the Congo"
+      },
+      "ar": {
+        "name": "الكونغو",
+        "capital": "Brazzaville",
+        "officialName": "الكونغو جمهورية "
+      },
+      "es": {
+        "name": "Congo",
+        "capital": "Brazzaville",
+        "officialName": "la República del Congo"
+      },
+      "fr": {
+        "name": "Congo",
+        "capital": "Brazzaville",
+        "officialName": "la République du Congo"
+      },
+      "it": {
+        "name": "Congo",
+        "capital": "Brazzaville",
+        "officialName": "Repubblica del Congo"
+      },
+      "ru": {
+        "name": "Конго",
+        "capital": "Brazzaville",
+        "officialName": "Республика Конго"
+      },
+      "zh-CN": {
+        "name": "刚 果",
+        "capital": "Brazzaville",
+        "officialName": "刚果共和国"
+      },
+      "en": {
+        "name": "Republic of the Congo",
+        "capital": "Brazzaville",
+        "officialName": "Republic of the Congo"
       }
     },
     "economics": {
@@ -10117,7 +16453,26 @@ export const countries: CountryData[] = [
       "headOfState": "Denis Sassou-Nguesso",
       "headOfGovernment": "Anatole Collinet Makosso",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10127,34 +16482,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 6109644,
     "difficulty": "hard",
-    "flag_url": "/flags/fa27e700926b.webp",
+    "flag_url": "/flags/fa27e700926b.svg",
     "codes": {
       "iso2": "PY",
       "iso3": "PRY",
       "numeric": "600"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Paraguai",
-        "capital": "Asunción"
+        "capital": "Asunción",
+        "officialName": "Republic of Paraguay"
+      },
+      "ar": {
+        "name": "باراغواي",
+        "capital": "Asunción",
+        "officialName": "باراغواي جمهورية "
+      },
+      "es": {
+        "name": "Paraguay",
+        "capital": "Asunción",
+        "officialName": "la República del Paraguay"
+      },
+      "fr": {
+        "name": "Paraguay",
+        "capital": "Asunción",
+        "officialName": "la République du Paraguay"
+      },
+      "it": {
+        "name": "Paraguay",
+        "capital": "Asunción",
+        "officialName": "Repubblica del Paraguay"
+      },
+      "ru": {
+        "name": "Парагвай",
+        "capital": "Asunción",
+        "officialName": "Республика Парагвай"
+      },
+      "zh-CN": {
+        "name": "巴拉圭",
+        "capital": "Asunción",
+        "officialName": "巴拉圭共和国"
+      },
+      "en": {
+        "name": "Paraguay",
+        "capital": "Asunción",
+        "officialName": "Republic of Paraguay"
       }
     },
     "economics": {
@@ -10165,7 +16538,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Santiago Peña Palacios",
       "headOfGovernment": "Santiago Peña Palacios",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10175,34 +16567,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 34090466,
     "difficulty": "medium",
-    "flag_url": "/flags/2e8a238d84ee.webp",
+    "flag_url": "/flags/2e8a238d84ee.svg",
     "codes": {
       "iso2": "MZ",
       "iso3": "MOZ",
       "numeric": "508"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Moçambique",
-        "capital": "Maputo"
+        "capital": "Maputo",
+        "officialName": "Republic of Mozambique"
+      },
+      "ar": {
+        "name": "موزامبيق",
+        "capital": "Maputo",
+        "officialName": "جمهورية موزامبيق "
+      },
+      "es": {
+        "name": "Mozambique",
+        "capital": "Maputo",
+        "officialName": "la República de Mozambique"
+      },
+      "fr": {
+        "name": "Mozambique",
+        "capital": "Maputo",
+        "officialName": "la République du Mozambique"
+      },
+      "it": {
+        "name": "Mozambico",
+        "capital": "Maputo",
+        "officialName": "Repubblica del Mozambico"
+      },
+      "ru": {
+        "name": "Мозамбик",
+        "capital": "Maputo",
+        "officialName": "Республика Мозамбик"
+      },
+      "zh-CN": {
+        "name": "莫桑比克",
+        "capital": "Maputo",
+        "officialName": "莫桑比克共和国"
+      },
+      "en": {
+        "name": "Mozambique",
+        "capital": "Maputo",
+        "officialName": "Republic of Mozambique"
       }
     },
     "economics": {
@@ -10213,7 +16623,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Daniel Chapo",
       "headOfGovernment": "Maria Benvinda Levy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10223,34 +16652,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 66351959,
     "difficulty": "easy",
-    "flag_url": "/flags/2c598436e557.webp",
+    "flag_url": "/flags/2c598436e557.svg",
     "codes": {
       "iso2": "FR",
       "iso3": "FRA",
       "numeric": "250"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "França",
-        "capital": "Paris"
+        "capital": "Paris",
+        "officialName": "French Republic"
+      },
+      "ar": {
+        "name": "فرنسا",
+        "capital": "Paris",
+        "officialName": "الفرنسية الجمهورية "
+      },
+      "es": {
+        "name": "Francia",
+        "capital": "Paris",
+        "officialName": "la República Francesa"
+      },
+      "fr": {
+        "name": "France",
+        "capital": "Paris",
+        "officialName": "la République française"
+      },
+      "it": {
+        "name": "Francia",
+        "capital": "Paris",
+        "officialName": "Repubblica francese"
+      },
+      "ru": {
+        "name": "Франция",
+        "capital": "Paris",
+        "officialName": "Французская Республика"
+      },
+      "zh-CN": {
+        "name": "法  国",
+        "capital": "Paris",
+        "officialName": "法兰西共和国"
+      },
+      "en": {
+        "name": "France",
+        "capital": "Paris",
+        "officialName": "French Republic"
       }
     },
     "economics": {
@@ -10262,7 +16709,26 @@ export const countries: CountryData[] = [
       "headOfState": "Emmanuel Macron",
       "headOfGovernment": "Sébastien Lecornu",
       "governmentType": "semi-presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10272,34 +16738,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 1235549,
     "difficulty": "super_hard",
-    "flag_url": "/flags/131ac71f3444.webp",
+    "flag_url": "/flags/131ac71f3444.svg",
     "codes": {
       "iso2": "SZ",
       "iso3": "SWZ",
       "numeric": "748"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Suazilândia",
-        "capital": "Mbabane"
+        "capital": "Mbabane",
+        "officialName": "Kingdom of Eswatini"
+      },
+      "ar": {
+        "name": "إسواتيني",
+        "capital": "Mbabane",
+        "officialName": "مملكة إسواتيني"
+      },
+      "es": {
+        "name": "Eswatini",
+        "capital": "Mbabane",
+        "officialName": "el Reino de Eswatini"
+      },
+      "fr": {
+        "name": "Eswatini (l')",
+        "capital": "Mbabane",
+        "officialName": "le Royaume d’Eswatini"
+      },
+      "it": {
+        "name": "Eswatini",
+        "capital": "Mbabane",
+        "officialName": "il Regno di Eswatini"
+      },
+      "ru": {
+        "name": "Эсватини",
+        "capital": "Mbabane",
+        "officialName": "Королевство Эсватини"
+      },
+      "zh-CN": {
+        "name": "斯威士兰",
+        "capital": "Mbabane",
+        "officialName": "斯威士兰王国"
+      },
+      "en": {
+        "name": "Eswatini",
+        "capital": "Mbabane",
+        "officialName": "Kingdom of Eswatini"
       }
     },
     "economics": {
@@ -10311,7 +16795,26 @@ export const countries: CountryData[] = [
       "headOfState": "Mswati III",
       "headOfGovernment": "Russell Dlamini",
       "governmentType": "absolute monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10321,34 +16824,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 267800,
     "difficulty": "super_hard",
-    "flag_url": "/flags/f5885b592732.webp",
+    "flag_url": "/flags/f5885b592732.svg",
     "codes": {
       "iso2": "BB",
       "iso3": "BRB",
       "numeric": "052"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Barbados",
-        "capital": "Bridgetown"
+        "capital": "Bridgetown",
+        "officialName": "Barbados"
+      },
+      "ar": {
+        "name": "بربادوس",
+        "capital": "Bridgetown",
+        "officialName": "بربادوس"
+      },
+      "es": {
+        "name": "Barbados",
+        "capital": "Bridgetown",
+        "officialName": "Barbados"
+      },
+      "fr": {
+        "name": "Barbade",
+        "capital": "Bridgetown",
+        "officialName": "la Barbade"
+      },
+      "it": {
+        "name": "Barbados",
+        "capital": "Bridgetown",
+        "officialName": "Barbados"
+      },
+      "ru": {
+        "name": "Барбадос",
+        "capital": "Bridgetown",
+        "officialName": "Барбадос"
+      },
+      "zh-CN": {
+        "name": "巴巴多斯",
+        "capital": "Bridgetown",
+        "officialName": "巴巴多斯"
+      },
+      "en": {
+        "name": "Barbados",
+        "capital": "Bridgetown",
+        "officialName": "Barbados"
       }
     },
     "economics": {
@@ -10360,7 +16881,26 @@ export const countries: CountryData[] = [
       "headOfState": "Sandra Mason",
       "headOfGovernment": "Mia Mottley",
       "governmentType": "parliamentary republic; unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10370,36 +16910,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 49315949,
     "difficulty": "easy",
-    "flag_url": "/flags/4c799454ccf3.webp",
+    "flag_url": "/flags/4c799454ccf3.svg",
     "codes": {
       "iso2": "ES",
       "iso3": "ESP",
       "numeric": "724"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Espanha",
-        "capital": "Madrid"
+        "capital": "Madrid",
+        "officialName": "Kingdom of Spain"
+      },
+      "ar": {
+        "name": "إسبانيا",
+        "capital": "Madrid",
+        "officialName": "إسبانيا مملكة "
+      },
+      "es": {
+        "name": "España",
+        "capital": "Madrid",
+        "officialName": "el Reino de España"
+      },
+      "fr": {
+        "name": "Espagne",
+        "capital": "Madrid",
+        "officialName": "le Royaume d'Espagne"
+      },
+      "it": {
+        "name": "Spagna",
+        "capital": "Madrid",
+        "officialName": "Regno di Spagna"
+      },
+      "ru": {
+        "name": "Испания",
+        "capital": "Madrid",
+        "officialName": "Королевство Испания"
+      },
+      "zh-CN": {
+        "name": "西班牙",
+        "capital": "Madrid",
+        "officialName": "西班牙王国"
+      },
+      "en": {
+        "name": "Spain",
+        "capital": "Madrid",
+        "officialName": "Kingdom of Spain"
       }
     },
     "economics": {
@@ -10411,7 +16967,7 @@ export const countries: CountryData[] = [
       "headOfState": "Felipe VI of Spain",
       "headOfGovernment": "Pedro Sánchez",
       "governmentType": "parliamentary monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -10419,7 +16975,28 @@ export const countries: CountryData[] = [
           "name": "non-denominational"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10429,36 +17006,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 65859640,
     "difficulty": "easy",
-    "flag_url": "/flags/d299927fdea2.webp",
+    "flag_url": "/flags/d299927fdea2.svg",
     "codes": {
       "iso2": "TH",
       "iso3": "THA",
       "numeric": "764"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Tailândia",
-        "capital": "Banguecoque"
+        "capital": "Banguecoque",
+        "officialName": "Kingdom of Thailand"
+      },
+      "ar": {
+        "name": "تايلند",
+        "capital": "Bangkok",
+        "officialName": "تايلند مملكة "
+      },
+      "es": {
+        "name": "Tailandia",
+        "capital": "Bangkok",
+        "officialName": "el Reino de Tailandia"
+      },
+      "fr": {
+        "name": "Thaïlande",
+        "capital": "Bangkok",
+        "officialName": "le Royaume de Thaïlande"
+      },
+      "it": {
+        "name": "Thailandia",
+        "capital": "Bangkok",
+        "officialName": "Regno di Thailandia"
+      },
+      "ru": {
+        "name": "Таиланд",
+        "capital": "Bangkok",
+        "officialName": "Королевство Таиланд"
+      },
+      "zh-CN": {
+        "name": "泰 国",
+        "capital": "Bangkok",
+        "officialName": "泰王国"
+      },
+      "en": {
+        "name": "Thailand",
+        "capital": "Bangkok",
+        "officialName": "Kingdom of Thailand"
       }
     },
     "economics": {
@@ -10468,9 +17061,9 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfState": "Vajiralongkorn",
-      "headOfGovernment": "Paetongtarn Shinawatra",
+      "headOfGovernment": "Paetongtarn Shinawatra; Phumtham Wechayachai",
       "governmentType": "constitutional monarchy; parliamentary monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
     },
     "culture": {
       "religions": [
@@ -10490,7 +17083,28 @@ export const countries: CountryData[] = [
           "name": "Sikhism"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10500,34 +17114,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 1781308,
     "difficulty": "super_hard",
-    "flag_url": "/flags/dcacc5666aba.webp",
+    "flag_url": "/flags/dcacc5666aba.svg",
     "codes": {
       "iso2": "GW",
       "iso3": "GNB",
       "numeric": "624"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Guiné-Bissau",
-        "capital": "Bissau"
+        "capital": "Bissau",
+        "officialName": "Republic of Guinea-Bissau"
+      },
+      "ar": {
+        "name": "غينيا - بيساو ",
+        "capital": "Bissau",
+        "officialName": "جمهورية غينيا بيساو "
+      },
+      "es": {
+        "name": "Guinea-Bissau",
+        "capital": "Bissau",
+        "officialName": "la República de Guinea-Bissau"
+      },
+      "fr": {
+        "name": "Guinée-Bissau",
+        "capital": "Bissau",
+        "officialName": "la République de Guinée-Bissau"
+      },
+      "it": {
+        "name": "Guinea-Bissau",
+        "capital": "Bissau",
+        "officialName": "Repubblica di Guinea-Bissau"
+      },
+      "ru": {
+        "name": "Гвинея-Бисау",
+        "capital": "Bissau",
+        "officialName": "Республика Гвинея-Бисау"
+      },
+      "zh-CN": {
+        "name": "几内亚比绍",
+        "capital": "Bissau",
+        "officialName": "几内亚比绍共和国"
+      },
+      "en": {
+        "name": "Guinea-Bissau",
+        "capital": "Bissau",
+        "officialName": "Republic of Guinea-Bissau"
       }
     },
     "economics": {
@@ -10536,9 +17168,27 @@ export const countries: CountryData[] = [
       "year": 2024
     },
     "politics": {
-      "headOfState": "José Mário Vaz",
       "headOfGovernment": "Rui Duarte de Barros",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10548,34 +17198,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 36170961,
     "difficulty": "medium",
-    "flag_url": "/flags/5feeb60f78d8.webp",
+    "flag_url": "/flags/5feeb60f78d8.svg",
     "codes": {
       "iso2": "AO",
       "iso3": "AGO",
       "numeric": "024"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Angola",
-        "capital": "Luanda"
+        "capital": "Luanda",
+        "officialName": "Republic of Angola"
+      },
+      "ar": {
+        "name": "أنغولا",
+        "capital": "Luanda",
+        "officialName": "أنغولا جمهورية "
+      },
+      "es": {
+        "name": "Angola",
+        "capital": "Luanda",
+        "officialName": "la República de Angola"
+      },
+      "fr": {
+        "name": "Angola",
+        "capital": "Luanda",
+        "officialName": "la République d'Angola"
+      },
+      "it": {
+        "name": "Angola",
+        "capital": "Luanda",
+        "officialName": "Repubblica d'Angola"
+      },
+      "ru": {
+        "name": "Ангола",
+        "capital": "Luanda",
+        "officialName": "Республика Ангола"
+      },
+      "zh-CN": {
+        "name": "安哥拉",
+        "capital": "Luanda",
+        "officialName": "安哥拉共和国"
+      },
+      "en": {
+        "name": "Angola",
+        "capital": "Luanda",
+        "officialName": "Republic of Angola"
       }
     },
     "economics": {
@@ -10587,7 +17255,26 @@ export const countries: CountryData[] = [
       "headOfState": "João Lourenço",
       "headOfGovernment": "João Lourenço",
       "governmentType": "presidential system; republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10597,36 +17284,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 1417492000,
     "difficulty": "easy",
-    "flag_url": "/flags/fb54e9062429.webp",
+    "flag_url": "/flags/fb54e9062429.svg",
     "codes": {
       "iso2": "IN",
       "iso3": "IND",
       "numeric": "356"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Índia",
-        "capital": "Nova Deli"
+        "capital": "Nova Deli",
+        "officialName": "Republic of India"
+      },
+      "ar": {
+        "name": "الهند",
+        "capital": "New Delhi",
+        "officialName": "جمهورية الهند "
+      },
+      "es": {
+        "name": "India",
+        "capital": "New Delhi",
+        "officialName": "la República de la India"
+      },
+      "fr": {
+        "name": "Inde",
+        "capital": "New Delhi",
+        "officialName": "la République de l'Inde"
+      },
+      "it": {
+        "name": "India",
+        "capital": "New Delhi",
+        "officialName": "Repubblica dell'India"
+      },
+      "ru": {
+        "name": "Индия",
+        "capital": "New Delhi",
+        "officialName": "Республика Индия"
+      },
+      "zh-CN": {
+        "name": "印 度",
+        "capital": "New Delhi",
+        "officialName": "印度共和国"
+      },
+      "en": {
+        "name": "India",
+        "capital": "New Delhi",
+        "officialName": "Republic of India"
       }
     },
     "economics": {
@@ -10638,7 +17341,7 @@ export const countries: CountryData[] = [
       "headOfState": "Droupadi Murmu",
       "headOfGovernment": "Narendra Modi",
       "governmentType": "federal republic; parliamentary democracy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -10661,7 +17364,28 @@ export const countries: CountryData[] = [
           "name": "Sikhism"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10671,36 +17395,43 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 349925,
     "difficulty": "super_hard",
-    "flag_url": "/flags/c9dcef27282b.webp",
+    "flag_url": "/flags/c9dcef27282b.svg",
     "codes": {
       "iso2": "MQ",
       "iso3": "MTQ",
       "numeric": "474"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Martinica",
+        "capital": "Fort-de-France",
+        "officialName": "Martinique"
+      },
+      "en": {
+        "name": "Martinique",
+        "capital": "Fort-de-France",
+        "officialName": "Martinique"
+      }
+    },
+    "politics": {
+      "headOfGovernment": "Serge Letchimy",
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
         "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Martinica",
-        "capital": "Fort-de-France"
-      }
-    },
-    "politics": {
-      "headOfGovernment": "Serge Letchimy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
     }
   },
   {
@@ -10710,34 +17441,22 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 264596,
     "difficulty": "super_hard",
-    "flag_url": "/flags/59b1687cd303.webp",
+    "flag_url": "/flags/59b1687cd303.svg",
     "codes": {
       "iso2": "NC",
       "iso3": "NCL",
       "numeric": "540"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Nova Caledónia",
-        "capital": "Nouméa"
+        "capital": "Nouméa",
+        "officialName": "New Caledonia"
+      },
+      "en": {
+        "name": "New Caledonia",
+        "capital": "Nouméa",
+        "officialName": "New Caledonia"
       }
     },
     "economics": {
@@ -10747,7 +17466,26 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfGovernment": "Philippe Germain",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10757,34 +17495,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 122729,
     "difficulty": "god_mode",
-    "flag_url": "/flags/f57147693006.webp",
+    "flag_url": "/flags/f57147693006.svg",
     "codes": {
       "iso2": "SC",
       "iso3": "SYC",
       "numeric": "690"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Seicheles",
-        "capital": "Victoria"
+        "capital": "Victoria",
+        "officialName": "Republic of Seychelles"
+      },
+      "ar": {
+        "name": "سيشيل",
+        "capital": "Victoria",
+        "officialName": "جمهورية سيشيل "
+      },
+      "es": {
+        "name": "Seychelles",
+        "capital": "Victoria",
+        "officialName": "la República de Seychelles"
+      },
+      "fr": {
+        "name": "Seychelles",
+        "capital": "Victoria",
+        "officialName": "la République des Seychelles"
+      },
+      "it": {
+        "name": "Seychelles",
+        "capital": "Victoria",
+        "officialName": "Repubblica delle Seychelles  "
+      },
+      "ru": {
+        "name": "Сейшельские Острова",
+        "capital": "Victoria",
+        "officialName": "Республика Сейшельские Острова"
+      },
+      "zh-CN": {
+        "name": "塞舌尔",
+        "capital": "Victoria",
+        "officialName": "塞舌尔共和国"
+      },
+      "en": {
+        "name": "Seychelles",
+        "capital": "Victoria",
+        "officialName": "Republic of Seychelles"
       }
     },
     "economics": {
@@ -10795,7 +17551,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Patrick Herminie",
       "headOfGovernment": "Patrick Herminie",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10805,36 +17580,43 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 3662,
     "difficulty": "god_mode",
-    "flag_url": "/flags/b59811e6e5d2.webp",
+    "flag_url": "/flags/b59811e6e5d2.svg",
     "codes": {
       "iso2": "FK",
       "iso3": "FLK",
       "numeric": "238"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Ilhas Malvinas",
+        "capital": "Stanley",
+        "officialName": "Falkland Islands"
+      },
+      "en": {
+        "name": "Falkland Islands",
+        "capital": "Stanley",
+        "officialName": "Falkland Islands"
+      }
+    },
+    "politics": {
+      "headOfState": "Alison Blake; Charles III",
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
         "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Ilhas Malvinas",
-        "capital": "Stanley"
-      }
-    },
-    "politics": {
-      "headOfState": "Charles III",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
     }
   },
   {
@@ -10844,36 +17626,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 69281437,
     "difficulty": "easy",
-    "flag_url": "/flags/a55c3552fd54.webp",
+    "flag_url": "/flags/a55c3552fd54.svg",
     "codes": {
       "iso2": "GB",
       "iso3": "GBR",
       "numeric": "826"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Reino Unido",
-        "capital": "Londres"
+        "capital": "Londres",
+        "officialName": "United Kingdom of Great Britain and Northern Ireland"
+      },
+      "ar": {
+        "name": "المملكة المتحدة ",
+        "capital": "London",
+        "officialName": "المملكة المتحدة لبريطانيا العظمى وآيرلندا الشمالية "
+      },
+      "es": {
+        "name": "Reino Unido",
+        "capital": "London",
+        "officialName": "el Reino Unido (de Gran Bretaña e Irlanda del Norte)"
+      },
+      "fr": {
+        "name": "Royaume-Uni",
+        "capital": "London",
+        "officialName": "le Royaume-Uni (de Grande-Bretagne et d'Irlande du Nord)"
+      },
+      "it": {
+        "name": "Regno Unito",
+        "capital": "London",
+        "officialName": "Regno Unito di Gran Bretagna e Irlanda del nord"
+      },
+      "ru": {
+        "name": "Соединенное Королевство",
+        "capital": "London",
+        "officialName": "Соединенное Королевство Великобритании и Северной Ирландии"
+      },
+      "zh-CN": {
+        "name": "联合王国",
+        "capital": "London",
+        "officialName": "大不列颠及北爱尔兰联合王国"
+      },
+      "en": {
+        "name": "United Kingdom",
+        "capital": "London",
+        "officialName": "United Kingdom of Great Britain and Northern Ireland"
       }
     },
     "economics": {
@@ -10885,7 +17683,7 @@ export const countries: CountryData[] = [
       "headOfState": "Charles III",
       "headOfGovernment": "Keir Starmer",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -10893,7 +17691,28 @@ export const countries: CountryData[] = [
           "name": "Christianity"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10903,34 +17722,52 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 900869,
     "difficulty": "super_hard",
-    "flag_url": "/flags/00b025b1e87b.webp",
+    "flag_url": "/flags/00b025b1e87b.svg",
     "codes": {
       "iso2": "FJ",
       "iso3": "FJI",
       "numeric": "242"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Fiji",
-        "capital": "Suva"
+        "capital": "Suva",
+        "officialName": "Republic of Fiji"
+      },
+      "ar": {
+        "name": "فيجي",
+        "capital": "Suva",
+        "officialName": "جمهورية فيجي "
+      },
+      "es": {
+        "name": "Fiji",
+        "capital": "Suva",
+        "officialName": "la República de Fiji"
+      },
+      "fr": {
+        "name": "Fidji",
+        "capital": "Suva",
+        "officialName": "la République des Fidji"
+      },
+      "it": {
+        "name": "Figi",
+        "capital": "Suva",
+        "officialName": "Repubblica delle Figi"
+      },
+      "ru": {
+        "name": "Фиджи",
+        "capital": "Suva",
+        "officialName": "Республика Фиджи"
+      },
+      "zh-CN": {
+        "name": "斐济",
+        "capital": "Suva",
+        "officialName": "斐济共和国"
+      },
+      "en": {
+        "name": "Fiji",
+        "capital": "Suva",
+        "officialName": "Republic of Fiji"
       }
     },
     "economics": {
@@ -10941,7 +17778,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Wiliame Katonivere",
       "headOfGovernment": "Sitiveni Rabuka",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10951,34 +17807,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 34132,
     "difficulty": "god_mode",
-    "flag_url": "/flags/27be6f2a26be.webp",
+    "flag_url": "/flags/27be6f2a26be.svg",
     "codes": {
       "iso2": "SM",
       "iso3": "SMR",
       "numeric": "674"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "San Marino",
-        "capital": "City of San Marino"
+        "capital": "City of San Marino",
+        "officialName": "Republic of San Marino"
+      },
+      "ar": {
+        "name": "مارينو سان ",
+        "capital": "City of San Marino",
+        "officialName": "مارينو سان جمهورية "
+      },
+      "es": {
+        "name": "San Marino",
+        "capital": "City of San Marino",
+        "officialName": "la República de San Marino"
+      },
+      "fr": {
+        "name": "Saint-Marin",
+        "capital": "City of San Marino",
+        "officialName": "la République de Saint-Marin"
+      },
+      "it": {
+        "name": "San Marino",
+        "capital": "City of San Marino",
+        "officialName": "Repubblica di San Marino"
+      },
+      "ru": {
+        "name": "Сан-Марино",
+        "capital": "City of San Marino",
+        "officialName": "Республика Сан-Марино"
+      },
+      "zh-CN": {
+        "name": "圣马力诺",
+        "capital": "City of San Marino",
+        "officialName": "圣马力诺共和国"
+      },
+      "en": {
+        "name": "San Marino",
+        "capital": "City of San Marino",
+        "officialName": "Republic of San Marino"
       }
     },
     "economics": {
@@ -10987,9 +17861,28 @@ export const countries: CountryData[] = [
       "year": 2022
     },
     "politics": {
-      "headOfState": "Italo Righi",
+      "headOfState": "Dalibor Riccardi; Denise Bronzetti; Francesca Civerchia; Italo Righi; Manuel Ciavatta; Maria Luisa Berti",
       "governmentType": "diarchy; parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -10999,34 +17892,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 22395489,
     "difficulty": "medium",
-    "flag_url": "/flags/937aa06da838.webp",
+    "flag_url": "/flags/937aa06da838.svg",
     "codes": {
       "iso2": "ML",
       "iso3": "MLI",
       "numeric": "466"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Mali",
-        "capital": "Bamako"
+        "capital": "Bamako",
+        "officialName": "Republic of Mali"
+      },
+      "ar": {
+        "name": "مالي",
+        "capital": "Bamako",
+        "officialName": "مالي جمهورية "
+      },
+      "es": {
+        "name": "Malí",
+        "capital": "Bamako",
+        "officialName": "la República de Malí"
+      },
+      "fr": {
+        "name": "Mali",
+        "capital": "Bamako",
+        "officialName": "la République du Mali"
+      },
+      "it": {
+        "name": "Mali",
+        "capital": "Bamako",
+        "officialName": "Repubblica del Mali"
+      },
+      "ru": {
+        "name": "Мали",
+        "capital": "Bamako",
+        "officialName": "Республика Мали"
+      },
+      "zh-CN": {
+        "name": "马 里",
+        "capital": "Bamako",
+        "officialName": "马里共和国"
+      },
+      "en": {
+        "name": "Mali",
+        "capital": "Bamako",
+        "officialName": "Republic of Mali"
       }
     },
     "economics": {
@@ -11036,8 +17947,27 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfState": "Assimi Goïta",
-      "headOfGovernment": "Choguel Kokalla Maïga",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "headOfGovernment": "Abdoulaye Maïga",
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11047,34 +17977,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 41651653,
     "difficulty": "easy",
-    "flag_url": "/flags/408c7c5887a0.webp",
+    "flag_url": "/flags/408c7c5887a0.svg",
     "codes": {
       "iso2": "CA",
       "iso3": "CAN",
       "numeric": "124"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Canadá",
-        "capital": "Ottawa"
+        "capital": "Ottawa",
+        "officialName": "Canada"
+      },
+      "ar": {
+        "name": "كندا",
+        "capital": "Ottawa",
+        "officialName": "كندا"
+      },
+      "es": {
+        "name": "Canadá",
+        "capital": "Ottawa",
+        "officialName": "el Canadá"
+      },
+      "fr": {
+        "name": "Canada",
+        "capital": "Ottawa",
+        "officialName": "le Canada"
+      },
+      "it": {
+        "name": "Canada",
+        "capital": "Ottawa",
+        "officialName": "Canada"
+      },
+      "ru": {
+        "name": "Канада",
+        "capital": "Ottawa",
+        "officialName": "Канада"
+      },
+      "zh-CN": {
+        "name": "加拿大",
+        "capital": "Ottawa",
+        "officialName": "加拿大"
+      },
+      "en": {
+        "name": "Canada",
+        "capital": "Ottawa",
+        "officialName": "Canada"
       }
     },
     "economics": {
@@ -11086,7 +18034,26 @@ export const countries: CountryData[] = [
       "headOfState": "Charles III",
       "headOfGovernment": "Mark Carney",
       "governmentType": "constitutional monarchy; federation; parliamentary system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11096,34 +18063,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 2825544,
     "difficulty": "hard",
-    "flag_url": "/flags/ff63d149bd73.webp",
+    "flag_url": "/flags/ff63d149bd73.svg",
     "codes": {
       "iso2": "JM",
       "iso3": "JAM",
       "numeric": "388"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Jamaica",
-        "capital": "Kingston"
+        "capital": "Kingston",
+        "officialName": "Jamaica"
+      },
+      "ar": {
+        "name": "جامايكا",
+        "capital": "Kingston",
+        "officialName": "جامايكا"
+      },
+      "es": {
+        "name": "Jamaica",
+        "capital": "Kingston",
+        "officialName": "Jamaica"
+      },
+      "fr": {
+        "name": "Jamaïque",
+        "capital": "Kingston",
+        "officialName": "la Jamaïque"
+      },
+      "it": {
+        "name": "Giamaica",
+        "capital": "Kingston",
+        "officialName": "Giamaica"
+      },
+      "ru": {
+        "name": "Ямайка",
+        "capital": "Kingston",
+        "officialName": "Ямайка"
+      },
+      "zh-CN": {
+        "name": "牙买加",
+        "capital": "Kingston",
+        "officialName": "牙买加"
+      },
+      "en": {
+        "name": "Jamaica",
+        "capital": "Kingston",
+        "officialName": "Jamaica"
       }
     },
     "economics": {
@@ -11134,7 +18119,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Charles III",
       "headOfGovernment": "Andrew Holness",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11144,34 +18148,52 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 11680,
     "difficulty": "god_mode",
-    "flag_url": "/flags/1620f9160956.webp",
+    "flag_url": "/flags/1620f9160956.svg",
     "codes": {
       "iso2": "NR",
       "iso3": "NRU",
       "numeric": "520"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Nauru",
-        "capital": "Yaren"
+        "capital": "Yaren",
+        "officialName": "Republic of Nauru"
+      },
+      "ar": {
+        "name": "ناورو",
+        "capital": "Yaren",
+        "officialName": "ناورو جمهورية "
+      },
+      "es": {
+        "name": "Nauru",
+        "capital": "Yaren",
+        "officialName": "la República de Nauru"
+      },
+      "fr": {
+        "name": "Nauru",
+        "capital": "Yaren",
+        "officialName": "la République de Nauru"
+      },
+      "it": {
+        "name": "Nauru",
+        "capital": "Yaren",
+        "officialName": "Repubblica di Nauru"
+      },
+      "ru": {
+        "name": "Науру",
+        "capital": "Yaren",
+        "officialName": "Республика Науру"
+      },
+      "zh-CN": {
+        "name": "瑙 鲁",
+        "capital": "Yaren",
+        "officialName": "瑙鲁共和国"
+      },
+      "en": {
+        "name": "Nauru",
+        "capital": "Yaren",
+        "officialName": "Republic of Nauru"
       }
     },
     "economics": {
@@ -11181,8 +18203,27 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfState": "David Adeang",
-      "headOfGovernment": "David Adeang",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "headOfGovernment": "David Adeang; Derog Gioura; Lionel Aingimea; René Harris; Russ J Kun; Sprent Dabwido",
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11192,36 +18233,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 284438782,
     "difficulty": "easy",
-    "flag_url": "/flags/341cf9022a3e.webp",
+    "flag_url": "/flags/341cf9022a3e.svg",
     "codes": {
       "iso2": "ID",
       "iso3": "IDN",
       "numeric": "360"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Indonésia",
-        "capital": "Jakarta"
+        "capital": "Jakarta",
+        "officialName": "Republic of Indonesia"
+      },
+      "ar": {
+        "name": "إندونيسيا",
+        "capital": "Jakarta",
+        "officialName": "جمهورية إندونيسيا "
+      },
+      "es": {
+        "name": "Indonesia",
+        "capital": "Jakarta",
+        "officialName": "la República de Indonesia"
+      },
+      "fr": {
+        "name": "Indonésie",
+        "capital": "Jakarta",
+        "officialName": "la République d'Indonésie"
+      },
+      "it": {
+        "name": "Indonesia",
+        "capital": "Jakarta",
+        "officialName": "Indonesia"
+      },
+      "ru": {
+        "name": "Индонезия",
+        "capital": "Jakarta",
+        "officialName": "Республика Индонезия"
+      },
+      "zh-CN": {
+        "name": "印度尼西亚",
+        "capital": "Jakarta",
+        "officialName": "印度尼西亚共和国"
+      },
+      "en": {
+        "name": "Indonesia",
+        "capital": "Jakarta",
+        "officialName": "Republic of Indonesia"
       }
     },
     "economics": {
@@ -11233,7 +18290,7 @@ export const countries: CountryData[] = [
       "headOfState": "Prabowo Subianto",
       "headOfGovernment": "Prabowo Subianto",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -11256,7 +18313,28 @@ export const countries: CountryData[] = [
           "name": "Protestantism"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11266,34 +18344,22 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 153836,
     "difficulty": "god_mode",
-    "flag_url": "/flags/7c2bff5f7a72.webp",
+    "flag_url": "/flags/7c2bff5f7a72.svg",
     "codes": {
       "iso2": "GU",
       "iso3": "GUM",
       "numeric": "316"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Guam",
-        "capital": "Hagåtña"
+        "capital": "Hagåtña",
+        "officialName": "Guam"
+      },
+      "en": {
+        "name": "Guam",
+        "capital": "Hagåtña",
+        "officialName": "Guam"
       }
     },
     "economics": {
@@ -11303,7 +18369,26 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfGovernment": "Lou Leon Guerrero",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11313,34 +18398,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 31719275,
     "difficulty": "medium",
-    "flag_url": "/flags/ea0fdbc86f4a.webp",
+    "flag_url": "/flags/ea0fdbc86f4a.svg",
     "codes": {
       "iso2": "CI",
       "iso3": "CIV",
       "numeric": "384"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Costa do Marfim",
-        "capital": "Yamoussoukro"
+        "capital": "Yamoussoukro",
+        "officialName": "Republic of Côte d'Ivoire"
+      },
+      "ar": {
+        "name": "ديفوار كوت ",
+        "capital": "Yamoussoukro",
+        "officialName": "ديفوار كوت جمهورية "
+      },
+      "es": {
+        "name": "Côte d'Ivoire",
+        "capital": "Yamoussoukro",
+        "officialName": "la República de Côte d'Ivoire"
+      },
+      "fr": {
+        "name": "Côte d'Ivoire",
+        "capital": "Yamoussoukro",
+        "officialName": "la République de Côte d'Ivoire"
+      },
+      "it": {
+        "name": "Côte d`Ivoire",
+        "capital": "Yamoussoukro",
+        "officialName": "Repubblica della Côte d'Ivoire"
+      },
+      "ru": {
+        "name": "Кот-д`Ивуар",
+        "capital": "Yamoussoukro",
+        "officialName": "Республика Кот-д`Ивуар"
+      },
+      "zh-CN": {
+        "name": "科特迪瓦",
+        "capital": "Yamoussoukro",
+        "officialName": "科特迪瓦共和国"
+      },
+      "en": {
+        "name": "Ivory Coast",
+        "capital": "Yamoussoukro",
+        "officialName": "Republic of Côte d'Ivoire"
       }
     },
     "economics": {
@@ -11352,7 +18455,26 @@ export const countries: CountryData[] = [
       "headOfState": "Alassane Ouattara",
       "headOfGovernment": "Robert Beugré Mambé",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11362,34 +18484,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 4881254,
     "difficulty": "hard",
-    "flag_url": "/flags/9ac506560edb.webp",
+    "flag_url": "/flags/9ac506560edb.svg",
     "codes": {
       "iso2": "KW",
       "iso3": "KWT",
       "numeric": "414"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Kuwait",
-        "capital": "Cidade do Kuwait"
+        "capital": "Cidade do Kuwait",
+        "officialName": "State of Kuwait"
+      },
+      "ar": {
+        "name": "الكويت",
+        "capital": "Kuwait City",
+        "officialName": "الكويت دولة "
+      },
+      "es": {
+        "name": "Kuwait",
+        "capital": "Kuwait City",
+        "officialName": "el Estado de Kuwait"
+      },
+      "fr": {
+        "name": "Koweït",
+        "capital": "Kuwait City",
+        "officialName": "l'État du Koweït"
+      },
+      "it": {
+        "name": "Kuwait",
+        "capital": "Kuwait City",
+        "officialName": "Stato del Kuwait"
+      },
+      "ru": {
+        "name": "Кувейт",
+        "capital": "Kuwait City",
+        "officialName": "Государство Кувейт"
+      },
+      "zh-CN": {
+        "name": "科威特",
+        "capital": "Kuwait City",
+        "officialName": "科威特国"
+      },
+      "en": {
+        "name": "Kuwait",
+        "capital": "Kuwait City",
+        "officialName": "State of Kuwait"
       }
     },
     "economics": {
@@ -11401,7 +18541,26 @@ export const countries: CountryData[] = [
       "headOfState": "Mishal Al-Ahmad Al-Jaber Al-Sabah",
       "headOfGovernment": "Sabah Al-Khalid Al-Sabah",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11411,36 +18570,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 114123600,
     "difficulty": "easy",
-    "flag_url": "/flags/0f9a79acd620.webp",
+    "flag_url": "/flags/0f9a79acd620.svg",
     "codes": {
       "iso2": "PH",
       "iso3": "PHL",
       "numeric": "608"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Filipinas",
-        "capital": "Manila"
+        "capital": "Manila",
+        "officialName": "Republic of the Philippines"
+      },
+      "ar": {
+        "name": "الفلبين",
+        "capital": "Manila",
+        "officialName": "الفلبين جمهورية "
+      },
+      "es": {
+        "name": "Filipinas",
+        "capital": "Manila",
+        "officialName": "la República de Filipinas"
+      },
+      "fr": {
+        "name": "Philippines",
+        "capital": "Manila",
+        "officialName": "la République des Philippines"
+      },
+      "it": {
+        "name": "Filippine",
+        "capital": "Manila",
+        "officialName": "Repubblica delle Filippine"
+      },
+      "ru": {
+        "name": "Филиппины",
+        "capital": "Manila",
+        "officialName": "Республика Филиппины"
+      },
+      "zh-CN": {
+        "name": "菲律宾",
+        "capital": "Manila",
+        "officialName": "菲律宾共和国"
+      },
+      "en": {
+        "name": "Philippines",
+        "capital": "Manila",
+        "officialName": "Republic of the Philippines"
       }
     },
     "economics": {
@@ -11452,7 +18627,7 @@ export const countries: CountryData[] = [
       "headOfState": "Bongbong Marcos",
       "headOfGovernment": "Bongbong Marcos",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -11466,7 +18641,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11476,34 +18672,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 772975,
     "difficulty": "super_hard",
-    "flag_url": "/flags/63b911d37593.webp",
+    "flag_url": "/flags/63b911d37593.svg",
     "codes": {
       "iso2": "GY",
       "iso3": "GUY",
       "numeric": "328"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Guiana",
-        "capital": "Georgetown"
+        "capital": "Georgetown",
+        "officialName": "Co-operative Republic of Guyana"
+      },
+      "ar": {
+        "name": "غيانا",
+        "capital": "Georgetown",
+        "officialName": "جمهورية غيانا "
+      },
+      "es": {
+        "name": "Guyana",
+        "capital": "Georgetown",
+        "officialName": "la República de Guyana"
+      },
+      "fr": {
+        "name": "Guyana",
+        "capital": "Georgetown",
+        "officialName": "la République du Guyana"
+      },
+      "it": {
+        "name": "Guyana",
+        "capital": "Georgetown",
+        "officialName": "Repubblica della Guyana"
+      },
+      "ru": {
+        "name": "Гайана",
+        "capital": "Georgetown",
+        "officialName": "Республика Гайана"
+      },
+      "zh-CN": {
+        "name": "圭亚那",
+        "capital": "Georgetown",
+        "officialName": "圭亚那共和国"
+      },
+      "en": {
+        "name": "Guyana",
+        "capital": "Georgetown",
+        "officialName": "Co-operative Republic of Guyana"
       }
     },
     "economics": {
@@ -11515,7 +18729,26 @@ export const countries: CountryData[] = [
       "headOfState": "Irfaan Ali",
       "headOfGovernment": "Mark Phillips",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11525,34 +18758,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 9539502,
     "difficulty": "hard",
-    "flag_url": "/flags/aa0db396b7d5.webp",
+    "flag_url": "/flags/aa0db396b7d5.svg",
     "codes": {
       "iso2": "HU",
       "iso3": "HUN",
       "numeric": "348"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Hungria",
-        "capital": "Budapeste"
+        "capital": "Budapeste",
+        "officialName": "Hungary"
+      },
+      "ar": {
+        "name": "هنغاريا",
+        "capital": "Budapest",
+        "officialName": "هنغاريا"
+      },
+      "es": {
+        "name": "Hungría",
+        "capital": "Budapest",
+        "officialName": "Hungría"
+      },
+      "fr": {
+        "name": "Hongrie",
+        "capital": "Budapest",
+        "officialName": "la Hongrie"
+      },
+      "it": {
+        "name": "Ungheria",
+        "capital": "Budapest",
+        "officialName": "Ungheria"
+      },
+      "ru": {
+        "name": "Венгрия",
+        "capital": "Budapest",
+        "officialName": "Венгрия"
+      },
+      "zh-CN": {
+        "name": "匈牙利",
+        "capital": "Budapest",
+        "officialName": "匈牙利"
+      },
+      "en": {
+        "name": "Hungary",
+        "capital": "Budapest",
+        "officialName": "Hungary"
       }
     },
     "economics": {
@@ -11564,7 +18815,26 @@ export const countries: CountryData[] = [
       "headOfState": "Tamás Sulyok",
       "headOfGovernment": "Viktor Orbán",
       "governmentType": "parliamentary republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11574,34 +18844,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 130575786,
     "difficulty": "easy",
-    "flag_url": "/flags/8be2978e3437.webp",
+    "flag_url": "/flags/8be2978e3437.svg",
     "codes": {
       "iso2": "MX",
       "iso3": "MEX",
       "numeric": "484"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "México",
-        "capital": "Cidade do México"
+        "capital": "Cidade do México",
+        "officialName": "United Mexican States"
+      },
+      "ar": {
+        "name": "المكسيك",
+        "capital": "Mexico City",
+        "officialName": "المكسيكية المتحدة الولايات "
+      },
+      "es": {
+        "name": "México",
+        "capital": "Mexico City",
+        "officialName": "los Estados Unidos Mexicanos"
+      },
+      "fr": {
+        "name": "Mexique",
+        "capital": "Mexico City",
+        "officialName": "les États-Unis du Mexique"
+      },
+      "it": {
+        "name": "Messico",
+        "capital": "Mexico City",
+        "officialName": "Stati Uniti messicani"
+      },
+      "ru": {
+        "name": "Мексика",
+        "capital": "Mexico City",
+        "officialName": "Мексиканские Соединенные Штаты"
+      },
+      "zh-CN": {
+        "name": "墨西哥",
+        "capital": "Mexico City",
+        "officialName": "墨西哥合众国"
+      },
+      "en": {
+        "name": "Mexico",
+        "capital": "Mexico City",
+        "officialName": "United Mexican States"
       }
     },
     "economics": {
@@ -11613,7 +18901,26 @@ export const countries: CountryData[] = [
       "headOfState": "Claudia Sheinbaum",
       "headOfGovernment": "Claudia Sheinbaum",
       "governmentType": "federal republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11623,38 +18930,75 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 25950000,
     "difficulty": "medium",
-    "flag_url": "/flags/d37ace0490c0.webp",
+    "flag_url": "/flags/d37ace0490c0.svg",
     "codes": {
       "iso2": "KP",
       "iso3": "PRK",
       "numeric": "408"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Coreia do Norte",
+        "capital": "Pionguiangue",
+        "officialName": "Democratic People's Republic of Korea"
+      },
+      "ar": {
+        "name": "الديمقراطية الشعبية كوريا جمهورية ",
+        "capital": "Pyongyang",
+        "officialName": "الديمقراطية الشعبية كوريا جمهورية "
+      },
+      "es": {
+        "name": "República Popular Democrática de Corea",
+        "capital": "Pyongyang",
+        "officialName": "la República Popular Democrática de Corea"
+      },
+      "fr": {
+        "name": "République populaire démocratique de Corée",
+        "capital": "Pyongyang",
+        "officialName": "la République populaire démocratique de Corée"
+      },
+      "it": {
+        "name": "Repubblica popolare democratica di Corea",
+        "capital": "Pyongyang",
+        "officialName": "Repubblica popolare democratica di Corea"
+      },
+      "ru": {
+        "name": "Корейская Народно-Демократическая Республика",
+        "capital": "Pyongyang",
+        "officialName": "Корейская Народно-Демократическая Республика"
+      },
+      "zh-CN": {
+        "name": "朝鲜民主主义人民共和国",
+        "capital": "Pyongyang",
+        "officialName": "朝鲜民主主义人民共和国"
+      },
+      "en": {
+        "name": "North Korea",
+        "capital": "Pyongyang",
+        "officialName": "Democratic People's Republic of Korea"
+      }
+    },
+    "politics": {
+      "headOfState": "Kim Jong-un",
+      "headOfGovernment": "Kim Jae-ryong; Pak Thae-song",
+      "governmentType": "Juche; communist dictatorship; family dictatorship; republic; single-party system; socialist state; unitary state",
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
         "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Coreia do Norte",
-        "capital": "Pionguiangue"
-      }
-    },
-    "politics": {
-      "headOfState": "Kim Jong-un",
-      "headOfGovernment": "Pak Thae-song",
-      "governmentType": "Juche; communist dictatorship; family dictatorship; republic; single-party system; socialist state; unitary state",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
     }
   },
   {
@@ -11664,34 +19008,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 19036031,
     "difficulty": "medium",
-    "flag_url": "/flags/856f08f94e33.webp",
+    "flag_url": "/flags/856f08f94e33.svg",
     "codes": {
       "iso2": "RO",
       "iso3": "ROU",
       "numeric": "642"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Roménia",
-        "capital": "Bucareste"
+        "capital": "Bucareste",
+        "officialName": "Romania"
+      },
+      "ar": {
+        "name": "رومانيا",
+        "capital": "Bucharest",
+        "officialName": "رومانيا"
+      },
+      "es": {
+        "name": "Rumania",
+        "capital": "Bucharest",
+        "officialName": "Rumania"
+      },
+      "fr": {
+        "name": "Roumanie",
+        "capital": "Bucharest",
+        "officialName": "la Roumanie"
+      },
+      "it": {
+        "name": "Romania",
+        "capital": "Bucharest",
+        "officialName": "Romania"
+      },
+      "ru": {
+        "name": "Румыния",
+        "capital": "Bucharest",
+        "officialName": "Румыния"
+      },
+      "zh-CN": {
+        "name": "罗马尼亚",
+        "capital": "Bucharest",
+        "officialName": "罗马尼亚"
+      },
+      "en": {
+        "name": "Romania",
+        "capital": "Bucharest",
+        "officialName": "Romania"
       }
     },
     "economics": {
@@ -11703,7 +19065,26 @@ export const countries: CountryData[] = [
       "headOfState": "Nicușor Dan",
       "headOfGovernment": "Ilie Bolovan",
       "governmentType": "semi-presidential system",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11713,34 +19094,52 @@ export const countries: CountryData[] = [
     "region": "Americas",
     "population": 616500,
     "difficulty": "super_hard",
-    "flag_url": "/flags/0f0857451904.webp",
+    "flag_url": "/flags/0f0857451904.svg",
     "codes": {
       "iso2": "SR",
       "iso3": "SUR",
       "numeric": "740"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Suriname",
-        "capital": "Paramaribo"
+        "capital": "Paramaribo",
+        "officialName": "Republic of Suriname"
+      },
+      "ar": {
+        "name": "سورينام",
+        "capital": "Paramaribo",
+        "officialName": "جمهورية سورينام "
+      },
+      "es": {
+        "name": "Suriname",
+        "capital": "Paramaribo",
+        "officialName": "la República de Suriname"
+      },
+      "fr": {
+        "name": "Suriname",
+        "capital": "Paramaribo",
+        "officialName": "la République du Suriname"
+      },
+      "it": {
+        "name": "Suriname",
+        "capital": "Paramaribo",
+        "officialName": "Repubblica di Suriname"
+      },
+      "ru": {
+        "name": "Суринам",
+        "capital": "Paramaribo",
+        "officialName": "Республика Суринам"
+      },
+      "zh-CN": {
+        "name": "苏里南",
+        "capital": "Paramaribo",
+        "officialName": "苏里南共和国"
+      },
+      "en": {
+        "name": "Suriname",
+        "capital": "Paramaribo",
+        "officialName": "Republic of Suriname"
       }
     },
     "economics": {
@@ -11752,7 +19151,26 @@ export const countries: CountryData[] = [
       "headOfState": "Jennifer Geerlings-Simons",
       "headOfGovernment": "Jennifer Geerlings-Simons",
       "governmentType": "republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11762,34 +19180,22 @@ export const countries: CountryData[] = [
     "region": "Oceania",
     "population": 49710,
     "difficulty": "god_mode",
-    "flag_url": "/flags/ff09df712f95.webp",
+    "flag_url": "/flags/ff09df712f95.svg",
     "codes": {
       "iso2": "AS",
       "iso3": "ASM",
       "numeric": "016"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Samoa Americana",
-        "capital": "Pago Pago"
+        "capital": "Pago Pago",
+        "officialName": "American Samoa"
+      },
+      "en": {
+        "name": "American Samoa",
+        "capital": "Pago Pago",
+        "officialName": "American Samoa"
       }
     },
     "economics": {
@@ -11798,8 +19204,27 @@ export const countries: CountryData[] = [
       "year": 2022
     },
     "politics": {
-      "headOfGovernment": "Pula Nikolao Pula",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "headOfGovernment": "Lemanu Peleti Mauga; Pula Nikolao Pula",
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11809,36 +19234,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 29911840,
     "difficulty": "medium",
-    "flag_url": "/flags/a23e9cdda7a3.webp",
+    "flag_url": "/flags/a23e9cdda7a3.svg",
     "codes": {
       "iso2": "NP",
       "iso3": "NPL",
       "numeric": "524"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Nepal",
-        "capital": "Kathmandu"
+        "capital": "Kathmandu",
+        "officialName": "Federal Democratic Republic of Nepal"
+      },
+      "ar": {
+        "name": "نيبال",
+        "capital": "Kathmandu",
+        "officialName": "الاتحادية الديمقراطية نيبال جمهورية "
+      },
+      "es": {
+        "name": "Nepal",
+        "capital": "Kathmandu",
+        "officialName": "la República Democrática Federal de Nepal"
+      },
+      "fr": {
+        "name": "Népal",
+        "capital": "Kathmandu",
+        "officialName": "la République fédérale démocratique du Nepal"
+      },
+      "it": {
+        "name": "Nepal",
+        "capital": "Kathmandu",
+        "officialName": "Repubblica Democratica Federale di Nepal"
+      },
+      "ru": {
+        "name": "Непал",
+        "capital": "Kathmandu",
+        "officialName": "Федеративная Демократическая Республика Непал"
+      },
+      "zh-CN": {
+        "name": "尼泊尔",
+        "capital": "Kathmandu",
+        "officialName": "尼泊尔联邦民主共和国"
+      },
+      "en": {
+        "name": "Nepal",
+        "capital": "Kathmandu",
+        "officialName": "Federal Democratic Republic of Nepal"
       }
     },
     "economics": {
@@ -11850,7 +19291,7 @@ export const countries: CountryData[] = [
       "headOfState": "Ram Chandra Poudel",
       "headOfGovernment": "Pushpa Kamal Dahal",
       "governmentType": "federal republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -11876,7 +19317,28 @@ export const countries: CountryData[] = [
           "name": "Prakṛti"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11886,34 +19348,52 @@ export const countries: CountryData[] = [
     "region": "Africa",
     "population": 19340757,
     "difficulty": "medium",
-    "flag_url": "/flags/2dec26043f67.webp",
+    "flag_url": "/flags/2dec26043f67.svg",
     "codes": {
       "iso2": "TD",
       "iso3": "TCD",
       "numeric": "148"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Chade",
-        "capital": "N'Djamena"
+        "capital": "N'Djamena",
+        "officialName": "Republic of Chad"
+      },
+      "ar": {
+        "name": "تشاد",
+        "capital": "N'Djamena",
+        "officialName": "تشاد جمهورية "
+      },
+      "es": {
+        "name": "Chad",
+        "capital": "N'Djamena",
+        "officialName": "la República del Chad"
+      },
+      "fr": {
+        "name": "Tchad",
+        "capital": "N'Djamena",
+        "officialName": "la République du Tchad"
+      },
+      "it": {
+        "name": "Ciad",
+        "capital": "N'Djamena",
+        "officialName": "Repubblica del Ciad"
+      },
+      "ru": {
+        "name": "Чад",
+        "capital": "N'Djamena",
+        "officialName": "Республика Чад"
+      },
+      "zh-CN": {
+        "name": "乍 得",
+        "capital": "N'Djamena",
+        "officialName": "乍得共和国"
+      },
+      "en": {
+        "name": "Chad",
+        "capital": "N'Djamena",
+        "officialName": "Republic of Chad"
       }
     },
     "economics": {
@@ -11923,8 +19403,26 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfState": "Mahamat Déby",
-      "headOfGovernment": "Idriss Déby",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11934,34 +19432,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 6567783,
     "difficulty": "hard",
-    "flag_url": "/flags/467dda4df29b.webp",
+    "flag_url": "/flags/467dda4df29b.svg",
     "codes": {
       "iso2": "RS",
       "iso3": "SRB",
       "numeric": "688"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Sérvia",
-        "capital": "Belgrado"
+        "capital": "Belgrado",
+        "officialName": "Republic of Serbia"
+      },
+      "ar": {
+        "name": "صربيا",
+        "capital": "Belgrade",
+        "officialName": "جمهورية صربيا "
+      },
+      "es": {
+        "name": "Serbia",
+        "capital": "Belgrade",
+        "officialName": "la República de Serbia"
+      },
+      "fr": {
+        "name": "Serbie",
+        "capital": "Belgrade",
+        "officialName": "la République de Serbie"
+      },
+      "it": {
+        "name": "Serbia",
+        "capital": "Belgrade",
+        "officialName": "la Repubblica di Serbia"
+      },
+      "ru": {
+        "name": "Сербия",
+        "capital": "Belgrade",
+        "officialName": "Республика Сербия"
+      },
+      "zh-CN": {
+        "name": "塞尔维亚",
+        "capital": "Belgrade",
+        "officialName": "塞尔维亚共和国"
+      },
+      "en": {
+        "name": "Serbia",
+        "capital": "Belgrade",
+        "officialName": "Republic of Serbia"
       }
     },
     "economics": {
@@ -11972,7 +19488,26 @@ export const countries: CountryData[] = [
     "politics": {
       "headOfState": "Aleksandar Vučić",
       "headOfGovernment": "Đuro Macut",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -11982,36 +19517,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 17577760,
     "difficulty": "medium",
-    "flag_url": "/flags/eae33aebc587.webp",
+    "flag_url": "/flags/eae33aebc587.svg",
     "codes": {
       "iso2": "KH",
       "iso3": "KHM",
       "numeric": "116"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Camboja",
-        "capital": "Phnom Penh"
+        "capital": "Phnom Penh",
+        "officialName": "Kingdom of Cambodia"
+      },
+      "ar": {
+        "name": "كمبوديا",
+        "capital": "Phnom Penh",
+        "officialName": "مملكة كمبوديا "
+      },
+      "es": {
+        "name": "Camboya",
+        "capital": "Phnom Penh",
+        "officialName": "el Reino de Camboya"
+      },
+      "fr": {
+        "name": "Cambodge",
+        "capital": "Phnom Penh",
+        "officialName": "le Royaume du Cambodge"
+      },
+      "it": {
+        "name": "Cambogia",
+        "capital": "Phnom Penh",
+        "officialName": "Regno di Cambogia"
+      },
+      "ru": {
+        "name": "Камбоджа",
+        "capital": "Phnom Penh",
+        "officialName": "Королевство Камбоджа"
+      },
+      "zh-CN": {
+        "name": "柬埔寨",
+        "capital": "Phnom Penh",
+        "officialName": "柬埔寨王国"
+      },
+      "en": {
+        "name": "Cambodia",
+        "capital": "Phnom Penh",
+        "officialName": "Kingdom of Cambodia"
       }
     },
     "economics": {
@@ -12023,7 +19574,7 @@ export const countries: CountryData[] = [
       "headOfState": "Norodom Sihamoni",
       "headOfGovernment": "Hun Manet",
       "governmentType": "constitutional monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -12031,7 +19582,28 @@ export const countries: CountryData[] = [
           "name": "Buddhism"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -12041,36 +19613,52 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 34231700,
     "difficulty": "medium",
-    "flag_url": "/flags/6a9a10210588.webp",
+    "flag_url": "/flags/6a9a10210588.svg",
     "codes": {
       "iso2": "MY",
       "iso3": "MYS",
       "numeric": "458"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P3075)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Malásia",
-        "capital": "Kuala Lumpur"
+        "capital": "Kuala Lumpur",
+        "officialName": "Malaysia"
+      },
+      "ar": {
+        "name": "ماليزيا",
+        "capital": "Kuala Lumpur",
+        "officialName": "ماليزيا"
+      },
+      "es": {
+        "name": "Malasia",
+        "capital": "Kuala Lumpur",
+        "officialName": "Malasia"
+      },
+      "fr": {
+        "name": "Malaisie",
+        "capital": "Kuala Lumpur",
+        "officialName": "la Malaisie"
+      },
+      "it": {
+        "name": "Malaysia",
+        "capital": "Kuala Lumpur",
+        "officialName": "Malaysia"
+      },
+      "ru": {
+        "name": "Малайзия",
+        "capital": "Kuala Lumpur",
+        "officialName": "Малайзия"
+      },
+      "zh-CN": {
+        "name": "马来西亚",
+        "capital": "Kuala Lumpur",
+        "officialName": "马来西亚"
+      },
+      "en": {
+        "name": "Malaysia",
+        "capital": "Kuala Lumpur",
+        "officialName": "Malaysia"
       }
     },
     "economics": {
@@ -12082,7 +19670,7 @@ export const countries: CountryData[] = [
       "headOfState": "Ibrahim Iskandar of Johor",
       "headOfGovernment": "Anwar Ibrahim",
       "governmentType": "constitutional monarchy; elective monarchy; federal monarchy; parliamentary monarchy",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -12090,7 +19678,28 @@ export const countries: CountryData[] = [
           "name": "Islam"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P3075)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -12100,34 +19709,52 @@ export const countries: CountryData[] = [
     "region": "Europe",
     "population": 1442614,
     "difficulty": "super_hard",
-    "flag_url": "/flags/8930d399db29.webp",
+    "flag_url": "/flags/8930d399db29.svg",
     "codes": {
       "iso2": "CY",
       "iso3": "CYP",
       "numeric": "196"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Chipre",
-        "capital": "Nicosia"
+        "capital": "Nicosia",
+        "officialName": "Republic of Cyprus"
+      },
+      "ar": {
+        "name": "قبرص",
+        "capital": "Nicosia",
+        "officialName": "جمهورية قبرص "
+      },
+      "es": {
+        "name": "Chipre",
+        "capital": "Nicosia",
+        "officialName": "la República de Chipre"
+      },
+      "fr": {
+        "name": "Chypre",
+        "capital": "Nicosia",
+        "officialName": "la République de Chypre"
+      },
+      "it": {
+        "name": "Cipro",
+        "capital": "Nicosia",
+        "officialName": "Repubblica di Cipro"
+      },
+      "ru": {
+        "name": "Кипр",
+        "capital": "Nicosia",
+        "officialName": "Республика Кипр"
+      },
+      "zh-CN": {
+        "name": "塞浦路斯",
+        "capital": "Nicosia",
+        "officialName": "塞浦路斯共和国"
+      },
+      "en": {
+        "name": "Cyprus",
+        "capital": "Nicosia",
+        "officialName": "Republic of Cyprus"
       }
     },
     "economics": {
@@ -12137,9 +19764,28 @@ export const countries: CountryData[] = [
     },
     "politics": {
       "headOfState": "Nicos Christodoulides",
-      "headOfGovernment": "Nicos Christodoulides",
+      "headOfGovernment": "Nicos Christodoulides; Nikos Anastasiades",
       "governmentType": "presidential system; republic",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T16:33:23.621Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T16:33:23.621Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -12149,27 +19795,34 @@ export const countries: CountryData[] = [
     "region": "Antarctic",
     "population": 1300,
     "difficulty": "medium",
-    "flag_url": "/flags/ee40e4ea2433.webp",
+    "flag_url": "/flags/ee40e4ea2433.svg",
     "codes": {
       "iso2": "AQ",
       "iso3": "ATA",
       "numeric": "010"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Antártida",
+        "capital": "",
+        "officialName": "Antarctica"
+      },
+      "en": {
+        "name": "Antarctica",
+        "capital": "",
+        "officialName": "Antarctica"
+      }
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com"
-      }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Antártida",
-        "capital": ""
+        "ptCapital": "manual+restcountries.com",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
     }
   },
@@ -12180,27 +19833,34 @@ export const countries: CountryData[] = [
     "region": "Antarctic",
     "population": 0,
     "difficulty": "medium",
-    "flag_url": "/flags/b87cec0486d3.webp",
+    "flag_url": "/flags/b87cec0486d3.svg",
     "codes": {
       "iso2": "BV",
       "iso3": "BVT",
       "numeric": "074"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Ilha Bouvet",
+        "capital": "",
+        "officialName": "Bouvet Island"
+      },
+      "en": {
+        "name": "Bouvet Island",
+        "capital": "",
+        "officialName": "Bouvet Island"
+      }
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com"
-      }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Ilha Bouvet",
-        "capital": ""
+        "ptCapital": "manual+restcountries.com",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
     }
   },
@@ -12211,27 +19871,34 @@ export const countries: CountryData[] = [
     "region": "Antarctic",
     "population": 400,
     "difficulty": "medium",
-    "flag_url": "/flags/4734c0adf3e8.webp",
+    "flag_url": "/flags/4734c0adf3e8.svg",
     "codes": {
       "iso2": "TF",
       "iso3": "ATF",
       "numeric": "260"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Terras Austrais e Antárticas Francesas",
+        "capital": "Port-aux-Français",
+        "officialName": "Territory of the French Southern and Antarctic Lands"
+      },
+      "en": {
+        "name": "French Southern and Antarctic Lands",
+        "capital": "Port-aux-Français",
+        "officialName": "Territory of the French Southern and Antarctic Lands"
+      }
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com"
-      }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Terras Austrais e Antárticas Francesas",
-        "capital": "Port-aux-Français"
+        "ptCapital": "manual+restcountries.com",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
     }
   },
@@ -12242,27 +19909,34 @@ export const countries: CountryData[] = [
     "region": "Antarctic",
     "population": 0,
     "difficulty": "medium",
-    "flag_url": "/flags/d2c02b2e75b4.webp",
+    "flag_url": "/flags/d2c02b2e75b4.svg",
     "codes": {
       "iso2": "HM",
       "iso3": "HMD",
       "numeric": "334"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Ilha Heard e Ilhas McDonald",
+        "capital": "",
+        "officialName": "Heard Island and McDonald Islands"
+      },
+      "en": {
+        "name": "Heard Island and McDonald Islands",
+        "capital": "",
+        "officialName": "Heard Island and McDonald Islands"
+      }
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com"
-      }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Ilha Heard e Ilhas McDonald",
-        "capital": ""
+        "ptCapital": "manual+restcountries.com",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
     }
   },
@@ -12273,36 +19947,22 @@ export const countries: CountryData[] = [
     "region": "Asia",
     "population": 685900,
     "difficulty": "medium",
-    "flag_url": "/flags/260048fecac2.webp",
+    "flag_url": "/flags/260048fecac2.svg",
     "codes": {
       "iso2": "MO",
       "iso3": "MAC",
       "numeric": "446"
     },
-    "meta": {
-      "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "economics": "2025-12-12T15:40:22.108Z",
-        "politics": "2025-12-12T15:40:39.045Z",
-        "culture": "2025-12-12T15:40:39.045Z"
-      },
-      "sources": {
-        "base": "restcountries.com",
-        "ptName": "restcountries.com",
-        "ptCapital": "manual+restcountries.com",
-        "economics.gdpUsd": "api.worldbank.org",
-        "economics.gdpPerCapitaUsd": "api.worldbank.org",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org",
-        "culture.religions": "wikidata.org (P140)"
-      }
-    },
     "localizations": {
       "pt-BR": {
         "name": "Macau",
-        "capital": ""
+        "capital": "",
+        "officialName": "Macao Special Administrative Region of the People's Republic of China"
+      },
+      "en": {
+        "name": "Macau",
+        "capital": "",
+        "officialName": "Macao Special Administrative Region of the People's Republic of China"
       }
     },
     "economics": {
@@ -12311,8 +19971,8 @@ export const countries: CountryData[] = [
       "year": 2024
     },
     "politics": {
-      "headOfGovernment": "Ho Iat Seng",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "headOfGovernment": "Sam Hou Fai",
+      "updatedAt": "2025-12-12T15:56:08.584Z"
     },
     "culture": {
       "religions": [
@@ -12326,7 +19986,28 @@ export const countries: CountryData[] = [
           "name": "Christianity"
         }
       ],
-      "updatedAt": "2025-12-12T15:40:39.045Z"
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
+    "meta": {
+      "lastUpdated": {
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "economics": "2025-12-12T15:55:50.087Z",
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2025-12-12T15:56:08.584Z"
+      },
+      "sources": {
+        "base": "restcountries.com",
+        "ptName": "restcountries.com",
+        "ptCapital": "manual+restcountries.com",
+        "economics.gdpUsd": "api.worldbank.org",
+        "economics.gdpPerCapitaUsd": "api.worldbank.org",
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "culture.religions": "wikidata.org (P140)",
+        "localizations": "cristiroma/countries + restcountries.com"
+      }
     }
   },
   {
@@ -12336,36 +20017,43 @@ export const countries: CountryData[] = [
     "region": "Antarctic",
     "population": 0,
     "difficulty": "medium",
-    "flag_url": "/flags/12ac0913797e.webp",
+    "flag_url": "/flags/12ac0913797e.svg",
     "codes": {
       "iso2": "GS",
       "iso3": "SGS",
       "numeric": "239"
     },
+    "localizations": {
+      "pt-BR": {
+        "name": "Ilhas Geórgia do Sul e Sandwich do Sul",
+        "capital": "King Edward Point",
+        "officialName": "South Georgia and the South Sandwich Islands"
+      },
+      "en": {
+        "name": "South Georgia",
+        "capital": "King Edward Point",
+        "officialName": "South Georgia and the South Sandwich Islands"
+      }
+    },
+    "politics": {
+      "headOfGovernment": "Nigel Haywood",
+      "updatedAt": "2025-12-12T15:56:08.584Z"
+    },
     "meta": {
       "lastUpdated": {
-        "base": "2025-12-12T15:40:20.892Z",
-        "pt": "2025-12-12T15:40:20.892Z",
-        "politics": "2025-12-12T15:40:39.045Z"
+        "base": "2025-12-12T15:55:47.135Z",
+        "pt": "2025-12-12T15:55:47.135Z",
+        "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
         "base": "restcountries.com",
         "ptName": "restcountries.com",
         "ptCapital": "manual+restcountries.com",
-        "politics.headOfState": "wikidata.org",
-        "politics.headOfGovernment": "wikidata.org",
-        "politics.governmentType": "wikidata.org"
+        "politics.headOfState": "wikidata.org (P35)",
+        "politics.headOfGovernment": "wikidata.org (P6)",
+        "politics.governmentType": "wikidata.org (P122)",
+        "localizations": "cristiroma/countries + restcountries.com"
       }
-    },
-    "localizations": {
-      "pt-BR": {
-        "name": "Ilhas Geórgia do Sul e Sandwich do Sul",
-        "capital": "King Edward Point"
-      }
-    },
-    "politics": {
-      "headOfGovernment": "Nigel Haywood",
-      "updatedAt": "2025-12-12T15:40:39.045Z"
     }
   }
 ];

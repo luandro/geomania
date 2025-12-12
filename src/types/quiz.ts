@@ -10,6 +10,57 @@ export interface Country {
   difficulty: Difficulty;
 }
 
+export interface LocalizedCountryInfo {
+  name: string;
+  capital: string;
+  officialName?: string;
+  altNames?: string[];
+  altCapitals?: string[];
+}
+
+export interface CountryEconomics {
+  gdpUsd?: number;
+  gdpPerCapitaUsd?: number;
+  year?: number;
+}
+
+export type PoliticalSpectrum = 'left' | 'center' | 'right' | 'mixed' | 'unknown';
+
+export interface CountryPolitics {
+  headOfState?: string;
+  headOfGovernment?: string;
+  governmentType?: string;
+  politicalSpectrum?: PoliticalSpectrum;
+  updatedAt?: string;
+}
+
+export interface CountryCulture {
+  religions?: Array<{ name: string; percentage?: number }>;
+  majorSports?: string[];
+  updatedAt?: string;
+}
+
+export interface CountryCodes {
+  iso2?: string;
+  iso3?: string;
+  numeric?: string;
+}
+
+export interface CountryMeta {
+  lastUpdated?: Record<string, string>;
+  sources?: Record<string, string>;
+  notes?: string;
+}
+
+export interface CountryData extends Country {
+  localizations?: Record<string, LocalizedCountryInfo>;
+  economics?: CountryEconomics;
+  politics?: CountryPolitics;
+  culture?: CountryCulture;
+  codes?: CountryCodes;
+  meta?: CountryMeta;
+}
+
 export type GameMode = 'flag' | 'capital' | 'population';
 
 export interface QuizQuestion {

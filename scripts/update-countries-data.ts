@@ -1,10 +1,9 @@
 import fs from 'fs';
 import path from 'path';
-import sharp from 'sharp';
 import { fileURLToPath } from 'url';
 import { createHash } from 'crypto';
 import { countries as existingCountries } from '@/data/countries';
-import type { CountryData, Difficulty } from '@/types/quiz';
+import type { CountryData, Difficulty, LocalizedCountryInfo } from '@/types/quiz';
 
 type RestCountry = {
   name?: { common?: string; official?: string };
@@ -16,6 +15,15 @@ type RestCountry = {
   cca3?: string;
   ccn3?: string;
   translations?: Record<string, { common?: string; official?: string }>;
+};
+
+type CristiCountry = {
+  code2l: string;
+  code3l: string;
+  name: string;
+  name_official: string;
+  enabled: boolean;
+  names: Record<string, { name: string; name_official: string }>;
 };
 
 type UpdateOptions = {
@@ -43,8 +51,6 @@ const WIKIDATA_SPARQL_URL = 'https://query.wikidata.org/sparql';
 const DEFAULT_WIKIDATA_USER_AGENT = 'geomania-country-data/1.0 (https://wikidata.org)';
 
 const OUTPUT_FLAGS_DIR = path.resolve(process.cwd(), 'public', 'flags');
-const FLAG_WIDTH = 80;
-const FLAG_QUALITY = 75;
 
 const ptCapitalOverrides: Record<string, string> = {
   'Rome': 'Roma',
@@ -157,7 +163,7 @@ Options:
   --out <path>           Output TS file (default src/data/countries.ts)
   --cache-dir <path>     Directory for raw API caches (default scripts/cache)
   --use-cache            Use cached raw data instead of fetching
-  --download-flags       Download flags to public/flags and rewrite flag_url
+  --download-flags       Download missing SVG flags (fallback) to public/flags
   --skip-economics       Skip World Bank economics enrichment
   --skip-wikidata        Skip Wikidata enrichment (politics/culture)
   --include-sports       Try to enrich sports via Wikidata (can be slow)
@@ -229,6 +235,29 @@ async function fetchRestCountries(opts: UpdateOptions): Promise<RestCountry[]> {
   }
 
   return data;
+}
+
+function loadCristiCountries(opts: UpdateOptions): Map<string, CristiCountry> {
+  const cristiFile = opts.cacheDir
+    ? path.join(opts.cacheDir, 'cristiroma-countries.json')
+    : path.join(process.cwd(), 'scripts', 'cache', 'cristiroma-countries.json');
+
+  if (!fs.existsSync(cristiFile)) {
+    console.warn(`⚠ Cristiroma countries file not found at ${cristiFile}, skipping multilingual data`);
+    return new Map();
+  }
+
+  const data = JSON.parse(fs.readFileSync(cristiFile, 'utf-8')) as CristiCountry[];
+  const byIso2 = new Map<string, CristiCountry>();
+
+  for (const country of data) {
+    if (country.code2l) {
+      byIso2.set(country.code2l.toUpperCase(), country);
+    }
+  }
+
+  console.log(`✓ Loaded ${byIso2.size} countries from Cristiroma dataset`);
+  return byIso2;
 }
 
 type WorldBankMeta = {
@@ -329,20 +358,37 @@ async function fetchWikidataSparql(query: string, opts: UpdateOptions): Promise<
     return JSON.parse(fs.readFileSync(cacheFile, 'utf-8')) as WikidataSparqlJson;
   }
 
-  const res = await fetchWithRetry(
-    WIKIDATA_SPARQL_URL,
+  const url = `${WIKIDATA_SPARQL_URL}?format=json&query=${encodeURIComponent(query)}`;
+
+  const getRes = await fetchWithRetry(
+    url,
     {
-      method: 'POST',
+      method: 'GET',
       headers: {
         Accept: 'application/sparql-results+json',
-        'Content-Type': 'application/sparql-query; charset=utf-8',
         'User-Agent': opts.userAgent,
       },
-      body: query,
     },
     opts,
-    'wikidata-sparql'
+    'wikidata-sparql:get'
   );
+
+  const res = [414, 431].includes(getRes.status)
+    ? await fetchWithRetry(
+        `${WIKIDATA_SPARQL_URL}?format=json`,
+        {
+          method: 'POST',
+          headers: {
+            Accept: 'application/sparql-results+json',
+            'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8',
+            'User-Agent': opts.userAgent,
+          },
+          body: `query=${encodeURIComponent(query)}`,
+        },
+        opts,
+        'wikidata-sparql:post'
+      )
+    : getRes;
   if (!res.ok) {
     const text = await res.text().catch(() => '');
     throw new Error(`Wikidata SPARQL failed: ${res.status} ${res.statusText}\n${text.slice(0, 400)}`);
@@ -356,14 +402,19 @@ async function fetchWikidataSparql(query: string, opts: UpdateOptions): Promise<
   return json;
 }
 
-async function downloadFlag(pngUrl: string, outPath: string, opts: UpdateOptions) {
-  const res = await fetchWithRetry(pngUrl, {}, opts, 'flag');
-  if (!res.ok) throw new Error(`Failed to fetch ${pngUrl}: ${res.status} ${res.statusText}`);
+async function downloadSvg(svgUrl: string, outPath: string, opts: UpdateOptions) {
+  const res = await fetchWithRetry(
+    svgUrl,
+    { headers: { 'User-Agent': opts.userAgent } },
+    opts,
+    'flag-svg'
+  );
+  if (!res.ok) throw new Error(`Failed to fetch ${svgUrl}: ${res.status} ${res.statusText}`);
   const buf = Buffer.from(await res.arrayBuffer());
-  await sharp(buf).resize({ width: FLAG_WIDTH }).webp({ quality: FLAG_QUALITY }).toFile(outPath);
+  fs.writeFileSync(outPath, buf);
 }
 
-function buildCountries(restData: RestCountry[], opts: UpdateOptions) {
+function buildCountries(restData: RestCountry[], cristiData: Map<string, CristiCountry>, opts: UpdateOptions) {
   const difficultyById = new Map<string, Difficulty>(
     existingCountries.map((c) => [c.id, c.difficulty])
   );
@@ -385,9 +436,74 @@ function buildCountries(restData: RestCountry[], opts: UpdateOptions) {
 
     const existing = existingCountries.find((c) => c.id === id);
 
-    const flagRemote = rc.flags?.png || rc.flags?.svg || existing?.flag_url || '';
-    const flagHash = hashText(id);
-    const flagLocal = `/flags/${flagHash}.webp`;
+    const nextCodes = {
+      iso2: rc.cca2,
+      iso3: rc.cca3,
+      numeric: rc.ccn3,
+    };
+
+    // Use a stable hashed filename so the request path does not reveal the country during gameplay.
+    // The ISO2 SVG set is kept as source material; we copy/sync to this hashed path.
+    const flagLocal = `/flags/${hashText(id)}.svg`;
+
+    // Get cristiroma data for additional localizations
+    const cristiCountry = nextCodes.iso2 ? cristiData.get(nextCodes.iso2) : undefined;
+
+    // Build localizations with multilingual support
+    const localizations: Record<string, LocalizedCountryInfo> = {
+      ...(existing?.localizations || {}),
+      'pt-BR': {
+        name: ptName,
+        capital: ptCapital,
+        officialName: rc.name?.official,
+      },
+    };
+
+    // Add cristiroma multilingual data
+    if (cristiCountry?.names) {
+      // Map cristiroma language codes to our localization format
+      const langMap: Record<string, string> = {
+        'ar': 'ar',      // Arabic
+        'es': 'es',      // Spanish
+        'fr': 'fr',      // French
+        'it': 'it',      // Italian
+        'ru': 'ru',      // Russian
+        'zh': 'zh-CN',   // Chinese (Simplified)
+      };
+
+      for (const [cristiLang, localeData] of Object.entries(cristiCountry.names)) {
+        const ourLangCode = langMap[cristiLang];
+        if (ourLangCode && localeData.name) {
+          localizations[ourLangCode] = {
+            name: localeData.name,
+            capital: capital, // Use English capital as default
+            officialName: localeData.name_official,
+          };
+        }
+      }
+    }
+
+    // Add English official name
+    if (rc.name?.official) {
+      localizations['en'] = {
+        name: name,
+        capital: capital,
+        officialName: rc.name.official,
+      };
+    }
+
+    const baseChanged =
+      !existing ||
+      existing.name !== name ||
+      existing.capital !== capital ||
+      existing.region !== (rc.region || existing.region || 'Other') ||
+      existing.population !== (rc.population ?? existing.population ?? 0) ||
+      existing.codes?.iso2 !== nextCodes.iso2 ||
+      existing.codes?.iso3 !== nextCodes.iso3 ||
+      existing.codes?.numeric !== nextCodes.numeric;
+
+    const existingPt = existing?.localizations?.['pt-BR'];
+    const ptChanged = !existingPt || existingPt.name !== ptName || existingPt.capital !== ptCapital;
 
     byId.set(id, {
       id,
@@ -396,25 +512,26 @@ function buildCountries(restData: RestCountry[], opts: UpdateOptions) {
       region: rc.region || existing?.region || 'Other',
       population: rc.population ?? existing?.population ?? 0,
       difficulty: difficultyById.get(id) || existing?.difficulty || 'medium',
-      flag_url: opts.downloadFlags ? flagLocal : (existing?.flag_url || flagRemote || flagLocal),
-      codes: {
-        iso2: rc.cca2,
-        iso3: rc.cca3,
-        numeric: rc.ccn3,
-      },
+      flag_url: flagLocal,
+      codes: nextCodes,
+      localizations,
+      economics: existing?.economics,
+      politics: existing?.politics,
+      culture: existing?.culture,
       meta: {
+        ...(existing?.meta || {}),
         lastUpdated: {
-          base: now,
-          pt: now,
+          ...(existing?.meta?.lastUpdated || {}),
+          base: baseChanged ? now : (existing?.meta?.lastUpdated?.base || now),
+          pt: ptChanged ? now : (existing?.meta?.lastUpdated?.pt || now),
         },
         sources: {
+          ...(existing?.meta?.sources || {}),
           base: 'restcountries.com',
           ptName: 'restcountries.com',
           ptCapital: 'manual+restcountries.com',
+          localizations: 'cristiroma/countries + restcountries.com',
         },
-      },
-      localizations: {
-        'pt-BR': { name: ptName, capital: ptCapital },
       },
     });
   }
@@ -490,33 +607,42 @@ async function enrichEconomicsFromWorldBank(countries: CountryData[], opts: Upda
 
     const year = gdp?.year ?? gdpPerCapita?.year;
 
+    const nextEconomics = {
+      ...(c.economics || {}),
+      gdpUsd: gdp?.value ?? c.economics?.gdpUsd,
+      gdpPerCapitaUsd: gdpPerCapita?.value ?? c.economics?.gdpPerCapitaUsd,
+      year: year ?? c.economics?.year,
+    };
+
+    const economicsChanged =
+      nextEconomics.gdpUsd !== c.economics?.gdpUsd ||
+      nextEconomics.gdpPerCapitaUsd !== c.economics?.gdpPerCapitaUsd ||
+      nextEconomics.year !== c.economics?.year;
+
+    const nextSources = {
+      ...(c.meta?.sources || {}),
+      'economics.gdpUsd': 'api.worldbank.org',
+      'economics.gdpPerCapitaUsd': 'api.worldbank.org',
+    };
+
     return {
       ...c,
-      economics: {
-        ...(c.economics || {}),
-        gdpUsd: gdp?.value ?? c.economics?.gdpUsd,
-        gdpPerCapitaUsd: gdpPerCapita?.value ?? c.economics?.gdpPerCapitaUsd,
-        year: year ?? c.economics?.year,
-      },
+      economics: nextEconomics,
       meta: {
         ...(c.meta || {}),
         lastUpdated: {
           ...(c.meta?.lastUpdated || {}),
-          economics: now,
+          economics: economicsChanged ? now : c.meta?.lastUpdated?.economics,
         },
-        sources: {
-          ...(c.meta?.sources || {}),
-          'economics.gdpUsd': 'api.worldbank.org',
-          'economics.gdpPerCapitaUsd': 'api.worldbank.org',
-        },
+        sources: nextSources,
       },
     };
   });
 }
 
 type WikidataAccum = {
-  headOfState?: string;
-  headOfGovernment?: string;
+  headOfStates: Set<string>;
+  headOfGovernments: Set<string>;
   governmentTypes: Set<string>;
   officialReligions: Set<string>;
   religions: Set<string>;
@@ -546,6 +672,8 @@ async function enrichFromWikidata(countries: CountryData[], opts: UpdateOptions)
     const existing = byIso3.get(iso3);
     if (existing) return existing;
     const next: WikidataAccum = {
+      headOfStates: new Set<string>(),
+      headOfGovernments: new Set<string>(),
       governmentTypes: new Set<string>(),
       officialReligions: new Set<string>(),
       religions: new Set<string>(),
@@ -555,14 +683,23 @@ async function enrichFromWikidata(countries: CountryData[], opts: UpdateOptions)
     return next;
   };
 
-  // Politics + religions (country -> ISO3 P298; head of state P35; head of government P6; government type P122; official religion P3075; religion P140)
+  // Politics + religions (country -> ISO3 P298; head of state P35; head of government P6; government type P122; official religion P3075; religion P140).
+  // For heads of state/government, prefer "current" statements by excluding end time (P582) when present.
   for (const batch of chunk(uniqueIso3s, 50)) {
     const query = `
 SELECT ?iso3 ?headOfStateLabel ?headOfGovernmentLabel ?governmentLabel ?officialReligionLabel ?religionLabel WHERE {
   VALUES ?iso3 { ${buildValuesIso3(batch)} }
   ?country wdt:P298 ?iso3 .
-  OPTIONAL { ?country wdt:P35 ?headOfState . }
-  OPTIONAL { ?country wdt:P6 ?headOfGovernment . }
+  OPTIONAL {
+    ?country p:P35 ?hosStmt .
+    ?hosStmt ps:P35 ?headOfState .
+    FILTER NOT EXISTS { ?hosStmt pq:P582 ?hosEnd . }
+  }
+  OPTIONAL {
+    ?country p:P6 ?hogStmt .
+    ?hogStmt ps:P6 ?headOfGovernment .
+    FILTER NOT EXISTS { ?hogStmt pq:P582 ?hogEnd . }
+  }
   OPTIONAL { ?country wdt:P122 ?government . }
   OPTIONAL { ?country wdt:P3075 ?officialReligion . }
   OPTIONAL { ?country wdt:P140 ?religion . }
@@ -583,8 +720,8 @@ SELECT ?iso3 ?headOfStateLabel ?headOfGovernmentLabel ?governmentLabel ?official
       const officialReligion = row.officialReligionLabel?.value;
       const religion = row.religionLabel?.value;
 
-      if (headOfState) acc.headOfState = headOfState;
-      if (headOfGovernment) acc.headOfGovernment = headOfGovernment;
+      if (headOfState) acc.headOfStates.add(headOfState);
+      if (headOfGovernment) acc.headOfGovernments.add(headOfGovernment);
       if (government) acc.governmentTypes.add(government);
       if (officialReligion) acc.officialReligions.add(officialReligion);
       if (religion) acc.religions.add(religion);
@@ -638,16 +775,30 @@ SELECT ?iso3 ?sportItemLabel WHERE {
     const religionNames = Array.from(religions).sort();
     const sports = opts.enrichWikidataSports ? Array.from(acc.sports).sort().slice(0, 12) : [];
 
-    const nextPolitics =
-      acc.headOfState || acc.headOfGovernment || governmentTypes.length
-        ? {
-            ...(c.politics || {}),
-            headOfState: acc.headOfState ?? c.politics?.headOfState,
-            headOfGovernment: acc.headOfGovernment ?? c.politics?.headOfGovernment,
-            governmentType: governmentTypes.length ? governmentTypes.join('; ') : c.politics?.governmentType,
-            updatedAt: now,
-          }
-        : c.politics;
+    const headOfStateValue = Array.from(acc.headOfStates).sort().join('; ');
+    const headOfGovernmentValue = Array.from(acc.headOfGovernments).sort().join('; ');
+
+    const nextPolitics = (() => {
+      const hasAny = !!headOfStateValue || !!headOfGovernmentValue || governmentTypes.length;
+      if (!hasAny) return c.politics;
+
+      const merged = {
+        ...(c.politics || {}),
+        headOfState: headOfStateValue || c.politics?.headOfState,
+        headOfGovernment: headOfGovernmentValue || c.politics?.headOfGovernment,
+        governmentType: governmentTypes.length ? governmentTypes.join('; ') : c.politics?.governmentType,
+      };
+
+      const changed =
+        merged.headOfState !== c.politics?.headOfState ||
+        merged.headOfGovernment !== c.politics?.headOfGovernment ||
+        merged.governmentType !== c.politics?.governmentType;
+
+      return {
+        ...merged,
+        updatedAt: changed ? now : c.politics?.updatedAt,
+      };
+    })();
 
     const nextCulture =
       religionNames.length || (opts.enrichWikidataSports && sports.length)
@@ -663,24 +814,41 @@ SELECT ?iso3 ?sportItemLabel WHERE {
 
     if (!nextPolitics && !nextCulture) return c;
 
+    const politicsChanged =
+      !!nextPolitics &&
+      (nextPolitics.headOfState !== c.politics?.headOfState ||
+        nextPolitics.headOfGovernment !== c.politics?.headOfGovernment ||
+        nextPolitics.governmentType !== c.politics?.governmentType);
+
+    const existingReligionNames = (c.culture?.religions || []).map((r) => r.name).sort();
+    const cultureChanged =
+      !!nextCulture &&
+      (JSON.stringify(existingReligionNames) !== JSON.stringify(religionNames) ||
+        JSON.stringify(c.culture?.majorSports || []) !== JSON.stringify(nextCulture.majorSports || []));
+
     return {
       ...c,
       politics: nextPolitics,
-      culture: nextCulture,
+      culture: nextCulture
+        ? {
+            ...nextCulture,
+            updatedAt: cultureChanged ? now : c.culture?.updatedAt,
+          }
+        : nextCulture,
       meta: {
         ...(c.meta || {}),
         lastUpdated: {
           ...(c.meta?.lastUpdated || {}),
-          politics: nextPolitics ? now : c.meta?.lastUpdated?.politics,
-          culture: nextCulture ? now : c.meta?.lastUpdated?.culture,
+          politics: nextPolitics ? (politicsChanged ? now : c.meta?.lastUpdated?.politics) : c.meta?.lastUpdated?.politics,
+          culture: nextCulture ? (cultureChanged ? now : c.meta?.lastUpdated?.culture) : c.meta?.lastUpdated?.culture,
         },
         sources: {
           ...(c.meta?.sources || {}),
           ...(nextPolitics
             ? {
-                'politics.headOfState': 'wikidata.org',
-                'politics.headOfGovernment': 'wikidata.org',
-                'politics.governmentType': 'wikidata.org',
+                'politics.headOfState': 'wikidata.org (P35)',
+                'politics.headOfGovernment': 'wikidata.org (P6)',
+                'politics.governmentType': 'wikidata.org (P122)',
               }
             : {}),
           ...(nextCulture
@@ -741,25 +909,46 @@ function printEnrichmentSummary(countries: CountryData[]) {
 }
 
 async function maybeDownloadFlags(countries: CountryData[], restData: RestCountry[], opts: UpdateOptions) {
-  if (!opts.downloadFlags) return;
-
   ensureDir(OUTPUT_FLAGS_DIR);
 
   const restMap = new Map(restData.map((rc) => [slugify(rc.name?.common || ''), rc]));
 
   for (const c of countries) {
     const rc = restMap.get(c.id);
-    const pngUrl = rc?.flags?.png;
-    if (!pngUrl) continue;
-    const flagHash = hashText(c.id);
-    const out = path.join(OUTPUT_FLAGS_DIR, `${flagHash}.webp`);
+    const iso2 = c.codes?.iso2?.toUpperCase();
+
+    const out = path.join(OUTPUT_FLAGS_DIR, `${hashText(c.id)}.svg`);
     if (fs.existsSync(out)) continue;
-     
-    console.log(`→ fetching ${pngUrl} -> ${out}`);
+
+    const localIso2Upper = iso2 ? path.join(OUTPUT_FLAGS_DIR, `${iso2}.svg`) : undefined;
+    const localIso2Lower = iso2 ? path.join(OUTPUT_FLAGS_DIR, `${iso2.toLowerCase()}.svg`) : undefined;
+    const localIso2 =
+      (localIso2Upper && fs.existsSync(localIso2Upper) && localIso2Upper) ||
+      (localIso2Lower && fs.existsSync(localIso2Lower) && localIso2Lower) ||
+      undefined;
+
+    // Prefer copying from the ISO2 SVG set already in-repo (from cristiroma/countries).
+    if (localIso2) {
+      fs.copyFileSync(localIso2, out);
+      continue;
+    }
+
+    // Optional fallback: download from REST Countries only if explicitly requested.
+    if (!opts.downloadFlags) {
+      console.warn(`⚠ missing flag SVG for ${c.name} (${c.id}); expected ${out}`);
+      continue;
+    }
+
+    const svgUrl = rc?.flags?.svg;
+    if (!svgUrl) {
+      console.warn(`⚠ missing REST Countries flag SVG URL for ${c.name} (${c.id})`);
+      continue;
+    }
+
+    console.log(`→ fetching ${svgUrl} -> ${out}`);
     try {
-      await downloadFlag(pngUrl, out, opts);
+      await downloadSvg(svgUrl, out, opts);
     } catch (err) {
-       
       console.error(`✗ failed ${c.name}:`, err);
     }
   }
@@ -767,7 +956,8 @@ async function maybeDownloadFlags(countries: CountryData[], restData: RestCountr
 
 export async function updateCountriesData(opts: UpdateOptions) {
   const restData = await fetchRestCountries(opts);
-  const { ordered, restById } = buildCountries(restData, opts);
+  const cristiData = loadCristiCountries(opts);
+  const { ordered, restById } = buildCountries(restData, cristiData, opts);
 
   let enriched = ordered;
   enriched = await enrichEconomicsFromWorldBank(enriched, opts);

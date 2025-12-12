@@ -98,6 +98,10 @@ export interface Translations {
   
   // Language
   language: string;
+  languageNames: {
+    en: string;
+    'pt-BR': string;
+  };
 }
 
 export const translations: Record<SupportedLanguage, Translations> = {
@@ -192,6 +196,10 @@ export const translations: Record<SupportedLanguage, Translations> = {
     
     // Language
     language: 'Language',
+    languageNames: {
+      en: 'English',
+      'pt-BR': 'Português',
+    },
   },
   'pt-BR': {
     // Header & Navigation
@@ -284,6 +292,10 @@ export const translations: Record<SupportedLanguage, Translations> = {
     
     // Language
     language: 'Idioma',
+    languageNames: {
+      en: 'English',
+      'pt-BR': 'Português',
+    },
   },
 };
 

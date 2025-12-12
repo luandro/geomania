@@ -174,8 +174,8 @@ const Index = () => {
           ) : (
             <div className="fade-in">
               <div className="mb-6 sm:mb-8">
-                <div className="inline-flex items-center justify-center w-20 h-20 sm:w-24 sm:h-24 rounded-full quiz-gradient mb-4 sm:mb-6 bounce-in ring-4 ring-primary/40 shadow-2xl">
-                  <img src="/kuromi.svg" alt="Kuromi" className="w-10 h-10 sm:w-12 sm:h-12" />
+                <div className="inline-flex items-center justify-center w-24 h-24 sm:w-28 sm:h-28 rounded-full quiz-gradient mb-4 sm:mb-6 bounce-in ring-4 ring-primary/40 shadow-2xl overflow-hidden">
+                  <img src="/kuromi_map.svg" alt="Kuromi map" className="w-full h-full object-contain" />
                 </div>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3 sm:mb-4 text-foreground drop-shadow">
                   {t.welcome} <span className="text-primary">{t.welcomeHighlight}</span>

@@ -20,7 +20,7 @@ export const GameModeCard = ({ config, onSelect, disabled, letterOffset = 0 }: G
       aria-label={config.title}
       className="relative arcade-round arcade-round-lg text-foreground font-black uppercase tracking-wide text-xl sm:text-2xl !p-0 !flex !items-center !justify-center"
     >
-      <span className="drop-shadow-[0_6px_8px_rgba(0,0,0,0.4)] text-white text-center font-extrabold tracking-tight uppercase leading-snug absolute inset-0 !flex !items-center !justify-center flex-wrap gap-x-2">
+      <span className="drop-shadow-[0_6px_8px_rgba(0,0,0,0.4)] text-white text-center font-extrabold tracking-tight uppercase leading-tight absolute inset-0 !flex !items-center !justify-center flex-wrap gap-x-2 gap-y-0">
         {words.map((word, wordIndex) => {
           const previousLetters = words.slice(0, wordIndex).join('').length + wordIndex;
           return (

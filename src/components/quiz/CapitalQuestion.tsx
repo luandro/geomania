@@ -24,7 +24,7 @@ export const CapitalQuestion = ({ question, onAnswer, onNext, difficulty, allCou
   const [inputError, setInputError] = useState('');
 
   const isGodMode = difficulty === 'god_mode';
-  const suggestions = buildAnswerSuggestions(allCountries, language);
+  const suggestions = buildAnswerSuggestions(allCountries, language, 'capital');
   const dataListId = `capital-suggestions-${question.id}`;
 
   const handleAnswer = async (country: Country) => {
@@ -80,7 +80,7 @@ export const CapitalQuestion = ({ question, onAnswer, onNext, difficulty, allCou
     const match = findCountryMatch(allCountries, typedAnswer, language);
 
     if (!match) {
-      setInputError(t.invalidAnswer);
+      setInputError(t.invalidCapital);
       return;
     }
 
@@ -111,7 +111,7 @@ export const CapitalQuestion = ({ question, onAnswer, onNext, difficulty, allCou
           <Input
             value={typedAnswer}
             onChange={(e) => setTypedAnswer(e.target.value)}
-            placeholder={t.typeAnswerPlaceholder}
+            placeholder={t.typeCapitalPlaceholder}
             list={dataListId}
             autoComplete="off"
             disabled={answered}

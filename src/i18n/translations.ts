@@ -60,8 +60,12 @@ export interface Translations {
   wrongPopulation: string;
   typeYourAnswer: string;
   typeAnswerPlaceholder: string;
+  typeCountryPlaceholder: string;
+  typeCapitalPlaceholder: string;
   submitAnswer: string;
   invalidAnswer: string;
+  invalidCountry: string;
+  invalidCapital: string;
   
   // Buttons
   nextQuestion: string;
@@ -150,8 +154,12 @@ export const translations: Record<SupportedLanguage, Translations> = {
     wrongPopulation: '{country} has {population} people',
     typeYourAnswer: 'Type your answer below (country or capital).',
     typeAnswerPlaceholder: 'Start typing a country or capital city...',
+    typeCountryPlaceholder: 'Start typing the country name...',
+    typeCapitalPlaceholder: 'Start typing the capital city...',
     submitAnswer: 'Submit Answer',
     invalidAnswer: 'Choose a valid country or capital from the list.',
+    invalidCountry: 'Choose a valid country from the list.',
+    invalidCapital: 'Choose a valid capital from the list.',
     
     // Buttons
     nextQuestion: 'Next Question',
@@ -238,8 +246,12 @@ export const translations: Record<SupportedLanguage, Translations> = {
     wrongPopulation: '{country} tem {population} habitantes',
     typeYourAnswer: 'Digite sua resposta abaixo (país ou capital).',
     typeAnswerPlaceholder: 'Comece digitando um país ou capital...',
+    typeCountryPlaceholder: 'Comece digitando o nome do país...',
+    typeCapitalPlaceholder: 'Comece digitando a capital...',
     submitAnswer: 'Enviar resposta',
     invalidAnswer: 'Escolha um país ou capital válido da lista.',
+    invalidCountry: 'Escolha um país válido da lista.',
+    invalidCapital: 'Escolha uma capital válida da lista.',
     
     // Buttons
     nextQuestion: 'Próxima Pergunta',

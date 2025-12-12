@@ -24,7 +24,7 @@ export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountr
   const [inputError, setInputError] = useState('');
 
   const isGodMode = difficulty === 'god_mode';
-  const suggestions = buildAnswerSuggestions(allCountries, language);
+  const suggestions = buildAnswerSuggestions(allCountries, language, 'country');
   const dataListId = `flag-suggestions-${question.id}`;
 
   const handleAnswer = async (country: Country) => {
@@ -80,7 +80,7 @@ export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountr
     const match = findCountryMatch(allCountries, typedAnswer, language);
 
     if (!match) {
-      setInputError(t.invalidAnswer);
+      setInputError(t.invalidCountry);
       return;
     }
 
@@ -109,7 +109,7 @@ export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountr
           <Input
             value={typedAnswer}
             onChange={(e) => setTypedAnswer(e.target.value)}
-            placeholder={t.typeAnswerPlaceholder}
+            placeholder={t.typeCountryPlaceholder}
             list={dataListId}
             autoComplete="off"
             disabled={answered}

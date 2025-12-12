@@ -35,19 +35,35 @@ export const findCountryMatch = (
 
 export const buildAnswerSuggestions = (
   countries: Country[],
-  language: SupportedLanguage = 'en'
+  language: SupportedLanguage = 'en',
+  type: 'country' | 'capital' | 'both' = 'both'
 ) => {
   const seen = new Set<string>();
 
   countries.forEach((country) => {
-    if (country.name) seen.add(country.name);
-    if (country.capital) seen.add(country.capital);
+    // Add country names if type is 'country' or 'both'
+    if ((type === 'country' || type === 'both') && country.name) {
+      seen.add(country.name);
+    }
+
+    // Add capital names if type is 'capital' or 'both'
+    if ((type === 'capital' || type === 'both') && country.capital) {
+      seen.add(country.capital);
+    }
 
     if (language === 'pt-BR') {
       const translatedName = ptCountryNames[country.id];
       const translatedCapital = ptCapitalNames[country.id];
-      if (translatedName) seen.add(translatedName);
-      if (translatedCapital) seen.add(translatedCapital);
+
+      // Add translated country names if type is 'country' or 'both'
+      if ((type === 'country' || type === 'both') && translatedName) {
+        seen.add(translatedName);
+      }
+
+      // Add translated capital names if type is 'capital' or 'both'
+      if ((type === 'capital' || type === 'both') && translatedCapital) {
+        seen.add(translatedCapital);
+      }
     }
   });
 

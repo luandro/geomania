@@ -20,23 +20,25 @@ export const GameModeCard = ({ config, onSelect, disabled, letterOffset = 0 }: G
       aria-label={config.title}
       className="relative arcade-round arcade-round-lg text-foreground font-black uppercase tracking-wide text-xl sm:text-2xl !p-0 !flex !items-center !justify-center"
     >
-      <span className="drop-shadow-[0_6px_8px_rgba(0,0,0,0.4)] text-white text-center font-extrabold tracking-tight uppercase leading-tight absolute inset-0 !flex !items-center !justify-center flex-wrap gap-x-2 gap-y-0">
-        {words.map((word, wordIndex) => {
-          const previousLetters = words.slice(0, wordIndex).join('').length + wordIndex;
-          return (
-            <span key={wordIndex} className="inline-flex whitespace-nowrap">
-              {word.split('').map((letter, letterIndex) => (
-                <span
-                  key={letterIndex}
-                  className="wave-letter stroke-text inline-block"
-                  style={{ animationDelay: `${(letterOffset + previousLetters + letterIndex) * 0.08}s` }}
-                >
-                  {letter}
-                </span>
-              ))}
-            </span>
-          );
-        })}
+      <span className="absolute inset-0 flex items-center justify-center px-4">
+        <span className="drop-shadow-[0_6px_8px_rgba(0,0,0,0.4)] text-white text-center font-extrabold tracking-tight uppercase leading-[0.9] flex flex-wrap items-center justify-center gap-x-2" style={{ rowGap: '0px' }}>
+          {words.map((word, wordIndex) => {
+            const previousLetters = words.slice(0, wordIndex).join('').length + wordIndex;
+            return (
+              <span key={wordIndex} className="inline-flex whitespace-nowrap">
+                {word.split('').map((letter, letterIndex) => (
+                  <span
+                    key={letterIndex}
+                    className="wave-letter stroke-text inline-block"
+                    style={{ animationDelay: `${(letterOffset + previousLetters + letterIndex) * 0.08}s` }}
+                  >
+                    {letter}
+                  </span>
+                ))}
+              </span>
+            );
+          })}
+        </span>
       </span>
       <span className="sr-only">{config.description}</span>
     </Button>

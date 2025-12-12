@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Fredoka:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,25 +6,25 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
-    --foreground: 222 47% 11%;
+    --background: 32 100% 97%; /* cream */
+    --foreground: 0 0% 12%; /* charcoal */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
+    --card: 36 100% 98%;
+    --card-foreground: 0 0% 12%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
+    --popover: 36 100% 98%;
+    --popover-foreground: 0 0% 12%;
 
-    --primary: 199 89% 48%;
+    --primary: 328 100% 54%; /* hot pink */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 173 58% 39%;
+    --secondary: 269 46% 43%; /* deep purple */
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 294 29% 87%; /* lavender wash */
+    --muted-foreground: 271 55% 23%;
 
-    --accent: 25 95% 53%;
+    --accent: 334 76% 62%; /* magenta accent */
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
@@ -33,77 +33,77 @@
     --success: 142 76% 36%;
     --success-foreground: 0 0% 100%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 199 89% 48%;
+    --border: 0 0% 83%;
+    --input: 0 0% 83%;
+    --ring: 328 100% 54%;
 
     --radius: 1rem;
 
     /* Custom quiz colors */
-    --quiz-gradient-start: 199 89% 48%;
-    --quiz-gradient-end: 173 58% 39%;
-    --quiz-card: 0 0% 100%;
+    --quiz-gradient-start: 0 0% 10%;
+    --quiz-gradient-end: 328 100% 54%;
+    --quiz-card: 36 100% 98%;
     --quiz-correct: 142 76% 36%;
-    --quiz-incorrect: 0 84% 60%;
-    --quiz-flag-bg: 220 14% 96%;
+    --quiz-incorrect: 328 100% 54%;
+    --quiz-flag-bg: 294 29% 87%;
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 36 100% 98%;
+    --sidebar-foreground: 0 0% 12%;
+    --sidebar-primary: 0 0% 10%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 294 29% 87%;
+    --sidebar-accent-foreground: 0 0% 12%;
+    --sidebar-border: 0 0% 83%;
+    --sidebar-ring: 328 100% 54%;
   }
 
   .dark {
-    --background: 222 47% 8%;
-    --foreground: 210 40% 98%;
+    --background: 0 0% 5%;
+    --foreground: 0 0% 98%;
 
-    --card: 222 47% 11%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 222 47% 11%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 199 89% 48%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 328 100% 54%;
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 173 58% 39%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 269 46% 43%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 217 33% 17%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 0 0% 16%;
+    --muted-foreground: 0 0% 83%;
 
-    --accent: 25 95% 53%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 334 76% 62%;
+    --accent-foreground: 0 0% 98%;
 
-    --destructive: 0 63% 31%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 63% 45%;
+    --destructive-foreground: 0 0% 98%;
 
     --success: 142 76% 36%;
     --success-foreground: 0 0% 100%;
 
-    --border: 217 33% 17%;
-    --input: 217 33% 17%;
-    --ring: 199 89% 48%;
+    --border: 0 0% 16%;
+    --input: 0 0% 16%;
+    --ring: 328 100% 54%;
 
-    --quiz-gradient-start: 199 89% 40%;
-    --quiz-gradient-end: 173 58% 32%;
-    --quiz-card: 222 47% 14%;
+    --quiz-gradient-start: 0 0% 5%;
+    --quiz-gradient-end: 334 76% 62%;
+    --quiz-card: 0 0% 12%;
     --quiz-correct: 142 76% 36%;
-    --quiz-incorrect: 0 63% 45%;
-    --quiz-flag-bg: 222 47% 18%;
+    --quiz-incorrect: 334 76% 62%;
+    --quiz-flag-bg: 0 0% 16%;
 
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 0 0% 10%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 0 0% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 0 0% 16%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 0 0% 16%;
+    --sidebar-ring: 328 100% 54%;
   }
 }
 
@@ -119,10 +119,13 @@
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Fredoka', sans-serif;
     /* Ensure proper touch targets and prevent zoom on input focus */
     -webkit-text-size-adjust: 100%;
     overflow-x: hidden;
+    background-image: radial-gradient(circle at 20% 20%, rgba(255, 20, 147, 0.08), transparent 22%),
+      radial-gradient(circle at 80% 0%, rgba(107, 59, 160, 0.08), transparent 20%),
+      linear-gradient(135deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.01) 35%, rgba(255, 20, 147, 0.05) 100%);
   }
 }
 
@@ -141,12 +144,12 @@
 
 @layer utilities {
   .quiz-gradient {
-    background: linear-gradient(135deg, hsl(var(--quiz-gradient-start)) 0%, hsl(var(--quiz-gradient-end)) 100%);
+    background: linear-gradient(115deg, hsl(var(--quiz-gradient-start)) 0%, hsl(var(--quiz-gradient-start) / 0.92) 35%, hsl(var(--quiz-gradient-end)) 100%);
   }
 
   .quiz-card-shadow {
-    box-shadow: 0 10px 40px -10px hsl(var(--primary) / 0.2),
-                0 4px 6px -2px hsl(var(--primary) / 0.05);
+    box-shadow: 0 10px 40px -12px hsl(var(--primary) / 0.45),
+                0 4px 10px -3px hsl(var(--secondary) / 0.2);
   }
 
   .flag-shadow {
@@ -185,6 +188,82 @@
   .scale-in {
     animation: scale-in 0.3s ease-out;
   }
+
+  .kuromi-grid {
+    background-image:
+      linear-gradient(45deg, rgba(0, 0, 0, 0.08) 25%, transparent 25%),
+      linear-gradient(-45deg, rgba(0, 0, 0, 0.08) 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, rgba(255, 20, 147, 0.1) 75%),
+      linear-gradient(-45deg, transparent 75%, rgba(255, 20, 147, 0.1) 75%);
+    background-size: 28px 28px;
+    background-position: 0 0, 0 14px, 14px -14px, -14px 0px;
+  }
+
+  .kuromi-spotlight {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .kuromi-spotlight::before {
+    content: '';
+    position: absolute;
+    inset: -40%;
+    background: radial-gradient(circle at 30% 30%, rgba(255, 182, 193, 0.35), transparent 45%),
+      radial-gradient(circle at 80% 0%, rgba(232, 84, 148, 0.2), transparent 30%),
+      radial-gradient(circle at 20% 90%, rgba(107, 59, 160, 0.25), transparent 38%);
+    filter: blur(24px);
+    z-index: 0;
+  }
+
+  .kuromi-spotlight > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .kuromi-pill {
+    background: linear-gradient(135deg, hsl(var(--primary) / 0.2), hsl(var(--secondary) / 0.2));
+    border: 1px solid hsl(var(--primary) / 0.4);
+    box-shadow: 0 10px 30px -10px hsl(var(--primary) / 0.4);
+  }
+
+  .arcade-button {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(145deg, #0d0d0d 0%, #1a1a1a 35%, #3d1b5c 60%, #ff1493 100%);
+    border: 2px solid rgba(255, 20, 147, 0.6);
+    box-shadow:
+      0 14px 30px -12px rgba(255, 20, 147, 0.35),
+      0 8px 16px -10px rgba(0, 0, 0, 0.55),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+    transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+  }
+
+  .arcade-button::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 30% 30%, rgba(255, 182, 193, 0.15), transparent 40%),
+      radial-gradient(circle at 75% 20%, rgba(232, 84, 148, 0.12), transparent 35%),
+      radial-gradient(circle at 20% 85%, rgba(107, 59, 160, 0.14), transparent 45%);
+    mix-blend-mode: screen;
+    opacity: 0.9;
+  }
+
+  .arcade-button:hover {
+    transform: translateY(-3px) scale(1.02);
+    border-color: rgba(255, 182, 193, 0.9);
+    box-shadow:
+      0 18px 40px -12px rgba(255, 20, 147, 0.45),
+      0 10px 20px -10px rgba(0, 0, 0, 0.6),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  }
+
+  .arcade-button:active {
+    transform: translateY(0) scale(0.99);
+    box-shadow:
+      0 10px 22px -12px rgba(255, 20, 147, 0.4),
+      0 6px 12px -10px rgba(0, 0, 0, 0.65);
+  }
 }
 
 @keyframes pulse-correct {
@@ -219,6 +298,117 @@
 @keyframes scale-in {
   0% { transform: scale(0.9); opacity: 0; }
   100% { transform: scale(1); opacity: 1; }
+}
+
+/* Arcade circular buttons (Kuromi style) */
+@layer utilities {
+  .arcade-round {
+    position: relative;
+    border-radius: 9999px;
+    background: radial-gradient(circle at 30% 30%, #ff69b4 0%, #ff1493 40%, #8b4789 75%, #0d0d0d 100%);
+    color: #fff;
+    border: none;
+    box-shadow:
+      inset 0 10px 0 rgba(255, 255, 255, 0.16),
+      inset 0 -12px 0 rgba(0, 0, 0, 0.25),
+      inset 0 0 0 8px rgba(255, 20, 147, 0.6),
+      inset 0 0 0 14px rgba(0, 0, 0, 0.28),
+      inset 0 0 0 22px rgba(255, 20, 147, 0.42),
+      inset 0 0 0 30px rgba(0, 0, 0, 0.32),
+      inset 0 45px 38px rgba(0, 0, 0, 0.18),
+      0 16px 0 rgba(0, 0, 0, 0.28),
+      0 0 25px rgba(255, 20, 147, 0.35);
+    transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+    isolation: isolate;
+  }
+
+  .arcade-round::after {
+    content: '';
+    position: absolute;
+    bottom: 18%;
+    left: 16%;
+    width: 68%;
+    height: 68%;
+    border: 10px solid rgba(0, 0, 0, 0.25);
+    border-radius: 9999px;
+    border-top-width: 0;
+    transition: bottom 160ms ease, border-width 160ms ease;
+  }
+
+  .arcade-round::before {
+    content: '';
+    position: absolute;
+    bottom: 35%;
+    left: 32%;
+    width: 36%;
+    height: 26%;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0));
+    border-radius: 50% 50% 60% 60%;
+    opacity: 0.9;
+    transition: opacity 160ms ease;
+  }
+
+  .arcade-round:hover {
+    transform: translateY(-3px);
+    box-shadow:
+      inset 0 12px 0 rgba(255, 255, 255, 0.18),
+      inset 0 -8px 0 rgba(0, 0, 0, 0.2),
+      inset 0 0 0 8px rgba(255, 182, 193, 0.85),
+      inset 0 0 0 14px rgba(0, 0, 0, 0.22),
+      inset 0 0 0 22px rgba(255, 105, 180, 0.55),
+      inset 0 0 0 30px rgba(0, 0, 0, 0.26),
+      inset 0 45px 38px rgba(0, 0, 0, 0.16),
+      0 20px 0 rgba(0, 0, 0, 0.3),
+      0 0 32px rgba(255, 105, 180, 0.45);
+    filter: saturate(1.05);
+  }
+
+  .arcade-round:active {
+    transform: translateY(1px) scale(0.99);
+    box-shadow:
+      inset 0 6px 0 rgba(255, 255, 255, 0.1),
+      inset 0 -10px 0 rgba(0, 0, 0, 0.24),
+      inset 0 0 0 6px rgba(255, 20, 147, 0.6),
+      inset 0 0 0 12px rgba(0, 0, 0, 0.28),
+      inset 0 0 0 18px rgba(255, 20, 147, 0.5),
+      inset 0 0 0 28px rgba(0, 0, 0, 0.32),
+      inset 0 48px 36px rgba(0, 0, 0, 0.22),
+      0 10px 0 rgba(0, 0, 0, 0.28);
+  }
+
+  .arcade-round:active::after {
+    bottom: 26%;
+    border-width: 0;
+  }
+
+  .arcade-round-dark {
+    background: #6b3ba0;
+    box-shadow:
+      inset 0 10px 0 rgba(255, 255, 255, 0.1),
+      inset 0 -12px 0 rgba(0, 0, 0, 0.28),
+      inset 0 0 0 8px rgba(107, 59, 160, 0.7),
+      inset 0 0 0 14px rgba(0, 0, 0, 0.28),
+      inset 0 0 0 22px rgba(107, 59, 160, 0.55),
+      inset 0 0 0 30px rgba(0, 0, 0, 0.34),
+      inset 0 45px 38px rgba(0, 0, 0, 0.24),
+      0 16px 0 rgba(0, 0, 0, 0.36);
+  }
+
+  .arcade-round-lg {
+    width: 240px;
+    height: 240px;
+  }
+
+  .arcade-round-md {
+    width: 180px;
+    height: 180px;
+  }
+
+  /* Text stroke helper for button labels */
+  .stroke-text {
+    -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.55);
+    text-stroke: 1.5px rgba(0, 0, 0, 0.55);
+  }
 }
 
 @keyframes shrink {

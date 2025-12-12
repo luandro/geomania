@@ -165,19 +165,19 @@ const Index = () => {
 
   // Show landing page (Game Mode Selection)
   return (
-    <div className="min-h-screen bg-background flex flex-col">
+    <div className="min-h-screen bg-background flex flex-col kuromi-grid">
       <QuizHeader />
       <main className="flex-1 flex items-center justify-center p-4 sm:p-6">
-        <div className="w-full max-w-4xl mx-auto text-center">
+        <div className="w-full max-w-5xl mx-auto text-center bg-card/80 border border-primary/20 rounded-3xl shadow-2xl backdrop-blur kuromi-spotlight p-4 sm:p-8">
           {countriesLoading || isLoading ? (
             <LoadingSpinner />
           ) : (
             <div className="fade-in">
               <div className="mb-6 sm:mb-8">
-                <div className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 rounded-full quiz-gradient mb-4 sm:mb-6 bounce-in">
-                  <Globe className="w-8 h-8 sm:w-10 sm:h-10 text-primary-foreground" />
+                <div className="inline-flex items-center justify-center w-20 h-20 sm:w-24 sm:h-24 rounded-full quiz-gradient mb-4 sm:mb-6 bounce-in ring-4 ring-primary/40 shadow-2xl">
+                  <img src="/kuromi.svg" alt="Kuromi" className="w-10 h-10 sm:w-12 sm:h-12" />
                 </div>
-                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3 sm:mb-4 text-foreground">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3 sm:mb-4 text-foreground drop-shadow">
                   {t.welcome} <span className="text-primary">{t.welcomeHighlight}</span>
                 </h1>
                 <p className="text-base sm:text-lg text-muted-foreground max-w-xl mx-auto px-2">
@@ -196,9 +196,10 @@ const Index = () => {
                 ))}
               </div>
 
-              <p className="mt-6 sm:mt-8 text-xs sm:text-sm text-muted-foreground">
-                {t.quizInfo}
-              </p>
+              <div className="mt-6 sm:mt-8 flex items-center justify-center gap-2 text-xs sm:text-sm text-muted-foreground kuromi-pill max-w-md mx-auto px-4 py-2 rounded-full">
+                <Globe className="w-4 h-4 text-primary" />
+                <span>{t.quizInfo}</span>
+              </div>
             </div>
           )}
         </div>

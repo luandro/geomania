@@ -1,4 +1,4 @@
-// Translation dictionaries for the GeoQuiz app
+// Translation dictionaries for the GeoMania app
 // To add a new language:
 // 1. Add the language code to the SupportedLanguage type
 // 2. Create a new translation object following the same structure
@@ -69,7 +69,7 @@ export interface Translations {
   playAgain: string;
   chooseMode: string;
   autoAdvancing: string;
-
+  
   // Results
   perfectScore: string;
   excellent: string;
@@ -99,7 +99,7 @@ export interface Translations {
 export const translations: Record<SupportedLanguage, Translations> = {
   en: {
     // Header & Navigation
-    appName: 'GeoQuiz',
+    appName: 'GeoMania',
     back: 'Back',
     
     // Game modes
@@ -116,7 +116,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
     
     // Landing page
     welcome: 'Welcome to',
-    welcomeHighlight: 'GeoQuiz',
+    welcomeHighlight: 'GeoMania',
     landingDescription: 'Test your geography knowledge! Identify flags, capitals, and compare populations from {count} countries around the world.',
     quizInfo: 'Each quiz has 10 questions. Good luck! 🌍',
     selectDifficulty: 'Select Difficulty',
@@ -159,7 +159,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
     playAgain: 'Play Again',
     chooseMode: 'Choose Mode',
     autoAdvancing: 'Auto-advancing...',
-
+    
     // Results
     perfectScore: 'Perfect Score!',
     excellent: 'Excellent!',
@@ -187,7 +187,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
   },
   'pt-BR': {
     // Header & Navigation
-    appName: 'GeoQuiz',
+    appName: 'GeoMania',
     back: 'Voltar',
     
     // Game modes
@@ -204,7 +204,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
     
     // Landing page
     welcome: 'Bem-vindo ao',
-    welcomeHighlight: 'GeoQuiz',
+    welcomeHighlight: 'GeoMania',
     landingDescription: 'Teste seus conhecimentos de geografia! Identifique bandeiras, capitais e compare populações de {count} países ao redor do mundo.',
     quizInfo: 'Cada quiz tem 10 perguntas. Boa sorte! 🌍',
     selectDifficulty: 'Selecione a Dificuldade',
@@ -247,7 +247,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
     playAgain: 'Jogar Novamente',
     chooseMode: 'Escolher Modo',
     autoAdvancing: 'Avançando automaticamente...',
-
+    
     // Results
     perfectScore: 'Pontuação Perfeita!',
     excellent: 'Excelente!',

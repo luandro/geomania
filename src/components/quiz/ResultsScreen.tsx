@@ -136,7 +136,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
 
   return (
     <div className="w-full max-w-2xl mx-auto text-center fade-in px-2">
-      <div className="bg-card rounded-2xl p-4 sm:p-8 quiz-card-shadow">
+      <div className="bg-card rounded-2xl p-4 sm:p-8 quiz-card-shadow kuromi-spotlight">
         <div className="bounce-in">
           <span className="text-5xl sm:text-6xl mb-4 block">{performance.emoji}</span>
           <h2 className={`text-2xl sm:text-3xl font-extrabold mb-2 ${performance.color}`}>
@@ -148,17 +148,17 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
         </div>
 
         <div className="grid grid-cols-3 gap-2 sm:gap-4 mb-6 sm:mb-8 slide-up" style={{ animationDelay: '0.2s' }}>
-          <div className="bg-muted rounded-xl p-3 sm:p-4">
+          <div className="bg-muted rounded-xl p-3 sm:p-4 border border-primary/20 shadow-inner">
             <Trophy className="w-6 sm:w-8 h-6 sm:h-8 text-accent mx-auto mb-1 sm:mb-2" />
             <p className="text-xl sm:text-2xl font-bold text-foreground">{session.score}</p>
             <p className="text-xs sm:text-sm text-muted-foreground">{t.score}</p>
           </div>
-          <div className="bg-muted rounded-xl p-3 sm:p-4">
+          <div className="bg-muted rounded-xl p-3 sm:p-4 border border-primary/20 shadow-inner">
             <Target className="w-6 sm:w-8 h-6 sm:h-8 text-primary mx-auto mb-1 sm:mb-2" />
             <p className="text-xl sm:text-2xl font-bold text-foreground">{session.totalQuestions}</p>
             <p className="text-xs sm:text-sm text-muted-foreground">{t.questions}</p>
           </div>
-          <div className="bg-muted rounded-xl p-3 sm:p-4">
+          <div className="bg-muted rounded-xl p-3 sm:p-4 border border-primary/20 shadow-inner">
             <Star className="w-6 sm:w-8 h-6 sm:h-8 text-success mx-auto mb-1 sm:mb-2" />
             <p className="text-xl sm:text-2xl font-bold text-foreground">{percentage}%</p>
             <p className="text-xs sm:text-sm text-muted-foreground">{t.accuracy}</p>

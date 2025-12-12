@@ -19,8 +19,8 @@ const buttonVariants = cva(
         quiz: "bg-card text-card-foreground border-2 border-border hover:border-primary hover:bg-primary/5 shadow-sm transition-all duration-200 hover:-translate-y-0.5",
         quizCorrect: "bg-success text-success-foreground border-2 border-success shadow-md",
         quizIncorrect: "bg-destructive text-destructive-foreground border-2 border-destructive shadow-md",
-        hero: "bg-gradient-to-r from-primary to-secondary text-primary-foreground shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300",
-        gameMode: "bg-card text-card-foreground border-2 border-border hover:border-primary hover:bg-primary/5 shadow-md hover:shadow-lg transition-all duration-300 hover:scale-[1.02]",
+        hero: "bg-gradient-to-r from-black via-secondary to-primary text-primary-foreground shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300",
+        gameMode: "bg-transparent text-foreground border-0 shadow-none transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",

@@ -187,14 +187,18 @@ const Index = () => {
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 slide-up px-2" style={{ animationDelay: '0.2s' }}>
-                {gameModes.map((config) => (
-                  <GameModeCard
-                    key={config.mode}
-                    config={config}
-                    onSelect={() => handleSelectMode(config.mode)}
-                    disabled={!countries || countries.length < 10}
-                  />
-                ))}
+                {gameModes.map((config, index) => {
+                  const letterOffset = gameModes.slice(0, index).reduce((acc, mode) => acc + mode.title.length, 0);
+                  return (
+                    <GameModeCard
+                      key={config.mode}
+                      config={config}
+                      onSelect={() => handleSelectMode(config.mode)}
+                      disabled={!countries || countries.length < 10}
+                      letterOffset={letterOffset}
+                    />
+                  );
+                })}
               </div>
 
               <div className="mt-6 sm:mt-8 flex items-center justify-center gap-2 text-xs sm:text-sm text-muted-foreground kuromi-pill max-w-md mx-auto px-4 py-2 rounded-full">

@@ -58,13 +58,13 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
             
             <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-sm">
               {/* Country A */}
-              <div className={`flex items-center gap-2 p-2 rounded ${
+              <div className={`flex items-center gap-2 sm:gap-3 p-2 sm:p-3 rounded ${
                 isCountryACorrect ? 'bg-success/20' : ''
               } ${q.userAnswer?.id === countryA.id && !q.isCorrect ? 'ring-2 ring-destructive' : ''}`}>
                 <img
                   src={getAssetUrl(countryA.flag_url)}
                   alt={getLocalizedCountryName(countryA, language)}
-                  className="w-6 h-4 object-contain rounded"
+                  className="w-10 sm:w-12 h-6 sm:h-8 object-contain rounded shadow-sm"
                 />
                 <div className="text-left">
                   <span className="font-medium text-foreground block">
@@ -75,17 +75,17 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
                   </span>
                 </div>
               </div>
-              
+
               <span className="text-muted-foreground font-bold text-xs">{t.vs}</span>
-              
+
               {/* Country B */}
-              <div className={`flex items-center gap-2 p-2 rounded ${
+              <div className={`flex items-center gap-2 sm:gap-3 p-2 sm:p-3 rounded ${
                 !isCountryACorrect ? 'bg-success/20' : ''
               } ${q.userAnswer?.id === countryB.id && !q.isCorrect ? 'ring-2 ring-destructive' : ''}`}>
                 <img
                   src={getAssetUrl(countryB.flag_url)}
                   alt={getLocalizedCountryName(countryB, language)}
-                  className="w-6 h-4 object-contain rounded"
+                  className="w-10 sm:w-12 h-6 sm:h-8 object-contain rounded shadow-sm"
                 />
                 <div className="text-left">
                   <span className="font-medium text-foreground block">
@@ -116,14 +116,14 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
           }`}>
             {index + 1}
           </span>
-          <div className="flex items-center gap-2 min-w-0">
+          <div className="flex items-center gap-2 sm:gap-3 min-w-0">
             <img
               src={getAssetUrl(q.correctAnswer.flag_url)}
               alt={getLocalizedCountryName(q.correctAnswer, language)}
-              className="w-6 h-4 object-contain rounded shrink-0"
+              className="w-10 sm:w-12 h-6 sm:h-8 object-contain rounded shrink-0 shadow-sm"
             />
             <span className="text-sm font-medium text-foreground truncate">
-              {session.gameMode === 'capital' 
+              {session.gameMode === 'capital'
                 ? `${getLocalizedCountryName(q.correctAnswer, language)}: ${getLocalizedCapital(q.correctAnswer, language)}`
                 : getLocalizedCountryName(q.correctAnswer, language)
               }

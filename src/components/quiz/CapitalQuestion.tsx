@@ -95,12 +95,14 @@ export const CapitalQuestion = ({ question, onAnswer, onNext, difficulty, allCou
         <h2 className="text-xl sm:text-2xl font-bold mb-2 text-foreground">
           {t.capitalQuestion}
         </h2>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-4 sm:mb-6">
-          <img
-            src={getAssetUrl(question.correctAnswer.flag_url)}
-            alt={t.flagImageAlt}
-            className="w-8 sm:w-10 h-5 sm:h-6 object-contain rounded shadow-sm"
-          />
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-4 sm:mb-6">
+          <div className="bg-quiz-flag rounded-lg p-2 flag-shadow">
+            <img
+              src={getAssetUrl(question.correctAnswer.flag_url)}
+              alt={t.flagImageAlt}
+              className="w-16 sm:w-20 h-10 sm:h-12 object-contain rounded"
+            />
+          </div>
           <span className="text-2xl sm:text-3xl font-extrabold text-primary text-center">
             {getLocalizedCountryName(question.correctAnswer, language)}
           </span>

@@ -87,14 +87,16 @@ export const PopulationQuestion = ({ question, onAnswer, onNext }: PopulationQue
             size="answer"
             onClick={() => handleAnswer(country)}
             disabled={answered}
-            className="flex flex-col items-center gap-3 sm:gap-4 p-4 sm:p-6 h-auto min-h-[140px] sm:min-h-[180px] slide-up"
+            className="flex flex-col items-center gap-4 sm:gap-5 p-5 sm:p-7 h-auto min-h-[180px] sm:min-h-[220px] slide-up"
             style={{ animationDelay: `${index * 0.15}s` }}
           >
-            <img
-              src={getAssetUrl(country.flag_url)}
-              alt={t.flagImageAlt}
-              className="w-14 sm:w-16 h-8 sm:h-10 object-contain rounded shadow-sm"
-            />
+            <div className="bg-quiz-flag/50 rounded-lg p-2 sm:p-3">
+              <img
+                src={getAssetUrl(country.flag_url)}
+                alt={t.flagImageAlt}
+                className="w-24 sm:w-32 h-16 sm:h-20 object-contain rounded"
+              />
+            </div>
             <span className="text-base sm:text-lg font-bold text-center leading-tight">
               {getLocalizedCountryName(country, language)}
             </span>

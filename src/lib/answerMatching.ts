@@ -1,6 +1,6 @@
 import { Country } from '@/types/quiz';
 import { SupportedLanguage } from '@/i18n/translations';
-import { ptCapitalNames, ptCountryNames } from '@/data/ptLocalizations';
+import { ptCapitalNames, ptCountryNames } from '@/data/countries';
 
 const normalize = (value: string) =>
   value
@@ -42,12 +42,12 @@ export const buildAnswerSuggestions = (
 
   countries.forEach((country) => {
     // Add country names if type is 'country' or 'both'
-    if ((type === 'country' || type === 'both') && country.name) {
+    if ((type === 'country' || type === 'both') && country.name && country.name.trim().length > 0) {
       seen.add(country.name);
     }
 
     // Add capital names if type is 'capital' or 'both'
-    if ((type === 'capital' || type === 'both') && country.capital) {
+    if ((type === 'capital' || type === 'both') && country.capital && country.capital.trim().length > 0) {
       seen.add(country.capital);
     }
 
@@ -56,12 +56,12 @@ export const buildAnswerSuggestions = (
       const translatedCapital = ptCapitalNames[country.id];
 
       // Add translated country names if type is 'country' or 'both'
-      if ((type === 'country' || type === 'both') && translatedName) {
+      if ((type === 'country' || type === 'both') && translatedName && translatedName.trim().length > 0) {
         seen.add(translatedName);
       }
 
       // Add translated capital names if type is 'capital' or 'both'
-      if ((type === 'capital' || type === 'both') && translatedCapital) {
+      if ((type === 'capital' || type === 'both') && translatedCapital && translatedCapital.trim().length > 0) {
         seen.add(translatedCapital);
       }
     }

@@ -69,9 +69,11 @@ function generateQuestions(allCountries: Country[], mode: GameMode, difficulty: 
     if (pool.length < minPoolSize) pool = allCountries; // Ultimate fallback
   }
 
-  const validCountries = mode === 'population' 
+  const validCountries = mode === 'population'
     ? pool.filter(c => c.population > 0)
-    : pool;
+    : mode === 'capital'
+      ? pool.filter(c => c.capital && c.capital.trim().length > 0)
+      : pool;
 
   // Final check
   if (validCountries.length < 2) return [];

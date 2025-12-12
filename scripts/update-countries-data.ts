@@ -50,7 +50,10 @@ const WORLD_BANK_GDP_PER_CAPITA_INDICATOR = 'NY.GDP.PCAP.CD';
 const WIKIDATA_SPARQL_URL = 'https://query.wikidata.org/sparql';
 const DEFAULT_WIKIDATA_USER_AGENT = 'geomania-country-data/1.0 (https://wikidata.org)';
 
-const OUTPUT_FLAGS_DIR = path.resolve(process.cwd(), 'public', 'flags');
+const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+
+const OUTPUT_FLAGS_DIR = path.resolve(REPO_ROOT, 'public', 'flags');
+const SOURCE_ISO2_FLAGS_DIR = path.resolve(REPO_ROOT, 'scripts', 'assets', 'flags-iso2');
 
 const ptCapitalOverrides: Record<string, string> = {
   'Rome': 'Roma',
@@ -104,8 +107,8 @@ const slugify = (text: string) =>
 const parseArgs = (): UpdateOptions => {
   const argv = process.argv.slice(2);
   const opts: UpdateOptions = {
-    outPath: path.resolve(process.cwd(), 'src', 'data', 'countries.ts'),
-    cacheDir: path.resolve(process.cwd(), 'scripts', 'cache'),
+    outPath: path.resolve(REPO_ROOT, 'src', 'data', 'countries.ts'),
+    cacheDir: path.resolve(REPO_ROOT, 'scripts', 'cache'),
     useCache: false,
     downloadFlags: false,
     dryRun: false,
@@ -163,7 +166,7 @@ Options:
   --out <path>           Output TS file (default src/data/countries.ts)
   --cache-dir <path>     Directory for raw API caches (default scripts/cache)
   --use-cache            Use cached raw data instead of fetching
-  --download-flags       Download missing SVG flags (fallback) to public/flags
+  --download-flags       Download missing SVG flags (fallback) to public/flags/<hash>.svg
   --skip-economics       Skip World Bank economics enrichment
   --skip-wikidata        Skip Wikidata enrichment (politics/culture)
   --include-sports       Try to enrich sports via Wikidata (can be slow)
@@ -240,7 +243,7 @@ async function fetchRestCountries(opts: UpdateOptions): Promise<RestCountry[]> {
 function loadCristiCountries(opts: UpdateOptions): Map<string, CristiCountry> {
   const cristiFile = opts.cacheDir
     ? path.join(opts.cacheDir, 'cristiroma-countries.json')
-    : path.join(process.cwd(), 'scripts', 'cache', 'cristiroma-countries.json');
+    : path.join(REPO_ROOT, 'scripts', 'cache', 'cristiroma-countries.json');
 
   if (!fs.existsSync(cristiFile)) {
     console.warn(`⚠ Cristiroma countries file not found at ${cristiFile}, skipping multilingual data`);
@@ -443,7 +446,7 @@ function buildCountries(restData: RestCountry[], cristiData: Map<string, CristiC
     };
 
     // Use a stable hashed filename so the request path does not reveal the country during gameplay.
-    // The ISO2 SVG set is kept as source material; we copy/sync to this hashed path.
+    // The ISO2 SVG set is kept as source material under scripts/assets/flags-iso2; we copy/sync to this hashed path.
     const flagLocal = `/flags/${hashText(id)}.svg`;
 
     // Get cristiroma data for additional localizations
@@ -920,16 +923,16 @@ async function maybeDownloadFlags(countries: CountryData[], restData: RestCountr
     const out = path.join(OUTPUT_FLAGS_DIR, `${hashText(c.id)}.svg`);
     if (fs.existsSync(out)) continue;
 
-    const localIso2Upper = iso2 ? path.join(OUTPUT_FLAGS_DIR, `${iso2}.svg`) : undefined;
-    const localIso2Lower = iso2 ? path.join(OUTPUT_FLAGS_DIR, `${iso2.toLowerCase()}.svg`) : undefined;
-    const localIso2 =
+    const localIso2Upper = iso2 ? path.join(SOURCE_ISO2_FLAGS_DIR, `${iso2}.svg`) : undefined;
+    const localIso2Lower = iso2 ? path.join(SOURCE_ISO2_FLAGS_DIR, `${iso2.toLowerCase()}.svg`) : undefined;
+    const localIso2Path =
       (localIso2Upper && fs.existsSync(localIso2Upper) && localIso2Upper) ||
       (localIso2Lower && fs.existsSync(localIso2Lower) && localIso2Lower) ||
       undefined;
 
-    // Prefer copying from the ISO2 SVG set already in-repo (from cristiroma/countries).
-    if (localIso2) {
-      fs.copyFileSync(localIso2, out);
+    // Prefer copying from the ISO2 SVG source set kept out of public/ (from cristiroma/countries).
+    if (localIso2Path) {
+      fs.copyFileSync(localIso2Path, out);
       continue;
     }
 

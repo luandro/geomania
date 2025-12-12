@@ -36,6 +36,9 @@ jobs:
           # Root path for custom domain (geomania.lol)
           VITE_BASE_PATH: /
 
+      - name: Verify dist flags are hashed
+        run: npm run verify:dist-flags
+
       - name: Create Cloudflare Pages project (if not exists)
         uses: cloudflare/wrangler-action@v3
         continue-on-error: true

@@ -39,6 +39,9 @@ jobs:
           # Set base path for GitHub Pages (repo name)
           VITE_BASE_PATH: /${{ github.event.repository.name }}/
 
+      - name: Verify dist flags are hashed
+        run: npm run verify:dist-flags
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 

@@ -65,7 +65,13 @@ This project is built with:
 All country-related data (base fields + localizations + enrichments) lives in `src/data/countries.ts`.
 
 - Update/regenerate the dataset: `npm run update:countries`
-- Also refresh local flag assets: `npm run update:countries -- --download-flags`
+- Also refresh local flag assets (fallback downloads): `npm run update:countries -- --download-flags`
+
+### Flags
+
+- **Shipped flags (public):** `public/flags/` must contain only hashed filenames like `<12hex>.svg` (these are copied to `dist/flags/` on build).
+- **Source material (non-public):** ISO2 SVGs live in `scripts/assets/flags-iso2/` (e.g. `US.svg`, `gb-eng.svg`, `xk.svg`) and are used by the generator to populate missing hashed outputs.
+- **Verification:** `npm run verify:public-flags` and `npm run verify:dist-flags`
 
 Optional:
 - Set `COUNTRY_DATA_USER_AGENT` when running the updater (Wikidata Query Service etiquette).

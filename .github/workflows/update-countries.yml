@@ -50,6 +50,9 @@ jobs:
         env:
           COUNTRY_DATA_USER_AGENT: "geomania-country-data/1.0 (https://github.com/${{ github.repository }})"
 
+      - name: Verify public flags are hashed
+        run: npm run verify:public-flags
+
       - name: Create PR if data changed
         uses: peter-evans/create-pull-request@v6
         with:

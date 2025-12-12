@@ -12,6 +12,8 @@
     "preview": "vite preview",
     "fetch:flags": "node --import tsx scripts/fetch-flags.ts",
     "update:countries": "node --import tsx scripts/update-countries-data.ts",
+    "verify:public-flags": "node --import tsx scripts/verify-flags-dir.ts --dir public/flags",
+    "verify:dist-flags": "node --import tsx scripts/verify-flags-dir.ts --dir dist/flags",
     "prepare": "husky"
   },
   "dependencies": {

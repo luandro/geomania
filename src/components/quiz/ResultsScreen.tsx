@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Trophy, Star, Target, RotateCcw, Home } from 'lucide-react';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { formatPopulation } from '@/i18n/translations';
+import { getLocalizedCapital, getLocalizedCountryName } from '@/lib/localization';
 
 interface ResultsScreenProps {
   session: QuizSession;
@@ -61,11 +62,13 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
               } ${q.userAnswer?.id === countryA.id && !q.isCorrect ? 'ring-2 ring-destructive' : ''}`}>
                 <img
                   src={countryA.flag_url}
-                  alt={countryA.name}
+                  alt={getLocalizedCountryName(countryA, language)}
                   className="w-8 h-5 object-contain rounded"
                 />
                 <div className="text-left">
-                  <span className="font-medium text-foreground block">{countryA.name}</span>
+                  <span className="font-medium text-foreground block">
+                    {getLocalizedCountryName(countryA, language)}
+                  </span>
                   <span className="text-xs text-muted-foreground">
                     {formatPopulation(countryA.population, language)}
                   </span>
@@ -80,11 +83,13 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
               } ${q.userAnswer?.id === countryB.id && !q.isCorrect ? 'ring-2 ring-destructive' : ''}`}>
                 <img
                   src={countryB.flag_url}
-                  alt={countryB.name}
+                  alt={getLocalizedCountryName(countryB, language)}
                   className="w-8 h-5 object-contain rounded"
                 />
                 <div className="text-left">
-                  <span className="font-medium text-foreground block">{countryB.name}</span>
+                  <span className="font-medium text-foreground block">
+                    {getLocalizedCountryName(countryB, language)}
+                  </span>
                   <span className="text-xs text-muted-foreground">
                     {formatPopulation(countryB.population, language)}
                   </span>
@@ -113,13 +118,13 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
           <div className="flex items-center gap-2 min-w-0">
             <img
               src={q.correctAnswer.flag_url}
-              alt={q.correctAnswer.name}
+              alt={getLocalizedCountryName(q.correctAnswer, language)}
               className="w-8 h-5 object-contain rounded shrink-0"
             />
             <span className="text-sm font-medium text-foreground truncate">
               {session.gameMode === 'capital' 
-                ? `${q.correctAnswer.name}: ${q.correctAnswer.capital}`
-                : q.correctAnswer.name
+                ? `${getLocalizedCountryName(q.correctAnswer, language)}: ${getLocalizedCapital(q.correctAnswer, language)}`
+                : getLocalizedCountryName(q.correctAnswer, language)
               }
             </span>
           </div>

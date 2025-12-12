@@ -3,6 +3,7 @@ import { QuizQuestion, Country } from '@/types/quiz';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { formatPopulation } from '@/i18n/translations';
+import { getLocalizedCountryName } from '@/lib/localization';
 
 interface PopulationQuestionProps {
   question: QuizQuestion;
@@ -79,11 +80,11 @@ export const PopulationQuestion = ({ question, onAnswer, onNext }: PopulationQue
           >
             <img
               src={country.flag_url}
-              alt={country.name}
+              alt={getLocalizedCountryName(country, language)}
               className="w-20 sm:w-24 h-12 sm:h-16 object-contain rounded shadow-sm"
             />
             <span className="text-base sm:text-lg font-bold text-center leading-tight">
-              {country.name}
+              {getLocalizedCountryName(country, language)}
             </span>
             {answered && (
               <span className="text-xs sm:text-sm font-medium opacity-80">
@@ -99,7 +100,7 @@ export const PopulationQuestion = ({ question, onAnswer, onNext }: PopulationQue
           <p className={`text-base sm:text-lg font-semibold mb-4 ${isCorrect ? 'text-success' : 'text-destructive'}`}>
             {isCorrect 
               ? t.correct
-              : `${t.incorrect} ${t.wrongPopulation.replace('{country}', correctCountry.name).replace('{population}', formatPopulation(correctCountry.population, language))}`
+              : `${t.incorrect} ${t.wrongPopulation.replace('{country}', getLocalizedCountryName(correctCountry, language)).replace('{population}', formatPopulation(correctCountry.population, language))}`
             }
           </p>
           <Button variant="hero" size="lg" onClick={handleNext} className="w-full sm:w-auto">

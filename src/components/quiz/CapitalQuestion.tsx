@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { buildAnswerSuggestions, findCountryMatch } from '@/lib/answerMatching';
+import { getLocalizedCapital, getLocalizedCountryName } from '@/lib/localization';
 
 interface CapitalQuestionProps {
   question: QuizQuestion;
@@ -14,7 +15,7 @@ interface CapitalQuestionProps {
 }
 
 export const CapitalQuestion = ({ question, onAnswer, onNext, difficulty, allCountries }: CapitalQuestionProps) => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [selectedAnswer, setSelectedAnswer] = useState<Country | null>(null);
   const [answered, setAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
@@ -23,7 +24,7 @@ export const CapitalQuestion = ({ question, onAnswer, onNext, difficulty, allCou
   const [inputError, setInputError] = useState('');
 
   const isGodMode = difficulty === 'god_mode';
-  const suggestions = buildAnswerSuggestions(allCountries);
+  const suggestions = buildAnswerSuggestions(allCountries, language);
   const dataListId = `capital-suggestions-${question.id}`;
 
   const handleAnswer = async (country: Country) => {
@@ -65,7 +66,7 @@ export const CapitalQuestion = ({ question, onAnswer, onNext, difficulty, allCou
     event?.preventDefault();
     if (answered) return;
 
-    const match = findCountryMatch(allCountries, typedAnswer);
+    const match = findCountryMatch(allCountries, typedAnswer, language);
 
     if (!match) {
       setInputError(t.invalidAnswer);
@@ -85,11 +86,11 @@ export const CapitalQuestion = ({ question, onAnswer, onNext, difficulty, allCou
         <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-4 sm:mb-6">
           <img
             src={question.correctAnswer.flag_url}
-            alt={question.correctAnswer.name}
+            alt={getLocalizedCountryName(question.correctAnswer, language)}
             className="w-10 sm:w-12 h-6 sm:h-8 object-contain rounded shadow-sm"
           />
           <span className="text-2xl sm:text-3xl font-extrabold text-primary text-center">
-            {question.correctAnswer.name}
+            {getLocalizedCountryName(question.correctAnswer, language)}
           </span>
         </div>
       </div>
@@ -127,7 +128,7 @@ export const CapitalQuestion = ({ question, onAnswer, onNext, difficulty, allCou
               className="w-full min-h-[52px] slide-up"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              {option.capital}
+              {getLocalizedCapital(option, language)}
             </Button>
           ))}
         </div>
@@ -138,7 +139,7 @@ export const CapitalQuestion = ({ question, onAnswer, onNext, difficulty, allCou
           <p className={`text-base sm:text-lg font-semibold mb-4 ${isCorrect ? 'text-success' : 'text-destructive'}`}>
             {isCorrect 
               ? t.correct 
-              : `${t.incorrect} ${t.wrongCapital.replace('{capital}', question.correctAnswer.capital)}`
+              : `${t.incorrect} ${t.wrongCapital.replace('{capital}', getLocalizedCapital(question.correctAnswer, language))}`
             }
           </p>
           <Button variant="hero" size="lg" onClick={handleNext} className="w-full sm:w-auto">

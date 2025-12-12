@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { buildAnswerSuggestions, findCountryMatch } from '@/lib/answerMatching';
+import { getLocalizedCountryName } from '@/lib/localization';
 
 interface FlagQuestionProps {
   question: QuizQuestion;
@@ -14,7 +15,7 @@ interface FlagQuestionProps {
 }
 
 export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountries }: FlagQuestionProps) => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [selectedAnswer, setSelectedAnswer] = useState<Country | null>(null);
   const [answered, setAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
@@ -23,7 +24,7 @@ export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountr
   const [inputError, setInputError] = useState('');
 
   const isGodMode = difficulty === 'god_mode';
-  const suggestions = buildAnswerSuggestions(allCountries);
+  const suggestions = buildAnswerSuggestions(allCountries, language);
   const dataListId = `flag-suggestions-${question.id}`;
 
   const handleAnswer = async (country: Country) => {
@@ -65,7 +66,7 @@ export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountr
     event?.preventDefault();
     if (answered) return;
 
-    const match = findCountryMatch(allCountries, typedAnswer);
+    const match = findCountryMatch(allCountries, typedAnswer, language);
 
     if (!match) {
       setInputError(t.invalidAnswer);
@@ -85,7 +86,7 @@ export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountr
         <div className="bg-quiz-flag rounded-xl p-4 sm:p-6 inline-block flag-shadow">
           <img
             src={question.correctAnswer.flag_url}
-            alt="Country flag"
+            alt={getLocalizedCountryName(question.correctAnswer, language)}
             className="w-48 sm:w-64 h-28 sm:h-40 object-contain rounded-lg"
             loading="eager"
           />
@@ -125,7 +126,7 @@ export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountr
               className="w-full min-h-[52px] slide-up"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              {option.name}
+              {getLocalizedCountryName(option, language)}
             </Button>
           ))}
         </div>
@@ -136,7 +137,7 @@ export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountr
           <p className={`text-base sm:text-lg font-semibold mb-4 ${isCorrect ? 'text-success' : 'text-destructive'}`}>
             {isCorrect 
               ? t.correct 
-              : `${t.incorrect} ${t.wrongAnswer.replace('{answer}', question.correctAnswer.name)}`
+              : `${t.incorrect} ${t.wrongAnswer.replace('{answer}', getLocalizedCountryName(question.correctAnswer, language))}`
             }
           </p>
           <Button variant="hero" size="lg" onClick={handleNext} className="w-full sm:w-auto">

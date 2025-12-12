@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { QuizQuestion, Country } from '@/types/quiz';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/i18n/LanguageContext';
@@ -39,11 +39,22 @@ export const PopulationQuestion = ({ question, onAnswer, onNext }: PopulationQue
     }
   };
 
-  const handleNext = () => {
+  const handleNext = useCallback(() => {
     setSelectedAnswer(null);
     setAnswered(false);
     onNext();
-  };
+  }, [onNext]);
+
+  // Auto-advance to next question after 1 second
+  useEffect(() => {
+    if (answered) {
+      const timer = setTimeout(() => {
+        handleNext();
+      }, 1000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [answered, handleNext]);
 
   const getButtonVariant = (country: Country) => {
     if (!answered) return 'quiz';
@@ -98,14 +109,17 @@ export const PopulationQuestion = ({ question, onAnswer, onNext }: PopulationQue
       {answered && (
         <div className="text-center bounce-in">
           <p className={`text-base sm:text-lg font-semibold mb-4 ${isCorrect ? 'text-success' : 'text-destructive'}`}>
-            {isCorrect 
+            {isCorrect
               ? t.correct
               : `${t.incorrect} ${t.wrongPopulation.replace('{country}', getLocalizedCountryName(correctCountry, language)).replace('{population}', formatPopulation(correctCountry.population, language))}`
             }
           </p>
-          <Button variant="hero" size="lg" onClick={handleNext} className="w-full sm:w-auto">
-            {isLastQuestion ? t.seeResults : t.nextQuestion}
-          </Button>
+          <div className="flex flex-col items-center gap-2">
+            <div className="w-full sm:w-64 h-1 bg-muted rounded-full overflow-hidden">
+              <div className="h-full bg-primary animate-[shrink_1s_linear_forwards]" style={{ width: '100%' }} />
+            </div>
+            <p className="text-xs text-muted-foreground">{t.autoAdvancing}</p>
+          </div>
         </div>
       )}
     </div>

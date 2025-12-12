@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { QuizQuestion, Country, Difficulty } from '@/types/quiz';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -40,13 +40,24 @@ export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountr
     }
   };
 
-  const handleNext = () => {
+  const handleNext = useCallback(() => {
     setSelectedAnswer(null);
     setAnswered(false);
     setTypedAnswer('');
     setInputError('');
     onNext();
-  };
+  }, [onNext]);
+
+  // Auto-advance to next question after 1 second
+  useEffect(() => {
+    if (answered) {
+      const timer = setTimeout(() => {
+        handleNext();
+      }, 1000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [answered, handleNext]);
 
   const getButtonVariant = (option: Country) => {
     if (!answered) return 'quiz';
@@ -135,14 +146,17 @@ export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountr
       {answered && (
         <div className="text-center bounce-in">
           <p className={`text-base sm:text-lg font-semibold mb-4 ${isCorrect ? 'text-success' : 'text-destructive'}`}>
-            {isCorrect 
-              ? t.correct 
+            {isCorrect
+              ? t.correct
               : `${t.incorrect} ${t.wrongAnswer.replace('{answer}', getLocalizedCountryName(question.correctAnswer, language))}`
             }
           </p>
-          <Button variant="hero" size="lg" onClick={handleNext} className="w-full sm:w-auto">
-            {isLastQuestion ? t.seeResults : t.nextQuestion}
-          </Button>
+          <div className="flex flex-col items-center gap-2">
+            <div className="w-full sm:w-64 h-1 bg-muted rounded-full overflow-hidden">
+              <div className="h-full bg-primary animate-[shrink_1s_linear_forwards]" style={{ width: '100%' }} />
+            </div>
+            <p className="text-xs text-muted-foreground">{t.autoAdvancing}</p>
+          </div>
         </div>
       )}
     </div>

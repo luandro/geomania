@@ -68,7 +68,8 @@ export interface Translations {
   seeResults: string;
   playAgain: string;
   chooseMode: string;
-  
+  autoAdvancing: string;
+
   // Results
   perfectScore: string;
   excellent: string;
@@ -157,7 +158,8 @@ export const translations: Record<SupportedLanguage, Translations> = {
     seeResults: 'See Results',
     playAgain: 'Play Again',
     chooseMode: 'Choose Mode',
-    
+    autoAdvancing: 'Auto-advancing...',
+
     // Results
     perfectScore: 'Perfect Score!',
     excellent: 'Excellent!',
@@ -244,7 +246,8 @@ export const translations: Record<SupportedLanguage, Translations> = {
     seeResults: 'Ver Resultados',
     playAgain: 'Jogar Novamente',
     chooseMode: 'Escolher Modo',
-    
+    autoAdvancing: 'Avançando automaticamente...',
+
     // Results
     perfectScore: 'Pontuação Perfeita!',
     excellent: 'Excelente!',

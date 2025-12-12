@@ -92,7 +92,7 @@ export const PopulationQuestion = ({ question, onAnswer, onNext }: PopulationQue
           >
             <img
               src={getAssetUrl(country.flag_url)}
-              alt={getLocalizedCountryName(country, language)}
+              alt={t.flagImageAlt}
               className="w-14 sm:w-16 h-8 sm:h-10 object-contain rounded shadow-sm"
             />
             <span className="text-base sm:text-lg font-bold text-center leading-tight">

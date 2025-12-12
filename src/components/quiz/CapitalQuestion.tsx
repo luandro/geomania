@@ -98,7 +98,7 @@ export const CapitalQuestion = ({ question, onAnswer, onNext, difficulty, allCou
         <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-4 sm:mb-6">
           <img
             src={getAssetUrl(question.correctAnswer.flag_url)}
-            alt={getLocalizedCountryName(question.correctAnswer, language)}
+            alt={t.flagImageAlt}
             className="w-8 sm:w-10 h-5 sm:h-6 object-contain rounded shadow-sm"
           />
           <span className="text-2xl sm:text-3xl font-extrabold text-primary text-center">

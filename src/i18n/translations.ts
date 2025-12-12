@@ -51,6 +51,7 @@ export interface Translations {
   flagQuestion: string;
   capitalQuestion: string;
   populationQuestion: string;
+  flagImageAlt: string; // Generic alt text for flag images during quiz
   
   // Feedback
   correct: string;
@@ -149,6 +150,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
     flagQuestion: 'Which country does this flag belong to?',
     capitalQuestion: 'What is the capital of',
     populationQuestion: 'Which country has the larger population?',
+    flagImageAlt: 'Country flag',
     
     // Feedback
     correct: '🎉 Correct!',
@@ -245,6 +247,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
     flagQuestion: 'A qual país pertence esta bandeira?',
     capitalQuestion: 'Qual é a capital de',
     populationQuestion: 'Qual país tem a maior população?',
+    flagImageAlt: 'Bandeira de país',
     
     // Feedback
     correct: '🎉 Correto!',

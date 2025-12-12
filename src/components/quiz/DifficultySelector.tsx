@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Difficulty } from "@/types/quiz";
-import { useLanguage } from "@/i18n/LanguageContext";
+import { useLanguage } from "@/i18n/use-language";
 
 interface DifficultySelectorProps {
   onSelect: (difficulty: Difficulty) => void;

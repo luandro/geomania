@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { QuizQuestion, Country } from '@/types/quiz';
 import { Button } from '@/components/ui/button';
-import { useLanguage } from '@/i18n/LanguageContext';
+import { useLanguage } from '@/i18n/use-language';
 import { formatPopulation } from '@/i18n/translations';
 import { getLocalizedCountryName } from '@/lib/localization';
 import { getAssetUrl } from '@/lib/assets';

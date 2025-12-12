@@ -11,7 +11,7 @@ import { ResultsScreen } from '@/components/quiz/ResultsScreen';
 import { LoadingSpinner } from '@/components/quiz/LoadingSpinner';
 import { GameModeConfig, GameMode, Difficulty } from '@/types/quiz';
 import { Globe } from 'lucide-react';
-import { useLanguage } from '@/i18n/LanguageContext';
+import { useLanguage } from '@/i18n/use-language';
 import { getAssetUrl } from '@/lib/assets';
 
 const Index = () => {

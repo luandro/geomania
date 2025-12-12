@@ -1,7 +1,7 @@
 import { QuizSession, GameMode } from '@/types/quiz';
 import { Button } from '@/components/ui/button';
 import { Trophy, Star, Target, RotateCcw, Home } from 'lucide-react';
-import { useLanguage } from '@/i18n/LanguageContext';
+import { useLanguage } from '@/i18n/use-language';
 import { formatPopulation } from '@/i18n/translations';
 import { getLocalizedCapital, getLocalizedCountryName } from '@/lib/localization';
 import { getAssetUrl } from '@/lib/assets';

@@ -1,13 +1,6 @@
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { SupportedLanguage, Translations, translations, detectLanguage } from './translations';
-
-interface LanguageContextType {
-  language: SupportedLanguage;
-  setLanguage: (lang: SupportedLanguage) => void;
-  t: Translations;
-}
-
-const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+import { useState, useEffect, ReactNode } from 'react';
+import { SupportedLanguage, translations, detectLanguage } from './translations';
+import { LanguageContext, type LanguageContextType } from './LanguageContextDef';
 
 const LANGUAGE_STORAGE_KEY = 'geoquiz-language';
 
@@ -46,12 +39,4 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
       {children}
     </LanguageContext.Provider>
   );
-}
-
-export function useLanguage() {
-  const context = useContext(LanguageContext);
-  if (!context) {
-    throw new Error('useLanguage must be used within a LanguageProvider');
-  }
-  return context;
 }

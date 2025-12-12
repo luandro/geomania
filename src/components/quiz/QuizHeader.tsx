@@ -2,7 +2,7 @@ import { GameMode } from '@/types/quiz';
 import { Globe, ArrowLeft, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { LanguageSwitcher } from './LanguageSwitcher';
-import { useLanguage } from '@/i18n/LanguageContext';
+import { useLanguage } from '@/i18n/use-language';
 import { getAssetUrl } from '@/lib/assets';
 
 interface QuizHeaderProps {

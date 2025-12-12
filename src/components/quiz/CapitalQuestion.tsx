@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { QuizQuestion, Country, Difficulty } from '@/types/quiz';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { useLanguage } from '@/i18n/LanguageContext';
+import { useLanguage } from '@/i18n/use-language';
 import { buildAnswerSuggestions, findCountryMatch } from '@/lib/answerMatching';
 import { getLocalizedCapital, getLocalizedCountryName } from '@/lib/localization';
 import { getAssetUrl } from '@/lib/assets';

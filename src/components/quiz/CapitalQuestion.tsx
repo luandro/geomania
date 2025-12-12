@@ -87,7 +87,7 @@ export const CapitalQuestion = ({ question, onAnswer, onNext, difficulty, allCou
           <img
             src={question.correctAnswer.flag_url}
             alt={getLocalizedCountryName(question.correctAnswer, language)}
-            className="w-10 sm:w-12 h-6 sm:h-8 object-contain rounded shadow-sm"
+            className="w-8 sm:w-10 h-5 sm:h-6 object-contain rounded shadow-sm"
           />
           <span className="text-2xl sm:text-3xl font-extrabold text-primary text-center">
             {getLocalizedCountryName(question.correctAnswer, language)}

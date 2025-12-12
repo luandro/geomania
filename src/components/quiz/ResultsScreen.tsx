@@ -63,7 +63,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
                 <img
                   src={countryA.flag_url}
                   alt={getLocalizedCountryName(countryA, language)}
-                  className="w-8 h-5 object-contain rounded"
+                  className="w-6 h-4 object-contain rounded"
                 />
                 <div className="text-left">
                   <span className="font-medium text-foreground block">
@@ -84,7 +84,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
                 <img
                   src={countryB.flag_url}
                   alt={getLocalizedCountryName(countryB, language)}
-                  className="w-8 h-5 object-contain rounded"
+                  className="w-6 h-4 object-contain rounded"
                 />
                 <div className="text-left">
                   <span className="font-medium text-foreground block">
@@ -119,7 +119,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
             <img
               src={q.correctAnswer.flag_url}
               alt={getLocalizedCountryName(q.correctAnswer, language)}
-              className="w-8 h-5 object-contain rounded shrink-0"
+              className="w-6 h-4 object-contain rounded shrink-0"
             />
             <span className="text-sm font-medium text-foreground truncate">
               {session.gameMode === 'capital' 

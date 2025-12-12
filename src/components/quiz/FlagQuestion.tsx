@@ -83,11 +83,11 @@ export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountr
         <h2 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-foreground">
           {t.flagQuestion}
         </h2>
-        <div className="bg-quiz-flag rounded-xl p-4 sm:p-6 inline-block flag-shadow">
+        <div className="bg-quiz-flag rounded-xl p-3 sm:p-4 inline-block flag-shadow">
           <img
             src={question.correctAnswer.flag_url}
             alt={getLocalizedCountryName(question.correctAnswer, language)}
-            className="w-48 sm:w-64 h-28 sm:h-40 object-contain rounded-lg"
+            className="w-32 sm:w-40 h-20 sm:h-24 object-contain rounded-lg"
             loading="eager"
           />
         </div>

@@ -30,12 +30,16 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
   const [selectedIso, setSelectedIso] = useState<string | null>(null);
   const [hoveredIso, setHoveredIso] = useState<string | null>(null);
   const [showHint, setShowHint] = useState(false);
+  const [revealCorrect, setRevealCorrect] = useState(false);
+  const [blinkOn, setBlinkOn] = useState(true);
 
   const mapRef = useRef<L.Map | null>(null);
   const layerRef = useRef<L.GeoJSON | null>(null);
   const layerByIso = useRef<Record<string, L.Layer>>({});
   const mapContainerRef = useRef<HTMLDivElement | null>(null);
   const autoAdvanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const revealTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const blinkTimer = useRef<ReturnType<typeof setInterval> | null>(null);
   const answeredRef = useRef(false);
   const isMobileRef = useRef(isMobile);
   const tapTargetsRef = useRef<Array<{ iso: string; point: L.Point }>>([]);
@@ -58,8 +62,45 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
     }
   }, []);
 
+  const clearRevealTimers = useCallback((resetState = true) => {
+    if (revealTimer.current) {
+      clearTimeout(revealTimer.current);
+      revealTimer.current = null;
+    }
+    if (blinkTimer.current) {
+      clearInterval(blinkTimer.current);
+      blinkTimer.current = null;
+    }
+    if (resetState) {
+      setRevealCorrect(false);
+      setBlinkOn(true);
+    }
+  }, []);
+
+  const startCorrectReveal = useCallback(() => {
+    clearRevealTimers(false);
+    setRevealCorrect(true);
+    setBlinkOn(true);
+
+    if (correctIso && mapRef.current) {
+      const layer = layerByIso.current[correctIso];
+      if (layer && (layer as L.Path).getBounds) {
+        mapRef.current.flyToBounds((layer as L.Path).getBounds(), { padding: [28, 28], duration: 0.6 });
+      }
+    }
+
+    blinkTimer.current = window.setInterval(() => {
+      setBlinkOn((prev) => !prev);
+    }, 420);
+
+    revealTimer.current = window.setTimeout(() => {
+      clearRevealTimers(true);
+    }, 3000);
+  }, [clearRevealTimers, correctIso]);
+
   const handleNext = useCallback(() => {
     clearAutoAdvanceTimer();
+    clearRevealTimers();
     setSelectedIso(null);
     setHoveredIso(null);
     setAnswered(false);
@@ -83,14 +124,18 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
     const selectedCountry = countryByIso.get(iso);
     if (!selectedCountry) return;
 
+    clearRevealTimers();
     setSelectedIso(iso);
     const result = await onAnswer(selectedCountry);
     if (result) {
       setIsCorrect(result.isCorrect);
       setIsLastQuestion(result.isLastQuestion);
       setAnswered(true);
+      if (!result.isCorrect) {
+        startCorrectReveal();
+      }
     }
-  }, [countryByIso, onAnswer]);
+  }, [countryByIso, onAnswer, clearRevealTimers, startCorrectReveal]);
 
   const updateLayerStyles = useCallback(() => {
     if (!layerRef.current) return;
@@ -102,7 +147,12 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
 
       if (answeredRef.current) {
         if (isCorrectIso) {
-          return { color: '#22c55e', weight: 2, fillColor: '#86efac', fillOpacity: 0.8 };
+          if (revealCorrect) {
+            return blinkOn
+              ? { color: '#22c55e', weight: 3, fillColor: '#86efac', fillOpacity: 0.9 }
+              : { color: '#16a34a', weight: 2, fillColor: '#bbf7d0', fillOpacity: 0.35 };
+          }
+          return { color: '#22c55e', weight: 3, fillColor: '#86efac', fillOpacity: 0.85 };
         }
         if (isSelected && !isCorrect) {
           return { color: '#ef4444', weight: 2, fillColor: '#fca5a5', fillOpacity: 0.8 };
@@ -115,7 +165,7 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
 
       return { color: '#2d183f', weight: 1, fillColor: '#e9d5ff', fillOpacity: 0.65 };
     });
-  }, [correctIso, hoveredIso, isCorrect, selectedIso]);
+  }, [correctIso, hoveredIso, isCorrect, selectedIso, revealCorrect, blinkOn]);
 
   const handleMapClickAssist = useCallback((latlng: L.LatLng) => {
     if (!mapRef.current || answeredRef.current) return;
@@ -178,16 +228,20 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
     setAnswered(false);
     setIsCorrect(false);
     setIsLastQuestion(false);
-  }, [question.id]);
+    clearRevealTimers();
+  }, [question.id, clearRevealTimers]);
+
+  useEffect(() => () => clearRevealTimers(false), [clearRevealTimers]);
 
   useEffect(() => {
     if (answered && autoAdvance) {
+      const delay = isCorrect ? 1000 : 3000;
       autoAdvanceTimer.current = window.setTimeout(() => {
         handleNext();
-      }, 1000);
+      }, delay);
     }
     return () => clearAutoAdvanceTimer();
-  }, [answered, autoAdvance, handleNext, clearAutoAdvanceTimer]);
+  }, [answered, autoAdvance, isCorrect, handleNext, clearAutoAdvanceTimer]);
 
   useEffect(() => {
     if (!mapData || !mapContainerRef.current || mapRef.current) return;
@@ -254,6 +308,8 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
 
   const countryName = getLocalizedCountryName(question.correctAnswer, language);
   const capitalName = getLocalizedCapital(question.correctAnswer, language);
+  const autoAdvanceDelayMs = answered ? (isCorrect ? 1000 : 3000) : 1000;
+  const nextDisabled = answered && !isCorrect && revealCorrect;
 
   if (!mapData) {
     return (
@@ -335,6 +391,8 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
         autoAdvance={autoAdvance}
         onToggleAutoAdvance={setAutoAdvance}
         onNext={handleNext}
+        autoAdvanceDurationMs={autoAdvanceDelayMs}
+        disableNext={nextDisabled}
         autoAdvancingLabel={t.autoAdvancing}
         autoAdvanceLabel={t.autoAdvanceLabel}
         nextLabel={t.nextQuestion}

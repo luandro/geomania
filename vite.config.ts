@@ -22,6 +22,42 @@ export default defineConfig(({ mode }) => {
     VitePWA({
       registerType: "autoUpdate",
       includeAssets: ["favicon.ico", "robots.txt", "icons/*.png", "kuromi.svg", "kuromi_map.svg"],
+      manifest: {
+        name: "Geomania",
+        short_name: "Geomania",
+        description: "Challenge yourself with fun geography quizzes! Identify flags, capitals, and compare populations from countries around the world.",
+        theme_color: "#e01f8e",
+        background_color: "#0c0812",
+        display: "standalone",
+        start_url: "/",
+        scope: "/",
+        categories: ["education", "games"],
+        lang: "en",
+        icons: [
+          {
+            src: "icons/icon-192.png",
+            sizes: "192x192",
+            type: "image/png"
+          },
+          {
+            src: "icons/icon-512.png",
+            sizes: "512x512",
+            type: "image/png"
+          },
+          {
+            src: "icons/maskable-192.png",
+            sizes: "192x192",
+            type: "image/png",
+            purpose: "maskable"
+          },
+          {
+            src: "icons/maskable-512.png",
+            sizes: "512x512",
+            type: "image/png",
+            purpose: "maskable"
+          }
+        ]
+      },
       workbox: {
         skipWaiting: true,
         clientsClaim: true,

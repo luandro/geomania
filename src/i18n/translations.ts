@@ -124,6 +124,8 @@ export interface Translations {
   };
 }
 
+const DEFAULT_FEEDBACK_EMAIL = 'luandro@gmail.com';
+
 export const translations: Record<SupportedLanguage, Translations> = {
   en: {
     // Header & Navigation
@@ -209,7 +211,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
     helpFeedbackTitle: 'Feedback',
     helpFeedbackBody: 'Found a bug or have an idea? Send us a note.',
     feedbackButton: 'Send feedback',
-    feedbackEmail: 'hello@geomania.lol',
+    feedbackEmail: DEFAULT_FEEDBACK_EMAIL,
     feedbackSubject: 'GeoMania feedback',
     
     // Results
@@ -325,7 +327,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
     helpFeedbackTitle: 'Feedback',
     helpFeedbackBody: 'Encontrou um bug ou tem uma ideia? Mande uma mensagem.',
     feedbackButton: 'Enviar feedback',
-    feedbackEmail: 'hello@geomania.lol',
+    feedbackEmail: DEFAULT_FEEDBACK_EMAIL,
     feedbackSubject: 'Feedback do GeoMania',
     
     // Results

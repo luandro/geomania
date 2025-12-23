@@ -8,6 +8,8 @@
     "prebuild": "npm run export:countries-json && npm run generate:pwa-icons",
     "build": "vite build",
     "build:dev": "vite build --mode development",
+    "test": "vitest",
+    "test:run": "vitest run",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "preview": "vite preview",
@@ -66,9 +68,12 @@
     "react-resizable-panels": "^2.1.9",
     "react-router-dom": "^6.30.1",
     "recharts": "^2.15.4",
+    "geojson-antimeridian-cut": "0.1.0",
     "sonner": "^1.7.4",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
+    "leaflet": "^1.9.4",
+    "topojson-client": "^3.1.0",
     "vaul": "^0.9.9",
     "zod": "^3.25.76"
   },
@@ -78,6 +83,8 @@
     "@types/node": "^22.16.5",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
+    "@types/geojson": "^7946.0.14",
+    "@types/topojson-client": "^3.1.1",
     "@vitejs/plugin-react-swc": "^3.11.0",
     "autoprefixer": "^10.4.21",
     "eslint": "^9.32.0",
@@ -94,7 +101,8 @@
     "tsx": "^4.19.2",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0",
-    "vite": "^5.4.19"
+    "vite": "^5.4.19",
+    "vitest": "^1.6.0"
     ,
     "vite-plugin-pwa": "^0.20.0"
   },

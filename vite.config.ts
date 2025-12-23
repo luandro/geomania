@@ -65,6 +65,27 @@ export default defineConfig(({ mode }) => {
         navigateFallback: `${basePath}index.html`,
         runtimeCaching: [
           {
+            urlPattern: ({ request }) => request.mode === "navigate",
+            handler: "StaleWhileRevalidate",
+            options: {
+              cacheName: "geomania-app-shell",
+            },
+          },
+          {
+            urlPattern: ({ url }) =>
+              url.pathname.endsWith("/data/countries-110m.topo.json") ||
+              url.pathname.endsWith("/data/capitals.json") ||
+              url.pathname.endsWith("/data/countries_meta.json"),
+            handler: "CacheFirst",
+            options: {
+              cacheName: "geomania-map-data",
+              expiration: {
+                maxEntries: 10,
+                maxAgeSeconds: 60 * 60 * 24 * 365,
+              },
+            },
+          },
+          {
             urlPattern: ({ url }) => url.pathname.endsWith("/data-version.json"),
             handler: "NetworkFirst",
             options: {

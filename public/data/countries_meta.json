@@ -1,0 +1,1745 @@
+[
+  {
+    "iso_a2": "AF",
+    "iso_a3": "AFG",
+    "iso_numeric": "004",
+    "name_en": "Afghanistan",
+    "name_pt": "Afeganistão"
+  },
+  {
+    "iso_a2": "AL",
+    "iso_a3": "ALB",
+    "iso_numeric": "008",
+    "name_en": "Albania",
+    "name_pt": "Albânia"
+  },
+  {
+    "iso_a2": "DZ",
+    "iso_a3": "DZA",
+    "iso_numeric": "012",
+    "name_en": "Algeria",
+    "name_pt": "Argélia"
+  },
+  {
+    "iso_a2": "AS",
+    "iso_a3": "ASM",
+    "iso_numeric": "016",
+    "name_en": "American Samoa",
+    "name_pt": "Samoa Americana"
+  },
+  {
+    "iso_a2": "AD",
+    "iso_a3": "AND",
+    "iso_numeric": "020",
+    "name_en": "Andorra",
+    "name_pt": "Andorra"
+  },
+  {
+    "iso_a2": "AO",
+    "iso_a3": "AGO",
+    "iso_numeric": "024",
+    "name_en": "Angola",
+    "name_pt": "Angola"
+  },
+  {
+    "iso_a2": "AI",
+    "iso_a3": "AIA",
+    "iso_numeric": "660",
+    "name_en": "Anguilla",
+    "name_pt": "Anguilla"
+  },
+  {
+    "iso_a2": "AQ",
+    "iso_a3": "ATA",
+    "iso_numeric": "010",
+    "name_en": "Antarctica",
+    "name_pt": "Antártida"
+  },
+  {
+    "iso_a2": "AG",
+    "iso_a3": "ATG",
+    "iso_numeric": "028",
+    "name_en": "Antigua and Barbuda",
+    "name_pt": "Antígua e Barbuda"
+  },
+  {
+    "iso_a2": "AR",
+    "iso_a3": "ARG",
+    "iso_numeric": "032",
+    "name_en": "Argentina",
+    "name_pt": "Argentina"
+  },
+  {
+    "iso_a2": "AM",
+    "iso_a3": "ARM",
+    "iso_numeric": "051",
+    "name_en": "Armenia",
+    "name_pt": "Arménia"
+  },
+  {
+    "iso_a2": "AW",
+    "iso_a3": "ABW",
+    "iso_numeric": "533",
+    "name_en": "Aruba",
+    "name_pt": "Aruba"
+  },
+  {
+    "iso_a2": "AU",
+    "iso_a3": "AUS",
+    "iso_numeric": "036",
+    "name_en": "Australia",
+    "name_pt": "Austrália"
+  },
+  {
+    "iso_a2": "AT",
+    "iso_a3": "AUT",
+    "iso_numeric": "040",
+    "name_en": "Austria",
+    "name_pt": "Áustria"
+  },
+  {
+    "iso_a2": "AZ",
+    "iso_a3": "AZE",
+    "iso_numeric": "031",
+    "name_en": "Azerbaijan",
+    "name_pt": "Azerbeijão"
+  },
+  {
+    "iso_a2": "BS",
+    "iso_a3": "BHS",
+    "iso_numeric": "044",
+    "name_en": "Bahamas",
+    "name_pt": "Bahamas"
+  },
+  {
+    "iso_a2": "BH",
+    "iso_a3": "BHR",
+    "iso_numeric": "048",
+    "name_en": "Bahrain",
+    "name_pt": "Bahrein"
+  },
+  {
+    "iso_a2": "BD",
+    "iso_a3": "BGD",
+    "iso_numeric": "050",
+    "name_en": "Bangladesh",
+    "name_pt": "Bangladesh"
+  },
+  {
+    "iso_a2": "BB",
+    "iso_a3": "BRB",
+    "iso_numeric": "052",
+    "name_en": "Barbados",
+    "name_pt": "Barbados"
+  },
+  {
+    "iso_a2": "BY",
+    "iso_a3": "BLR",
+    "iso_numeric": "112",
+    "name_en": "Belarus",
+    "name_pt": "Bielorússia"
+  },
+  {
+    "iso_a2": "BE",
+    "iso_a3": "BEL",
+    "iso_numeric": "056",
+    "name_en": "Belgium",
+    "name_pt": "Bélgica"
+  },
+  {
+    "iso_a2": "BZ",
+    "iso_a3": "BLZ",
+    "iso_numeric": "084",
+    "name_en": "Belize",
+    "name_pt": "Belize"
+  },
+  {
+    "iso_a2": "BJ",
+    "iso_a3": "BEN",
+    "iso_numeric": "204",
+    "name_en": "Benin",
+    "name_pt": "Benin"
+  },
+  {
+    "iso_a2": "BM",
+    "iso_a3": "BMU",
+    "iso_numeric": "060",
+    "name_en": "Bermuda",
+    "name_pt": "Bermudas"
+  },
+  {
+    "iso_a2": "BT",
+    "iso_a3": "BTN",
+    "iso_numeric": "064",
+    "name_en": "Bhutan",
+    "name_pt": "Butão"
+  },
+  {
+    "iso_a2": "BO",
+    "iso_a3": "BOL",
+    "iso_numeric": "068",
+    "name_en": "Bolivia",
+    "name_pt": "Bolívia"
+  },
+  {
+    "iso_a2": "BA",
+    "iso_a3": "BIH",
+    "iso_numeric": "070",
+    "name_en": "Bosnia and Herzegovina",
+    "name_pt": "Bósnia e Herzegovina"
+  },
+  {
+    "iso_a2": "BW",
+    "iso_a3": "BWA",
+    "iso_numeric": "072",
+    "name_en": "Botswana",
+    "name_pt": "Botswana"
+  },
+  {
+    "iso_a2": "BV",
+    "iso_a3": "BVT",
+    "iso_numeric": "074",
+    "name_en": "Bouvet Island",
+    "name_pt": "Ilha Bouvet"
+  },
+  {
+    "iso_a2": "BR",
+    "iso_a3": "BRA",
+    "iso_numeric": "076",
+    "name_en": "Brazil",
+    "name_pt": "Brasil"
+  },
+  {
+    "iso_a2": "IO",
+    "iso_a3": "IOT",
+    "iso_numeric": "086",
+    "name_en": "British Indian Ocean Territory",
+    "name_pt": "Território Britânico do Oceano Índico"
+  },
+  {
+    "iso_a2": "VG",
+    "iso_a3": "VGB",
+    "iso_numeric": "092",
+    "name_en": "British Virgin Islands",
+    "name_pt": "Ilhas Virgens"
+  },
+  {
+    "iso_a2": "BN",
+    "iso_a3": "BRN",
+    "iso_numeric": "096",
+    "name_en": "Brunei",
+    "name_pt": "Brunei"
+  },
+  {
+    "iso_a2": "BG",
+    "iso_a3": "BGR",
+    "iso_numeric": "100",
+    "name_en": "Bulgaria",
+    "name_pt": "Bulgária"
+  },
+  {
+    "iso_a2": "BF",
+    "iso_a3": "BFA",
+    "iso_numeric": "854",
+    "name_en": "Burkina Faso",
+    "name_pt": "Burkina Faso"
+  },
+  {
+    "iso_a2": "BI",
+    "iso_a3": "BDI",
+    "iso_numeric": "108",
+    "name_en": "Burundi",
+    "name_pt": "Burundi"
+  },
+  {
+    "iso_a2": "KH",
+    "iso_a3": "KHM",
+    "iso_numeric": "116",
+    "name_en": "Cambodia",
+    "name_pt": "Camboja"
+  },
+  {
+    "iso_a2": "CM",
+    "iso_a3": "CMR",
+    "iso_numeric": "120",
+    "name_en": "Cameroon",
+    "name_pt": "Camarões"
+  },
+  {
+    "iso_a2": "CA",
+    "iso_a3": "CAN",
+    "iso_numeric": "124",
+    "name_en": "Canada",
+    "name_pt": "Canadá"
+  },
+  {
+    "iso_a2": "CV",
+    "iso_a3": "CPV",
+    "iso_numeric": "132",
+    "name_en": "Cape Verde",
+    "name_pt": "Cabo Verde"
+  },
+  {
+    "iso_a2": "BQ",
+    "iso_a3": "BES",
+    "iso_numeric": "535",
+    "name_en": "Caribbean Netherlands",
+    "name_pt": "Países Baixos Caribenhos"
+  },
+  {
+    "iso_a2": "KY",
+    "iso_a3": "CYM",
+    "iso_numeric": "136",
+    "name_en": "Cayman Islands",
+    "name_pt": "Ilhas Caimão"
+  },
+  {
+    "iso_a2": "CF",
+    "iso_a3": "CAF",
+    "iso_numeric": "140",
+    "name_en": "Central African Republic",
+    "name_pt": "República Centro-Africana"
+  },
+  {
+    "iso_a2": "TD",
+    "iso_a3": "TCD",
+    "iso_numeric": "148",
+    "name_en": "Chad",
+    "name_pt": "Chade"
+  },
+  {
+    "iso_a2": "CL",
+    "iso_a3": "CHL",
+    "iso_numeric": "152",
+    "name_en": "Chile",
+    "name_pt": "Chile"
+  },
+  {
+    "iso_a2": "CN",
+    "iso_a3": "CHN",
+    "iso_numeric": "156",
+    "name_en": "China",
+    "name_pt": "China"
+  },
+  {
+    "iso_a2": "CX",
+    "iso_a3": "CXR",
+    "iso_numeric": "162",
+    "name_en": "Christmas Island",
+    "name_pt": "Ilha do Natal"
+  },
+  {
+    "iso_a2": "CC",
+    "iso_a3": "CCK",
+    "iso_numeric": "166",
+    "name_en": "Cocos (Keeling) Islands",
+    "name_pt": "Ilhas Cocos (Keeling)"
+  },
+  {
+    "iso_a2": "CO",
+    "iso_a3": "COL",
+    "iso_numeric": "170",
+    "name_en": "Colombia",
+    "name_pt": "Colômbia"
+  },
+  {
+    "iso_a2": "KM",
+    "iso_a3": "COM",
+    "iso_numeric": "174",
+    "name_en": "Comoros",
+    "name_pt": "Comores"
+  },
+  {
+    "iso_a2": "CK",
+    "iso_a3": "COK",
+    "iso_numeric": "184",
+    "name_en": "Cook Islands",
+    "name_pt": "Ilhas Cook"
+  },
+  {
+    "iso_a2": "CR",
+    "iso_a3": "CRI",
+    "iso_numeric": "188",
+    "name_en": "Costa Rica",
+    "name_pt": "Costa Rica"
+  },
+  {
+    "iso_a2": "HR",
+    "iso_a3": "HRV",
+    "iso_numeric": "191",
+    "name_en": "Croatia",
+    "name_pt": "Croácia"
+  },
+  {
+    "iso_a2": "CU",
+    "iso_a3": "CUB",
+    "iso_numeric": "192",
+    "name_en": "Cuba",
+    "name_pt": "Cuba"
+  },
+  {
+    "iso_a2": "CW",
+    "iso_a3": "CUW",
+    "iso_numeric": "531",
+    "name_en": "Curaçao",
+    "name_pt": "ilha da Curação"
+  },
+  {
+    "iso_a2": "CY",
+    "iso_a3": "CYP",
+    "iso_numeric": "196",
+    "name_en": "Cyprus",
+    "name_pt": "Chipre"
+  },
+  {
+    "iso_a2": "CZ",
+    "iso_a3": "CZE",
+    "iso_numeric": "203",
+    "name_en": "Czechia",
+    "name_pt": "Chéquia"
+  },
+  {
+    "iso_a2": "CD",
+    "iso_a3": "COD",
+    "iso_numeric": "180",
+    "name_en": "DR Congo",
+    "name_pt": "República Democrática do Congo"
+  },
+  {
+    "iso_a2": "DK",
+    "iso_a3": "DNK",
+    "iso_numeric": "208",
+    "name_en": "Denmark",
+    "name_pt": "Dinamarca"
+  },
+  {
+    "iso_a2": "DJ",
+    "iso_a3": "DJI",
+    "iso_numeric": "262",
+    "name_en": "Djibouti",
+    "name_pt": "Djibouti"
+  },
+  {
+    "iso_a2": "DM",
+    "iso_a3": "DMA",
+    "iso_numeric": "212",
+    "name_en": "Dominica",
+    "name_pt": "Dominica"
+  },
+  {
+    "iso_a2": "DO",
+    "iso_a3": "DOM",
+    "iso_numeric": "214",
+    "name_en": "Dominican Republic",
+    "name_pt": "República Dominicana"
+  },
+  {
+    "iso_a2": "EC",
+    "iso_a3": "ECU",
+    "iso_numeric": "218",
+    "name_en": "Ecuador",
+    "name_pt": "Equador"
+  },
+  {
+    "iso_a2": "EG",
+    "iso_a3": "EGY",
+    "iso_numeric": "818",
+    "name_en": "Egypt",
+    "name_pt": "Egito"
+  },
+  {
+    "iso_a2": "SV",
+    "iso_a3": "SLV",
+    "iso_numeric": "222",
+    "name_en": "El Salvador",
+    "name_pt": "El Salvador"
+  },
+  {
+    "iso_a2": "GQ",
+    "iso_a3": "GNQ",
+    "iso_numeric": "226",
+    "name_en": "Equatorial Guinea",
+    "name_pt": "Guiné Equatorial"
+  },
+  {
+    "iso_a2": "ER",
+    "iso_a3": "ERI",
+    "iso_numeric": "232",
+    "name_en": "Eritrea",
+    "name_pt": "Eritreia"
+  },
+  {
+    "iso_a2": "EE",
+    "iso_a3": "EST",
+    "iso_numeric": "233",
+    "name_en": "Estonia",
+    "name_pt": "Estónia"
+  },
+  {
+    "iso_a2": "SZ",
+    "iso_a3": "SWZ",
+    "iso_numeric": "748",
+    "name_en": "Eswatini",
+    "name_pt": "Suazilândia"
+  },
+  {
+    "iso_a2": "ET",
+    "iso_a3": "ETH",
+    "iso_numeric": "231",
+    "name_en": "Ethiopia",
+    "name_pt": "Etiópia"
+  },
+  {
+    "iso_a2": "FK",
+    "iso_a3": "FLK",
+    "iso_numeric": "238",
+    "name_en": "Falkland Islands",
+    "name_pt": "Ilhas Malvinas"
+  },
+  {
+    "iso_a2": "FO",
+    "iso_a3": "FRO",
+    "iso_numeric": "234",
+    "name_en": "Faroe Islands",
+    "name_pt": "Ilhas Faroé"
+  },
+  {
+    "iso_a2": "FJ",
+    "iso_a3": "FJI",
+    "iso_numeric": "242",
+    "name_en": "Fiji",
+    "name_pt": "Fiji"
+  },
+  {
+    "iso_a2": "FI",
+    "iso_a3": "FIN",
+    "iso_numeric": "246",
+    "name_en": "Finland",
+    "name_pt": "Finlândia"
+  },
+  {
+    "iso_a2": "FR",
+    "iso_a3": "FRA",
+    "iso_numeric": "250",
+    "name_en": "France",
+    "name_pt": "França"
+  },
+  {
+    "iso_a2": "GF",
+    "iso_a3": "GUF",
+    "iso_numeric": "254",
+    "name_en": "French Guiana",
+    "name_pt": "Guiana Francesa"
+  },
+  {
+    "iso_a2": "PF",
+    "iso_a3": "PYF",
+    "iso_numeric": "258",
+    "name_en": "French Polynesia",
+    "name_pt": "Polinésia Francesa"
+  },
+  {
+    "iso_a2": "TF",
+    "iso_a3": "ATF",
+    "iso_numeric": "260",
+    "name_en": "French Southern and Antarctic Lands",
+    "name_pt": "Terras Austrais e Antárticas Francesas"
+  },
+  {
+    "iso_a2": "GA",
+    "iso_a3": "GAB",
+    "iso_numeric": "266",
+    "name_en": "Gabon",
+    "name_pt": "Gabão"
+  },
+  {
+    "iso_a2": "GM",
+    "iso_a3": "GMB",
+    "iso_numeric": "270",
+    "name_en": "Gambia",
+    "name_pt": "Gâmbia"
+  },
+  {
+    "iso_a2": "GE",
+    "iso_a3": "GEO",
+    "iso_numeric": "268",
+    "name_en": "Georgia",
+    "name_pt": "Geórgia"
+  },
+  {
+    "iso_a2": "DE",
+    "iso_a3": "DEU",
+    "iso_numeric": "276",
+    "name_en": "Germany",
+    "name_pt": "Alemanha"
+  },
+  {
+    "iso_a2": "GH",
+    "iso_a3": "GHA",
+    "iso_numeric": "288",
+    "name_en": "Ghana",
+    "name_pt": "Gana"
+  },
+  {
+    "iso_a2": "GI",
+    "iso_a3": "GIB",
+    "iso_numeric": "292",
+    "name_en": "Gibraltar",
+    "name_pt": "Gibraltar"
+  },
+  {
+    "iso_a2": "GR",
+    "iso_a3": "GRC",
+    "iso_numeric": "300",
+    "name_en": "Greece",
+    "name_pt": "Grécia"
+  },
+  {
+    "iso_a2": "GL",
+    "iso_a3": "GRL",
+    "iso_numeric": "304",
+    "name_en": "Greenland",
+    "name_pt": "Gronelândia"
+  },
+  {
+    "iso_a2": "GD",
+    "iso_a3": "GRD",
+    "iso_numeric": "308",
+    "name_en": "Grenada",
+    "name_pt": "Granada"
+  },
+  {
+    "iso_a2": "GP",
+    "iso_a3": "GLP",
+    "iso_numeric": "312",
+    "name_en": "Guadeloupe",
+    "name_pt": "Guadalupe"
+  },
+  {
+    "iso_a2": "GU",
+    "iso_a3": "GUM",
+    "iso_numeric": "316",
+    "name_en": "Guam",
+    "name_pt": "Guam"
+  },
+  {
+    "iso_a2": "GT",
+    "iso_a3": "GTM",
+    "iso_numeric": "320",
+    "name_en": "Guatemala",
+    "name_pt": "Guatemala"
+  },
+  {
+    "iso_a2": "GG",
+    "iso_a3": "GGY",
+    "iso_numeric": "831",
+    "name_en": "Guernsey",
+    "name_pt": "Guernsey"
+  },
+  {
+    "iso_a2": "GN",
+    "iso_a3": "GIN",
+    "iso_numeric": "324",
+    "name_en": "Guinea",
+    "name_pt": "Guiné"
+  },
+  {
+    "iso_a2": "GW",
+    "iso_a3": "GNB",
+    "iso_numeric": "624",
+    "name_en": "Guinea-Bissau",
+    "name_pt": "Guiné-Bissau"
+  },
+  {
+    "iso_a2": "GY",
+    "iso_a3": "GUY",
+    "iso_numeric": "328",
+    "name_en": "Guyana",
+    "name_pt": "Guiana"
+  },
+  {
+    "iso_a2": "HT",
+    "iso_a3": "HTI",
+    "iso_numeric": "332",
+    "name_en": "Haiti",
+    "name_pt": "Haiti"
+  },
+  {
+    "iso_a2": "HM",
+    "iso_a3": "HMD",
+    "iso_numeric": "334",
+    "name_en": "Heard Island and McDonald Islands",
+    "name_pt": "Ilha Heard e Ilhas McDonald"
+  },
+  {
+    "iso_a2": "HN",
+    "iso_a3": "HND",
+    "iso_numeric": "340",
+    "name_en": "Honduras",
+    "name_pt": "Honduras"
+  },
+  {
+    "iso_a2": "HK",
+    "iso_a3": "HKG",
+    "iso_numeric": "344",
+    "name_en": "Hong Kong",
+    "name_pt": "Hong Kong"
+  },
+  {
+    "iso_a2": "HU",
+    "iso_a3": "HUN",
+    "iso_numeric": "348",
+    "name_en": "Hungary",
+    "name_pt": "Hungria"
+  },
+  {
+    "iso_a2": "IS",
+    "iso_a3": "ISL",
+    "iso_numeric": "352",
+    "name_en": "Iceland",
+    "name_pt": "Islândia"
+  },
+  {
+    "iso_a2": "IN",
+    "iso_a3": "IND",
+    "iso_numeric": "356",
+    "name_en": "India",
+    "name_pt": "Índia"
+  },
+  {
+    "iso_a2": "ID",
+    "iso_a3": "IDN",
+    "iso_numeric": "360",
+    "name_en": "Indonesia",
+    "name_pt": "Indonésia"
+  },
+  {
+    "iso_a2": "IR",
+    "iso_a3": "IRN",
+    "iso_numeric": "364",
+    "name_en": "Iran",
+    "name_pt": "Irão"
+  },
+  {
+    "iso_a2": "IQ",
+    "iso_a3": "IRQ",
+    "iso_numeric": "368",
+    "name_en": "Iraq",
+    "name_pt": "Iraque"
+  },
+  {
+    "iso_a2": "IE",
+    "iso_a3": "IRL",
+    "iso_numeric": "372",
+    "name_en": "Ireland",
+    "name_pt": "Irlanda"
+  },
+  {
+    "iso_a2": "IM",
+    "iso_a3": "IMN",
+    "iso_numeric": "833",
+    "name_en": "Isle of Man",
+    "name_pt": "Ilha de Man"
+  },
+  {
+    "iso_a2": "IL",
+    "iso_a3": "ISR",
+    "iso_numeric": "376",
+    "name_en": "Israel",
+    "name_pt": "Israel"
+  },
+  {
+    "iso_a2": "IT",
+    "iso_a3": "ITA",
+    "iso_numeric": "380",
+    "name_en": "Italy",
+    "name_pt": "Itália"
+  },
+  {
+    "iso_a2": "CI",
+    "iso_a3": "CIV",
+    "iso_numeric": "384",
+    "name_en": "Ivory Coast",
+    "name_pt": "Costa do Marfim"
+  },
+  {
+    "iso_a2": "JM",
+    "iso_a3": "JAM",
+    "iso_numeric": "388",
+    "name_en": "Jamaica",
+    "name_pt": "Jamaica"
+  },
+  {
+    "iso_a2": "JP",
+    "iso_a3": "JPN",
+    "iso_numeric": "392",
+    "name_en": "Japan",
+    "name_pt": "Japão"
+  },
+  {
+    "iso_a2": "JE",
+    "iso_a3": "JEY",
+    "iso_numeric": "832",
+    "name_en": "Jersey",
+    "name_pt": "Jersey"
+  },
+  {
+    "iso_a2": "JO",
+    "iso_a3": "JOR",
+    "iso_numeric": "400",
+    "name_en": "Jordan",
+    "name_pt": "Jordânia"
+  },
+  {
+    "iso_a2": "KZ",
+    "iso_a3": "KAZ",
+    "iso_numeric": "398",
+    "name_en": "Kazakhstan",
+    "name_pt": "Cazaquistão"
+  },
+  {
+    "iso_a2": "KE",
+    "iso_a3": "KEN",
+    "iso_numeric": "404",
+    "name_en": "Kenya",
+    "name_pt": "Quénia"
+  },
+  {
+    "iso_a2": "KI",
+    "iso_a3": "KIR",
+    "iso_numeric": "296",
+    "name_en": "Kiribati",
+    "name_pt": "Kiribati"
+  },
+  {
+    "iso_a2": "KW",
+    "iso_a3": "KWT",
+    "iso_numeric": "414",
+    "name_en": "Kuwait",
+    "name_pt": "Kuwait"
+  },
+  {
+    "iso_a2": "KG",
+    "iso_a3": "KGZ",
+    "iso_numeric": "417",
+    "name_en": "Kyrgyzstan",
+    "name_pt": "Quirguistão"
+  },
+  {
+    "iso_a2": "LA",
+    "iso_a3": "LAO",
+    "iso_numeric": "418",
+    "name_en": "Laos",
+    "name_pt": "Laos"
+  },
+  {
+    "iso_a2": "LV",
+    "iso_a3": "LVA",
+    "iso_numeric": "428",
+    "name_en": "Latvia",
+    "name_pt": "Letónia"
+  },
+  {
+    "iso_a2": "LB",
+    "iso_a3": "LBN",
+    "iso_numeric": "422",
+    "name_en": "Lebanon",
+    "name_pt": "Líbano"
+  },
+  {
+    "iso_a2": "LS",
+    "iso_a3": "LSO",
+    "iso_numeric": "426",
+    "name_en": "Lesotho",
+    "name_pt": "Lesoto"
+  },
+  {
+    "iso_a2": "LR",
+    "iso_a3": "LBR",
+    "iso_numeric": "430",
+    "name_en": "Liberia",
+    "name_pt": "Libéria"
+  },
+  {
+    "iso_a2": "LY",
+    "iso_a3": "LBY",
+    "iso_numeric": "434",
+    "name_en": "Libya",
+    "name_pt": "Líbia"
+  },
+  {
+    "iso_a2": "LI",
+    "iso_a3": "LIE",
+    "iso_numeric": "438",
+    "name_en": "Liechtenstein",
+    "name_pt": "Liechtenstein"
+  },
+  {
+    "iso_a2": "LT",
+    "iso_a3": "LTU",
+    "iso_numeric": "440",
+    "name_en": "Lithuania",
+    "name_pt": "Lituânia"
+  },
+  {
+    "iso_a2": "LU",
+    "iso_a3": "LUX",
+    "iso_numeric": "442",
+    "name_en": "Luxembourg",
+    "name_pt": "Luxemburgo"
+  },
+  {
+    "iso_a2": "MO",
+    "iso_a3": "MAC",
+    "iso_numeric": "446",
+    "name_en": "Macau",
+    "name_pt": "Macau"
+  },
+  {
+    "iso_a2": "MG",
+    "iso_a3": "MDG",
+    "iso_numeric": "450",
+    "name_en": "Madagascar",
+    "name_pt": "Madagáscar"
+  },
+  {
+    "iso_a2": "MW",
+    "iso_a3": "MWI",
+    "iso_numeric": "454",
+    "name_en": "Malawi",
+    "name_pt": "Malawi"
+  },
+  {
+    "iso_a2": "MY",
+    "iso_a3": "MYS",
+    "iso_numeric": "458",
+    "name_en": "Malaysia",
+    "name_pt": "Malásia"
+  },
+  {
+    "iso_a2": "MV",
+    "iso_a3": "MDV",
+    "iso_numeric": "462",
+    "name_en": "Maldives",
+    "name_pt": "Maldivas"
+  },
+  {
+    "iso_a2": "ML",
+    "iso_a3": "MLI",
+    "iso_numeric": "466",
+    "name_en": "Mali",
+    "name_pt": "Mali"
+  },
+  {
+    "iso_a2": "MT",
+    "iso_a3": "MLT",
+    "iso_numeric": "470",
+    "name_en": "Malta",
+    "name_pt": "Malta"
+  },
+  {
+    "iso_a2": "MH",
+    "iso_a3": "MHL",
+    "iso_numeric": "584",
+    "name_en": "Marshall Islands",
+    "name_pt": "Ilhas Marshall"
+  },
+  {
+    "iso_a2": "MQ",
+    "iso_a3": "MTQ",
+    "iso_numeric": "474",
+    "name_en": "Martinique",
+    "name_pt": "Martinica"
+  },
+  {
+    "iso_a2": "MR",
+    "iso_a3": "MRT",
+    "iso_numeric": "478",
+    "name_en": "Mauritania",
+    "name_pt": "Mauritânia"
+  },
+  {
+    "iso_a2": "MU",
+    "iso_a3": "MUS",
+    "iso_numeric": "480",
+    "name_en": "Mauritius",
+    "name_pt": "Maurício"
+  },
+  {
+    "iso_a2": "YT",
+    "iso_a3": "MYT",
+    "iso_numeric": "175",
+    "name_en": "Mayotte",
+    "name_pt": "Mayotte"
+  },
+  {
+    "iso_a2": "MX",
+    "iso_a3": "MEX",
+    "iso_numeric": "484",
+    "name_en": "Mexico",
+    "name_pt": "México"
+  },
+  {
+    "iso_a2": "FM",
+    "iso_a3": "FSM",
+    "iso_numeric": "583",
+    "name_en": "Micronesia",
+    "name_pt": "Micronésia"
+  },
+  {
+    "iso_a2": "MD",
+    "iso_a3": "MDA",
+    "iso_numeric": "498",
+    "name_en": "Moldova",
+    "name_pt": "Moldávia"
+  },
+  {
+    "iso_a2": "MC",
+    "iso_a3": "MCO",
+    "iso_numeric": "492",
+    "name_en": "Monaco",
+    "name_pt": "Mónaco"
+  },
+  {
+    "iso_a2": "MN",
+    "iso_a3": "MNG",
+    "iso_numeric": "496",
+    "name_en": "Mongolia",
+    "name_pt": "Mongólia"
+  },
+  {
+    "iso_a2": "ME",
+    "iso_a3": "MNE",
+    "iso_numeric": "499",
+    "name_en": "Montenegro",
+    "name_pt": "Montenegro"
+  },
+  {
+    "iso_a2": "MS",
+    "iso_a3": "MSR",
+    "iso_numeric": "500",
+    "name_en": "Montserrat",
+    "name_pt": "Montserrat"
+  },
+  {
+    "iso_a2": "MA",
+    "iso_a3": "MAR",
+    "iso_numeric": "504",
+    "name_en": "Morocco",
+    "name_pt": "Marrocos"
+  },
+  {
+    "iso_a2": "MZ",
+    "iso_a3": "MOZ",
+    "iso_numeric": "508",
+    "name_en": "Mozambique",
+    "name_pt": "Moçambique"
+  },
+  {
+    "iso_a2": "MM",
+    "iso_a3": "MMR",
+    "iso_numeric": "104",
+    "name_en": "Myanmar",
+    "name_pt": "Myanmar"
+  },
+  {
+    "iso_a2": "NA",
+    "iso_a3": "NAM",
+    "iso_numeric": "516",
+    "name_en": "Namibia",
+    "name_pt": "Namíbia"
+  },
+  {
+    "iso_a2": "NR",
+    "iso_a3": "NRU",
+    "iso_numeric": "520",
+    "name_en": "Nauru",
+    "name_pt": "Nauru"
+  },
+  {
+    "iso_a2": "NP",
+    "iso_a3": "NPL",
+    "iso_numeric": "524",
+    "name_en": "Nepal",
+    "name_pt": "Nepal"
+  },
+  {
+    "iso_a2": "NL",
+    "iso_a3": "NLD",
+    "iso_numeric": "528",
+    "name_en": "Netherlands",
+    "name_pt": "Holanda"
+  },
+  {
+    "iso_a2": "NC",
+    "iso_a3": "NCL",
+    "iso_numeric": "540",
+    "name_en": "New Caledonia",
+    "name_pt": "Nova Caledónia"
+  },
+  {
+    "iso_a2": "NZ",
+    "iso_a3": "NZL",
+    "iso_numeric": "554",
+    "name_en": "New Zealand",
+    "name_pt": "Nova Zelândia"
+  },
+  {
+    "iso_a2": "NI",
+    "iso_a3": "NIC",
+    "iso_numeric": "558",
+    "name_en": "Nicaragua",
+    "name_pt": "Nicarágua"
+  },
+  {
+    "iso_a2": "NE",
+    "iso_a3": "NER",
+    "iso_numeric": "562",
+    "name_en": "Niger",
+    "name_pt": "Níger"
+  },
+  {
+    "iso_a2": "NG",
+    "iso_a3": "NGA",
+    "iso_numeric": "566",
+    "name_en": "Nigeria",
+    "name_pt": "Nigéria"
+  },
+  {
+    "iso_a2": "NU",
+    "iso_a3": "NIU",
+    "iso_numeric": "570",
+    "name_en": "Niue",
+    "name_pt": "Niue"
+  },
+  {
+    "iso_a2": "NF",
+    "iso_a3": "NFK",
+    "iso_numeric": "574",
+    "name_en": "Norfolk Island",
+    "name_pt": "Ilha Norfolk"
+  },
+  {
+    "iso_a2": "KP",
+    "iso_a3": "PRK",
+    "iso_numeric": "408",
+    "name_en": "North Korea",
+    "name_pt": "Coreia do Norte"
+  },
+  {
+    "iso_a2": "MK",
+    "iso_a3": "MKD",
+    "iso_numeric": "807",
+    "name_en": "North Macedonia",
+    "name_pt": "Macedónia do Norte"
+  },
+  {
+    "iso_a2": "MP",
+    "iso_a3": "MNP",
+    "iso_numeric": "580",
+    "name_en": "Northern Mariana Islands",
+    "name_pt": "Marianas Setentrionais"
+  },
+  {
+    "iso_a2": "NO",
+    "iso_a3": "NOR",
+    "iso_numeric": "578",
+    "name_en": "Norway",
+    "name_pt": "Noruega"
+  },
+  {
+    "iso_a2": "OM",
+    "iso_a3": "OMN",
+    "iso_numeric": "512",
+    "name_en": "Oman",
+    "name_pt": "Omã"
+  },
+  {
+    "iso_a2": "PK",
+    "iso_a3": "PAK",
+    "iso_numeric": "586",
+    "name_en": "Pakistan",
+    "name_pt": "Paquistão"
+  },
+  {
+    "iso_a2": "PW",
+    "iso_a3": "PLW",
+    "iso_numeric": "585",
+    "name_en": "Palau",
+    "name_pt": "Palau"
+  },
+  {
+    "iso_a2": "PS",
+    "iso_a3": "PSE",
+    "iso_numeric": "275",
+    "name_en": "Palestine",
+    "name_pt": "Palestina"
+  },
+  {
+    "iso_a2": "PA",
+    "iso_a3": "PAN",
+    "iso_numeric": "591",
+    "name_en": "Panama",
+    "name_pt": "Panamá"
+  },
+  {
+    "iso_a2": "PG",
+    "iso_a3": "PNG",
+    "iso_numeric": "598",
+    "name_en": "Papua New Guinea",
+    "name_pt": "Papua Nova Guiné"
+  },
+  {
+    "iso_a2": "PY",
+    "iso_a3": "PRY",
+    "iso_numeric": "600",
+    "name_en": "Paraguay",
+    "name_pt": "Paraguai"
+  },
+  {
+    "iso_a2": "PE",
+    "iso_a3": "PER",
+    "iso_numeric": "604",
+    "name_en": "Peru",
+    "name_pt": "Perú"
+  },
+  {
+    "iso_a2": "PH",
+    "iso_a3": "PHL",
+    "iso_numeric": "608",
+    "name_en": "Philippines",
+    "name_pt": "Filipinas"
+  },
+  {
+    "iso_a2": "PN",
+    "iso_a3": "PCN",
+    "iso_numeric": "612",
+    "name_en": "Pitcairn Islands",
+    "name_pt": "Ilhas Pitcairn"
+  },
+  {
+    "iso_a2": "PL",
+    "iso_a3": "POL",
+    "iso_numeric": "616",
+    "name_en": "Poland",
+    "name_pt": "Polónia"
+  },
+  {
+    "iso_a2": "PT",
+    "iso_a3": "PRT",
+    "iso_numeric": "620",
+    "name_en": "Portugal",
+    "name_pt": "Portugal"
+  },
+  {
+    "iso_a2": "PR",
+    "iso_a3": "PRI",
+    "iso_numeric": "630",
+    "name_en": "Puerto Rico",
+    "name_pt": "Porto Rico"
+  },
+  {
+    "iso_a2": "QA",
+    "iso_a3": "QAT",
+    "iso_numeric": "634",
+    "name_en": "Qatar",
+    "name_pt": "Catar"
+  },
+  {
+    "iso_a2": "CG",
+    "iso_a3": "COG",
+    "iso_numeric": "178",
+    "name_en": "Republic of the Congo",
+    "name_pt": "Congo"
+  },
+  {
+    "iso_a2": "RO",
+    "iso_a3": "ROU",
+    "iso_numeric": "642",
+    "name_en": "Romania",
+    "name_pt": "Roménia"
+  },
+  {
+    "iso_a2": "RU",
+    "iso_a3": "RUS",
+    "iso_numeric": "643",
+    "name_en": "Russia",
+    "name_pt": "Rússia"
+  },
+  {
+    "iso_a2": "RW",
+    "iso_a3": "RWA",
+    "iso_numeric": "646",
+    "name_en": "Rwanda",
+    "name_pt": "Ruanda"
+  },
+  {
+    "iso_a2": "RE",
+    "iso_a3": "REU",
+    "iso_numeric": "638",
+    "name_en": "Réunion",
+    "name_pt": "Reunião"
+  },
+  {
+    "iso_a2": "BL",
+    "iso_a3": "BLM",
+    "iso_numeric": "652",
+    "name_en": "Saint Barthélemy",
+    "name_pt": "São Bartolomeu"
+  },
+  {
+    "iso_a2": "SH",
+    "iso_a3": "SHN",
+    "iso_numeric": "654",
+    "name_en": "Saint Helena, Ascension and Tristan da Cunha",
+    "name_pt": "Santa Helena, Ascensão e Tristão da Cunha"
+  },
+  {
+    "iso_a2": "KN",
+    "iso_a3": "KNA",
+    "iso_numeric": "659",
+    "name_en": "Saint Kitts and Nevis",
+    "name_pt": "São Cristóvão e Nevis"
+  },
+  {
+    "iso_a2": "LC",
+    "iso_a3": "LCA",
+    "iso_numeric": "662",
+    "name_en": "Saint Lucia",
+    "name_pt": "Santa Lúcia"
+  },
+  {
+    "iso_a2": "MF",
+    "iso_a3": "MAF",
+    "iso_numeric": "663",
+    "name_en": "Saint Martin",
+    "name_pt": "São Martinho"
+  },
+  {
+    "iso_a2": "PM",
+    "iso_a3": "SPM",
+    "iso_numeric": "666",
+    "name_en": "Saint Pierre and Miquelon",
+    "name_pt": "Saint-Pierre e Miquelon"
+  },
+  {
+    "iso_a2": "VC",
+    "iso_a3": "VCT",
+    "iso_numeric": "670",
+    "name_en": "Saint Vincent and the Grenadines",
+    "name_pt": "São Vincente e Granadinas"
+  },
+  {
+    "iso_a2": "WS",
+    "iso_a3": "WSM",
+    "iso_numeric": "882",
+    "name_en": "Samoa",
+    "name_pt": "Samoa"
+  },
+  {
+    "iso_a2": "SM",
+    "iso_a3": "SMR",
+    "iso_numeric": "674",
+    "name_en": "San Marino",
+    "name_pt": "San Marino"
+  },
+  {
+    "iso_a2": "SA",
+    "iso_a3": "SAU",
+    "iso_numeric": "682",
+    "name_en": "Saudi Arabia",
+    "name_pt": "Arábia Saudita"
+  },
+  {
+    "iso_a2": "SN",
+    "iso_a3": "SEN",
+    "iso_numeric": "686",
+    "name_en": "Senegal",
+    "name_pt": "Senegal"
+  },
+  {
+    "iso_a2": "RS",
+    "iso_a3": "SRB",
+    "iso_numeric": "688",
+    "name_en": "Serbia",
+    "name_pt": "Sérvia"
+  },
+  {
+    "iso_a2": "SC",
+    "iso_a3": "SYC",
+    "iso_numeric": "690",
+    "name_en": "Seychelles",
+    "name_pt": "Seicheles"
+  },
+  {
+    "iso_a2": "SL",
+    "iso_a3": "SLE",
+    "iso_numeric": "694",
+    "name_en": "Sierra Leone",
+    "name_pt": "Serra Leoa"
+  },
+  {
+    "iso_a2": "SG",
+    "iso_a3": "SGP",
+    "iso_numeric": "702",
+    "name_en": "Singapore",
+    "name_pt": "Singapura"
+  },
+  {
+    "iso_a2": "SX",
+    "iso_a3": "SXM",
+    "iso_numeric": "534",
+    "name_en": "Sint Maarten",
+    "name_pt": "São Martinho"
+  },
+  {
+    "iso_a2": "SK",
+    "iso_a3": "SVK",
+    "iso_numeric": "703",
+    "name_en": "Slovakia",
+    "name_pt": "Eslováquia"
+  },
+  {
+    "iso_a2": "SI",
+    "iso_a3": "SVN",
+    "iso_numeric": "705",
+    "name_en": "Slovenia",
+    "name_pt": "Eslovénia"
+  },
+  {
+    "iso_a2": "SB",
+    "iso_a3": "SLB",
+    "iso_numeric": "090",
+    "name_en": "Solomon Islands",
+    "name_pt": "Ilhas Salomão"
+  },
+  {
+    "iso_a2": "SO",
+    "iso_a3": "SOM",
+    "iso_numeric": "706",
+    "name_en": "Somalia",
+    "name_pt": "Somália"
+  },
+  {
+    "iso_a2": "ZA",
+    "iso_a3": "ZAF",
+    "iso_numeric": "710",
+    "name_en": "South Africa",
+    "name_pt": "África do Sul"
+  },
+  {
+    "iso_a2": "GS",
+    "iso_a3": "SGS",
+    "iso_numeric": "239",
+    "name_en": "South Georgia",
+    "name_pt": "Ilhas Geórgia do Sul e Sandwich do Sul"
+  },
+  {
+    "iso_a2": "KR",
+    "iso_a3": "KOR",
+    "iso_numeric": "410",
+    "name_en": "South Korea",
+    "name_pt": "Coreia do Sul"
+  },
+  {
+    "iso_a2": "SS",
+    "iso_a3": "SSD",
+    "iso_numeric": "728",
+    "name_en": "South Sudan",
+    "name_pt": "Sudão do Sul"
+  },
+  {
+    "iso_a2": "ES",
+    "iso_a3": "ESP",
+    "iso_numeric": "724",
+    "name_en": "Spain",
+    "name_pt": "Espanha"
+  },
+  {
+    "iso_a2": "LK",
+    "iso_a3": "LKA",
+    "iso_numeric": "144",
+    "name_en": "Sri Lanka",
+    "name_pt": "Sri Lanka"
+  },
+  {
+    "iso_a2": "SD",
+    "iso_a3": "SDN",
+    "iso_numeric": "729",
+    "name_en": "Sudan",
+    "name_pt": "Sudão"
+  },
+  {
+    "iso_a2": "SR",
+    "iso_a3": "SUR",
+    "iso_numeric": "740",
+    "name_en": "Suriname",
+    "name_pt": "Suriname"
+  },
+  {
+    "iso_a2": "SJ",
+    "iso_a3": "SJM",
+    "iso_numeric": "744",
+    "name_en": "Svalbard and Jan Mayen",
+    "name_pt": "Ilhas Svalbard e Jan Mayen"
+  },
+  {
+    "iso_a2": "SE",
+    "iso_a3": "SWE",
+    "iso_numeric": "752",
+    "name_en": "Sweden",
+    "name_pt": "Suécia"
+  },
+  {
+    "iso_a2": "CH",
+    "iso_a3": "CHE",
+    "iso_numeric": "756",
+    "name_en": "Switzerland",
+    "name_pt": "Suíça"
+  },
+  {
+    "iso_a2": "SY",
+    "iso_a3": "SYR",
+    "iso_numeric": "760",
+    "name_en": "Syria",
+    "name_pt": "Síria"
+  },
+  {
+    "iso_a2": "ST",
+    "iso_a3": "STP",
+    "iso_numeric": "678",
+    "name_en": "São Tomé and Príncipe",
+    "name_pt": "São Tomé e Príncipe"
+  },
+  {
+    "iso_a2": "TW",
+    "iso_a3": "TWN",
+    "iso_numeric": "158",
+    "name_en": "Taiwan",
+    "name_pt": "Ilha Formosa"
+  },
+  {
+    "iso_a2": "TJ",
+    "iso_a3": "TJK",
+    "iso_numeric": "762",
+    "name_en": "Tajikistan",
+    "name_pt": "Tajiquistão"
+  },
+  {
+    "iso_a2": "TZ",
+    "iso_a3": "TZA",
+    "iso_numeric": "834",
+    "name_en": "Tanzania",
+    "name_pt": "Tanzânia"
+  },
+  {
+    "iso_a2": "TH",
+    "iso_a3": "THA",
+    "iso_numeric": "764",
+    "name_en": "Thailand",
+    "name_pt": "Tailândia"
+  },
+  {
+    "iso_a2": "TL",
+    "iso_a3": "TLS",
+    "iso_numeric": "626",
+    "name_en": "Timor-Leste",
+    "name_pt": "Timor-Leste"
+  },
+  {
+    "iso_a2": "TG",
+    "iso_a3": "TGO",
+    "iso_numeric": "768",
+    "name_en": "Togo",
+    "name_pt": "Togo"
+  },
+  {
+    "iso_a2": "TK",
+    "iso_a3": "TKL",
+    "iso_numeric": "772",
+    "name_en": "Tokelau",
+    "name_pt": "Tokelau"
+  },
+  {
+    "iso_a2": "TO",
+    "iso_a3": "TON",
+    "iso_numeric": "776",
+    "name_en": "Tonga",
+    "name_pt": "Tonga"
+  },
+  {
+    "iso_a2": "TT",
+    "iso_a3": "TTO",
+    "iso_numeric": "780",
+    "name_en": "Trinidad and Tobago",
+    "name_pt": "Trinidade e Tobago"
+  },
+  {
+    "iso_a2": "TN",
+    "iso_a3": "TUN",
+    "iso_numeric": "788",
+    "name_en": "Tunisia",
+    "name_pt": "Tunísia"
+  },
+  {
+    "iso_a2": "TR",
+    "iso_a3": "TUR",
+    "iso_numeric": "792",
+    "name_en": "Turkey",
+    "name_pt": "Turquia"
+  },
+  {
+    "iso_a2": "TM",
+    "iso_a3": "TKM",
+    "iso_numeric": "795",
+    "name_en": "Turkmenistan",
+    "name_pt": "Turquemenistão"
+  },
+  {
+    "iso_a2": "TC",
+    "iso_a3": "TCA",
+    "iso_numeric": "796",
+    "name_en": "Turks and Caicos Islands",
+    "name_pt": "Ilhas Turks e Caicos"
+  },
+  {
+    "iso_a2": "TV",
+    "iso_a3": "TUV",
+    "iso_numeric": "798",
+    "name_en": "Tuvalu",
+    "name_pt": "Tuvalu"
+  },
+  {
+    "iso_a2": "UG",
+    "iso_a3": "UGA",
+    "iso_numeric": "800",
+    "name_en": "Uganda",
+    "name_pt": "Uganda"
+  },
+  {
+    "iso_a2": "UA",
+    "iso_a3": "UKR",
+    "iso_numeric": "804",
+    "name_en": "Ukraine",
+    "name_pt": "Ucrânia"
+  },
+  {
+    "iso_a2": "AE",
+    "iso_a3": "ARE",
+    "iso_numeric": "784",
+    "name_en": "United Arab Emirates",
+    "name_pt": "Emirados Árabes Unidos"
+  },
+  {
+    "iso_a2": "GB",
+    "iso_a3": "GBR",
+    "iso_numeric": "826",
+    "name_en": "United Kingdom",
+    "name_pt": "Reino Unido"
+  },
+  {
+    "iso_a2": "US",
+    "iso_a3": "USA",
+    "iso_numeric": "840",
+    "name_en": "United States",
+    "name_pt": "Estados Unidos"
+  },
+  {
+    "iso_a2": "UM",
+    "iso_a3": "UMI",
+    "iso_numeric": "581",
+    "name_en": "United States Minor Outlying Islands",
+    "name_pt": "Ilhas Menores Distantes dos Estados Unidos"
+  },
+  {
+    "iso_a2": "VI",
+    "iso_a3": "VIR",
+    "iso_numeric": "850",
+    "name_en": "United States Virgin Islands",
+    "name_pt": "Ilhas Virgens dos Estados Unidos"
+  },
+  {
+    "iso_a2": "UY",
+    "iso_a3": "URY",
+    "iso_numeric": "858",
+    "name_en": "Uruguay",
+    "name_pt": "Uruguai"
+  },
+  {
+    "iso_a2": "UZ",
+    "iso_a3": "UZB",
+    "iso_numeric": "860",
+    "name_en": "Uzbekistan",
+    "name_pt": "Uzbequistão"
+  },
+  {
+    "iso_a2": "VU",
+    "iso_a3": "VUT",
+    "iso_numeric": "548",
+    "name_en": "Vanuatu",
+    "name_pt": "Vanuatu"
+  },
+  {
+    "iso_a2": "VA",
+    "iso_a3": "VAT",
+    "iso_numeric": "336",
+    "name_en": "Vatican City",
+    "name_pt": "Cidade do Vaticano"
+  },
+  {
+    "iso_a2": "VE",
+    "iso_a3": "VEN",
+    "iso_numeric": "862",
+    "name_en": "Venezuela",
+    "name_pt": "Venezuela"
+  },
+  {
+    "iso_a2": "VN",
+    "iso_a3": "VNM",
+    "iso_numeric": "704",
+    "name_en": "Vietnam",
+    "name_pt": "Vietname"
+  },
+  {
+    "iso_a2": "WF",
+    "iso_a3": "WLF",
+    "iso_numeric": "876",
+    "name_en": "Wallis and Futuna",
+    "name_pt": "Wallis e Futuna"
+  },
+  {
+    "iso_a2": "EH",
+    "iso_a3": "ESH",
+    "iso_numeric": "732",
+    "name_en": "Western Sahara",
+    "name_pt": "Saara Ocidental"
+  },
+  {
+    "iso_a2": "YE",
+    "iso_a3": "YEM",
+    "iso_numeric": "887",
+    "name_en": "Yemen",
+    "name_pt": "Iémen"
+  },
+  {
+    "iso_a2": "ZM",
+    "iso_a3": "ZMB",
+    "iso_numeric": "894",
+    "name_en": "Zambia",
+    "name_pt": "Zâmbia"
+  },
+  {
+    "iso_a2": "ZW",
+    "iso_a3": "ZWE",
+    "iso_numeric": "716",
+    "name_en": "Zimbabwe",
+    "name_pt": "Zimbabwe"
+  },
+  {
+    "iso_a2": "AX",
+    "iso_a3": "ALA",
+    "iso_numeric": "248",
+    "name_en": "Åland Islands",
+    "name_pt": "Alândia"
+  }
+]

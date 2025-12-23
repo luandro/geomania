@@ -168,7 +168,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
 
         <div className="mb-6 sm:mb-8 slide-up" style={{ animationDelay: '0.3s' }}>
           <h3 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4 text-foreground">{t.questionReview}</h3>
-          <div className="space-y-2 max-h-56 sm:max-h-64 overflow-y-auto">
+          <div className="space-y-2">
             {renderQuestionReview()}
           </div>
         </div>

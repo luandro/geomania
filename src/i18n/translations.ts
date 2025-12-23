@@ -93,6 +93,9 @@ export interface Translations {
   feedbackButton: string;
   feedbackEmail: string;
   feedbackSubject: string;
+  copyEmail: string;
+  emailCopied: string;
+  openMailApp: string;
   
   // Results
   perfectScore: string;
@@ -343,6 +346,9 @@ export const translations: Record<SupportedLanguage, Translations> = {
     feedbackButton: 'Enviar feedback',
     feedbackEmail: DEFAULT_FEEDBACK_EMAIL,
     feedbackSubject: 'Feedback do GeoMania',
+    copyEmail: 'Copiar e-mail',
+    emailCopied: 'E-mail copiado!',
+    openMailApp: 'Abrir App de Email',
     
     // Results
     perfectScore: 'Pontuação Perfeita!',

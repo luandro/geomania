@@ -2,6 +2,8 @@ import type { ReactNode } from 'react';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/i18n/use-language';
+import { Copy, Mail } from 'lucide-react';
+import { toast } from 'sonner';
 
 interface HelpDialogProps {
   trigger: ReactNode;
@@ -10,6 +12,11 @@ interface HelpDialogProps {
 export const HelpDialog = ({ trigger }: HelpDialogProps) => {
   const { t } = useLanguage();
   const mailto = `mailto:${t.feedbackEmail}?subject=${encodeURIComponent(t.feedbackSubject)}`;
+
+  const handleCopyEmail = () => {
+    navigator.clipboard.writeText(t.feedbackEmail);
+    toast.success(t.emailCopied);
+  };
 
   return (
     <Dialog>
@@ -43,9 +50,16 @@ export const HelpDialog = ({ trigger }: HelpDialogProps) => {
           <div className="rounded-lg border border-primary/20 bg-muted/40 p-3">
             <h4 className="text-sm font-semibold text-foreground">{t.helpFeedbackTitle}</h4>
             <p className="mt-2 text-muted-foreground">{t.helpFeedbackBody}</p>
-            <div className="mt-3">
-              <Button asChild variant="hero" size="sm">
-                <a href={mailto}>{t.feedbackButton}</a>
+            <div className="mt-3 flex flex-wrap gap-2">
+              <Button onClick={handleCopyEmail} variant="hero" size="sm">
+                <Copy className="mr-2 h-4 w-4" />
+                {t.copyEmail}
+              </Button>
+              <Button asChild variant="outline" size="sm">
+                <a href={mailto}>
+                  <Mail className="mr-2 h-4 w-4" />
+                  {t.openMailApp}
+                </a>
               </Button>
             </div>
           </div>

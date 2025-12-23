@@ -85,6 +85,7 @@ export interface Translations {
   seeResults: string;
   playAgain: string;
   chooseMode: string;
+  retry: string;
   autoAdvancing: string;
   autoAdvanceLabel: string;
   dismiss: string;
@@ -272,6 +273,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
     seeResults: 'See Results',
     playAgain: 'Play Again',
     chooseMode: 'Choose Mode',
+    retry: 'Retry',
     autoAdvancing: 'Auto-advancing...',
     autoAdvanceLabel: 'Auto-advance',
     dismiss: 'Got it',
@@ -455,6 +457,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
     seeResults: 'Ver Resultados',
     playAgain: 'Jogar Novamente',
     chooseMode: 'Escolher Modo',
+    retry: 'Tentar novamente',
     autoAdvancing: 'Avançando automaticamente...',
     autoAdvanceLabel: 'Avanço automático',
     dismiss: 'Entendi',

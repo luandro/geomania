@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { Trophy } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -33,6 +33,8 @@ const Scoreboards = () => {
   const [status, setStatus] = useState<'loading' | 'loaded' | 'offline' | 'empty' | 'error' | 'stale'>('loading');
   const [fetchedAt, setFetchedAt] = useState<string | null>(null);
   const [endpointReachable, setEndpointReachable] = useState(true);
+  const [reloadToken, setReloadToken] = useState(0);
+  const skipDebounceRef = useRef(false);
 
   useEffect(() => {
     setActiveMode(initialMode);
@@ -48,6 +50,8 @@ const Scoreboards = () => {
 
   useEffect(() => {
     let cancelled = false;
+    const debounceDelay = skipDebounceRef.current ? 0 : 200;
+    skipDebounceRef.current = false;
 
     const load = async () => {
       const cached = readCachedLeaderboard(activeMode);
@@ -98,11 +102,15 @@ const Scoreboards = () => {
       }
     };
 
-    load();
+    const timerId = window.setTimeout(() => {
+      load();
+    }, debounceDelay);
+
     return () => {
       cancelled = true;
+      window.clearTimeout(timerId);
     };
-  }, [activeMode]);
+  }, [activeMode, reloadToken]);
 
   const modeTabs = useMemo(
     () => [
@@ -166,7 +174,19 @@ const Scoreboards = () => {
               <div className="py-10 text-center text-sm tracking-widest">{t.loadingScoreboards}</div>
             )}
             {status === 'error' && (
-              <div className="py-10 text-center text-sm tracking-widest">{t.scoreboardsError}</div>
+              <div className="py-10 text-center text-sm tracking-widest space-y-4">
+                <p>{t.scoreboardsError}</p>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => {
+                    skipDebounceRef.current = true;
+                    setReloadToken((prev) => prev + 1);
+                  }}
+                >
+                  {t.retry}
+                </Button>
+              </div>
             )}
             {status === 'empty' && !endpointReachable && (
               <div className="py-10 text-center text-sm tracking-widest">{t.scoreboardsEmptyOffline}</div>

@@ -1,6 +1,7 @@
 import { useState, useCallback } from 'react';
 import { Country, GameMode, QuizQuestion, QuizSession, Difficulty } from '@/types/quiz';
 import { toast } from '@/hooks/use-toast';
+import { FLAG_MODE_EXCLUDED_COUNTRY_IDS } from '@/data/flagConflicts';
 
 const OPTIONS_COUNT = 4;
 
@@ -69,11 +70,15 @@ function generateQuestions(allCountries: Country[], mode: GameMode, difficulty: 
     if (pool.length < minPoolSize) pool = allCountries; // Ultimate fallback
   }
 
-  const validCountries = mode === 'population'
+  let validCountries = mode === 'population'
     ? pool.filter(c => c.population > 0)
     : mode === 'capital'
       ? pool.filter(c => c.capital && c.capital.trim().length > 0)
       : pool;
+
+  if (mode === 'flag' && FLAG_MODE_EXCLUDED_COUNTRY_IDS.size) {
+    validCountries = validCountries.filter((c) => !FLAG_MODE_EXCLUDED_COUNTRY_IDS.has(c.id));
+  }
 
   // Final check
   if (validCountries.length < 2) return [];

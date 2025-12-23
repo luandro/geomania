@@ -11,7 +11,9 @@
     "typecheck": "tsc --noEmit",
     "preview": "vite preview",
     "fetch:flags": "node --import tsx scripts/fetch-flags.ts",
+    "generate:flag-conflicts": "node --import tsx scripts/generate-flag-conflicts.ts --write",
     "update:countries": "node --import tsx scripts/update-countries-data.ts",
+    "verify:flag-conflicts": "node --import tsx scripts/generate-flag-conflicts.ts --check",
     "verify:public-flags": "node --import tsx scripts/verify-flags-dir.ts --dir public/flags",
     "verify:dist-flags": "node --import tsx scripts/verify-flags-dir.ts --dir dist/flags",
     "prepare": "husky"

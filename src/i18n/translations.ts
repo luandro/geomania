@@ -74,6 +74,25 @@ export interface Translations {
   playAgain: string;
   chooseMode: string;
   autoAdvancing: string;
+  autoAdvanceLabel: string;
+
+  // Help & feedback
+  help: string;
+  helpTitle: string;
+  helpDescription: string;
+  helpBasicsTitle: string;
+  helpBasicsItem1: string;
+  helpBasicsItem2: string;
+  helpBasicsItem3: string;
+  helpDifficultyTitle: string;
+  helpDifficultyBody: string;
+  helpAccessibilityTitle: string;
+  helpAccessibilityBody: string;
+  helpFeedbackTitle: string;
+  helpFeedbackBody: string;
+  feedbackButton: string;
+  feedbackEmail: string;
+  feedbackSubject: string;
   
   // Results
   perfectScore: string;
@@ -127,7 +146,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
     welcome: 'Welcome to',
     welcomeHighlight: 'GeoMania',
     landingDescription: 'Test your geography knowledge! Identify flags, capitals, and compare populations from {count} countries around the world.',
-    quizInfo: 'Each quiz has 10 questions. Good luck! 🌍',
+    quizInfo: 'Question count scales with difficulty: Easy 8, Medium 10, Hard 12, Super Hard 15, God Mode 20.',
     selectDifficulty: 'Select Difficulty',
     difficultyDescription: 'Choose your challenge level',
     
@@ -173,6 +192,25 @@ export const translations: Record<SupportedLanguage, Translations> = {
     playAgain: 'Play Again',
     chooseMode: 'Choose Mode',
     autoAdvancing: 'Auto-advancing...',
+    autoAdvanceLabel: 'Auto-advance',
+
+    // Help & feedback
+    help: 'Help',
+    helpTitle: 'How to Play',
+    helpDescription: 'Quick rules and accessibility tips.',
+    helpBasicsTitle: 'Basics',
+    helpBasicsItem1: 'Pick a mode, then choose a difficulty.',
+    helpBasicsItem2: 'Answer each question; you get 1 point for every correct answer.',
+    helpBasicsItem3: 'Your progress is shown in the top bar.',
+    helpDifficultyTitle: 'Question counts',
+    helpDifficultyBody: 'Easy 8 · Medium 10 · Hard 12 · Super Hard 15 · God Mode 20.',
+    helpAccessibilityTitle: 'Accessibility',
+    helpAccessibilityBody: 'Use Tab/Shift+Tab to move, Enter/Space to select. Toggle auto-advance off if you want more time.',
+    helpFeedbackTitle: 'Feedback',
+    helpFeedbackBody: 'Found a bug or have an idea? Send us a note.',
+    feedbackButton: 'Send feedback',
+    feedbackEmail: 'hello@geomania.lol',
+    feedbackSubject: 'GeoMania feedback',
     
     // Results
     perfectScore: 'Perfect Score!',
@@ -224,7 +262,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
     welcome: 'Bem-vindo ao',
     welcomeHighlight: 'GeoMania',
     landingDescription: 'Teste seus conhecimentos de geografia! Identifique bandeiras, capitais e compare populações de {count} países ao redor do mundo.',
-    quizInfo: 'Cada quiz tem 10 perguntas. Boa sorte! 🌍',
+    quizInfo: 'O número de perguntas varia conforme a dificuldade: Fácil 8, Médio 10, Difícil 12, Super Difícil 15, Modo Deus 20.',
     selectDifficulty: 'Selecione a Dificuldade',
     difficultyDescription: 'Escolha o seu nível de desafio',
 
@@ -270,6 +308,25 @@ export const translations: Record<SupportedLanguage, Translations> = {
     playAgain: 'Jogar Novamente',
     chooseMode: 'Escolher Modo',
     autoAdvancing: 'Avançando automaticamente...',
+    autoAdvanceLabel: 'Avanço automático',
+
+    // Help & feedback
+    help: 'Ajuda',
+    helpTitle: 'Como jogar',
+    helpDescription: 'Regras rápidas e dicas de acessibilidade.',
+    helpBasicsTitle: 'Básico',
+    helpBasicsItem1: 'Escolha um modo e depois a dificuldade.',
+    helpBasicsItem2: 'Cada resposta correta vale 1 ponto.',
+    helpBasicsItem3: 'Seu progresso aparece no topo.',
+    helpDifficultyTitle: 'Número de perguntas',
+    helpDifficultyBody: 'Fácil 8 · Médio 10 · Difícil 12 · Super Difícil 15 · Modo Deus 20.',
+    helpAccessibilityTitle: 'Acessibilidade',
+    helpAccessibilityBody: 'Use Tab/Shift+Tab para navegar e Enter/Espaço para selecionar. Desative o avanço automático se precisar de mais tempo.',
+    helpFeedbackTitle: 'Feedback',
+    helpFeedbackBody: 'Encontrou um bug ou tem uma ideia? Mande uma mensagem.',
+    feedbackButton: 'Enviar feedback',
+    feedbackEmail: 'hello@geomania.lol',
+    feedbackSubject: 'Feedback do GeoMania',
     
     // Results
     perfectScore: 'Pontuação Perfeita!',

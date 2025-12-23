@@ -459,6 +459,92 @@
     background: hsl(var(--primary));
     color: hsl(var(--primary-foreground));
   }
+
+  .map-immersive .leaflet-control-container {
+    pointer-events: none;
+  }
+
+  .map-immersive .map-side-controls {
+    top: 50%;
+    transform: translateY(calc(-50% - 104px));
+    align-items: stretch;
+  }
+
+  .map-immersive .leaflet-top.leaflet-right {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 12px;
+  }
+
+  .map-immersive .leaflet-control-zoom {
+    pointer-events: auto;
+    display: grid;
+    gap: 10px;
+    padding: 12px;
+    margin: 0;
+    border-radius: 28px;
+    background:
+      radial-gradient(circle at 20% 20%, hsl(var(--card)) 0%, transparent 55%),
+      linear-gradient(160deg, hsl(var(--secondary) / 0.25), hsl(var(--accent) / 0.2));
+    border: 1px solid hsl(var(--primary) / 0.35);
+    backdrop-filter: blur(10px);
+    box-shadow:
+      0 18px 32px rgba(0, 0, 0, 0.28),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  }
+
+  .map-immersive .leaflet-control-zoom a {
+    width: 48px;
+    height: 48px;
+    line-height: 46px;
+    font-size: 22px;
+    border-radius: 18px;
+    background:
+      radial-gradient(circle at 30% 30%, hsl(var(--card)) 0%, hsl(var(--muted)) 75%);
+    border: 1px solid hsl(var(--primary) / 0.35);
+    color: hsl(var(--secondary));
+    box-shadow:
+      0 12px 18px rgba(0, 0, 0, 0.22),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+    transition: transform 150ms ease, box-shadow 150ms ease, background 150ms ease, color 150ms ease;
+  }
+
+  .map-immersive .leaflet-control-zoom a:hover {
+    transform: translateY(-2px);
+    background: hsl(var(--primary));
+    color: hsl(var(--primary-foreground));
+    box-shadow:
+      0 16px 24px rgba(0, 0, 0, 0.28),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+  }
+
+  .map-immersive .leaflet-control-zoom a:active {
+    transform: translateY(1px);
+  }
+
+  @media (min-width: 640px) {
+    .map-immersive .map-side-controls {
+      transform: translateY(calc(-50% - 124px));
+    }
+
+    .map-immersive .leaflet-top.leaflet-right {
+      right: 18px;
+    }
+
+    .map-immersive .leaflet-control-zoom a {
+      width: 56px;
+      height: 56px;
+      line-height: 54px;
+      font-size: 24px;
+      border-radius: 20px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .map-immersive .map-side-controls {
+      transform: translateY(calc(-50% - 140px));
+    }
+  }
 }
 
 @keyframes shrink {

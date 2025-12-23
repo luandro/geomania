@@ -215,17 +215,24 @@ const Index = () => {
 
   // Show quiz question
   if (session && currentQuestion) {
+    const isMapSession = session.gameMode === 'map_country' || session.gameMode === 'map_capital';
     return (
-      <div className="min-h-screen bg-background flex flex-col">
-        <QuizHeader
-          gameMode={session.gameMode}
-          currentQuestion={session.currentQuestionIndex}
-          totalQuestions={session.totalQuestions}
-          score={session.score}
-          onBack={handleReset}
-          showBackButton
-        />
-        <main className="flex-1 flex items-center justify-center p-3 sm:p-6">
+      <div className={`min-h-[100dvh] bg-background flex flex-col ${isMapSession ? 'relative overflow-hidden' : ''}`}>
+        <div className={isMapSession ? 'absolute inset-x-0 top-0 z-[500]' : undefined}>
+          <QuizHeader
+            gameMode={session.gameMode}
+            currentQuestion={session.currentQuestionIndex}
+            totalQuestions={session.totalQuestions}
+            score={session.score}
+            onBack={handleReset}
+            showBackButton
+          />
+        </div>
+        <main
+          className={`flex-1 flex ${
+            isMapSession ? 'p-0 min-h-[100dvh] items-stretch justify-stretch' : 'items-center justify-center p-3 sm:p-6'
+          }`}
+        >
           {session.gameMode === 'flag' && (
             <FlagQuestion
               key={currentQuestion.id}
@@ -354,7 +361,7 @@ const Index = () => {
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 justify-items-center slide-up px-2" style={{ animationDelay: '0.2s' }}>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6 justify-items-center slide-up px-2" style={{ animationDelay: '0.2s' }}>
                 {gameModes.map((config, index) => {
                   const letterOffset = gameModes.slice(0, index).reduce((acc, mode) => acc + mode.title.length, 0);
                   return (

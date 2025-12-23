@@ -15,6 +15,8 @@ interface ResultsScreenProps {
 export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenProps) => {
   const { t, language } = useLanguage();
   const percentage = Math.round((session.score / session.totalQuestions) * 100);
+  const performanceImage = percentage >= 60 ? '/kuromi_celebrate.png' : '/kuromi_sad.png';
+  const performanceImageAlt = percentage >= 60 ? 'Kuromi celebrate' : 'Kuromi sad';
 
   const gameModeLabels: Record<GameMode, string> = {
     flag: t.gameModes.flag,
@@ -25,11 +27,11 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
   };
   
   const getPerformanceMessage = () => {
-    if (percentage === 100) return { emoji: '🏆', message: t.perfectScore, color: 'text-accent' };
-    if (percentage >= 80) return { emoji: '🌟', message: t.excellent, color: 'text-success' };
-    if (percentage >= 60) return { emoji: '👍', message: t.goodJob, color: 'text-primary' };
-    if (percentage >= 40) return { emoji: '📚', message: t.keepLearning, color: 'text-muted-foreground' };
-    return { emoji: '💪', message: t.keepPracticing, color: 'text-muted-foreground' };
+    if (percentage === 100) return { message: t.perfectScore, color: 'text-accent' };
+    if (percentage >= 80) return { message: t.excellent, color: 'text-success' };
+    if (percentage >= 60) return { message: t.goodJob, color: 'text-primary' };
+    if (percentage >= 40) return { message: t.keepLearning, color: 'text-muted-foreground' };
+    return { message: t.keepPracticing, color: 'text-muted-foreground' };
   };
 
   const performance = getPerformanceMessage();
@@ -141,7 +143,12 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
     <div className="w-full max-w-2xl mx-auto text-center fade-in px-2">
       <div className="bg-card rounded-2xl p-4 sm:p-8 quiz-card-shadow kuromi-spotlight">
         <div className="bounce-in">
-          <span className="text-5xl sm:text-6xl mb-4 block">{performance.emoji}</span>
+          <img
+            src={getAssetUrl(performanceImage)}
+            alt={performanceImageAlt}
+            className="mx-auto mb-4 h-24 w-24 sm:h-28 sm:w-28 object-contain drop-shadow-lg"
+            loading="eager"
+          />
           <h2 className={`text-2xl sm:text-3xl font-extrabold mb-2 ${performance.color}`}>
             {performance.message}
           </h2>

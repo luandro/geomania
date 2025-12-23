@@ -258,7 +258,7 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
       preferCanvas: true,
     });
 
-    L.control.zoom({ position: 'bottomright' }).addTo(map);
+    L.control.zoom({ position: 'topright' }).addTo(map);
     map.fitBounds(worldBounds, { padding: [16, 16] });
 
     const geoLayer = L.geoJSON(mapData.geoJson, {
@@ -320,84 +320,107 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
   }
 
   return (
-    <div className="w-full max-w-5xl mx-auto fade-in px-2">
-      <div className="mb-4 sm:mb-6 text-center space-y-3">
-        <h2 className="text-xl sm:text-2xl font-bold text-foreground">{t.mapTitle}</h2>
-        {question.mapPromptType === 'country' ? (
-          <div className="mx-auto inline-flex items-center gap-3 rounded-full border border-primary/20 bg-card px-4 py-2 shadow-sm">
-            <img
-              src={getAssetUrl(question.correctAnswer.flag_url)}
-              alt={countryName}
-              className="h-6 w-10 object-contain rounded-sm"
-              loading="eager"
-            />
-            <span className="text-sm sm:text-base font-semibold text-foreground">{countryName}</span>
-          </div>
-        ) : (
-          <div className="mx-auto inline-flex items-center gap-3 rounded-full border border-primary/20 bg-card px-4 py-2 shadow-sm">
-            <span className="text-[10px] sm:text-xs uppercase tracking-wide text-muted-foreground">
-              {t.mapCapitalLabel}
-            </span>
-            <span className="text-base sm:text-lg font-bold text-foreground">{capitalName}</span>
-          </div>
-        )}
-      </div>
+    <div className="map-immersive relative w-full h-[100dvh] min-h-[100dvh] fade-in overflow-hidden">
+      <div ref={mapContainerRef} className="absolute inset-0" />
 
-      <div className="relative rounded-3xl overflow-hidden border border-primary/20 bg-muted/30 shadow-lg">
-        <div ref={mapContainerRef} className="h-[50vh] sm:h-[55vh] md:h-[60vh]" />
+      <div className="absolute inset-0 z-[400] flex flex-col pointer-events-none">
+        <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-background/80 via-background/20 to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-background/85 via-background/30 to-transparent" />
 
-        <div className="absolute top-3 right-3 flex flex-col gap-2 z-[400]">
-          <Button variant="outline" size="sm" onClick={recenterWorld}>
+        <div className="pointer-events-auto mx-auto flex w-full max-w-[92vw] flex-col items-center gap-2 px-3 pt-[calc(env(safe-area-inset-top)+3.5rem)] sm:max-w-xl sm:px-6 sm:pt-[calc(env(safe-area-inset-top)+4.5rem)] lg:mt-6">
+          <div className="rounded-2xl border border-primary/30 bg-card/90 px-4 py-3 text-center shadow-xl backdrop-blur">
+            <p className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-muted-foreground">
+              {t.mapTitle}
+            </p>
+            <div className="mt-2 flex flex-col items-center gap-2">
+              {question.mapPromptType === 'country' ? (
+                <div className="inline-flex items-center gap-3 rounded-full border border-primary/30 bg-background/85 px-4 py-2 shadow-sm">
+                  <img
+                    src={getAssetUrl(question.correctAnswer.flag_url)}
+                    alt={countryName}
+                    className="h-6 w-10 object-contain rounded-sm"
+                    loading="eager"
+                  />
+                  <span className="text-sm sm:text-base font-semibold text-foreground">{countryName}</span>
+                </div>
+              ) : (
+                <div className="inline-flex items-center gap-3 rounded-full border border-primary/30 bg-background/85 px-4 py-2 shadow-sm">
+                  <span className="text-[10px] sm:text-xs uppercase tracking-wide text-muted-foreground">
+                    {t.mapCapitalLabel}
+                  </span>
+                  <span className="text-base sm:text-lg font-bold text-foreground">{capitalName}</span>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {answered && (
+            <div className="rounded-full border border-primary/20 bg-background/90 px-4 py-2 shadow-lg backdrop-blur bounce-in">
+              <p className={`text-sm sm:text-base font-semibold ${isCorrect ? 'text-success' : 'text-destructive'}`}>
+                {isCorrect ? t.correct : `${t.incorrect} ${t.wrongAnswer.replace('{answer}', countryName)}`}
+              </p>
+            </div>
+          )}
+        </div>
+
+        <div className="map-side-controls pointer-events-auto absolute right-3 sm:right-[18px] flex flex-col gap-2">
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={recenterWorld}
+            className="bg-background/90 backdrop-blur border-primary/30 shadow-lg text-xs sm:text-sm"
+          >
             {t.mapRecenter}
           </Button>
           {selectedIso && (
-            <Button variant="outline" size="sm" onClick={() => zoomToSelection(selectedIso)}>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => zoomToSelection(selectedIso)}
+              className="bg-background/90 backdrop-blur border-primary/30 shadow-lg text-xs sm:text-sm"
+            >
               {t.mapZoomToSelection}
             </Button>
           )}
         </div>
 
-        {showHint && (
-          <div className="absolute bottom-3 left-3 right-3 z-[400] flex items-center justify-between gap-2 rounded-2xl bg-background/90 border border-primary/20 px-4 py-2 text-xs sm:text-sm text-muted-foreground shadow-md">
-            <span>{t.mapHint}</span>
-            <button
-              className="text-primary font-semibold"
-              onClick={() => {
-                try {
-                  window.localStorage.setItem(HINT_STORAGE_KEY, 'true');
-                } catch {
-                  // Ignore storage errors
-                }
-                setShowHint(false);
-              }}
-            >
-              {t.dismiss}
-            </button>
+        <div className="pointer-events-auto mt-auto flex flex-col gap-3 px-3 pb-[calc(env(safe-area-inset-bottom)+0.75rem)] sm:px-6 sm:pb-6">
+          {showHint && (
+            <div className="flex items-center justify-between gap-2 rounded-2xl border border-primary/20 bg-background/90 px-4 py-2 text-xs sm:text-sm text-muted-foreground shadow-md backdrop-blur">
+              <span>{t.mapHint}</span>
+              <button
+                className="text-primary font-semibold"
+                onClick={() => {
+                  try {
+                    window.localStorage.setItem(HINT_STORAGE_KEY, 'true');
+                  } catch {
+                    // Ignore storage errors
+                  }
+                  setShowHint(false);
+                }}
+              >
+                {t.dismiss}
+              </button>
+            </div>
+          )}
+
+          <div className="rounded-3xl border border-primary/25 bg-background/90 px-4 py-3 shadow-xl backdrop-blur">
+            <AutoAdvanceControls
+              answered={answered}
+              isLastQuestion={isLastQuestion}
+              autoAdvance={autoAdvance}
+              onToggleAutoAdvance={setAutoAdvance}
+              onNext={handleNext}
+              autoAdvanceDurationMs={autoAdvanceDelayMs}
+              disableNext={nextDisabled}
+              autoAdvancingLabel={t.autoAdvancing}
+              autoAdvanceLabel={t.autoAdvanceLabel}
+              nextLabel={t.nextQuestion}
+              resultsLabel={t.seeResults}
+            />
           </div>
-        )}
-      </div>
-
-      {answered && (
-        <div className="text-center mt-4 bounce-in">
-          <p className={`text-base sm:text-lg font-semibold ${isCorrect ? 'text-success' : 'text-destructive'}`}>
-            {isCorrect ? t.correct : `${t.incorrect} ${t.wrongAnswer.replace('{answer}', countryName)}`}
-          </p>
         </div>
-      )}
-
-      <AutoAdvanceControls
-        answered={answered}
-        isLastQuestion={isLastQuestion}
-        autoAdvance={autoAdvance}
-        onToggleAutoAdvance={setAutoAdvance}
-        onNext={handleNext}
-        autoAdvanceDurationMs={autoAdvanceDelayMs}
-        disableNext={nextDisabled}
-        autoAdvancingLabel={t.autoAdvancing}
-        autoAdvanceLabel={t.autoAdvanceLabel}
-        nextLabel={t.nextQuestion}
-        resultsLabel={t.seeResults}
-      />
+      </div>
     </div>
   );
 };

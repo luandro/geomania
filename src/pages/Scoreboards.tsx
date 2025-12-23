@@ -6,6 +6,7 @@ import { QuizHeader } from '@/components/quiz/QuizHeader';
 import { useLanguage } from '@/i18n/use-language';
 import {
   fetchLeaderboard,
+  probeLeaderboardEndpoint,
   readCachedLeaderboard,
   sortLeaderboardEntries,
   writeCachedLeaderboard,
@@ -23,7 +24,7 @@ const DIFFICULTY_BADGES: Record<string, string> = {
 const Scoreboards = () => {
   const { t } = useLanguage();
   const navigate = useNavigate();
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const modeParam = searchParams.get('mode');
   const initialMode = isLeaderboardMode(modeParam) ? modeParam : 'flag_guess';
 
@@ -31,10 +32,19 @@ const Scoreboards = () => {
   const [entries, setEntries] = useState<LeaderboardEntry[]>([]);
   const [status, setStatus] = useState<'loading' | 'loaded' | 'offline' | 'empty' | 'error' | 'stale'>('loading');
   const [fetchedAt, setFetchedAt] = useState<string | null>(null);
+  const [endpointReachable, setEndpointReachable] = useState(true);
 
   useEffect(() => {
     setActiveMode(initialMode);
   }, [initialMode]);
+
+  useEffect(() => {
+    if (!modeParam || !isLeaderboardMode(modeParam)) {
+      const nextParams = new URLSearchParams(searchParams);
+      nextParams.set('mode', initialMode);
+      setSearchParams(nextParams, { replace: true });
+    }
+  }, [initialMode, modeParam, searchParams, setSearchParams]);
 
   useEffect(() => {
     let cancelled = false;
@@ -43,6 +53,7 @@ const Scoreboards = () => {
       const cached = readCachedLeaderboard(activeMode);
 
       if (!navigator.onLine) {
+        if (!cancelled) setEndpointReachable(false);
         if (cached?.data?.length) {
           if (cancelled) return;
           setEntries(sortLeaderboardEntries(cached.data).slice(0, 10));
@@ -57,7 +68,10 @@ const Scoreboards = () => {
         return;
       }
 
-      if (!cancelled) setStatus('loading');
+      if (!cancelled) {
+        setStatus('loading');
+        setEndpointReachable(true);
+      }
 
       try {
         const data = await fetchLeaderboard(activeMode, 10);
@@ -74,10 +88,12 @@ const Scoreboards = () => {
           setFetchedAt(cached.fetchedAt);
           setStatus('stale');
         } else {
+          const reachable = await probeLeaderboardEndpoint();
           if (cancelled) return;
           setEntries([]);
           setFetchedAt(null);
-          setStatus('error');
+          setEndpointReachable(reachable);
+          setStatus(reachable ? 'error' : 'empty');
         }
       }
     };
@@ -133,7 +149,12 @@ const Scoreboards = () => {
                 key={mode.id}
                 variant={activeMode === mode.id ? 'hero' : 'outline'}
                 size="sm"
-                onClick={() => setActiveMode(mode.id)}
+                onClick={() => {
+                  setActiveMode(mode.id);
+                  const nextParams = new URLSearchParams(searchParams);
+                  nextParams.set('mode', mode.id);
+                  setSearchParams(nextParams, { replace: true });
+                }}
               >
                 {mode.label}
               </Button>
@@ -147,10 +168,10 @@ const Scoreboards = () => {
             {status === 'error' && (
               <div className="py-10 text-center text-sm tracking-widest">{t.scoreboardsError}</div>
             )}
-            {status === 'empty' && !navigator.onLine && (
+            {status === 'empty' && !endpointReachable && (
               <div className="py-10 text-center text-sm tracking-widest">{t.scoreboardsEmptyOffline}</div>
             )}
-            {status === 'empty' && navigator.onLine && (
+            {status === 'empty' && endpointReachable && (
               <div className="py-10 text-center text-sm tracking-widest">{t.scoreboardsEmpty}</div>
             )}
             {(status === 'loaded' || status === 'offline' || status === 'stale') && (

@@ -56,6 +56,24 @@ export const submitScoreToBackend = async (entry: LeaderboardEntry) => {
   }
 };
 
+export const probeLeaderboardEndpoint = async (timeoutMs = 2500) => {
+  const controller = new AbortController();
+  const timeoutId = window.setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    await fetch(LEADERBOARD_ENDPOINT, {
+      method: 'HEAD',
+      cache: 'no-store',
+      signal: controller.signal,
+    });
+    return true;
+  } catch (error) {
+    return false;
+  } finally {
+    window.clearTimeout(timeoutId);
+  }
+};
+
 export const fetchLeaderboard = async (mode: LeaderboardMode, limit = 10): Promise<LeaderboardEntry[]> => {
   const response = await fetch(buildLeaderboardUrl(mode, limit), {
     method: 'GET',

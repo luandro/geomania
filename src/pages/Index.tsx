@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useCountries } from '@/hooks/useCountries';
 import { useToast } from '@/hooks/use-toast';
 import { useQuiz } from '@/hooks/useQuiz';
@@ -23,22 +23,28 @@ const Index = () => {
   const { data: countries, isLoading: countriesLoading, error, newDataAvailable, isOfflineReady } = useCountries();
   const { session, currentQuestion, isLoading, startQuiz, answerQuestion, nextQuestion, resetQuiz } = useQuiz(countries || []);
   const [selectedMode, setSelectedMode] = useState<GameMode | null>(null);
+  
+  // Refs to track if notifications have been shown
+  const hasShownUpdateToast = useRef(false);
+  const hasShownOfflineToast = useRef(false);
 
   useEffect(() => {
-    if (newDataAvailable) {
+    if (newDataAvailable && !hasShownUpdateToast.current) {
       toast({
         title: t.dataUpdated,
         description: t.dataUpdatedDesc,
       });
+      hasShownUpdateToast.current = true;
     }
   }, [newDataAvailable, t, toast]);
 
   useEffect(() => {
-    if (isOfflineReady) {
+    if (isOfflineReady && !hasShownOfflineToast.current) {
       toast({
         title: t.offlineReady,
         description: t.offlineReadyDesc,
       });
+      hasShownOfflineToast.current = true;
     }
   }, [isOfflineReady, t, toast]);
 

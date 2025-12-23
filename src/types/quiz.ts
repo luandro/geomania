@@ -8,6 +8,7 @@ export interface Country {
   population: number;
   region: string;
   difficulty: Difficulty;
+  codes?: CountryCodes;
 }
 
 export interface LocalizedCountryInfo {
@@ -61,7 +62,7 @@ export interface CountryData extends Country {
   meta?: CountryMeta;
 }
 
-export type GameMode = 'flag' | 'capital' | 'population';
+export type GameMode = 'flag' | 'capital' | 'population' | 'map_country' | 'map_capital';
 
 export interface QuizQuestion {
   id: string;
@@ -71,6 +72,7 @@ export interface QuizQuestion {
   isCorrect?: boolean;
   // For population mode: store the two countries being compared
   comparedCountries?: [Country, Country];
+  mapPromptType?: 'country' | 'capital';
 }
 
 export interface QuizSession {

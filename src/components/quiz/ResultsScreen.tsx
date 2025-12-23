@@ -146,7 +146,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
           <img
             src={getAssetUrl(performanceImage)}
             alt={performanceImageAlt}
-            className="mx-auto mb-4 h-24 w-24 sm:h-28 sm:w-28 object-contain drop-shadow-lg"
+            className="mx-auto mb-4 h-40 w-40 sm:h-56 sm:w-56 object-contain drop-shadow-lg"
             loading="eager"
           />
           <h2 className={`text-2xl sm:text-3xl font-extrabold mb-2 ${performance.color}`}>

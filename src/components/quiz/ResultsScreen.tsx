@@ -20,6 +20,8 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
     flag: t.gameModes.flag,
     capital: t.gameModes.capital,
     population: t.gameModes.population,
+    map_country: t.gameModes.mapCountry,
+    map_capital: t.gameModes.mapCapital,
   };
   
   const getPerformanceMessage = () => {
@@ -102,7 +104,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
       });
     }
 
-    // For flag and capital modes: show correct answer
+    // For flag, capital, and map modes: show correct answer
     return session.questions.map((q, index) => (
       <div
         key={q.id}
@@ -123,7 +125,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
               className="w-10 sm:w-12 h-6 sm:h-8 object-contain rounded shrink-0 shadow-sm"
             />
             <span className="text-sm font-medium text-foreground truncate">
-              {session.gameMode === 'capital'
+              {session.gameMode === 'capital' || session.gameMode === 'map_capital'
                 ? `${getLocalizedCountryName(q.correctAnswer, language)}: ${getLocalizedCapital(q.correctAnswer, language)}`
                 : getLocalizedCountryName(q.correctAnswer, language)
               }

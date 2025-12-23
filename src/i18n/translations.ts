@@ -16,11 +16,15 @@ export interface Translations {
     flag: string;
     capital: string;
     population: string;
+    map: string;
+    mapCountry: string;
+    mapCapital: string;
   };
   gameModeDescriptions: {
     flag: string;
     capital: string;
     population: string;
+    map: string;
   };
   
   // Landing page
@@ -52,6 +56,14 @@ export interface Translations {
   capitalQuestion: string;
   populationQuestion: string;
   flagImageAlt: string; // Generic alt text for flag images during quiz
+  mapPromptCountry: string;
+  mapPromptCapital: string;
+  mapTitle: string;
+  mapCapitalLabel: string;
+  mapHint: string;
+  mapRecenter: string;
+  mapZoomToSelection: string;
+  mapLoading: string;
   
   // Feedback
   correct: string;
@@ -75,6 +87,9 @@ export interface Translations {
   chooseMode: string;
   autoAdvancing: string;
   autoAdvanceLabel: string;
+  dismiss: string;
+  mapModeCountry: string;
+  mapModeCapital: string;
 
   // Help & feedback
   help: string;
@@ -124,6 +139,12 @@ export interface Translations {
   dataUpdatedDesc: string;
   offlineReady: string;
   offlineReadyDesc: string;
+  mapDownloadingTitle: string;
+  mapDownloadingBody: string;
+  mapDownloadProgress: string;
+  mapOfflineTitle: string;
+  mapOfflineBody: string;
+  mapLoadFailed: string;
   
   // Language
   language: string;
@@ -147,11 +168,15 @@ export const translations: Record<SupportedLanguage, Translations> = {
       flag: 'Flag Guess',
       capital: 'Capital Guess',
       population: 'Population Compare',
+      map: 'Map Guess',
+      mapCountry: 'Map Guess — Country',
+      mapCapital: 'Map Guess — Capital',
     },
     gameModeDescriptions: {
       flag: 'Identify countries by their flags',
       capital: 'Match countries with their capital cities',
       population: 'Guess which country has more people',
+      map: 'Tap the correct country on a blank map',
     },
     
     // Landing page
@@ -182,6 +207,14 @@ export const translations: Record<SupportedLanguage, Translations> = {
     capitalQuestion: 'What is the capital of',
     populationQuestion: 'Which country has the larger population?',
     flagImageAlt: 'Country flag',
+    mapPromptCountry: 'Find {country} on the map.',
+    mapPromptCapital: 'Find the country for {capital}.',
+    mapTitle: 'Find on the map',
+    mapCapitalLabel: 'Capital',
+    mapHint: 'Tap a country on the map to answer.',
+    mapRecenter: 'Recenter',
+    mapZoomToSelection: 'Zoom to selection',
+    mapLoading: 'Loading map...',
     
     // Feedback
     correct: '🎉 Correct!',
@@ -205,6 +238,9 @@ export const translations: Record<SupportedLanguage, Translations> = {
     chooseMode: 'Choose Mode',
     autoAdvancing: 'Auto-advancing...',
     autoAdvanceLabel: 'Auto-advance',
+    dismiss: 'Got it',
+    mapModeCountry: 'Country → Map',
+    mapModeCapital: 'Capital → Map',
 
     // Help & feedback
     help: 'Help',
@@ -223,6 +259,9 @@ export const translations: Record<SupportedLanguage, Translations> = {
     feedbackButton: 'Send feedback',
     feedbackEmail: DEFAULT_FEEDBACK_EMAIL,
     feedbackSubject: 'GeoMania feedback',
+    copyEmail: 'Copy email',
+    emailCopied: 'Email copied!',
+    openMailApp: 'Open Mail App',
     
     // Results
     perfectScore: 'Perfect Score!',
@@ -251,6 +290,12 @@ export const translations: Record<SupportedLanguage, Translations> = {
     dataUpdatedDesc: 'New questions and countries available.',
     offlineReady: 'Offline Ready',
     offlineReadyDesc: 'You can now play offline with full flag support.',
+    mapDownloadingTitle: 'Downloading offline map...',
+    mapDownloadingBody: 'Preparing map data so Map Guess works offline.',
+    mapDownloadProgress: '{current}/{total} files',
+    mapOfflineTitle: 'Map data not ready',
+    mapOfflineBody: "You're offline and the map data isn't cached yet. Connect once to download the map.",
+    mapLoadFailed: 'Could not load the map data. Please try again.',
     
     // Language
     language: 'Language',
@@ -270,11 +315,15 @@ export const translations: Record<SupportedLanguage, Translations> = {
       flag: 'Adivinhe a Bandeira',
       capital: 'Adivinhe a Capital',
       population: 'Compare Populações',
+      map: 'Adivinhe no Mapa',
+      mapCountry: 'Mapa — País',
+      mapCapital: 'Mapa — Capital',
     },
     gameModeDescriptions: {
       flag: 'Identifique países pelas suas bandeiras',
       capital: 'Relacione países com suas capitais',
       population: 'Adivinhe qual país tem mais habitantes',
+      map: 'Toque no país correto em um mapa sem nomes',
     },
     
     // Landing page
@@ -305,6 +354,14 @@ export const translations: Record<SupportedLanguage, Translations> = {
     capitalQuestion: 'Qual é a capital de',
     populationQuestion: 'Qual país tem a maior população?',
     flagImageAlt: 'Bandeira de país',
+    mapPromptCountry: 'Encontre {country} no mapa.',
+    mapPromptCapital: 'Encontre o país de {capital}.',
+    mapTitle: 'Encontre no mapa',
+    mapCapitalLabel: 'Capital',
+    mapHint: 'Toque em um país no mapa para responder.',
+    mapRecenter: 'Recentrar',
+    mapZoomToSelection: 'Zoom na seleção',
+    mapLoading: 'Carregando mapa...',
     
     // Feedback
     correct: '🎉 Correto!',
@@ -328,6 +385,9 @@ export const translations: Record<SupportedLanguage, Translations> = {
     chooseMode: 'Escolher Modo',
     autoAdvancing: 'Avançando automaticamente...',
     autoAdvanceLabel: 'Avanço automático',
+    dismiss: 'Entendi',
+    mapModeCountry: 'País → Mapa',
+    mapModeCapital: 'Capital → Mapa',
 
     // Help & feedback
     help: 'Ajuda',
@@ -377,6 +437,12 @@ export const translations: Record<SupportedLanguage, Translations> = {
     dataUpdatedDesc: 'Novas perguntas e países disponíveis.',
     offlineReady: 'Pronto para Offline',
     offlineReadyDesc: 'Agora você pode jogar offline com suporte completo a bandeiras.',
+    mapDownloadingTitle: 'Baixando mapa offline...',
+    mapDownloadingBody: 'Preparando os dados do mapa para jogar offline.',
+    mapDownloadProgress: '{current}/{total} arquivos',
+    mapOfflineTitle: 'Mapa ainda não disponível',
+    mapOfflineBody: 'Você está offline e o mapa ainda não foi baixado. Conecte-se uma vez para fazer o download.',
+    mapLoadFailed: 'Não foi possível carregar o mapa. Tente novamente.',
     
     // Language
     language: 'Idioma',

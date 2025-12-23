@@ -29,6 +29,8 @@ export const QuizHeader = ({
     flag: t.gameModes.flag,
     capital: t.gameModes.capital,
     population: t.gameModes.population,
+    map_country: t.gameModes.mapCountry,
+    map_capital: t.gameModes.mapCapital,
   };
 
   return (

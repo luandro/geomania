@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { useCountries } from '@/hooks/useCountries';
 import { useToast } from '@/hooks/use-toast';
 import { useQuiz } from '@/hooks/useQuiz';
@@ -8,14 +8,18 @@ import { DifficultySelector } from '@/components/quiz/DifficultySelector';
 import { FlagQuestion } from '@/components/quiz/FlagQuestion';
 import { CapitalQuestion } from '@/components/quiz/CapitalQuestion';
 import { PopulationQuestion } from '@/components/quiz/PopulationQuestion';
+import { MapQuestion } from '@/components/quiz/MapQuestion';
 import { ResultsScreen } from '@/components/quiz/ResultsScreen';
 import { LoadingSpinner } from '@/components/quiz/LoadingSpinner';
 import { HelpDialog } from '@/components/quiz/HelpDialog';
 import { Button } from '@/components/ui/button';
 import { GameModeConfig, GameMode, Difficulty } from '@/types/quiz';
+import { MapCapitalRecord, MapData } from '@/types/map';
 import { Globe } from 'lucide-react';
 import { useLanguage } from '@/i18n/use-language';
 import { getAssetUrl } from '@/lib/assets';
+import { useMapAssets } from '@/hooks/useMapAssets';
+import { loadMapCapitals, loadMapData } from '@/lib/mapData';
 
 const Index = () => {
   const { t } = useLanguage();
@@ -23,6 +27,10 @@ const Index = () => {
   const { data: countries, isLoading: countriesLoading, error, newDataAvailable, isOfflineReady } = useCountries();
   const { session, currentQuestion, isLoading, startQuiz, answerQuestion, nextQuestion, resetQuiz } = useQuiz(countries || []);
   const [selectedMode, setSelectedMode] = useState<GameMode | null>(null);
+  const { status: mapAssetStatus, progress: mapAssetProgress, ensureReady: ensureMapAssetsReady } = useMapAssets();
+  const [mapData, setMapData] = useState<MapData | null>(null);
+  const [mapCapitals, setMapCapitals] = useState<MapCapitalRecord[] | null>(null);
+  const [isMapDataLoading, setIsMapDataLoading] = useState(false);
   
   // Refs to track if notifications have been shown
   const hasShownUpdateToast = useRef(false);
@@ -48,6 +56,12 @@ const Index = () => {
     }
   }, [isOfflineReady, t, toast]);
 
+  useEffect(() => {
+    if (navigator.onLine) {
+      ensureMapAssetsReady().catch(() => undefined);
+    }
+  }, [ensureMapAssetsReady]);
+
   // Game mode configs - titles/descriptions come from translations
   const gameModes: GameModeConfig[] = [
     {
@@ -71,14 +85,64 @@ const Index = () => {
       icon: 'population',
       color: 'accent',
     },
+    {
+      mode: 'map_country',
+      title: t.gameModes.map,
+      description: t.gameModeDescriptions.map,
+      icon: 'map',
+      color: 'secondary',
+    },
   ];
 
   const handleSelectMode = (mode: GameMode) => {
     setSelectedMode(mode);
+    if (mode === 'map_country' || mode === 'map_capital') {
+      ensureMapAssetsReady().catch(() => undefined);
+    }
   };
 
   const handleSelectDifficulty = async (difficulty: Difficulty) => {
     if (selectedMode) {
+      if (selectedMode === 'map_country' || selectedMode === 'map_capital') {
+        const ready = await ensureMapAssetsReady();
+        if (!ready) {
+          toast({
+            title: t.mapOfflineTitle,
+            description: t.mapOfflineBody,
+            variant: "destructive",
+          });
+          return;
+        }
+        if (!mapData || !mapCapitals) {
+          setIsMapDataLoading(true);
+          try {
+            const [loadedMap, loadedCapitals] = await Promise.all([
+              loadMapData(),
+              loadMapCapitals(),
+            ]);
+            setMapData(loadedMap);
+            setMapCapitals(loadedCapitals);
+            await startQuiz(selectedMode, difficulty, {
+              eligibleIsoA3: loadedMap.isoSet,
+              capitals: loadedCapitals,
+            });
+          } catch (err) {
+            toast({
+              title: t.oops,
+              description: t.mapLoadFailed,
+              variant: "destructive",
+            });
+          } finally {
+            setIsMapDataLoading(false);
+          }
+          return;
+        }
+        await startQuiz(selectedMode, difficulty, {
+          eligibleIsoA3: mapData.isoSet,
+          capitals: mapCapitals,
+        });
+        return;
+      }
       await startQuiz(selectedMode, difficulty);
     }
   };
@@ -87,6 +151,12 @@ const Index = () => {
     setSelectedMode(null);
   };
 
+  const isMapMode = selectedMode === 'map_country' || selectedMode === 'map_capital';
+
+  const handleMapVariantChange = useCallback((variant: GameMode) => {
+    setSelectedMode(variant);
+  }, []);
+
   const handleReset = () => {
     resetQuiz();
     setSelectedMode(null);
@@ -94,6 +164,17 @@ const Index = () => {
 
   const handlePlayAgain = async () => {
     if (session) {
+      if (session.gameMode === 'map_country' || session.gameMode === 'map_capital') {
+        if (mapData && mapCapitals) {
+          await startQuiz(session.gameMode, session.difficulty, {
+            eligibleIsoA3: mapData.isoSet,
+            capitals: mapCapitals,
+          });
+        } else {
+          await startQuiz(session.gameMode, session.difficulty);
+        }
+        return;
+      }
       await startQuiz(session.gameMode, session.difficulty);
     }
   };
@@ -173,6 +254,15 @@ const Index = () => {
               onNext={nextQuestion}
             />
           )}
+          {(session.gameMode === 'map_country' || session.gameMode === 'map_capital') && (
+            <MapQuestion
+              question={currentQuestion}
+              onAnswer={answerQuestion}
+              onNext={nextQuestion}
+              mapData={mapData}
+              allCountries={countries || []}
+            />
+          )}
         </main>
       </div>
     );
@@ -185,7 +275,57 @@ const Index = () => {
         <QuizHeader onBack={handleBackToModes} showBackButton />
         <main className="flex-1 flex items-center justify-center p-3 sm:p-6">
           <div className="w-full max-w-4xl mx-auto">
-            <DifficultySelector onSelect={handleSelectDifficulty} disabled={isLoading} />
+            {isMapMode && mapAssetStatus !== 'ready' ? (
+              <div className="bg-card border border-primary/20 rounded-3xl p-6 sm:p-10 text-center kuromi-spotlight">
+                <h2 className="text-xl sm:text-2xl font-bold text-foreground mb-2">
+                  {t.mapDownloadingTitle}
+                </h2>
+                <p className="text-sm sm:text-base text-muted-foreground mb-6">
+                  {mapAssetStatus === 'offline-missing'
+                    ? t.mapOfflineBody
+                    : mapAssetStatus === 'error'
+                      ? t.mapLoadFailed
+                      : t.mapDownloadingBody}
+                </p>
+                <div className="w-full max-w-md mx-auto">
+                  <div className="h-2 bg-muted rounded-full overflow-hidden">
+                    <div
+                      className="h-full bg-primary transition-all"
+                      style={{
+                        width: `${Math.round((mapAssetProgress.completed / mapAssetProgress.total) * 100)}%`,
+                      }}
+                    />
+                  </div>
+                  <p className="mt-2 text-xs text-muted-foreground">
+                    {t.mapDownloadProgress
+                      .replace('{current}', String(mapAssetProgress.completed))
+                      .replace('{total}', String(mapAssetProgress.total))}
+                  </p>
+                </div>
+              </div>
+            ) : (
+              <div className="space-y-6">
+                {isMapMode && (
+                  <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+                    <Button
+                      variant={selectedMode === 'map_country' ? 'hero' : 'outline'}
+                      size="sm"
+                      onClick={() => handleMapVariantChange('map_country')}
+                    >
+                      {t.mapModeCountry}
+                    </Button>
+                    <Button
+                      variant={selectedMode === 'map_capital' ? 'hero' : 'outline'}
+                      size="sm"
+                      onClick={() => handleMapVariantChange('map_capital')}
+                    >
+                      {t.mapModeCapital}
+                    </Button>
+                  </div>
+                )}
+                <DifficultySelector onSelect={handleSelectDifficulty} disabled={isLoading || isMapDataLoading} />
+              </div>
+            )}
           </div>
         </main>
       </div>

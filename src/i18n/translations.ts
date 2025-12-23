@@ -125,6 +125,8 @@ export interface Translations {
   
   // Results
   perfectScore: string;
+  perfectScoreBadge: string;
+  perfectScorePrompt: string;
   excellent: string;
   goodJob: string;
   keepLearning: string;
@@ -134,6 +136,29 @@ export interface Translations {
   questions: string;
   accuracy: string;
   questionReview: string;
+  viewLeaderboard: string;
+  saveScore: string;
+  skipScore: string;
+  savingScore: string;
+  savedScore: string;
+  savedScoreOffline: string;
+
+  // Scoreboards
+  scoreboards: string;
+  scoreboardsSubtitle: string;
+  backToHome: string;
+  loadingScoreboards: string;
+  scoreboardsError: string;
+  scoreboardsEmpty: string;
+  scoreboardsEmptyOffline: string;
+  scoreboardsOfflineNotice: string;
+  scoreboardsStaleNotice: string;
+  scoreboardsUpdated: string;
+  initials: string;
+  difficultyShort: string;
+  date: string;
+  today: string;
+  daysAgo: string;
   
   // Population comparison
   population: string;
@@ -287,6 +312,8 @@ export const translations: Record<SupportedLanguage, Translations> = {
     
     // Results
     perfectScore: 'Perfect Score!',
+    perfectScoreBadge: 'Perfect Score',
+    perfectScorePrompt: 'Perfect Score! Enter your initials',
     excellent: 'Excellent!',
     goodJob: 'Good Job!',
     keepLearning: 'Keep Learning!',
@@ -296,6 +323,29 @@ export const translations: Record<SupportedLanguage, Translations> = {
     questions: 'Questions',
     accuracy: 'Accuracy',
     questionReview: 'Question Review',
+    viewLeaderboard: 'View Leaderboard',
+    saveScore: 'Save Score',
+    skipScore: 'Skip',
+    savingScore: 'Saving...',
+    savedScore: 'Saved!',
+    savedScoreOffline: 'Saved locally — will upload when online',
+
+    // Scoreboards
+    scoreboards: 'Scoreboards',
+    scoreboardsSubtitle: 'Atari-style hall of fame per mode.',
+    backToHome: 'Back to Home',
+    loadingScoreboards: 'Loading scoreboards...',
+    scoreboardsError: 'Could not load scoreboards.',
+    scoreboardsEmpty: 'No scores yet. Be the first!',
+    scoreboardsEmptyOffline: 'No leaderboard cached yet. Play once online to load.',
+    scoreboardsOfflineNotice: 'Offline — showing cached scores',
+    scoreboardsStaleNotice: 'Could not refresh — showing cached scores',
+    scoreboardsUpdated: 'Updated {time}',
+    initials: 'Initials',
+    difficultyShort: 'Diff',
+    date: 'Date',
+    today: 'Today',
+    daysAgo: '{days}d ago',
     
     // Population comparison
     population: 'Pop',
@@ -445,6 +495,8 @@ export const translations: Record<SupportedLanguage, Translations> = {
     
     // Results
     perfectScore: 'Pontuação Perfeita!',
+    perfectScoreBadge: 'Pontuação Perfeita',
+    perfectScorePrompt: 'Pontuação perfeita! Digite suas iniciais',
     excellent: 'Excelente!',
     goodJob: 'Bom Trabalho!',
     keepLearning: 'Continue Aprendendo!',
@@ -454,6 +506,29 @@ export const translations: Record<SupportedLanguage, Translations> = {
     questions: 'Perguntas',
     accuracy: 'Precisão',
     questionReview: 'Revisão das Perguntas',
+    viewLeaderboard: 'Ver Placar',
+    saveScore: 'Salvar Pontuação',
+    skipScore: 'Pular',
+    savingScore: 'Salvando...',
+    savedScore: 'Salvo!',
+    savedScoreOffline: 'Salvo localmente — enviaremos quando ficar online',
+
+    // Scoreboards
+    scoreboards: 'Placares',
+    scoreboardsSubtitle: 'Hall da fama em estilo Atari por modo.',
+    backToHome: 'Voltar ao início',
+    loadingScoreboards: 'Carregando placares...',
+    scoreboardsError: 'Não foi possível carregar os placares.',
+    scoreboardsEmpty: 'Sem pontuações ainda. Seja o primeiro!',
+    scoreboardsEmptyOffline: 'Nenhum placar em cache ainda. Jogue online uma vez para carregar.',
+    scoreboardsOfflineNotice: 'Offline — mostrando placares em cache',
+    scoreboardsStaleNotice: 'Não foi possível atualizar — mostrando placares em cache',
+    scoreboardsUpdated: 'Atualizado {time}',
+    initials: 'Iniciais',
+    difficultyShort: 'Dif',
+    date: 'Data',
+    today: 'Hoje',
+    daysAgo: 'há {days}d',
     
     // Population comparison
     population: 'Pop',

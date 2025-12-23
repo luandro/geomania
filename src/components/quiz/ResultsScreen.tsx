@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react';
-import { Trophy, Star, Target, RotateCcw, Home } from 'lucide-react';
+import { Trophy, Star, Target, RotateCcw, Home, Medal } from 'lucide-react';
 import { QuizSession, GameMode } from '@/types/quiz';
+import { getLeaderboardModeForGameMode, type LeaderboardEntry } from '@/types/leaderboard';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/i18n/use-language';
 import { formatPopulation } from '@/i18n/translations';
 import { getLocalizedCapital, getLocalizedCountryName } from '@/lib/localization';
 import { getAssetUrl } from '@/lib/assets';
+import { queuePendingScore, setSkipInitialsPrompt, shouldSkipInitialsPrompt, submitScoreToBackend } from '@/lib/leaderboard';
 import { usePwaInstall } from '@/hooks/usePwaInstall';
 import { PwaInstallBanner } from '@/components/quiz/PwaInstallBanner';
 
@@ -13,13 +15,16 @@ interface ResultsScreenProps {
   session: QuizSession;
   onPlayAgain: () => void;
   onGoHome: () => void;
+  onViewLeaderboard: () => void;
 }
 
-export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenProps) => {
+export const ResultsScreen = ({ session, onPlayAgain, onGoHome, onViewLeaderboard }: ResultsScreenProps) => {
   const { t, language } = useLanguage();
   const percentage = Math.round((session.score / session.totalQuestions) * 100);
   const performanceImage = percentage >= 60 ? '/kuromi_celebrate.png' : '/kuromi_sad.png';
   const performanceImageAlt = percentage >= 60 ? 'Kuromi celebrate' : 'Kuromi sad';
+  const isPerfect = session.score === session.totalQuestions;
+  const leaderboardMode = getLeaderboardModeForGameMode(session.gameMode);
   const {
     canPrompt,
     showIOSInstructions,
@@ -31,6 +36,9 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
     standalone,
   } = usePwaInstall();
   const [installVisible, setInstallVisible] = useState(false);
+  const [initials, setInitials] = useState('');
+  const [saveState, setSaveState] = useState<'idle' | 'saving' | 'saved' | 'saved-offline'>('idle');
+  const [promptDismissed, setPromptDismissed] = useState(false);
 
   useEffect(() => {
     if (!installVisible && !sessionShown && (canPrompt || showIOSInstructions)) {
@@ -44,6 +52,12 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
       setInstallVisible(false);
     }
   }, [installVisible, installed, standalone]);
+
+  useEffect(() => {
+    setInitials('');
+    setSaveState('idle');
+    setPromptDismissed(false);
+  }, [session.id]);
 
   const handleDismissInstall = () => {
     dismiss();
@@ -72,6 +86,51 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
   };
 
   const performance = getPerformanceMessage();
+
+  const shouldSkipPrompt = shouldSkipInitialsPrompt(leaderboardMode, session.difficulty);
+  const showInitialsPrompt = isPerfect && !shouldSkipPrompt && !promptDismissed;
+  const isSaveComplete = saveState === 'saved' || saveState === 'saved-offline';
+  const canSave = initials.length === 3 && !isSaveComplete && saveState !== 'saving';
+
+  const handleInitialsChange = (value: string) => {
+    const normalized = value.toUpperCase().replace(/[^A-Z]/g, '').slice(0, 3);
+    setInitials(normalized);
+  };
+
+  const handleSaveScore = async () => {
+    if (!canSave) return;
+
+    const entry: LeaderboardEntry = {
+      mode: leaderboardMode,
+      difficulty: session.difficulty,
+      initials,
+      score: session.score,
+      total: session.totalQuestions,
+      accuracy: session.totalQuestions > 0 ? session.score / session.totalQuestions : 0,
+      ts: new Date().toISOString(),
+    };
+
+    setSaveState('saving');
+
+    if (!navigator.onLine) {
+      queuePendingScore(entry);
+      setSaveState('saved-offline');
+      return;
+    }
+
+    try {
+      await submitScoreToBackend(entry);
+      setSaveState('saved');
+    } catch (error) {
+      queuePendingScore(entry);
+      setSaveState('saved-offline');
+    }
+  };
+
+  const handleSkipPrompt = () => {
+    setSkipInitialsPrompt(leaderboardMode, session.difficulty, 7);
+    setPromptDismissed(true);
+  };
 
   // Render question review based on game mode
   const renderQuestionReview = () => {
@@ -186,6 +245,12 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
             className="mx-auto mb-4 h-40 w-40 sm:h-56 sm:w-56 object-contain drop-shadow-lg"
             loading="eager"
           />
+          {isPerfect && (
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/20 text-accent text-xs font-semibold uppercase tracking-widest mb-3">
+              <Medal className="w-4 h-4" />
+              {t.perfectScoreBadge}
+            </div>
+          )}
           <h2 className={`text-2xl sm:text-3xl font-extrabold mb-2 ${performance.color}`}>
             {performance.message}
           </h2>
@@ -212,6 +277,68 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
           </div>
         </div>
 
+        {showInitialsPrompt && (
+          <div className="mb-6 sm:mb-8 bg-muted rounded-2xl p-4 sm:p-6 border border-primary/30 text-center">
+            <p className="text-sm sm:text-base font-semibold text-foreground mb-4">
+              {t.perfectScorePrompt}
+            </p>
+            <div className="flex flex-col items-center gap-4">
+              {!isSaveComplete ? (
+                <>
+                  <input
+                    type="text"
+                    inputMode="text"
+                    autoCapitalize="characters"
+                    autoComplete="off"
+                    spellCheck={false}
+                    maxLength={3}
+                    pattern="[A-Za-z]{3}"
+                    value={initials}
+                    onChange={(event) => handleInitialsChange(event.target.value)}
+                    className="w-32 sm:w-40 text-center font-mono text-2xl sm:text-3xl tracking-[0.5em] bg-background text-foreground rounded-lg border-2 border-primary/40 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
+                    aria-label={t.perfectScorePrompt}
+                    disabled={saveState === 'saving'}
+                  />
+                  <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+                    <Button
+                      variant="success"
+                      size="sm"
+                      onClick={handleSaveScore}
+                      disabled={!canSave}
+                      className="w-full sm:w-auto"
+                    >
+                      {saveState === 'saving' ? t.savingScore : t.saveScore}
+                    </Button>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={handleSkipPrompt}
+                      className="w-full sm:w-auto"
+                      disabled={saveState === 'saving'}
+                    >
+                      {t.skipScore}
+                    </Button>
+                  </div>
+                  {saveState === 'saving' && (
+                    <p className="text-xs text-muted-foreground font-semibold">{t.savingScore}</p>
+                  )}
+                </>
+              ) : (
+                <div className="space-y-2">
+                  <p className="text-sm font-semibold text-foreground">{initials}</p>
+                  <p
+                    className={`text-xs font-semibold ${
+                      saveState === 'saved' ? 'text-success' : 'text-muted-foreground'
+                    }`}
+                  >
+                    {saveState === 'saved' ? t.savedScore : t.savedScoreOffline}
+                  </p>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
         {installVisible && (
           <PwaInstallBanner
             canPrompt={canPrompt}
@@ -236,6 +363,10 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
           <Button variant="outline" size="lg" onClick={onGoHome} className="w-full sm:w-auto">
             <Home className="w-5 h-5 mr-2" />
             {t.chooseMode}
+          </Button>
+          <Button variant="outline" size="lg" onClick={onViewLeaderboard} className="w-full sm:w-auto">
+            <Trophy className="w-5 h-5 mr-2" />
+            {t.viewLeaderboard}
           </Button>
         </div>
       </div>

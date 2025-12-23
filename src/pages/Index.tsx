@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useCountries } from '@/hooks/useCountries';
 import { useToast } from '@/hooks/use-toast';
 import { useQuiz } from '@/hooks/useQuiz';
@@ -20,12 +21,14 @@ import { useLanguage } from '@/i18n/use-language';
 import { getAssetUrl } from '@/lib/assets';
 import { useMapAssets } from '@/hooks/useMapAssets';
 import { loadMapCapitals, loadMapData } from '@/lib/mapData';
+import { getLeaderboardModeForGameMode } from '@/types/leaderboard';
 
 const Index = () => {
   const { t } = useLanguage();
   const { toast } = useToast();
   const { data: countries, isLoading: countriesLoading, error, newDataAvailable, isOfflineReady } = useCountries();
   const { session, currentQuestion, isLoading, startQuiz, answerQuestion, nextQuestion, resetQuiz } = useQuiz(countries || []);
+  const navigate = useNavigate();
   const [selectedMode, setSelectedMode] = useState<GameMode | null>(null);
   const { status: mapAssetStatus, progress: mapAssetProgress, ensureReady: ensureMapAssetsReady } = useMapAssets();
   const [mapData, setMapData] = useState<MapData | null>(null);
@@ -61,6 +64,39 @@ const Index = () => {
       ensureMapAssetsReady().catch(() => undefined);
     }
   }, [ensureMapAssetsReady]);
+
+  useEffect(() => {
+    if (session || selectedMode) return;
+
+    const hasAutoSwitched = sessionStorage.getItem('homeAutoSwitched');
+    if (hasAutoSwitched) return;
+
+    const events = ['pointerdown', 'keydown', 'wheel', 'touchstart', 'scroll'];
+    let timeoutId: number | null = null;
+
+    const clearAutoSwitch = () => {
+      if (timeoutId) {
+        window.clearTimeout(timeoutId);
+        timeoutId = null;
+      }
+      sessionStorage.setItem('homeAutoSwitched', 'true');
+      events.forEach((event) => window.removeEventListener(event, clearAutoSwitch));
+    };
+
+    events.forEach((event) =>
+      window.addEventListener(event, clearAutoSwitch, { passive: true, once: true }),
+    );
+
+    timeoutId = window.setTimeout(() => {
+      sessionStorage.setItem('homeAutoSwitched', 'true');
+      navigate('/scoreboards');
+    }, 7000);
+
+    return () => {
+      if (timeoutId) window.clearTimeout(timeoutId);
+      events.forEach((event) => window.removeEventListener(event, clearAutoSwitch));
+    };
+  }, [navigate, selectedMode, session]);
 
   // Game mode configs - titles/descriptions come from translations
   const gameModes: GameModeConfig[] = [
@@ -179,6 +215,11 @@ const Index = () => {
     }
   };
 
+  const handleViewScoreboards = useCallback(() => {
+    sessionStorage.setItem('homeAutoSwitched', 'true');
+    navigate('/scoreboards');
+  }, [navigate]);
+
   if (error) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center p-4">
@@ -207,6 +248,10 @@ const Index = () => {
             session={session}
             onPlayAgain={handlePlayAgain}
             onGoHome={handleReset}
+            onViewLeaderboard={() => {
+              const mode = getLeaderboardModeForGameMode(session.gameMode);
+              navigate(`/scoreboards?mode=${mode}`);
+            }}
           />
         </main>
       </div>
@@ -377,13 +422,18 @@ const Index = () => {
               </div>
 
               <div className="mt-4 flex items-center justify-center">
-                <HelpDialog
-                  trigger={(
-                    <Button variant="link" size="sm" className="text-primary">
-                      {t.helpTitle}
-                    </Button>
-                  )}
-                />
+                <div className="flex flex-wrap items-center justify-center gap-3">
+                  <HelpDialog
+                    trigger={(
+                      <Button variant="link" size="sm" className="text-primary">
+                        {t.helpTitle}
+                      </Button>
+                    )}
+                  />
+                  <Button variant="outline" size="sm" onClick={handleViewScoreboards}>
+                    {t.scoreboards}
+                  </Button>
+                </div>
               </div>
 
               <div className="mt-6 sm:mt-8 flex items-center justify-center gap-2 text-xs sm:text-sm text-muted-foreground kuromi-pill max-w-md mx-auto px-4 py-2 rounded-full">

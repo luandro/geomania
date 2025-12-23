@@ -60,6 +60,11 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
+## Leaderboards API
+
+Set `VITE_LEADERBOARD_ENDPOINT` (or `VITE_LEADERBOARD_API`) to override the leaderboard API route.
+Default is `/api/scores`. Example: `VITE_LEADERBOARD_ENDPOINT=https://geomania-leaderboards.pages.dev/api/scores`
+
 ## Country data
 
 All country-related data (base fields + localizations + enrichments) lives in `src/data/countries.ts`.

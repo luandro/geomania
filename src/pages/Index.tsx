@@ -241,6 +241,9 @@ const Index = () => {
           )}
         </div>
       </main>
+      <footer className="py-4 pb-8 text-center text-muted-foreground text-xs sm:text-sm fade-in" style={{ animationDelay: '0.4s' }}>
+        {t.madeWith}
+      </footer>
     </div>
   );
 };

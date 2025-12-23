@@ -128,6 +128,7 @@ export interface Translations {
     en: string;
     'pt-BR': string;
   };
+  madeWith: string;
 }
 
 const DEFAULT_FEEDBACK_EMAIL = 'luandro@gmail.com';
@@ -254,6 +255,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
       en: 'English',
       'pt-BR': 'Português',
     },
+    madeWith: 'Made with 💜 for Kira',
   },
   'pt-BR': {
     // Header & Navigation
@@ -376,6 +378,7 @@ export const translations: Record<SupportedLanguage, Translations> = {
       en: 'English',
       'pt-BR': 'Português',
     },
+    madeWith: 'Feito com 💜 para Kira',
   },
 };
 

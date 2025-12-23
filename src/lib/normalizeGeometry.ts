@@ -33,15 +33,22 @@ const ringHasLongSegment = (ring: number[][]) => {
   return false;
 };
 
-const ringCentroid = (ring: number[][]) => {
-  if (!ring.length) return [0, 0];
-  let sumLon = 0;
-  let sumLat = 0;
-  ring.forEach(([lon, lat]) => {
-    sumLon += lon;
-    sumLat += lat;
-  });
-  return [sumLon / ring.length, sumLat / ring.length] as [number, number];
+const ringAreaCentroid = (ring: number[][]) => {
+  if (ring.length < 4) return null;
+  let area = 0;
+  let cx = 0;
+  let cy = 0;
+  for (let i = 0; i < ring.length - 1; i += 1) {
+    const [x0, y0] = ring[i];
+    const [x1, y1] = ring[i + 1];
+    const cross = x0 * y1 - x1 * y0;
+    area += cross;
+    cx += (x0 + x1) * cross;
+    cy += (y0 + y1) * cross;
+  }
+  if (area === 0) return null;
+  const factor = 1 / (3 * area);
+  return [cx * factor, cy * factor] as [number, number];
 };
 
 const pointInRing = (point: [number, number], ring: number[][]) => {
@@ -56,6 +63,58 @@ const pointInRing = (point: [number, number], ring: number[][]) => {
     if (intersect) inside = !inside;
   }
   return inside;
+};
+
+const ringBounds = (ring: number[][]) => {
+  let minX = Infinity;
+  let maxX = -Infinity;
+  let minY = Infinity;
+  let maxY = -Infinity;
+  ring.forEach(([x, y]) => {
+    minX = Math.min(minX, x);
+    maxX = Math.max(maxX, x);
+    minY = Math.min(minY, y);
+    maxY = Math.max(maxY, y);
+  });
+  return { minX, maxX, minY, maxY };
+};
+
+const scanlinePoint = (ring: number[][], y: number) => {
+  const xs: number[] = [];
+  for (let i = 0; i < ring.length - 1; i += 1) {
+    const [x0, y0] = ring[i];
+    const [x1, y1] = ring[i + 1];
+    if ((y0 > y) !== (y1 > y)) {
+      const t = (y - y0) / (y1 - y0);
+      xs.push(x0 + t * (x1 - x0));
+    }
+  }
+  xs.sort((a, b) => a - b);
+  for (let i = 0; i < xs.length - 1; i += 2) {
+    const midX = (xs[i] + xs[i + 1]) / 2;
+    const candidate: [number, number] = [midX, y];
+    if (pointInRing(candidate, ring)) return candidate;
+  }
+  return null;
+};
+
+const interiorPoint = (ring: number[][]) => {
+  const areaCentroid = ringAreaCentroid(ring);
+  if (areaCentroid && pointInRing(areaCentroid, ring)) return areaCentroid;
+
+  const { minX, maxX, minY, maxY } = ringBounds(ring);
+  const center: [number, number] = [(minX + maxX) / 2, (minY + maxY) / 2];
+  if (pointInRing(center, ring)) return center;
+
+  const span = Math.max(1e-6, Math.abs(maxY - minY));
+  const epsilon = span * 0.001;
+  const candidatesY = [center[1], minY + epsilon, maxY - epsilon];
+  for (const y of candidatesY) {
+    const candidate = scanlinePoint(ring, y);
+    if (candidate) return candidate;
+  }
+
+  return ring[0] ? ([ring[0][0], ring[0][1]] as [number, number]) : [0, 0];
 };
 
 const splitRingAtDateline = (ring: number[][]): number[][][] => {
@@ -171,11 +230,14 @@ export const normalizeAndSplitGeometry = (
         const pieces = splitHoles.length ? splitHoles : [hole];
         pieces.forEach((piece) => {
           if (piece.length < 4) return;
-          const centroid = ringCentroid(piece);
-          const targetIndex = outerRings.findIndex((candidate) => pointInRing(centroid, candidate));
-          const resolvedIndex = targetIndex >= 0 ? targetIndex : 0;
-          if (normalizedPolygons[resolvedIndex]) {
-            normalizedPolygons[resolvedIndex].push(piece);
+          const candidatePoint = interiorPoint(piece);
+          const targetIndex = outerRings.findIndex((candidate) => pointInRing(candidatePoint, candidate));
+          if (targetIndex >= 0) {
+            normalizedPolygons[targetIndex].push(piece);
+            return;
+          }
+          if (normalizedPolygons.length === 1) {
+            normalizedPolygons[0].push(piece);
           }
         });
       });

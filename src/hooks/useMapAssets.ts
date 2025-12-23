@@ -20,7 +20,7 @@ export const useMapAssets = () => {
     completed: 0,
     total: MAP_ASSET_URLS.length,
   });
-  const isPrefetching = useRef(false);
+  const prefetchPromise = useRef<Promise<boolean> | null>(null);
 
   const checkCached = useCallback(async () => {
     setStatus('checking');
@@ -36,31 +36,38 @@ export const useMapAssets = () => {
 
   const ensureReady = useCallback(async () => {
     if (status === 'ready') return true;
-    if (isPrefetching.current) return false;
-    const cached = await areMapAssetsCached();
-    if (cached) {
-      setStatus('ready');
-      setProgress({ completed: MAP_ASSET_URLS.length, total: MAP_ASSET_URLS.length });
-      return true;
-    }
-    if (typeof navigator !== 'undefined' && !navigator.onLine) {
-      setStatus('offline-missing');
-      return false;
-    }
+    if (prefetchPromise.current) return prefetchPromise.current;
 
-    setStatus('downloading');
-    isPrefetching.current = true;
-    setProgress({ completed: 0, total: MAP_ASSET_URLS.length });
+    const promise = (async () => {
+      const cached = await areMapAssetsCached();
+      if (cached) {
+        setStatus('ready');
+        setProgress({ completed: MAP_ASSET_URLS.length, total: MAP_ASSET_URLS.length });
+        return true;
+      }
+      if (typeof navigator !== 'undefined' && !navigator.onLine) {
+        setStatus('offline-missing');
+        return false;
+      }
+
+      setStatus('downloading');
+      setProgress({ completed: 0, total: MAP_ASSET_URLS.length });
+      try {
+        await prefetchMapAssets((next) => setProgress(next));
+        setStatus('ready');
+        setProgress({ completed: MAP_ASSET_URLS.length, total: MAP_ASSET_URLS.length });
+        return true;
+      } catch (err) {
+        setStatus('error');
+        return false;
+      }
+    })();
+
+    prefetchPromise.current = promise;
     try {
-      await prefetchMapAssets((next) => setProgress(next));
-      setStatus('ready');
-      setProgress({ completed: MAP_ASSET_URLS.length, total: MAP_ASSET_URLS.length });
-      return true;
-    } catch (err) {
-      setStatus('error');
-      return false;
+      return await promise;
     } finally {
-      isPrefetching.current = false;
+      prefetchPromise.current = null;
     }
   }, [status]);
 

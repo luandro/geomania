@@ -9,9 +9,9 @@ export const LanguageSwitcher = () => {
   const { language, setLanguage, t } = useLanguage();
 
   return (
-    <div className="flex items-center gap-2 bg-primary-foreground/10 rounded-full p-1">
-      <Globe className="w-4 h-4 ml-2 text-primary-foreground" aria-hidden="true" />
-      <div className="flex gap-1" role="group" aria-label={t.language}>
+    <div className="flex items-center gap-1 sm:gap-2 bg-primary-foreground/10 rounded-full p-0.5 sm:p-1">
+      <Globe className="w-3 h-3 sm:w-4 sm:h-4 ml-1 sm:ml-2 text-primary-foreground shrink-0" aria-hidden="true" />
+      <div className="flex gap-0.5 sm:gap-1" role="group" aria-label={t.language}>
         {SUPPORTED_LANGUAGES.map((lang) => {
           const isActive = language === lang;
           return (
@@ -19,7 +19,7 @@ export const LanguageSwitcher = () => {
               key={lang}
               onClick={() => setLanguage(lang)}
               className={`
-                px-3 py-1 rounded-full text-xs font-semibold transition-all
+                px-2 py-0.5 sm:px-3 sm:py-1 rounded-full text-xs font-semibold transition-all
                 ${isActive
                   ? 'bg-primary-foreground text-primary shadow-sm'
                   : 'text-primary-foreground hover:bg-primary-foreground/20'

@@ -186,7 +186,7 @@ const Index = () => {
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 slide-up px-2" style={{ animationDelay: '0.2s' }}>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 justify-items-center slide-up px-2" style={{ animationDelay: '0.2s' }}>
                 {gameModes.map((config, index) => {
                   const letterOffset = gameModes.slice(0, index).reduce((acc, mode) => acc + mode.title.length, 0);
                   return (

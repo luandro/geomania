@@ -1,11 +1,13 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { QuizQuestion, Country, Difficulty } from '@/types/quiz';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useLanguage } from '@/i18n/use-language';
+import { useAutoAdvancePreference } from '@/hooks/useAutoAdvancePreference';
 import { buildAnswerSuggestions, findCountryMatch } from '@/lib/answerMatching';
 import { getLocalizedCountryName } from '@/lib/localization';
 import { getAssetUrl } from '@/lib/assets';
+import { AutoAdvanceControls } from './AutoAdvanceControls';
 
 interface FlagQuestionProps {
   question: QuizQuestion;
@@ -17,12 +19,14 @@ interface FlagQuestionProps {
 
 export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountries }: FlagQuestionProps) => {
   const { t, language } = useLanguage();
+  const { autoAdvance, setAutoAdvance } = useAutoAdvancePreference();
   const [selectedAnswer, setSelectedAnswer] = useState<Country | null>(null);
   const [answered, setAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [isLastQuestion, setIsLastQuestion] = useState(false);
   const [typedAnswer, setTypedAnswer] = useState('');
   const [inputError, setInputError] = useState('');
+  const autoAdvanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const isGodMode = difficulty === 'god_mode';
   const suggestions = buildAnswerSuggestions(allCountries, language, 'country');
@@ -41,24 +45,31 @@ export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountr
     }
   };
 
+  const clearAutoAdvanceTimer = useCallback(() => {
+    if (autoAdvanceTimer.current) {
+      clearTimeout(autoAdvanceTimer.current);
+      autoAdvanceTimer.current = null;
+    }
+  }, []);
+
   const handleNext = useCallback(() => {
+    clearAutoAdvanceTimer();
     setSelectedAnswer(null);
     setAnswered(false);
     setTypedAnswer('');
     setInputError('');
     onNext();
-  }, [onNext]);
+  }, [clearAutoAdvanceTimer, onNext]);
 
   // Auto-advance to next question after 1 second
   useEffect(() => {
-    if (answered) {
-      const timer = setTimeout(() => {
+    if (answered && autoAdvance) {
+      autoAdvanceTimer.current = window.setTimeout(() => {
         handleNext();
       }, 1000);
-
-      return () => clearTimeout(timer);
     }
-  }, [answered, handleNext]);
+    return () => clearAutoAdvanceTimer();
+  }, [answered, autoAdvance, handleNext, clearAutoAdvanceTimer]);
 
   const getButtonVariant = (option: Country) => {
     if (!answered) return 'quiz';
@@ -152,14 +163,20 @@ export const FlagQuestion = ({ question, onAnswer, onNext, difficulty, allCountr
               : `${t.incorrect} ${t.wrongAnswer.replace('{answer}', getLocalizedCountryName(question.correctAnswer, language))}`
             }
           </p>
-          <div className="flex flex-col items-center gap-2">
-            <div className="w-full sm:w-64 h-1 bg-muted rounded-full overflow-hidden">
-              <div className="h-full bg-primary animate-[shrink_1s_linear_forwards]" style={{ width: '100%' }} />
-            </div>
-            <p className="text-xs text-muted-foreground">{t.autoAdvancing}</p>
-          </div>
         </div>
       )}
+
+      <AutoAdvanceControls
+        answered={answered}
+        isLastQuestion={isLastQuestion}
+        autoAdvance={autoAdvance}
+        onToggleAutoAdvance={setAutoAdvance}
+        onNext={handleNext}
+        autoAdvancingLabel={t.autoAdvancing}
+        autoAdvanceLabel={t.autoAdvanceLabel}
+        nextLabel={t.nextQuestion}
+        resultsLabel={t.seeResults}
+      />
     </div>
   );
 };

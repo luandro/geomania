@@ -1,10 +1,12 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { QuizQuestion, Country } from '@/types/quiz';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/i18n/use-language';
+import { useAutoAdvancePreference } from '@/hooks/useAutoAdvancePreference';
 import { formatPopulation } from '@/i18n/translations';
 import { getLocalizedCountryName } from '@/lib/localization';
 import { getAssetUrl } from '@/lib/assets';
+import { AutoAdvanceControls } from './AutoAdvanceControls';
 
 interface PopulationQuestionProps {
   question: QuizQuestion;
@@ -14,10 +16,12 @@ interface PopulationQuestionProps {
 
 export const PopulationQuestion = ({ question, onAnswer, onNext }: PopulationQuestionProps) => {
   const { t, language } = useLanguage();
+  const { autoAdvance, setAutoAdvance } = useAutoAdvancePreference();
   const [selectedAnswer, setSelectedAnswer] = useState<Country | null>(null);
   const [answered, setAnswered] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [isLastQuestion, setIsLastQuestion] = useState(false);
+  const autoAdvanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Get the two countries from comparedCountries or fall back to options
   const [countryA, countryB] = question.comparedCountries || [question.options[0], question.options[1]];
@@ -40,22 +44,29 @@ export const PopulationQuestion = ({ question, onAnswer, onNext }: PopulationQue
     }
   };
 
+  const clearAutoAdvanceTimer = useCallback(() => {
+    if (autoAdvanceTimer.current) {
+      clearTimeout(autoAdvanceTimer.current);
+      autoAdvanceTimer.current = null;
+    }
+  }, []);
+
   const handleNext = useCallback(() => {
+    clearAutoAdvanceTimer();
     setSelectedAnswer(null);
     setAnswered(false);
     onNext();
-  }, [onNext]);
+  }, [clearAutoAdvanceTimer, onNext]);
 
   // Auto-advance to next question after 1 second
   useEffect(() => {
-    if (answered) {
-      const timer = setTimeout(() => {
+    if (answered && autoAdvance) {
+      autoAdvanceTimer.current = window.setTimeout(() => {
         handleNext();
       }, 1000);
-
-      return () => clearTimeout(timer);
     }
-  }, [answered, handleNext]);
+    return () => clearAutoAdvanceTimer();
+  }, [answered, autoAdvance, handleNext, clearAutoAdvanceTimer]);
 
   const getButtonVariant = (country: Country) => {
     if (!answered) return 'quiz';
@@ -117,14 +128,20 @@ export const PopulationQuestion = ({ question, onAnswer, onNext }: PopulationQue
               : `${t.incorrect} ${t.wrongPopulation.replace('{country}', getLocalizedCountryName(correctCountry, language)).replace('{population}', formatPopulation(correctCountry.population, language))}`
             }
           </p>
-          <div className="flex flex-col items-center gap-2">
-            <div className="w-full sm:w-64 h-1 bg-muted rounded-full overflow-hidden">
-              <div className="h-full bg-primary animate-[shrink_1s_linear_forwards]" style={{ width: '100%' }} />
-            </div>
-            <p className="text-xs text-muted-foreground">{t.autoAdvancing}</p>
-          </div>
         </div>
       )}
+
+      <AutoAdvanceControls
+        answered={answered}
+        isLastQuestion={isLastQuestion}
+        autoAdvance={autoAdvance}
+        onToggleAutoAdvance={setAutoAdvance}
+        onNext={handleNext}
+        autoAdvancingLabel={t.autoAdvancing}
+        autoAdvanceLabel={t.autoAdvanceLabel}
+        nextLabel={t.nextQuestion}
+        resultsLabel={t.seeResults}
+      />
     </div>
   );
 };

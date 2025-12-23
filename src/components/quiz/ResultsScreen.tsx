@@ -1,10 +1,13 @@
+import { useEffect } from 'react';
+import { Trophy, Star, Target, RotateCcw, Home } from 'lucide-react';
 import { QuizSession, GameMode } from '@/types/quiz';
 import { Button } from '@/components/ui/button';
-import { Trophy, Star, Target, RotateCcw, Home } from 'lucide-react';
 import { useLanguage } from '@/i18n/use-language';
 import { formatPopulation } from '@/i18n/translations';
 import { getLocalizedCapital, getLocalizedCountryName } from '@/lib/localization';
 import { getAssetUrl } from '@/lib/assets';
+import { usePwaInstall } from '@/hooks/usePwaInstall';
+import { PwaInstallBanner } from '@/components/quiz/PwaInstallBanner';
 
 interface ResultsScreenProps {
   session: QuizSession;
@@ -17,6 +20,14 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
   const percentage = Math.round((session.score / session.totalQuestions) * 100);
   const performanceImage = percentage >= 60 ? '/kuromi_celebrate.png' : '/kuromi_sad.png';
   const performanceImageAlt = percentage >= 60 ? 'Kuromi celebrate' : 'Kuromi sad';
+  const { canPrompt, showIOSInstructions, promptInstall, dismiss, markShown } = usePwaInstall();
+  const shouldShowInstall = canPrompt || showIOSInstructions;
+
+  useEffect(() => {
+    if (shouldShowInstall) {
+      markShown();
+    }
+  }, [shouldShowInstall, markShown]);
 
   const gameModeLabels: Record<GameMode, string> = {
     flag: t.gameModes.flag,
@@ -174,6 +185,15 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
             <p className="text-xs sm:text-sm text-muted-foreground">{t.accuracy}</p>
           </div>
         </div>
+
+        {shouldShowInstall && (
+          <PwaInstallBanner
+            canPrompt={canPrompt}
+            showIOSInstructions={showIOSInstructions}
+            onInstall={promptInstall}
+            onDismiss={dismiss}
+          />
+        )}
 
         <div className="mb-6 sm:mb-8 slide-up" style={{ animationDelay: '0.3s' }}>
           <h3 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4 text-foreground">{t.questionReview}</h3>

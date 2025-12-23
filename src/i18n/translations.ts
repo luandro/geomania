@@ -91,6 +91,17 @@ export interface Translations {
   mapModeCountry: string;
   mapModeCapital: string;
 
+  // Install
+  installTitle: string;
+  installBody: string;
+  installCTA: string;
+  installDismiss: string;
+  installIOSCTA: string;
+  installIOSBody: string;
+  installIOSStep1: string;
+  installIOSStep2: string;
+  installIOSStep3: string;
+
   // Help & feedback
   help: string;
   helpTitle: string;
@@ -242,6 +253,17 @@ export const translations: Record<SupportedLanguage, Translations> = {
     mapModeCountry: 'Country → Map',
     mapModeCapital: 'Capital → Map',
 
+    // Install
+    installTitle: 'Install Geomania',
+    installBody: 'Play faster and keep it offline with one tap.',
+    installCTA: 'Install',
+    installDismiss: 'Not now',
+    installIOSCTA: 'How to install',
+    installIOSBody: 'Install on iPhone or iPad:',
+    installIOSStep1: 'Tap the Share button in Safari.',
+    installIOSStep2: 'Scroll and choose Add to Home Screen.',
+    installIOSStep3: 'Confirm to add Geomania.',
+
     // Help & feedback
     help: 'Help',
     helpTitle: 'How to Play',
@@ -388,6 +410,17 @@ export const translations: Record<SupportedLanguage, Translations> = {
     dismiss: 'Entendi',
     mapModeCountry: 'País → Mapa',
     mapModeCapital: 'Capital → Mapa',
+
+    // Install
+    installTitle: 'Instale o GeoMania',
+    installBody: 'Jogue mais rápido e mantenha offline com um toque.',
+    installCTA: 'Instalar',
+    installDismiss: 'Agora não',
+    installIOSCTA: 'Como instalar',
+    installIOSBody: 'Instale no iPhone ou iPad:',
+    installIOSStep1: 'Toque no botão Compartilhar no Safari.',
+    installIOSStep2: 'Role e toque em Adicionar à Tela de Início.',
+    installIOSStep3: 'Confirme para adicionar o GeoMania.',
 
     // Help & feedback
     help: 'Ajuda',

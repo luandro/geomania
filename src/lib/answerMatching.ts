@@ -1,6 +1,6 @@
 import { Country } from '@/types/quiz';
 import { SupportedLanguage } from '@/i18n/translations';
-import { ptCapitalNames, ptCountryNames } from '@/data/countries';
+import { ptCapitalNames, ptCountryNames } from '@/data/ptLocalizations';
 
 const normalize = (value: string) =>
   value

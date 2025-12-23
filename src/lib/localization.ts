@@ -1,6 +1,6 @@
 import { SupportedLanguage } from '@/i18n/translations';
 import { Country } from '@/types/quiz';
-import { ptCountryNames, ptCapitalNames } from '@/data/countries';
+import { ptCountryNames, ptCapitalNames } from '@/data/ptLocalizations';
 
 export const getLocalizedCountryName = (country: Country, language: SupportedLanguage) => {
   if (language === 'pt-BR') {

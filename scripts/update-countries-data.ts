@@ -582,6 +582,17 @@ function formatCountriesTs(
   );
 }
 
+function formatPtLocalizationsTs(
+  ptCountryNames: Record<string, string>,
+  ptCapitalNames: Record<string, string>
+) {
+  return (
+    `// Generated from scripts/update-countries-data.ts\n\n` +
+    `export const ptCountryNames: Record<string, string> = ${JSON.stringify(ptCountryNames, null, 2)} as const;\n\n` +
+    `export const ptCapitalNames: Record<string, string> = ${JSON.stringify(ptCapitalNames, null, 2)} as const;\n`
+  );
+}
+
 async function enrichEconomicsFromWorldBank(countries: CountryData[], opts: UpdateOptions) {
   if (!opts.enrichEconomics) return countries;
 
@@ -974,8 +985,12 @@ export async function updateCountriesData(opts: UpdateOptions) {
   const content = formatCountriesTs(enriched, ptCountryNames, ptCapitalNames);
   if (!opts.dryRun) {
     fs.writeFileSync(opts.outPath, content);
+    const localizationsPath = path.resolve(path.dirname(opts.outPath), "ptLocalizations.ts");
+    const localizationsContent = formatPtLocalizationsTs(ptCountryNames, ptCapitalNames);
+    fs.writeFileSync(localizationsPath, localizationsContent);
      
     console.log(`✓ Updated ${opts.outPath}`);
+    console.log(`✓ Updated ${localizationsPath}`);
   }
 }
 

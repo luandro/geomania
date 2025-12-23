@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "npm run export:countries-json && npm run generate:pwa-icons",
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
@@ -16,6 +17,8 @@
     "verify:flag-conflicts": "node --import tsx scripts/generate-flag-conflicts.ts --check",
     "verify:public-flags": "node --import tsx scripts/verify-flags-dir.ts --dir public/flags",
     "verify:dist-flags": "node --import tsx scripts/verify-flags-dir.ts --dir dist/flags",
+    "export:countries-json": "node --import tsx scripts/export-countries-json.ts",
+    "generate:pwa-icons": "node --import tsx scripts/generate-pwa-icons.ts",
     "prepare": "husky"
   },
   "dependencies": {
@@ -92,6 +95,8 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0",
     "vite": "^5.4.19"
+    ,
+    "vite-plugin-pwa": "^0.20.0"
   },
   "lint-staged": {
     "*.{ts,tsx}": [

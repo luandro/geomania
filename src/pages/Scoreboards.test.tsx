@@ -5,6 +5,7 @@ import '@testing-library/jest-dom/vitest';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import { LanguageProvider } from '@/i18n/LanguageContext';
 import Scoreboards from './Scoreboards';
+import { fetchLeaderboard } from '@/lib/leaderboard';
 
 vi.mock('@/lib/leaderboard', () => ({
   fetchLeaderboard: vi.fn().mockResolvedValue([]),
@@ -36,5 +37,22 @@ describe('Scoreboards', () => {
     expect(screen.getByText('Scoreboards')).toBeInTheDocument();
     expect(screen.getByRole('button', { name: 'Back to Home' })).toBeInTheDocument();
     expect(await screen.findByText('No scores yet. Be the first!')).toBeInTheDocument();
+  });
+
+  it('shows retry button on error state', async () => {
+    vi.mocked(fetchLeaderboard).mockRejectedValueOnce(new Error('fail'));
+
+    render(
+      <LanguageProvider>
+        <MemoryRouter initialEntries={['/scoreboards?mode=flag_guess']}>
+          <Routes>
+            <Route path="/scoreboards" element={<Scoreboards />} />
+          </Routes>
+        </MemoryRouter>
+      </LanguageProvider>,
+    );
+
+    expect(await screen.findByText('Could not load scoreboards.')).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Retry' })).toBeInTheDocument();
   });
 });

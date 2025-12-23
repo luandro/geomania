@@ -1,9 +1,10 @@
 import { GameMode } from '@/types/quiz';
-import { Globe, ArrowLeft, Sparkles } from 'lucide-react';
+import { ArrowLeft, HelpCircle, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { useLanguage } from '@/i18n/use-language';
 import { getAssetUrl } from '@/lib/assets';
+import { HelpDialog } from './HelpDialog';
 
 interface QuizHeaderProps {
   gameMode?: GameMode;
@@ -78,6 +79,18 @@ export const QuizHeader = ({
               </div>
             </div>
           )}
+          <HelpDialog
+            trigger={(
+              <Button
+                variant="ghost"
+                size="icon"
+                className="text-primary-foreground hover:bg-primary-foreground/10"
+                aria-label={t.help}
+              >
+                <HelpCircle className="w-5 h-5" />
+              </Button>
+            )}
+          />
           <LanguageSwitcher />
         </div>
       </div>

@@ -9,6 +9,8 @@ import { CapitalQuestion } from '@/components/quiz/CapitalQuestion';
 import { PopulationQuestion } from '@/components/quiz/PopulationQuestion';
 import { ResultsScreen } from '@/components/quiz/ResultsScreen';
 import { LoadingSpinner } from '@/components/quiz/LoadingSpinner';
+import { HelpDialog } from '@/components/quiz/HelpDialog';
+import { Button } from '@/components/ui/button';
 import { GameModeConfig, GameMode, Difficulty } from '@/types/quiz';
 import { Globe } from 'lucide-react';
 import { useLanguage } from '@/i18n/use-language';
@@ -166,9 +168,9 @@ const Index = () => {
 
   // Show landing page (Game Mode Selection)
   return (
-    <div className="min-h-screen bg-background flex flex-col kuromi-grid">
+    <div className="min-h-[100dvh] bg-background flex flex-col kuromi-grid">
       <QuizHeader />
-      <main className="flex-1 flex items-center justify-center p-4 sm:p-6">
+      <main className="flex-1 flex items-center justify-center p-4 sm:p-6 min-h-0">
         <div className="w-full max-w-5xl mx-auto text-center bg-card/80 border border-primary/20 rounded-3xl shadow-2xl backdrop-blur kuromi-spotlight p-4 sm:p-8">
           {countriesLoading || isLoading ? (
             <LoadingSpinner />
@@ -199,6 +201,16 @@ const Index = () => {
                     />
                   );
                 })}
+              </div>
+
+              <div className="mt-4 flex items-center justify-center">
+                <HelpDialog
+                  trigger={(
+                    <Button variant="link" size="sm" className="text-primary">
+                      {t.helpTitle}
+                    </Button>
+                  )}
+                />
               </div>
 
               <div className="mt-6 sm:mt-8 flex items-center justify-center gap-2 text-xs sm:text-sm text-muted-foreground kuromi-pill max-w-md mx-auto px-4 py-2 rounded-full">

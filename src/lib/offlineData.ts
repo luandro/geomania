@@ -175,17 +175,18 @@ const prefetchFlags = async (urls: string[], concurrency = 8) => {
 export const prefetchFlagsIfNeeded = async (
   countries: Country[],
   version: string | null
-) => {
-  if (typeof window === "undefined" || !navigator.onLine) return;
-  if (!countries.length) return;
+): Promise<"ALREADY_READY" | "BECAME_READY" | "FAILED"> => {
+  if (typeof window === "undefined" || !navigator.onLine) return "FAILED";
+  if (!countries.length) return "FAILED";
 
   const cacheVersion = version ?? "unknown";
-  if (getFlagsPrefetchVersion() === cacheVersion) return;
+  if (getFlagsPrefetchVersion() === cacheVersion) return "ALREADY_READY";
 
   const cache = await openCache(FLAGS_CACHE);
-  if (!cache) return; // Don't mark as complete if cache is unavailable
+  if (!cache) return "FAILED"; // Don't mark as complete if cache is unavailable
 
   const flagUrls = countries.map((country) => getAssetUrl(country.flag_url));
   await prefetchFlags(flagUrls);
   setFlagsPrefetchVersion(cacheVersion);
+  return "BECAME_READY";
 };

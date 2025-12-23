@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useCountries } from '@/hooks/useCountries';
+import { useToast } from '@/hooks/use-toast';
 import { useQuiz } from '@/hooks/useQuiz';
 import { QuizHeader } from '@/components/quiz/QuizHeader';
 import { GameModeCard } from '@/components/quiz/GameModeCard';
@@ -18,9 +19,28 @@ import { getAssetUrl } from '@/lib/assets';
 
 const Index = () => {
   const { t } = useLanguage();
-  const { data: countries, isLoading: countriesLoading, error } = useCountries();
+  const { toast } = useToast();
+  const { data: countries, isLoading: countriesLoading, error, newDataAvailable, isOfflineReady } = useCountries();
   const { session, currentQuestion, isLoading, startQuiz, answerQuestion, nextQuestion, resetQuiz } = useQuiz(countries || []);
   const [selectedMode, setSelectedMode] = useState<GameMode | null>(null);
+
+  useEffect(() => {
+    if (newDataAvailable) {
+      toast({
+        title: t.dataUpdated,
+        description: t.dataUpdatedDesc,
+      });
+    }
+  }, [newDataAvailable, t, toast]);
+
+  useEffect(() => {
+    if (isOfflineReady) {
+      toast({
+        title: t.offlineReady,
+        description: t.offlineReadyDesc,
+      });
+    }
+  }, [isOfflineReady, t, toast]);
 
   // Game mode configs - titles/descriptions come from translations
   const gameModes: GameModeConfig[] = [

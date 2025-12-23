@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit(src/lib/**)",
+      "Edit(**)",
+      "Bash(git commit:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

@@ -12,6 +12,8 @@ export const useCountries = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<unknown>(null);
   const [dataVersion, setDataVersion] = useState<string | null>(() => getLocalDataVersion());
+  const [newDataAvailable, setNewDataAvailable] = useState(false);
+  const [isOfflineReady, setIsOfflineReady] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -25,9 +27,10 @@ export const useCountries = () => {
         }
 
         if (navigator.onLine) {
-          const { countries, version } = await refreshCountriesIfNeeded(cached);
+          const { countries, version, updated } = await refreshCountriesIfNeeded(cached);
           if (!cancelled && countries?.length) {
             setData(countries);
+            if (updated) setNewDataAvailable(true);
           }
           if (!cancelled && version) {
             setDataVersion(version);
@@ -47,9 +50,10 @@ export const useCountries = () => {
     const handleOnline = async () => {
       try {
         const cached = await readCachedCountries();
-        const { countries, version } = await refreshCountriesIfNeeded(cached);
+        const { countries, version, updated } = await refreshCountriesIfNeeded(cached);
         if (!cancelled && countries?.length) {
           setData(countries);
+          if (updated) setNewDataAvailable(true);
         }
         if (!cancelled && version) {
           setDataVersion(version);
@@ -72,12 +76,20 @@ export const useCountries = () => {
 
   useEffect(() => {
     if (!data?.length) return;
-    prefetchFlagsIfNeeded(data, dataVersion).catch(() => undefined);
+    prefetchFlagsIfNeeded(data, dataVersion)
+      .then((status) => {
+        if (status === "BECAME_READY") {
+          setIsOfflineReady(true);
+        }
+      })
+      .catch(() => undefined);
   }, [data, dataVersion]);
 
   return {
     data: data ?? [],
     isLoading,
     error,
+    newDataAvailable,
+    isOfflineReady,
   };
 };

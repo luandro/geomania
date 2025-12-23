@@ -115,6 +115,12 @@ export interface Translations {
   // Errors
   oops: string;
   failedToLoad: string;
+
+  // Updates & Offline
+  dataUpdated: string;
+  dataUpdatedDesc: string;
+  offlineReady: string;
+  offlineReadyDesc: string;
   
   // Language
   language: string;
@@ -235,6 +241,12 @@ export const translations: Record<SupportedLanguage, Translations> = {
     // Errors
     oops: 'Oops!',
     failedToLoad: 'Failed to load countries. Please refresh the page.',
+
+    // Updates & Offline
+    dataUpdated: 'Data Updated',
+    dataUpdatedDesc: 'New questions and countries available.',
+    offlineReady: 'Offline Ready',
+    offlineReadyDesc: 'You can now play offline with full flag support.',
     
     // Language
     language: 'Language',
@@ -351,6 +363,12 @@ export const translations: Record<SupportedLanguage, Translations> = {
     // Errors
     oops: 'Ops!',
     failedToLoad: 'Falha ao carregar países. Por favor, atualize a página.',
+
+    // Updates & Offline
+    dataUpdated: 'Dados Atualizados',
+    dataUpdatedDesc: 'Novas perguntas e países disponíveis.',
+    offlineReady: 'Pronto para Offline',
+    offlineReadyDesc: 'Agora você pode jogar offline com suporte completo a bandeiras.',
     
     // Language
     language: 'Idioma',

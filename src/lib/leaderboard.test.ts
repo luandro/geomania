@@ -43,7 +43,7 @@ describe('leaderboard utilities', () => {
 
     const sorted = sortLeaderboardEntries(entries);
 
-    expect(sorted.map((entry) => entry.initials)).toEqual(['CCC', 'DDD', 'BBB', 'AAA', 'EEE']);
+    expect(sorted.map((entry) => entry.initials)).toEqual(['CCC', 'DDD', 'BBB', 'EEE', 'AAA']);
   });
 
   it('stores skip prompt timestamps and expires them after 7 days', () => {

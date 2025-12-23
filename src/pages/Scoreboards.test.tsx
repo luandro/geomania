@@ -8,6 +8,7 @@ import Scoreboards from './Scoreboards';
 
 vi.mock('@/lib/leaderboard', () => ({
   fetchLeaderboard: vi.fn().mockResolvedValue([]),
+  probeLeaderboardEndpoint: vi.fn().mockResolvedValue(true),
   readCachedLeaderboard: vi.fn(() => null),
   writeCachedLeaderboard: vi.fn(),
   sortLeaderboardEntries: (entries: unknown[]) => entries,

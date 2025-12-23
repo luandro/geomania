@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Trophy, Star, Target, RotateCcw, Home } from 'lucide-react';
 import { QuizSession, GameMode } from '@/types/quiz';
 import { Button } from '@/components/ui/button';
@@ -20,14 +20,40 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
   const percentage = Math.round((session.score / session.totalQuestions) * 100);
   const performanceImage = percentage >= 60 ? '/kuromi_celebrate.png' : '/kuromi_sad.png';
   const performanceImageAlt = percentage >= 60 ? 'Kuromi celebrate' : 'Kuromi sad';
-  const { canPrompt, showIOSInstructions, promptInstall, dismiss, markShown } = usePwaInstall();
-  const shouldShowInstall = canPrompt || showIOSInstructions;
+  const {
+    canPrompt,
+    showIOSInstructions,
+    promptInstall,
+    dismiss,
+    markShown,
+    sessionShown,
+    installed,
+    standalone,
+  } = usePwaInstall();
+  const [installVisible, setInstallVisible] = useState(false);
 
   useEffect(() => {
-    if (shouldShowInstall) {
+    if (!installVisible && !sessionShown && (canPrompt || showIOSInstructions)) {
+      setInstallVisible(true);
       markShown();
     }
-  }, [shouldShowInstall, markShown]);
+  }, [installVisible, sessionShown, canPrompt, showIOSInstructions, markShown]);
+
+  useEffect(() => {
+    if (installVisible && (installed || standalone)) {
+      setInstallVisible(false);
+    }
+  }, [installVisible, installed, standalone]);
+
+  const handleDismissInstall = () => {
+    dismiss();
+    setInstallVisible(false);
+  };
+
+  const handleInstall = async () => {
+    await promptInstall();
+    setInstallVisible(false);
+  };
 
   const gameModeLabels: Record<GameMode, string> = {
     flag: t.gameModes.flag,
@@ -186,12 +212,12 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome }: ResultsScreenP
           </div>
         </div>
 
-        {shouldShowInstall && (
+        {installVisible && (
           <PwaInstallBanner
             canPrompt={canPrompt}
             showIOSInstructions={showIOSInstructions}
-            onInstall={promptInstall}
-            onDismiss={dismiss}
+            onInstall={handleInstall}
+            onDismiss={handleDismissInstall}
           />
         )}
 

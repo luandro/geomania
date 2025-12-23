@@ -76,7 +76,10 @@ export const PwaInstallBanner = ({
           <Button
             variant="ghost"
             size="sm"
-            onClick={onDismiss}
+            onClick={() => {
+              setIosOpen(false);
+              onDismiss();
+            }}
             className="w-full sm:w-auto"
           >
             {t.installDismiss}

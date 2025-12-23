@@ -23,15 +23,23 @@ const isStandaloneMode = () => {
 
 const getStoredNumber = (key: string) => {
   if (typeof window === 'undefined') return null;
-  const raw = window.localStorage.getItem(key);
-  if (!raw) return null;
-  const parsed = Number(raw);
-  return Number.isFinite(parsed) ? parsed : null;
+  try {
+    const raw = window.localStorage.getItem(key);
+    if (!raw) return null;
+    const parsed = Number(raw);
+    return Number.isFinite(parsed) ? parsed : null;
+  } catch {
+    return null;
+  }
 };
 
 const getSessionShown = () => {
   if (typeof window === 'undefined') return false;
-  return window.sessionStorage.getItem(SHOWN_SESSION_KEY) === 'true';
+  try {
+    return window.sessionStorage.getItem(SHOWN_SESSION_KEY) === 'true';
+  } catch {
+    return false;
+  }
 };
 
 let deferredPrompt: BeforeInstallPromptEvent | null = null;
@@ -74,7 +82,11 @@ export const usePwaInstall = () => {
   const [promptReady, setPromptReady] = useState(() => Boolean(deferredPrompt));
   const [installed, setInstalled] = useState(() => {
     if (typeof window === 'undefined') return false;
-    return window.localStorage.getItem(INSTALLED_KEY) === 'true';
+    try {
+      return window.localStorage.getItem(INSTALLED_KEY) === 'true';
+    } catch {
+      return false;
+    }
   });
   const [dismissedAt, setDismissedAt] = useState<number | null>(() => getStoredNumber(DISMISS_KEY));
   const [standalone, setStandalone] = useState(() => isStandaloneMode());
@@ -139,14 +151,12 @@ export const usePwaInstall = () => {
 
   const canPrompt = !installed
     && !standalone
-    && !sessionShown
     && !cooldownActive
     && promptReady;
 
   const showIOSInstructions = isIOSDevice()
     && !installed
     && !standalone
-    && !sessionShown
     && !cooldownActive
     && !promptReady;
 
@@ -155,26 +165,32 @@ export const usePwaInstall = () => {
     if (!deferredPrompt) return;
 
     setPromptReady(false);
-    await deferredPrompt.prompt();
-    const choice = await deferredPrompt.userChoice;
-    setDeferredPrompt(null);
+    try {
+      await deferredPrompt.prompt();
+      const choice = await deferredPrompt.userChoice;
+      setDeferredPrompt(null);
 
-    if (choice.outcome === 'accepted') {
-      setInstalled(true);
+      if (choice.outcome === 'accepted') {
+        setInstalled(true);
+        try {
+          window.localStorage.setItem(INSTALLED_KEY, 'true');
+        } catch {
+          // Ignore storage errors
+        }
+        return;
+      }
+
+      const now = Date.now();
+      setDismissedAt(now);
       try {
-        window.localStorage.setItem(INSTALLED_KEY, 'true');
+        window.localStorage.setItem(DISMISS_KEY, String(now));
       } catch {
         // Ignore storage errors
       }
-      return;
-    }
-
-    const now = Date.now();
-    setDismissedAt(now);
-    try {
-      window.localStorage.setItem(DISMISS_KEY, String(now));
     } catch {
-      // Ignore storage errors
+      deferredPromptRef.current = deferredPrompt;
+      setPromptReady(true);
+      setDeferredPrompt(deferredPrompt);
     }
   }, []);
 
@@ -204,5 +220,8 @@ export const usePwaInstall = () => {
     promptInstall,
     dismiss,
     markShown,
+    sessionShown,
+    installed,
+    standalone,
   };
 };

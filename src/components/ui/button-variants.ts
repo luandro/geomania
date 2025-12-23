@@ -12,7 +12,7 @@ export const buttonVariants = cva(
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         success: "bg-success text-success-foreground hover:bg-success/90 shadow-md",
-        quiz: "bg-card text-card-foreground border-2 border-border hover:border-primary hover:bg-primary/5 shadow-sm transition-all duration-200 hover:-translate-y-0.5",
+        quiz: "bg-card text-card-foreground border-2 border-border hover:border-primary hover:bg-primary/5 shadow-sm transition-all duration-200 hover:-translate-y-0.5 focus-visible:ring-4 focus-visible:ring-foreground/80",
         quizCorrect: "bg-success text-success-foreground border-2 border-success shadow-md",
         quizIncorrect: "bg-destructive text-destructive-foreground border-2 border-destructive shadow-md",
         hero: "bg-gradient-to-r from-black via-secondary to-primary text-primary-foreground shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300",

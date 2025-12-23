@@ -107,7 +107,7 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
     setIsCorrect(false);
     setIsLastQuestion(false);
     onNext();
-  }, [clearAutoAdvanceTimer, onNext]);
+  }, [clearAutoAdvanceTimer, clearRevealTimers, onNext]);
 
   const updateTapTargets = useCallback(() => {
     if (!mapRef.current) return;

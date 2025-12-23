@@ -312,6 +312,26 @@
   }
 }
 
+@keyframes level-icon-pulse {
+  0%,
+  12% {
+    transform: translateY(0) scale(1) rotate(0deg);
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+  }
+  4% {
+    transform: translateY(-4px) scale(1.08) rotate(-5deg);
+    filter: drop-shadow(0 6px 12px rgba(255, 105, 180, 0.45)) saturate(1.1);
+  }
+  7% {
+    transform: translateY(-2px) scale(1.05) rotate(4deg);
+    filter: drop-shadow(0 5px 10px rgba(255, 105, 180, 0.4)) saturate(1.05);
+  }
+  100% {
+    transform: translateY(0) scale(1) rotate(0deg);
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+  }
+}
+
 /* Arcade circular buttons (Kuromi style) */
 @layer utilities {
   .arcade-round {
@@ -430,6 +450,11 @@
 
   .arcade-round:hover .stroke-text {
     transform: translate(0.5px, -0.5px);
+  }
+
+  .level-icon-pulse {
+    animation: level-icon-pulse 5s ease-in-out infinite;
+    will-change: transform, filter;
   }
 
   .wave-letter {

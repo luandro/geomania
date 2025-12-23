@@ -8,12 +8,12 @@ interface DifficultySelectorProps {
   disabled?: boolean;
 }
 
-const DIFFICULTIES: { id: Difficulty; icon: string; ring: string }[] = [
-  { id: 'easy', icon: '💜', ring: 'arcade-round-dark' },
-  { id: 'medium', icon: '🖤', ring: '' },
-  { id: 'hard', icon: '💗', ring: '' },
-  { id: 'super_hard', icon: '💀', ring: '' },
-  { id: 'god_mode', icon: '😈', ring: 'arcade-round-dark' },
+const DIFFICULTIES: { id: Difficulty; iconSrc: string; ring: string; pulseDelay: string }[] = [
+  { id: 'easy', iconSrc: '/levels/easy.png', ring: 'arcade-round-dark', pulseDelay: '0s' },
+  { id: 'medium', iconSrc: '/levels/merdium.png', ring: '', pulseDelay: '1s' },
+  { id: 'hard', iconSrc: '/levels/hard.png', ring: '', pulseDelay: '2s' },
+  { id: 'super_hard', iconSrc: '/levels/superhard.png', ring: '', pulseDelay: '3s' },
+  { id: 'god_mode', iconSrc: '/levels/god.png', ring: 'arcade-round-dark', pulseDelay: '4s' },
 ];
 
 export const DifficultySelector = ({ onSelect, disabled }: DifficultySelectorProps) => {
@@ -29,13 +29,18 @@ export const DifficultySelector = ({ onSelect, disabled }: DifficultySelectorPro
       {DIFFICULTIES.map((diff) => (
         <Card
           key={diff.id}
-          className={`cursor-pointer transition-all duration-200 hover:scale-105 border-0 bg-transparent`}
+          className={`cursor-pointer transition-all duration-200 hover:scale-105 border-0 bg-transparent shadow-none`}
           onClick={() => !disabled && onSelect(diff.id)}
         >
           <div className="flex flex-col items-center gap-3">
             <div className={`arcade-round arcade-round-md ${diff.ring}`}>
               <div className="flex flex-col items-center justify-center h-full w-full text-white font-extrabold uppercase tracking-wide text-lg relative">
-                <span className="text-3xl mb-1 drop-shadow-[0_4px_6px_rgba(0,0,0,0.35)]">{diff.icon}</span>
+                <img
+                  src={diff.iconSrc}
+                  alt={`${t.difficulty[diff.id]} level`}
+                  className="h-24 w-24 mb-1 drop-shadow-[0_4px_6px_rgba(0,0,0,0.35)] level-icon-pulse"
+                  style={{ animationDelay: diff.pulseDelay }}
+                />
                 <span className="drop-shadow-[0_4px_6px_rgba(0,0,0,0.35)] px-3 leading-tight stroke-text">
                   {t.difficulty[diff.id]}
                 </span>

@@ -65,10 +65,26 @@ const Index = () => {
     }
   }, [ensureMapAssetsReady]);
 
+  const getSessionStorageItem = useCallback((key: string) => {
+    try {
+      return sessionStorage.getItem(key);
+    } catch (error) {
+      return null;
+    }
+  }, []);
+
+  const setSessionStorageItem = useCallback((key: string, value: string) => {
+    try {
+      sessionStorage.setItem(key, value);
+    } catch (error) {
+      // Ignore storage errors (private browsing, quota, etc.)
+    }
+  }, []);
+
   useEffect(() => {
     if (session || selectedMode) return;
 
-    const hasAutoSwitched = sessionStorage.getItem('homeAutoSwitched');
+    const hasAutoSwitched = getSessionStorageItem('homeAutoSwitched');
     if (hasAutoSwitched) return;
 
     const events = ['pointerdown', 'keydown', 'wheel', 'touchstart', 'scroll'];
@@ -79,7 +95,7 @@ const Index = () => {
         window.clearTimeout(timeoutId);
         timeoutId = null;
       }
-      sessionStorage.setItem('homeAutoSwitched', 'true');
+      setSessionStorageItem('homeAutoSwitched', 'true');
       events.forEach((event) => window.removeEventListener(event, clearAutoSwitch));
     };
 
@@ -88,15 +104,15 @@ const Index = () => {
     );
 
     timeoutId = window.setTimeout(() => {
-      sessionStorage.setItem('homeAutoSwitched', 'true');
+      setSessionStorageItem('homeAutoSwitched', 'true');
       navigate('/scoreboards');
-    }, 7000);
+    }, 25000);
 
     return () => {
       if (timeoutId) window.clearTimeout(timeoutId);
       events.forEach((event) => window.removeEventListener(event, clearAutoSwitch));
     };
-  }, [navigate, selectedMode, session]);
+  }, [getSessionStorageItem, navigate, selectedMode, session, setSessionStorageItem]);
 
   // Game mode configs - titles/descriptions come from translations
   const gameModes: GameModeConfig[] = [
@@ -216,9 +232,9 @@ const Index = () => {
   };
 
   const handleViewScoreboards = useCallback(() => {
-    sessionStorage.setItem('homeAutoSwitched', 'true');
+    setSessionStorageItem('homeAutoSwitched', 'true');
     navigate('/scoreboards');
-  }, [navigate]);
+  }, [navigate, setSessionStorageItem]);
 
   if (error) {
     return (

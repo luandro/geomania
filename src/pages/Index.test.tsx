@@ -64,7 +64,7 @@ afterEach(() => {
 });
 
 describe('Index homepage auto-switch', () => {
-  it('auto-navigates to scoreboards after 7 seconds of inactivity', async () => {
+  it('auto-navigates to scoreboards after 25 seconds of inactivity', async () => {
     render(
       <LanguageProvider>
         <Index />
@@ -72,7 +72,7 @@ describe('Index homepage auto-switch', () => {
     );
 
     await act(async () => {
-      vi.advanceTimersByTime(7001);
+      vi.advanceTimersByTime(25001);
     });
 
     expect(mockNavigate).toHaveBeenCalledWith('/scoreboards');
@@ -89,7 +89,7 @@ describe('Index homepage auto-switch', () => {
     window.dispatchEvent(new Event('pointerdown'));
 
     await act(async () => {
-      vi.advanceTimersByTime(7001);
+      vi.advanceTimersByTime(25001);
     });
 
     expect(mockNavigate).not.toHaveBeenCalled();

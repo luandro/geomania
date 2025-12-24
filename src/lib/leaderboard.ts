@@ -77,6 +77,7 @@ export const probeLeaderboardEndpoint = async (timeoutMs = 2500) => {
 export const fetchLeaderboard = async (mode: LeaderboardMode, limit = 10): Promise<LeaderboardEntry[]> => {
   const response = await fetch(buildLeaderboardUrl(mode, limit), {
     method: 'GET',
+    cache: 'no-store',
   });
 
   if (!response.ok) {

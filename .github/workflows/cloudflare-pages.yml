@@ -35,6 +35,7 @@ jobs:
         env:
           # Root path for custom domain (geomania.lol)
           VITE_BASE_PATH: /
+          VITE_LEADERBOARD_ENDPOINT: ${{ secrets.VITE_LEADERBOARD_ENDPOINT }}
 
       - name: Verify dist flags are hashed
         run: npm run verify:dist-flags

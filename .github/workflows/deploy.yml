@@ -38,6 +38,7 @@ jobs:
         env:
           # Set base path for GitHub Pages (repo name)
           VITE_BASE_PATH: /${{ github.event.repository.name }}/
+          VITE_LEADERBOARD_ENDPOINT: ${{ secrets.VITE_LEADERBOARD_ENDPOINT }}
 
       - name: Verify dist flags are hashed
         run: npm run verify:dist-flags

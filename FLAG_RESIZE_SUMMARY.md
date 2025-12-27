@@ -95,7 +95,7 @@ className="w-10 sm:w-12 h-6 sm:h-8"  // ~48px mobile, ~64px desktop
 ### Kuromi Pastel-Goth Arcade Theme
 - **Background cards** with `bg-quiz-flag` color
 - **Rounded corners** (rounded-lg, rounded-xl, rounded-2xl)
-- **Shadow effects** (`flag-shadow`, `shadow-sm`)
+- **Shadow effects** (`flag-shadow`, `shadow-xs`)
 - **Consistent spacing** with gap utilities
 - **Responsive design** with mobile-first approach
 

@@ -18,7 +18,7 @@ export const GameModeCard = ({ config, onSelect, disabled, letterOffset = 0 }: G
       onClick={onSelect}
       disabled={disabled}
       aria-label={config.title}
-      className="relative arcade-round arcade-round-lg text-foreground font-black uppercase tracking-wide text-xl sm:text-2xl !p-0 !flex !items-center !justify-center"
+      className="relative arcade-round arcade-round-lg text-foreground font-black uppercase tracking-wide text-xl sm:text-2xl p-0! flex! items-center! justify-center!"
     >
       <span className="absolute inset-0 flex items-center justify-center px-4">
         <span className="drop-shadow-[0_6px_8px_rgba(0,0,0,0.4)] text-white text-center font-extrabold tracking-tight uppercase leading-[0.9] flex flex-wrap items-center justify-center gap-x-2" style={{ rowGap: '0px' }}>

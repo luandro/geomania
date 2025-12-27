@@ -26,7 +26,7 @@ export const PwaInstallBanner = ({
   const [iosOpen, setIosOpen] = useState(false);
 
   return (
-    <div className="mt-4 sm:mt-6 rounded-2xl border border-primary/20 bg-card/90 p-4 sm:p-5 text-left shadow-lg backdrop-blur">
+    <div className="mt-4 sm:mt-6 rounded-2xl border border-primary/20 bg-card/90 p-4 sm:p-5 text-left shadow-lg backdrop-blur-sm">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <p className="text-sm sm:text-base font-semibold text-foreground">

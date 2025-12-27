@@ -54,7 +54,7 @@ This migration plan outlines the strategy for upgrading Geomania from Tailwind C
 |----------------|-------------|--------|--------|
 | `@tailwind` → `@import` | 1 file | HIGH | Low |
 | PostCSS plugin migration | 2 files | HIGH | Low |
-| `outline-none` → `outline-hidden` | 43 instances in 25 files | MEDIUM | Medium |
+| `outline-hidden` → `outline-hidden` | 43 instances in 25 files | MEDIUM | Medium |
 | Space/divide selector changes | 32 instances | MEDIUM | Low |
 | Custom utilities → `@utility` | ~15 classes | MEDIUM | Medium |
 | Config → CSS-first | 100 lines | HIGH | High |
@@ -110,7 +110,7 @@ This migration plan outlines the strategy for upgrading Geomania from Tailwind C
      - ✅ Converting most config to CSS variables
      - ✅ Replacing deprecated utilities
      - ✅ Updating PostCSS configuration
-     - ✅ Fixing most `outline-none` → `outline-hidden` occurrences
+     - ✅ Fixing most `outline-hidden` → `outline-hidden` occurrences
 
 3. Test the build
    ```bash
@@ -343,19 +343,19 @@ The typography plugin now uses the `@plugin` directive:
 
 ### Phase 6: Manual Code Updates ⏱️ 1.5 hours
 
-**6.1 Replace `outline-none` with `outline-hidden`**
+**6.1 Replace `outline-hidden` with `outline-hidden`**
 
 The upgrade tool should handle most of these, but verify all 43 instances:
 
 **Find all occurrences**:
 ```bash
-grep -r "outline-none" src/ --include="*.tsx" --include="*.ts"
+grep -r "outline-hidden" src/ --include="*.tsx" --include="*.ts"
 ```
 
 **Manual replacement pattern**:
 ```tsx
 // Before
-className="focus:outline-none"
+className="focus:outline-hidden"
 
 // After
 className="focus:outline-hidden"
@@ -371,7 +371,7 @@ className="focus:outline-hidden"
 
 **6.2 Review Ring Usage**
 
-The default `ring` width changed from 3px to 1px:
+The default `ring-3` width changed from 3px to 1px:
 
 ```tsx
 {/* If you were using ring without a width, add -3 */}
@@ -570,7 +570,7 @@ npm run typecheck
 npm run lint
 
 # Search for remaining issues
-grep -r "outline-none" src/
+grep -r "outline-hidden" src/
 grep -r "bg-opacity-\|text-opacity-" src/
 grep -r "@tailwind" src/
 

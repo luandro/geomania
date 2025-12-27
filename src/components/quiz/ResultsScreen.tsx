@@ -178,7 +178,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome, onViewLeaderboar
                 <img
                   src={getAssetUrl(countryA.flag_url)}
                   alt={getLocalizedCountryName(countryA, language)}
-                  className="w-10 sm:w-12 h-6 sm:h-8 object-contain rounded shadow-sm"
+                  className="w-10 sm:w-12 h-6 sm:h-8 object-contain rounded shadow-xs"
                 />
                 <div className="text-left">
                   <span className="font-medium text-foreground block">
@@ -199,7 +199,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome, onViewLeaderboar
                 <img
                   src={getAssetUrl(countryB.flag_url)}
                   alt={getLocalizedCountryName(countryB, language)}
-                  className="w-10 sm:w-12 h-6 sm:h-8 object-contain rounded shadow-sm"
+                  className="w-10 sm:w-12 h-6 sm:h-8 object-contain rounded shadow-xs"
                 />
                 <div className="text-left">
                   <span className="font-medium text-foreground block">
@@ -234,7 +234,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome, onViewLeaderboar
             <img
               src={getAssetUrl(q.correctAnswer.flag_url)}
               alt={getLocalizedCountryName(q.correctAnswer, language)}
-              className="w-10 sm:w-12 h-6 sm:h-8 object-contain rounded shrink-0 shadow-sm"
+              className="w-10 sm:w-12 h-6 sm:h-8 object-contain rounded shrink-0 shadow-xs"
             />
             <span className="text-sm font-medium text-foreground truncate">
               {session.gameMode === 'capital' || session.gameMode === 'map_capital'
@@ -309,7 +309,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome, onViewLeaderboar
                     pattern="[A-Za-z]{3}"
                     value={initials}
                     onChange={(event) => handleInitialsChange(event.target.value)}
-                    className="w-32 sm:w-40 text-center font-mono text-2xl sm:text-3xl tracking-[0.5em] bg-background text-foreground rounded-lg border-2 border-primary/40 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
+                    className="w-32 sm:w-40 text-center font-mono text-2xl sm:text-3xl tracking-[0.5em] bg-background text-foreground rounded-lg border-2 border-primary/40 px-4 py-2 focus:outline-hidden focus:ring-2 focus:ring-primary"
                     aria-label={t.perfectScorePrompt}
                     disabled={saveState === 'saving'}
                   />

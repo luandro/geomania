@@ -21,7 +21,7 @@ export const LanguageSwitcher = () => {
               className={`
                 px-2 py-0.5 sm:px-3 sm:py-1 rounded-full text-xs font-semibold transition-all
                 ${isActive
-                  ? 'bg-primary-foreground text-primary shadow-sm'
+                  ? 'bg-primary-foreground text-primary shadow-xs'
                   : 'text-primary-foreground hover:bg-primary-foreground/20'
                 }
               `}

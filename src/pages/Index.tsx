@@ -278,8 +278,8 @@ const Index = () => {
   if (session && currentQuestion) {
     const isMapSession = session.gameMode === 'map_country' || session.gameMode === 'map_capital';
     return (
-      <div className={`min-h-[100dvh] bg-background flex flex-col ${isMapSession ? 'relative overflow-hidden' : ''}`}>
-        <div className={isMapSession ? 'absolute inset-x-0 top-0 z-[500]' : undefined}>
+      <div className={`min-h-dvh bg-background flex flex-col ${isMapSession ? 'relative overflow-hidden' : ''}`}>
+        <div className={isMapSession ? 'absolute inset-x-0 top-0 z-500' : undefined}>
           <QuizHeader
             gameMode={session.gameMode}
             currentQuestion={session.currentQuestionIndex}
@@ -291,7 +291,7 @@ const Index = () => {
         </div>
         <main
           className={`flex-1 flex ${
-            isMapSession ? 'p-0 min-h-[100dvh] items-stretch justify-stretch' : 'items-center justify-center p-3 sm:p-6'
+            isMapSession ? 'p-0 min-h-dvh items-stretch justify-stretch' : 'items-center justify-center p-3 sm:p-6'
           }`}
         >
           {session.gameMode === 'flag' && (
@@ -376,14 +376,14 @@ const Index = () => {
                 {isMapMode && (
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
                     <Button
-                      variant={selectedMode === 'map_country' ? 'hero' : 'outline'}
+                      variant={selectedMode === 'map_country' ? 'hero' : 'outline-solid'}
                       size="sm"
                       onClick={() => handleMapVariantChange('map_country')}
                     >
                       {t.mapModeCountry}
                     </Button>
                     <Button
-                      variant={selectedMode === 'map_capital' ? 'hero' : 'outline'}
+                      variant={selectedMode === 'map_capital' ? 'hero' : 'outline-solid'}
                       size="sm"
                       onClick={() => handleMapVariantChange('map_capital')}
                     >
@@ -402,10 +402,10 @@ const Index = () => {
 
   // Show landing page (Game Mode Selection)
   return (
-    <div className="min-h-[100dvh] bg-background flex flex-col kuromi-grid">
+    <div className="min-h-dvh bg-background flex flex-col kuromi-grid">
       <QuizHeader />
       <main className="flex-1 flex items-center justify-center p-4 sm:p-6 min-h-0">
-        <div className="w-full max-w-5xl mx-auto text-center bg-card/80 border border-primary/20 rounded-3xl shadow-2xl backdrop-blur kuromi-spotlight p-4 sm:p-8">
+        <div className="w-full max-w-5xl mx-auto text-center bg-card/80 border border-primary/20 rounded-3xl shadow-2xl backdrop-blur-sm kuromi-spotlight p-4 sm:p-8">
           {countriesLoading || isLoading ? (
             <LoadingSpinner />
           ) : (
@@ -414,7 +414,7 @@ const Index = () => {
                 <div className="inline-flex items-center justify-center w-40 h-40 sm:w-56 sm:h-56 rounded-full quiz-gradient mb-4 sm:mb-6 bounce-in ring-4 ring-primary/40 shadow-2xl overflow-hidden">
                   <img src={getAssetUrl('/kuromi_map.svg')} alt="Kuromi map" className="w-full h-full object-contain" />
                 </div>
-                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3 sm:mb-4 text-foreground drop-shadow">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-3 sm:mb-4 text-foreground drop-shadow-sm">
                   {t.welcome} <span className="text-primary">{t.welcomeHighlight}</span>
                 </h1>
                 <p className="text-base sm:text-lg text-muted-foreground max-w-xl mx-auto px-2">

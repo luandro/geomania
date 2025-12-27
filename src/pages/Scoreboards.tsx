@@ -134,7 +134,7 @@ const Scoreboards = () => {
   };
 
   return (
-    <div className="min-h-[100dvh] bg-background flex flex-col kuromi-grid">
+    <div className="min-h-dvh bg-background flex flex-col kuromi-grid">
       <QuizHeader />
       <main className="flex-1 flex items-center justify-center p-4 sm:p-6">
         <div className="w-full max-w-4xl mx-auto space-y-6">
@@ -157,7 +157,7 @@ const Scoreboards = () => {
             {modeTabs.map((mode) => (
               <Button
                 key={mode.id}
-                variant={activeMode === mode.id ? 'hero' : 'outline'}
+                variant={activeMode === mode.id ? 'hero' : 'outline-solid'}
                 size="sm"
                 onClick={() => {
                   setActiveMode(mode.id);

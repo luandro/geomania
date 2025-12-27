@@ -330,21 +330,21 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
   }
 
   return (
-    <div className="map-immersive relative w-full h-[100dvh] min-h-[100dvh] fade-in overflow-hidden">
+    <div className="map-immersive relative w-full h-dvh min-h-dvh fade-in overflow-hidden">
       <div ref={mapContainerRef} className="absolute inset-0" />
 
-      <div className="absolute inset-0 z-[400] flex flex-col pointer-events-none">
-        <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-background/80 via-background/20 to-transparent" />
-        <div className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-background/85 via-background/30 to-transparent" />
+      <div className="absolute inset-0 z-400 flex flex-col pointer-events-none">
+        <div className="absolute inset-x-0 top-0 h-24 bg-linear-to-b from-background/80 via-background/20 to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 h-36 bg-linear-to-t from-background/85 via-background/30 to-transparent" />
 
         <div className="pointer-events-auto mx-auto flex w-full max-w-[92vw] flex-col items-center gap-2 px-3 pt-[calc(env(safe-area-inset-top)+3.5rem)] sm:max-w-xl sm:px-6 sm:pt-[calc(env(safe-area-inset-top)+4.5rem)] lg:mt-6">
-          <div className="rounded-2xl border border-primary/30 bg-card/90 px-4 py-3 text-center shadow-xl backdrop-blur">
+          <div className="rounded-2xl border border-primary/30 bg-card/90 px-4 py-3 text-center shadow-xl backdrop-blur-sm">
             <p className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-muted-foreground">
               {t.mapTitle}
             </p>
             <div className="mt-2 flex flex-col items-center gap-2">
               {question.mapPromptType === 'country' ? (
-                <div className="inline-flex items-center gap-3 rounded-full border border-primary/30 bg-background/85 px-4 py-2 shadow-sm">
+                <div className="inline-flex items-center gap-3 rounded-full border border-primary/30 bg-background/85 px-4 py-2 shadow-xs">
                   <img
                     src={getAssetUrl(question.correctAnswer.flag_url)}
                     alt={countryName}
@@ -354,7 +354,7 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
                   <span className="text-sm sm:text-base font-semibold text-foreground">{countryName}</span>
                 </div>
               ) : (
-                <div className="inline-flex items-center gap-3 rounded-full border border-primary/30 bg-background/85 px-4 py-2 shadow-sm">
+                <div className="inline-flex items-center gap-3 rounded-full border border-primary/30 bg-background/85 px-4 py-2 shadow-xs">
                   <span className="text-[10px] sm:text-xs uppercase tracking-wide text-muted-foreground">
                     {t.mapCapitalLabel}
                   </span>
@@ -365,7 +365,7 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
           </div>
 
           {answered && (
-            <div className="rounded-full border border-primary/20 bg-background/90 px-4 py-2 shadow-lg backdrop-blur bounce-in">
+            <div className="rounded-full border border-primary/20 bg-background/90 px-4 py-2 shadow-lg backdrop-blur-sm bounce-in">
               <p className={`text-sm sm:text-base font-semibold ${isCorrect ? 'text-success' : 'text-destructive'}`}>
                 {isCorrect ? t.correct : `${t.incorrect} ${t.wrongAnswer.replace('{answer}', countryName)}`}
               </p>
@@ -378,7 +378,7 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
             variant="outline"
             size="sm"
             onClick={recenterWorld}
-            className="bg-background/90 backdrop-blur border-primary/30 shadow-lg text-xs sm:text-sm"
+            className="bg-background/90 backdrop-blur-sm border-primary/30 shadow-lg text-xs sm:text-sm"
           >
             {t.mapRecenter}
           </Button>
@@ -387,7 +387,7 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
               variant="outline"
               size="sm"
               onClick={() => zoomToSelection(selectedIso)}
-              className="bg-background/90 backdrop-blur border-primary/30 shadow-lg text-xs sm:text-sm"
+              className="bg-background/90 backdrop-blur-sm border-primary/30 shadow-lg text-xs sm:text-sm"
             >
               {t.mapZoomToSelection}
             </Button>
@@ -396,7 +396,7 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
 
         <div className="pointer-events-auto mt-auto flex flex-col gap-3 px-3 pb-[calc(env(safe-area-inset-bottom)+0.75rem)] sm:px-6 sm:pb-6">
           {showHint && (
-            <div className="flex items-center justify-between gap-2 rounded-2xl border border-primary/20 bg-background/90 px-4 py-2 text-xs sm:text-sm text-muted-foreground shadow-md backdrop-blur">
+            <div className="flex items-center justify-between gap-2 rounded-2xl border border-primary/20 bg-background/90 px-4 py-2 text-xs sm:text-sm text-muted-foreground shadow-md backdrop-blur-sm">
               <span>{t.mapHint}</span>
               <button
                 className="text-primary font-semibold"
@@ -414,7 +414,7 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
             </div>
           )}
 
-          <div className="rounded-3xl border border-primary/25 bg-background/90 px-4 py-3 shadow-xl backdrop-blur">
+          <div className="rounded-3xl border border-primary/25 bg-background/90 px-4 py-3 shadow-xl backdrop-blur-sm">
             <AutoAdvanceControls
               answered={answered}
               isLastQuestion={isLastQuestion}

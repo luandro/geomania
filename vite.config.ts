@@ -9,17 +9,18 @@ export default defineConfig(({ mode }) => {
   // Base path for GitHub Pages deployment (defaults to / for local dev)
   const base = process.env.VITE_BASE_PATH || "/";
   const basePath = base.endsWith("/") ? base : `${base}/`;
+  const enablePwa = process.env.VITE_DISABLE_PWA !== "true";
 
   return {
-    base,
-  server: {
-    host: "::",
-    port: 8080,
-  },
-  plugins: [
-    react(),
-    mode === "development" && componentTagger(),
-    VitePWA({
+    base: basePath,
+    server: {
+      host: "::",
+      port: 8080,
+    },
+    plugins: [
+      react(),
+      mode === "development" && componentTagger(),
+      enablePwa && VitePWA({
       registerType: "autoUpdate",
       includeAssets: ["favicon.ico", "robots.txt", "icons/*.png", "kuromi.svg", "kuromi_map.svg"],
       manifest: {
@@ -29,8 +30,8 @@ export default defineConfig(({ mode }) => {
         theme_color: "#e01f8e",
         background_color: "#0c0812",
         display: "standalone",
-        start_url: "/",
-        scope: "/",
+        start_url: basePath,
+        scope: basePath,
         categories: ["education", "games"],
         lang: "en",
         icons: [
@@ -62,7 +63,7 @@ export default defineConfig(({ mode }) => {
         skipWaiting: true,
         clientsClaim: true,
         globPatterns: ["**/*.{js,css,html,ico,png,svg,json,webmanifest}"],
-        navigateFallback: `${basePath}index.html`,
+        navigateFallback: "index.html",
         runtimeCaching: [
           {
             urlPattern: ({ request }) => request.mode === "navigate",
@@ -117,12 +118,12 @@ export default defineConfig(({ mode }) => {
           },
         ],
       },
-    }),
-  ].filter(Boolean),
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
+      }),
+    ].filter(Boolean),
+    resolve: {
+      alias: {
+        "@": path.resolve(__dirname, "./src"),
+      },
     },
-  },
   };
 });

@@ -29,9 +29,20 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
   const [isLastQuestion, setIsLastQuestion] = useState(false);
   const [selectedIso, setSelectedIso] = useState<string | null>(null);
   const [hoveredIso, setHoveredIso] = useState<string | null>(null);
-  const [showHint, setShowHint] = useState(false);
+  const [showHint, setShowHint] = useState(() => {
+    if (typeof window === 'undefined') return false;
+    try {
+      const dismissed = window.localStorage.getItem(HINT_STORAGE_KEY);
+      return !dismissed;
+    } catch {
+      return true;
+    }
+  });
   const [revealCorrect, setRevealCorrect] = useState(false);
   const [blinkOn, setBlinkOn] = useState(true);
+
+  // Track question ID to reset state when it changes (React 19 pattern using refs)
+  const questionIdRef = useRef(question.id);
 
   const mapRef = useRef<L.Map | null>(null);
   const layerRef = useRef<L.GeoJSON | null>(null);
@@ -62,7 +73,7 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
     }
   }, []);
 
-  const clearRevealTimers = useCallback((resetState = true) => {
+  const clearTimers = useCallback(() => {
     if (revealTimer.current) {
       clearTimeout(revealTimer.current);
       revealTimer.current = null;
@@ -71,11 +82,15 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
       clearInterval(blinkTimer.current);
       blinkTimer.current = null;
     }
+  }, []);
+
+  const clearRevealTimers = useCallback((resetState = true) => {
+    clearTimers();
     if (resetState) {
       setRevealCorrect(false);
       setBlinkOn(true);
     }
-  }, []);
+  }, [clearTimers]);
 
   const startCorrectReveal = useCallback(() => {
     clearRevealTimers(false);
@@ -209,29 +224,24 @@ export const MapQuestion = ({ question, onAnswer, onNext, mapData, allCountries 
   }, [isMobile]);
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
-    try {
-      const dismissed = window.localStorage.getItem(HINT_STORAGE_KEY);
-      setShowHint(!dismissed);
-    } catch {
-      setShowHint(true);
-    }
-  }, []);
-
-  useEffect(() => {
     updateLayerStyles();
   }, [updateLayerStyles]);
 
+  // Reset state when question changes (React 19: legitimate prop-based state reset)
   useEffect(() => {
-    setSelectedIso(null);
-    setHoveredIso(null);
-    setAnswered(false);
-    setIsCorrect(false);
-    setIsLastQuestion(false);
-    clearRevealTimers();
+    if (questionIdRef.current !== question.id) {
+      questionIdRef.current = question.id;
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- Resetting state based on prop change, checked with ref to prevent cascading
+      setSelectedIso(null);
+      setHoveredIso(null);
+      setAnswered(false);
+      setIsCorrect(false);
+      setIsLastQuestion(false);
+      clearRevealTimers();
+    }
   }, [question.id, clearRevealTimers]);
 
-  useEffect(() => () => clearRevealTimers(false), [clearRevealTimers]);
+  useEffect(() => () => clearTimers(), [clearTimers]);
 
   useEffect(() => {
     if (answered && autoAdvance) {

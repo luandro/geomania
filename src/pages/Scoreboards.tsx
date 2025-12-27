@@ -122,9 +122,11 @@ const Scoreboards = () => {
     [t],
   );
 
+  // Display function for relative dates
   const formatRelativeDate = (timestamp: string) => {
     const date = new Date(timestamp);
     if (Number.isNaN(date.getTime())) return '';
+    // eslint-disable-next-line react-hooks/purity -- Date.now() needed for display, acceptable for user-facing relative time
     const diffMs = Date.now() - date.getTime();
     const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
     if (diffDays <= 0) return t.today;

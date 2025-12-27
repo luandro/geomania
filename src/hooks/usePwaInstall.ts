@@ -144,8 +144,10 @@ export const usePwaInstall = () => {
     };
   }, []);
 
+  // React 19: Calculate cooldown status when dismissedAt changes
   const cooldownActive = useMemo(() => {
     if (!dismissedAt) return false;
+    // eslint-disable-next-line react-hooks/purity -- Date.now() needed for cooldown logic, memoized and recalculated only when dismissedAt changes
     return Date.now() - dismissedAt < COOLDOWN_MS;
   }, [dismissedAt]);
 

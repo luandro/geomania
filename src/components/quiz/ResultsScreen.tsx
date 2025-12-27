@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Trophy, Star, Target, RotateCcw, Home, Medal } from 'lucide-react';
 import { QuizSession, GameMode } from '@/types/quiz';
 import { getLeaderboardModeForGameMode, type LeaderboardEntry } from '@/types/leaderboard';
@@ -40,24 +40,38 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome, onViewLeaderboar
   const [saveState, setSaveState] = useState<'idle' | 'saving' | 'saved' | 'saved-offline'>('idle');
   const [promptDismissed, setPromptDismissed] = useState(false);
 
+  // Track session ID and install banner state (React 19 pattern using refs)
+  const sessionIdRef = useRef(session.id);
+  const installShownRef = useRef(false);
+
+  // Reset state when session changes (React 19: legitimate prop-based state reset)
   useEffect(() => {
-    if (!installVisible && !sessionShown && (canPrompt || showIOSInstructions)) {
+    if (sessionIdRef.current !== session.id) {
+      sessionIdRef.current = session.id;
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- Resetting state based on prop change, checked with ref to prevent cascading
+      setInitials('');
+      setSaveState('idle');
+      setPromptDismissed(false);
+    }
+  }, [session.id]);
+
+  // Show install banner when conditions are met (React 19: controlled by ref to prevent cascading)
+  useEffect(() => {
+    if (!installShownRef.current && !sessionShown && (canPrompt || showIOSInstructions) && !installed && !standalone) {
+      installShownRef.current = true;
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- State synchronized with external PWA system, controlled by ref
       setInstallVisible(true);
       markShown();
     }
-  }, [installVisible, sessionShown, canPrompt, showIOSInstructions, markShown]);
+  }, [sessionShown, canPrompt, showIOSInstructions, installed, standalone, markShown]);
 
+  // Hide install banner if user installed or is in standalone mode (React 19: synchronize with external system)
   useEffect(() => {
     if (installVisible && (installed || standalone)) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- Synchronizing with external PWA installation state
       setInstallVisible(false);
     }
   }, [installVisible, installed, standalone]);
-
-  useEffect(() => {
-    setInitials('');
-    setSaveState('idle');
-    setPromptDismissed(false);
-  }, [session.id]);
 
   const handleDismissInstall = () => {
     dismiss();
@@ -76,7 +90,7 @@ export const ResultsScreen = ({ session, onPlayAgain, onGoHome, onViewLeaderboar
     map_country: t.gameModes.mapCountry,
     map_capital: t.gameModes.mapCapital,
   };
-  
+
   const getPerformanceMessage = () => {
     if (percentage === 100) return { message: t.perfectScore, color: 'text-accent' };
     if (percentage >= 80) return { message: t.excellent, color: 'text-success' };

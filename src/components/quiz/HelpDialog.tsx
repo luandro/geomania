@@ -63,6 +63,10 @@ export const HelpDialog = ({ trigger }: HelpDialogProps) => {
               </Button>
             </div>
           </div>
+
+          <div className="text-center">
+            <p className="text-xs text-muted-foreground/60">v{__APP_VERSION__}</p>
+          </div>
         </div>
       </DialogContent>
     </Dialog>

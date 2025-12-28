@@ -4,6 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 import { VitePWA } from "vite-plugin-pwa";
 import tailwindcss from "@tailwindcss/vite";
+import packageJson from "./package.json";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
@@ -14,6 +15,9 @@ export default defineConfig(({ mode }) => {
 
   return {
     base: basePath,
+    define: {
+      __APP_VERSION__: JSON.stringify(packageJson.version),
+    },
     server: {
       host: "::",
       port: 8080,

@@ -53,6 +53,14 @@ jobs:
       - name: Verify public flags are hashed
         run: npm run verify:public-flags
 
+      - name: Validate generated data
+        run: |
+          npm run typecheck
+          npm run lint
+
+      - name: Disable Git hooks
+        run: git config core.hooksPath /dev/null
+
       - name: Create PR if data changed
         uses: peter-evans/create-pull-request@v6
         with:

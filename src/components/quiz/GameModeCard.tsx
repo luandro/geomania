@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button';
 import { GameModeConfig } from '@/types/quiz';
 
 interface GameModeCardProps {
@@ -12,13 +11,11 @@ export const GameModeCard = ({ config, onSelect, disabled, letterOffset = 0 }: G
   const words = config.title.split(' ');
 
   return (
-    <Button
-      variant="gameMode"
-      size="answer"
+    <button
       onClick={onSelect}
       disabled={disabled}
       aria-label={config.title}
-      className="relative arcade-round arcade-round-lg rounded-full text-foreground font-black uppercase tracking-wide text-xl sm:text-2xl p-0! flex! items-center! justify-center!"
+      className="relative arcade-round arcade-round-lg rounded-full text-foreground font-black uppercase tracking-wide text-xl sm:text-2xl p-0 flex items-center justify-center transition-all duration-300 focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none cursor-pointer"
     >
       <span className="absolute inset-0 flex items-center justify-center px-4">
         <span className="drop-shadow-[0_6px_8px_rgba(0,0,0,0.4)] text-white text-center font-extrabold tracking-tight uppercase leading-[0.9] flex flex-wrap items-center justify-center gap-x-2" style={{ rowGap: '0px' }}>
@@ -41,6 +38,6 @@ export const GameModeCard = ({ config, onSelect, disabled, letterOffset = 0 }: G
         </span>
       </span>
       <span className="sr-only">{config.description}</span>
-    </Button>
+    </button>
   );
 };

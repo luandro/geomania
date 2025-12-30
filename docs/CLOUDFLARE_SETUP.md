@@ -79,8 +79,8 @@ If you prefer, you can skip the dashboard setup. When you push to `main`, the Gi
 Now that secrets are set up, commit the new files:
 
 ```bash
-git add .github/workflows/cloudflare-pages.yml public/_redirects public/_headers
-git commit -m "Add Cloudflare Pages deployment"
+git add .github/workflows/ci.yml public/_redirects public/_headers
+git commit -m "Add CI/CD pipeline and Cloudflare Pages deployment"
 git push origin main
 ```
 
@@ -89,10 +89,8 @@ git push origin main
 ### Check GitHub Actions
 
 1. Go to **Actions** tab in GitHub
-2. You should see two workflows running:
-   - ✅ **Deploy to Cloudflare Pages** (new)
-   - ✅ **Deploy to GitHub Pages** (existing)
-3. Both should complete successfully
+2. You should see the **CI/CD Pipeline** workflow running
+3. It should complete successfully and include deploy jobs for both GitHub Pages and Cloudflare Pages
 
 ### Check Cloudflare Pages
 
@@ -155,19 +153,21 @@ git push origin main
 ```
 ┌─────────────────────────────────────────────────────────┐
 │                    GitHub Push to main                   │
-└────────────────┬───────────────────────┬────────────────┘
-                 │                       │
-        ┌────────▼─────────┐    ┌───────▼────────┐
-        │ GitHub Actions   │    │ GitHub Actions  │
-        │ (Cloudflare)     │    │ (GitHub Pages)  │
-        └────────┬─────────┘    └───────┬────────┘
-                 │                       │
-        VITE_BASE_PATH: /      VITE_BASE_PATH: /geomania/
-                 │                       │
-        ┌────────▼─────────┐    ┌───────▼────────┐
-        │ Cloudflare Pages │    │ GitHub Pages    │
-        │ geomania.lol     │    │ *.github.io     │
-        └──────────────────┘    └─────────────────┘
+└─────────────────────────────────────────────────────────┘
+                 │
+        ┌────────▼─────────┐
+        │ CI/CD Pipeline   │
+        │ (ci.yml)         │
+        └────────┬─────────┘
+                 │
+    ┌────────────┴────────────┐
+    │                         │
+VITE_BASE_PATH: /      VITE_BASE_PATH: /geomania/
+    │                         │
+┌───▼────────────┐     ┌──────▼─────────┐
+│ Cloudflare     │     │ GitHub Pages   │
+│ Pages          │     │ *.github.io    │
+└────────────────┘     └────────────────┘
 ```
 
 ### File Structure
@@ -175,9 +175,8 @@ git push origin main
 ```
 geomania/
 ├── .github/workflows/
-│   ├── cloudflare-pages.yml    # New: Cloudflare deployment
-│   ├── deploy.yml              # Existing: GitHub Pages
-│   └── update-countries.yml    # Existing: Data updates
+│   ├── ci.yml                  # CI + deployments
+│   └── update-countries.yml    # Data updates
 ├── public/
 │   ├── _redirects              # New: Cloudflare SPA routing
 │   ├── _headers                # New: Cloudflare headers
@@ -244,7 +243,7 @@ If a deployment breaks:
 
 ### Key Files
 
-- **Cloudflare Workflow**: `.github/workflows/cloudflare-pages.yml`
+- **CI/CD Workflow**: `.github/workflows/ci.yml`
 - **SPA Routing**: `public/_redirects`
 - **Security Headers**: `public/_headers`
 - **Vite Config**: `vite.config.ts`

@@ -21,7 +21,7 @@ _Note: no automated test script is defined yet._
 - Styling uses Tailwind; follow utility-first classes and keep component-specific styles close to the component.
 - ESLint config in `eslint.config.js`; run `npm run lint` before PRs.
 - Names: components PascalCase, hooks use `useX`, files match default export (e.g., `LanguageContext.tsx`).
-- UI theme: Kuromi pastel-goth arcade. See `STYLEGUIDE.md` for palette, button styles (`.arcade-round`, `.stroke-text`), and layout utilities (`.kuromi-grid`, `.kuromi-spotlight`).
+- UI theme: Kuromi pastel-goth arcade. See `docs/STYLEGUIDE.md` for palette, button styles (`.arcade-round`, `.stroke-text`), and layout utilities (`.kuromi-grid`, `.kuromi-spotlight`).
 
 ## Testing Guidelines
 - No test harness is present; when adding tests, use Vitest + React Testing Library for components.

@@ -86,9 +86,72 @@ Data sources used by the updater script:
 - World Bank API (economics like GDP)
 - Wikidata SPARQL (politics/culture enrichments)
 
+## CI/CD Pipeline
+
+This project uses GitHub Actions for automated testing and deployment.
+
+### Automated Checks (runs on every PR and push to main)
+
+- ✅ **ESLint** - Code quality and style checks
+- ✅ **TypeScript** - Type checking
+- ✅ **Vitest** - Unit tests
+- ✅ **Playwright** - E2E tests (Chromium in CI)
+
+### Automated Deployments (only on push to main)
+
+- 🚀 **GitHub Pages** - `https://<username>.github.io/geomania/`
+- 🚀 **Cloudflare Pages** - `https://geomania.pages.dev`
+- ✅ Deployments are gated by CI checks and run from the same workflow
+- 📦 Playwright HTML reports are uploaded as CI artifacts for debugging
+
+### Running Tests Locally
+
+```bash
+# Unit tests
+npm run test          # Watch mode
+npm run test:run      # Run once
+
+# E2E tests (uses production build via `vite preview` on an auto-selected port)
+npm run test:e2e              # Run all E2E tests
+npm run test:e2e:ui           # Interactive UI mode
+npm run test:e2e:headed       # Run with visible browser
+npm run test:e2e:chromium     # Run in Chromium only (faster)
+
+# Install Playwright browsers (first time only)
+npm run playwright:install
+```
+
+### Quality Gates
+
+All PRs must pass:
+- Lint checks
+- Type checking
+- Unit tests
+- E2E tests
+
+Failed checks will block PR merging.
+
+### Deployment Setup
+
+See [DEPLOYMENT.md](./docs/DEPLOYMENT.md) for detailed deployment configuration and troubleshooting.
+
+**Quick setup:**
+1. Enable GitHub Pages in repository settings (Source: GitHub Actions)
+2. Add Cloudflare secrets to GitHub repository:
+   - `CLOUDFLARE_API_TOKEN`
+   - `CLOUDFLARE_ACCOUNT_ID`
+
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### Via Lovable
+
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share → Publish.
+
+### Via GitHub Actions (Automated)
+
+The CI/CD pipeline automatically deploys to GitHub Pages and Cloudflare Pages when you push to `main`.
+
+See [DEPLOYMENT.md](./docs/DEPLOYMENT.md) for setup instructions.
 
 **Important for CI/CD builds:**
 - The build process automatically generates required runtime assets via the `prebuild` script:

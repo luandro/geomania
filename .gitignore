@@ -22,6 +22,12 @@ public/data/*
 public/icons/
 public/manifest.webmanifest
 
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

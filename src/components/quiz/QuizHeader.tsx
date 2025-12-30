@@ -56,7 +56,7 @@ export const QuizHeader = ({
               className="w-7 h-7 sm:w-8 sm:h-8 md:w-9 md:h-9 drop-shadow-sm shrink-0" 
             />
             <div className="min-w-0">
-              {/* Hide h1 on extra small screens (< 380px), show abbreviated on small, full on larger */}
+              {/* Site title as h1 for primary page heading */}
               <h1 className="hidden xs:block sm:text-lg md:text-xl font-extrabold text-primary-foreground truncate text-base">
                 <span className="hidden sm:inline">{t.appName}</span>
                 <span className="sm:hidden">Geomania</span>

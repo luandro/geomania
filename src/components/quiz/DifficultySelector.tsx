@@ -1,5 +1,3 @@
-import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { Difficulty } from "@/types/quiz";
 import { useLanguage } from "@/i18n/use-language";
 
@@ -27,30 +25,30 @@ export const DifficultySelector = ({ onSelect, disabled }: DifficultySelectorPro
       </div>
       
       {DIFFICULTIES.map((diff) => (
-        <Card
+        <button
           key={diff.id}
-          className={`cursor-pointer transition-all duration-200 hover:scale-105 border-0 bg-transparent shadow-none`}
-          onClick={() => !disabled && onSelect(diff.id)}
+          type="button"
+          className="cursor-pointer transition-all duration-200 hover:scale-105 rounded-lg border bg-card text-card-foreground shadow-xs flex flex-col items-center gap-3 p-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+          onClick={() => onSelect(diff.id)}
+          disabled={disabled}
         >
-          <div className="flex flex-col items-center gap-3">
-            <div className={`arcade-round arcade-round-md ${diff.ring}`}>
-              <div className="flex flex-col items-center justify-center h-full w-full text-white font-extrabold uppercase tracking-wide text-lg relative">
-                <img
-                  src={diff.iconSrc}
-                  alt={`${t.difficulty[diff.id]} level`}
-                  className="h-24 w-24 mb-1 drop-shadow-[0_4px_6px_rgba(0,0,0,0.35)] level-icon-pulse"
-                  style={{ animationDelay: diff.pulseDelay }}
-                />
-                <span className="drop-shadow-[0_4px_6px_rgba(0,0,0,0.35)] px-3 leading-tight stroke-text">
-                  {t.difficulty[diff.id]}
-                </span>
-              </div>
+          <div className={`arcade-round arcade-round-md ${diff.ring}`}>
+            <div className="flex flex-col items-center justify-center h-full w-full text-white font-extrabold uppercase tracking-wide text-lg relative">
+              <img
+                src={diff.iconSrc}
+                alt={`${t.difficulty[diff.id]} level`}
+                className="h-24 w-24 mb-1 drop-shadow-[0_4px_6px_rgba(0,0,0,0.35)] level-icon-pulse"
+                style={{ animationDelay: diff.pulseDelay }}
+              />
+              <span className="drop-shadow-[0_4px_6px_rgba(0,0,0,0.35)] px-3 leading-tight stroke-text">
+                {t.difficulty[diff.id]}
+              </span>
             </div>
-            <p className="text-sm text-muted-foreground max-w-[180px] text-center px-2">
-              {t.difficultyDescriptions[diff.id]}
-            </p>
           </div>
-        </Card>
+          <p className="text-sm text-muted-foreground max-w-[180px] text-center px-2">
+            {t.difficultyDescriptions[diff.id]}
+          </p>
+        </button>
       ))}
     </div>
   );

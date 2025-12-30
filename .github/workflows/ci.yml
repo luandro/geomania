@@ -130,7 +130,8 @@ jobs:
 
   deploy-cloudflare-pages:
     name: Deploy to Cloudflare Pages
-    if: github.ref == 'refs/heads/main'
+    # Only run if Cloudflare secrets are configured
+    if: github.ref == 'refs/heads/main' && vars.CLOUDFLARE_DEPLOYMENT_ENABLED == 'true'
     runs-on: ubuntu-latest
     needs: build
     permissions:
@@ -168,8 +169,13 @@ jobs:
           command: pages project create geomania --production-branch=main
 
       - name: Deploy to Cloudflare Pages
+        id: deployment
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy dist --project-name=geomania --commit-dirty=true
+
+      - name: Deployment successful
+        if: success()
+        run: echo "✅ Deployed to Cloudflare Pages successfully"

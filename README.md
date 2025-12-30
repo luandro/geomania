@@ -99,10 +99,12 @@ This project uses GitHub Actions for automated testing and deployment.
 
 ### Automated Deployments (only on push to main)
 
-- 🚀 **GitHub Pages** - `https://<username>.github.io/geomania/`
-- 🚀 **Cloudflare Pages** - `https://geomania.pages.dev`
+- 🚀 **GitHub Pages** - `https://<username>.github.io/geomania/` (enabled by default)
+- 🚀 **Cloudflare Pages** - `https://geomania.pages.dev` (optional, requires setup)
 - ✅ Deployments are gated by CI checks and run from the same workflow
 - 📦 Playwright HTML reports are uploaded as CI artifacts for debugging
+
+> **Note**: Cloudflare Pages deployment is disabled by default. See [DEPLOYMENT.md](./docs/DEPLOYMENT.md) to enable it.
 
 ### Running Tests Locally
 
@@ -135,11 +137,12 @@ Failed checks will block PR merging.
 
 See [DEPLOYMENT.md](./docs/DEPLOYMENT.md) for detailed deployment configuration and troubleshooting.
 
-**Quick setup:**
+**Quick setup (GitHub Pages only):**
 1. Enable GitHub Pages in repository settings (Source: GitHub Actions)
-2. Add Cloudflare secrets to GitHub repository:
-   - `CLOUDFLARE_API_TOKEN`
-   - `CLOUDFLARE_ACCOUNT_ID`
+2. That's it! GitHub Pages deployment works out of the box
+
+**Optional (Cloudflare Pages):**
+To enable dual deployment to Cloudflare Pages, see [DEPLOYMENT.md](./docs/DEPLOYMENT.md) for setup instructions.
 
 ## How can I deploy this project?
 

@@ -25,6 +25,8 @@ The CI/CD pipeline automatically:
 
 ### For Cloudflare Pages Deployment
 
+> **Note**: Cloudflare Pages deployment is **disabled by default**. The pipeline only deploys to GitHub Pages out of the box. To enable Cloudflare deployment, follow these steps:
+
 1. **Create a Cloudflare Pages project:**
    - Go to Cloudflare Dashboard → Pages
    - Create a new project named `geomania` (or update workflow with your project name)
@@ -44,6 +46,16 @@ The CI/CD pipeline automatically:
    - `CLOUDFLARE_ACCOUNT_ID`
      - Get from: Cloudflare Dashboard → Pages (URL contains your account ID)
      - Or go to: Workers & Pages → Account ID
+
+3. **Enable Cloudflare deployment in CI/CD:**
+
+   Go to: GitHub Repository → Settings → Variables and actions → Variables
+
+   Add a repository variable:
+   - Name: `CLOUDFLARE_DEPLOYMENT_ENABLED`
+   - Value: `true`
+
+   Once enabled, the pipeline will automatically deploy to both GitHub Pages and Cloudflare Pages on every push to `main`.
 
 ## Deployment URLs
 

@@ -22,6 +22,12 @@ export default defineConfig(({ mode }) => {
       host: "::",
       port: 8080,
     },
+    build: {
+      rollupOptions: {
+        // Externalize virtual:pwa-register when PWA is disabled to prevent build errors
+        external: enablePwa ? [] : ["virtual:pwa-register"],
+      },
+    },
     plugins: [
       tailwindcss(),
       react(),

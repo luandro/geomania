@@ -1,4 +1,4 @@
-// Generated from src/data/countries.ts for runtime use
+// Generated from scripts/update-countries-data.ts
 
 export const ptCountryNames: Record<string, string> = {
   "antigua-and-barbuda": "Antígua e Barbuda",

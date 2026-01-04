@@ -57,8 +57,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 2224814814.81481,
-      "gdpPerCapitaUsd": 23725.7903725506,
+      "gdpUsd": 2207622874.07407,
+      "gdpPerCapitaUsd": 23542.4526945578,
       "year": 2024
     },
     "politics": {
@@ -71,7 +71,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -143,8 +143,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 3019253885.46989,
-      "gdpPerCapitaUsd": 3839.4093039286,
+      "gdpUsd": 3012896789.24928,
+      "gdpPerCapitaUsd": 3831.32535494609,
       "year": 2023
     },
     "politics": {
@@ -171,7 +171,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -245,8 +245,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 2372774547793.12,
-      "gdpPerCapitaUsd": 40226.0472416173,
+      "gdpUsd": 2380825077243.59,
+      "gdpPerCapitaUsd": 40385.3413957669,
       "year": 2024
     },
     "politics": {
@@ -259,7 +259,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -463,8 +463,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1752193307380.34,
-      "gdpPerCapitaUsd": 64407.484256932,
+      "gdpUsd": 1757022451652.83,
+      "gdpPerCapitaUsd": 64603.9856308464,
       "year": 2024
     },
     "politics": {
@@ -477,7 +477,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -549,8 +549,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 3515783328.91079,
-      "gdpPerCapitaUsd": 8429.67959707387,
+      "gdpUsd": 3203631800,
+      "gdpPerCapitaUsd": 7681.24400583113,
       "year": 2024
     },
     "politics": {
@@ -563,7 +563,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -635,8 +635,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1161251868.03498,
-      "gdpPerCapitaUsd": 3542.81071592874,
+      "gdpUsd": 1117972034.22642,
+      "gdpPerCapitaUsd": 3410.77023167097,
       "year": 2024
     },
     "politics": {
@@ -648,7 +648,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -721,7 +721,7 @@ export const countries: CountryData[] = [
     },
     "economics": {
       "gdpUsd": 75961865471.9129,
-      "gdpPerCapitaUsd": 8316.64776291533,
+      "gdpPerCapitaUsd": 8317.63399913792,
       "year": 2024
     },
     "politics": {
@@ -734,7 +734,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -806,8 +806,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 14952555414.8553,
-      "gdpPerCapitaUsd": 11871.733679438,
+      "gdpUsd": 14937861786.17,
+      "gdpPerCapitaUsd": 11990.7798944837,
       "year": 2024
     },
     "politics": {
@@ -820,7 +820,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -892,8 +892,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 16502933121.0806,
-      "gdpPerCapitaUsd": 2123.97909411797,
+      "gdpUsd": 16502933121.3379,
+      "gdpPerCapitaUsd": 2123.97909415109,
       "year": 2024
     },
     "politics": {
@@ -906,7 +906,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -978,8 +978,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 32267254425.052,
-      "gdpPerCapitaUsd": 1743.98888384359,
+      "gdpUsd": 32808056600.9436,
+      "gdpPerCapitaUsd": 1773.21829923448,
       "year": 2024
     },
     "politics": {
@@ -992,7 +992,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -1064,8 +1064,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1323254808058.74,
-      "gdpPerCapitaUsd": 15473.2872636856,
+      "gdpUsd": 1359123768774.12,
+      "gdpPerCapitaUsd": 15892.7157287241,
       "year": 2024
     },
     "politics": {
@@ -1078,7 +1078,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -1150,8 +1150,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 49668296743.8495,
-      "gdpPerCapitaUsd": 4001.21133990795,
+      "gdpUsd": 54881327452.9667,
+      "gdpPerCapitaUsd": 4421.16609889999,
       "year": 2024
     },
     "politics": {
@@ -1164,7 +1164,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -1549,8 +1549,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 49909807029.6996,
-      "gdpPerCapitaUsd": 989.312866210938,
+      "gdpUsd": 49672435513.1126,
+      "gdpPerCapitaUsd": 984.607666015625,
       "year": 2024
     },
     "politics": {
@@ -1563,7 +1563,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -1724,11 +1724,20 @@ export const countries: CountryData[] = [
       "governmentType": "absolute monarchy; absolute theocratic monarchy; constitutional monarchy; elective monarchy; theocracy",
       "updatedAt": "2025-12-12T15:56:08.584Z"
     },
+    "culture": {
+      "religions": [
+        {
+          "name": "Catholic Church"
+        }
+      ],
+      "updatedAt": "2026-01-04T03:39:14.238Z"
+    },
     "meta": {
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "politics": "2025-12-12T15:56:08.584Z"
+        "politics": "2025-12-12T15:56:08.584Z",
+        "culture": "2026-01-04T03:39:14.238Z"
       },
       "sources": {
         "base": "restcountries.com",
@@ -1737,7 +1746,8 @@ export const countries: CountryData[] = [
         "politics.headOfState": "wikidata.org (P35)",
         "politics.headOfGovernment": "wikidata.org (P6)",
         "politics.governmentType": "wikidata.org (P122)",
-        "localizations": "cristiroma/countries + restcountries.com"
+        "localizations": "cristiroma/countries + restcountries.com",
+        "culture.religions": "wikidata.org (P3075)"
       }
     }
   },
@@ -1822,9 +1832,9 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 3281419347.37053,
-      "gdpPerCapitaUsd": 21061.741639092,
-      "year": 2023
+      "gdpUsd": 3561178196.20713,
+      "gdpPerCapitaUsd": 22832.8953958667,
+      "year": 2024
     },
     "politics": {
       "headOfState": "William Alexander of the Netherlands",
@@ -1836,7 +1846,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -1908,8 +1918,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 19400774882.4495,
-      "gdpPerCapitaUsd": 7695.2420641819,
+      "gdpUsd": 19402063512.9066,
+      "gdpPerCapitaUsd": 7695.75319445165,
       "year": 2024
     },
     "politics": {
@@ -1921,7 +1931,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -1993,8 +2003,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 21482643720.2743,
-      "gdpPerCapitaUsd": 1485.38018980894,
+      "gdpUsd": 21482643706.4249,
+      "gdpPerCapitaUsd": 1485.38018885134,
       "year": 2024
     },
     "politics": {
@@ -2007,7 +2017,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -2080,7 +2090,7 @@ export const countries: CountryData[] = [
     },
     "economics": {
       "gdpUsd": 84869215513.3648,
-      "gdpPerCapitaUsd": 29386.2878350187,
+      "gdpPerCapitaUsd": 29384.0189598663,
       "year": 2024
     },
     "politics": {
@@ -2093,7 +2103,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -2258,8 +2268,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 2162378759.3467,
-      "gdpPerCapitaUsd": 153.930217854023,
+      "gdpUsd": 3082433067.32634,
+      "gdpPerCapitaUsd": 219.424830882698,
       "year": 2024
     },
     "politics": {
@@ -2272,7 +2282,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -2382,8 +2392,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 577389475009.922,
-      "gdpPerCapitaUsd": 107316.337306921,
+      "gdpUsd": 609157459747.205,
+      "gdpPerCapitaUsd": 112894.953240805,
       "year": 2024
     },
     "politics": {
@@ -2396,7 +2406,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -2468,8 +2478,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1760767447.17461,
-      "gdpPerCapitaUsd": 2149.37957267304,
+      "gdpUsd": 1583964703.75061,
+      "gdpPerCapitaUsd": 1933.55538435227,
       "year": 2024
     },
     "politics": {
@@ -2481,7 +2491,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -2523,8 +2533,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 8980200000,
-      "gdpPerCapitaUsd": 138934.958846463,
+      "gdpUsd": 9233600000,
+      "gdpPerCapitaUsd": 142855.374713782,
       "year": 2024
     },
     "politics": {
@@ -2537,7 +2547,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -2609,8 +2619,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 299835625550.781,
-      "gdpPerCapitaUsd": 53188.6186245158,
+      "gdpUsd": 298696961297.656,
+      "gdpPerCapitaUsd": 53149.7671934051,
       "year": 2024
     },
     "politics": {
@@ -2634,7 +2644,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -2708,8 +2718,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 289221969059.853,
-      "gdpPerCapitaUsd": 8452.37167047598,
+      "gdpUsd": 289221969062.941,
+      "gdpPerCapitaUsd": 8452.37167056621,
       "year": 2024
     },
     "politics": {
@@ -2722,7 +2732,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -2794,8 +2804,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 450119424622.389,
-      "gdpPerCapitaUsd": 2593.41607390407,
+      "gdpUsd": 450119432068.852,
+      "gdpPerCapitaUsd": 2593.41611680774,
       "year": 2024
     },
     "politics": {
@@ -2816,7 +2826,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -2890,8 +2900,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 429457372071.869,
-      "gdpPerCapitaUsd": 71851.7562131368,
+      "gdpUsd": 424524722037.047,
+      "gdpPerCapitaUsd": 71026.4832271897,
       "year": 2024
     },
     "politics": {
@@ -2904,7 +2914,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -3148,7 +3158,7 @@ export const countries: CountryData[] = [
     },
     "economics": {
       "gdpUsd": 18200340853.6517,
-      "gdpPerCapitaUsd": 7617.51613089815,
+      "gdpPerCapitaUsd": 7576.19589413326,
       "year": 2024
     },
     "politics": {
@@ -3161,7 +3171,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -3233,8 +3243,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 112211952703.831,
-      "gdpPerCapitaUsd": 17412.4115085691,
+      "gdpUsd": 113343355779.985,
+      "gdpPerCapitaUsd": 17596.0173663521,
       "year": 2024
     },
     "politics": {
@@ -3247,7 +3257,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -3319,8 +3329,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 95350423176.664,
-      "gdpPerCapitaUsd": 18587.1532203614,
+      "gdpUsd": 95350423176.5962,
+      "gdpPerCapitaUsd": 18587.1532203482,
       "year": 2024
     },
     "politics": {
@@ -3332,7 +3342,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -3404,8 +3414,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 13372354268.5446,
-      "gdpPerCapitaUsd": 4413.1274418646,
+      "gdpUsd": 13372354511.716,
+      "gdpPerCapitaUsd": 4413.12752211572,
       "year": 2024
     },
     "politics": {
@@ -3417,7 +3427,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -3527,8 +3537,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 93197329011.7078,
-      "gdpPerCapitaUsd": 137516.587324367,
+      "gdpUsd": 93279851863.4062,
+      "gdpPerCapitaUsd": 137781.681659123,
       "year": 2024
     },
     "politics": {
@@ -3541,7 +3551,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -3709,8 +3719,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 537078829135.466,
-      "gdpPerCapitaUsd": 49377.5643384379,
+      "gdpUsd": 552324846834.581,
+      "gdpPerCapitaUsd": 50273.5060469837,
       "year": 2024
     },
     "politics": {
@@ -3731,7 +3741,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -3775,8 +3785,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1735210227.92581,
-      "gdpPerCapitaUsd": 40027.9175992113,
+      "gdpUsd": 1797836665.95136,
+      "gdpPerCapitaUsd": 41472.5874498583,
       "year": 2024
     },
     "politics": {
@@ -3788,7 +3798,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -3956,8 +3966,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 4026210821146.81,
-      "gdpPerCapitaUsd": 32475.8924992191,
+      "gdpUsd": 4027597523550.58,
+      "gdpPerCapitaUsd": 32487.0778047567,
       "year": 2024
     },
     "politics": {
@@ -3984,7 +3994,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -4058,8 +4068,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 187759703099.801,
-      "gdpPerCapitaUsd": 806.945695055244,
+      "gdpUsd": 252261880141.151,
+      "gdpPerCapitaUsd": 1084.16041805436,
       "year": 2024
     },
     "politics": {
@@ -4072,7 +4082,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -4144,8 +4154,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 82825288888.9734,
-      "gdpPerCapitaUsd": 2405.79466378083,
+      "gdpUsd": 82308110386.4641,
+      "gdpPerCapitaUsd": 2390.77237652715,
       "year": 2024
     },
     "politics": {
@@ -4158,7 +4168,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -4230,8 +4240,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 7547843281.27425,
-      "gdpPerCapitaUsd": 873.388575182318,
+      "gdpUsd": 6971127235.3123,
+      "gdpPerCapitaUsd": 806.654650417726,
       "year": 2024
     },
     "politics": {
@@ -4244,7 +4254,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -4363,8 +4373,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 27177735527.5667,
-      "gdpPerCapitaUsd": 10011.6279856667,
+      "gdpUsd": 27046429296.6673,
+      "gdpPerCapitaUsd": 11377.7757431099,
       "year": 2024
     },
     "politics": {
@@ -4377,7 +4387,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -4563,21 +4573,21 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 508735107.033734,
-      "gdpPerCapitaUsd": 4863.76384632192,
+      "gdpUsd": 591139749.44287,
+      "gdpPerCapitaUsd": 5651.59373063157,
       "year": 2023
     },
     "politics": {
       "headOfState": "Tupou VI of Tonga",
-      "headOfGovernment": "ʻAisake Eke",
-      "updatedAt": "2025-12-12T15:56:08.584Z"
+      "headOfGovernment": "Fatafehi Fakafānua, 8th Lord Fakafānua",
+      "updatedAt": "2026-01-04T03:39:14.238Z"
     },
     "meta": {
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
-        "politics": "2025-12-12T15:56:08.584Z"
+        "economics": "2026-01-04T03:39:09.633Z",
+        "politics": "2026-01-04T03:39:14.238Z"
       },
       "sources": {
         "base": "restcountries.com",
@@ -4648,8 +4658,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 64239891739.3311,
-      "gdpPerCapitaUsd": 8571.60702949432,
+      "gdpUsd": 51387209872.2994,
+      "gdpPerCapitaUsd": 6856.65802730208,
       "year": 2024
     },
     "politics": {
@@ -4662,7 +4672,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -4734,8 +4744,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 4086402718.86834,
-      "gdpPerCapitaUsd": 3496.47111876763,
+      "gdpUsd": 4152145939.98458,
+      "gdpPerCapitaUsd": 3552.72335079222,
       "year": 2024
     },
     "politics": {
@@ -4747,7 +4757,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -4819,8 +4829,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 2751544520.37918,
-      "gdpPerCapitaUsd": 516.170424537757,
+      "gdpUsd": 2751494281.06887,
+      "gdpPerCapitaUsd": 516.160999996036,
       "year": 2024
     },
     "politics": {
@@ -4832,7 +4842,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -4990,8 +5000,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 43520773851.1219,
-      "gdpPerCapitaUsd": 23367.5986788961,
+      "gdpUsd": 43684254432.3609,
+      "gdpPerCapitaUsd": 23409.0845154775,
       "year": 2024
     },
     "politics": {
@@ -5004,7 +5014,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -5114,8 +5124,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 2507519958.34857,
-      "gdpPerCapitaUsd": 908.525674150965,
+      "gdpUsd": 2404888749.21907,
+      "gdpPerCapitaUsd": 871.340291776294,
       "year": 2024
     },
     "politics": {
@@ -5128,7 +5138,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -5363,8 +5373,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 10766731873.5407,
-      "gdpPerCapitaUsd": 2082.78374423714,
+      "gdpUsd": 10908045686.8808,
+      "gdpPerCapitaUsd": 2110.12036938187,
       "year": 2024
     },
     "politics": {
@@ -5376,7 +5386,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -5502,9 +5512,9 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 6402221222.32749,
-      "gdpPerCapitaUsd": 22774.1418988734,
-      "year": 2023
+      "gdpUsd": 6323716355.05009,
+      "gdpPerCapitaUsd": 22439.8838746025,
+      "year": 2024
     },
     "politics": {
       "headOfGovernment": "Édouard Fritch",
@@ -5514,7 +5524,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -5586,8 +5596,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 9925732119.72034,
-      "gdpPerCapitaUsd": 1043.14092889765,
+      "gdpUsd": 10651180146.531,
+      "gdpPerCapitaUsd": 1119.38160509429,
       "year": 2024
     },
     "politics": {
@@ -5599,7 +5609,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -5671,8 +5681,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 664564181486.953,
-      "gdpPerCapitaUsd": 55954.6106261018,
+      "gdpUsd": 671370081636.406,
+      "gdpPerCapitaUsd": 56614.5679499036,
       "year": 2024
     },
     "politics": {
@@ -5685,7 +5695,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -5757,8 +5767,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 26325775287.0226,
-      "gdpPerCapitaUsd": 1235.08466482514,
+      "gdpUsd": 25303185342.2511,
+      "gdpPerCapitaUsd": 1187.10943350064,
       "year": 2024
     },
     "politics": {
@@ -5771,7 +5781,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -5813,8 +5823,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 7139428557.71423,
-      "gdpPerCapitaUsd": 97749.5078960846,
+      "gdpUsd": 7241244269.45972,
+      "gdpPerCapitaUsd": 99143.5180243123,
       "year": 2023
     },
     "politics": {
@@ -5827,7 +5837,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -6022,8 +6032,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 17420814800.7045,
-      "gdpPerCapitaUsd": 544.997302693127,
+      "gdpUsd": 17420501490.1231,
+      "gdpPerCapitaUsd": 544.987501003384,
       "year": 2024
     },
     "politics": {
@@ -6036,7 +6046,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -6108,8 +6118,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 8069536125.80285,
-      "gdpPerCapitaUsd": 12935.4522712126,
+      "gdpUsd": 8270016670.86774,
+      "gdpPerCapitaUsd": 13263.3281277699,
       "year": 2024
     },
     "politics": {
@@ -6122,7 +6132,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -6194,9 +6204,9 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1712792854202.37,
-      "gdpPerCapitaUsd": 33121.3712885508,
-      "year": 2023
+      "gdpUsd": 1875388209406.8,
+      "gdpPerCapitaUsd": 36238.639908315,
+      "year": 2024
     },
     "politics": {
       "headOfState": "Lee Jae Myung",
@@ -6222,7 +6232,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -6296,9 +6306,9 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 126772707851.339,
-      "gdpPerCapitaUsd": 1011.07332413462,
-      "year": 2022
+      "gdpUsd": 149740297952.986,
+      "gdpPerCapitaUsd": 1133.88279681719,
+      "year": 2024
     },
     "politics": {
       "headOfState": "Taye Atske Selassie",
@@ -6310,7 +6320,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -6382,8 +6392,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 23586055802.4517,
-      "gdpPerCapitaUsd": 6691.48209834228,
+      "gdpUsd": 23794540024.5132,
+      "gdpPerCapitaUsd": 6750.6301157724,
       "year": 2024
     },
     "politics": {
@@ -6396,7 +6406,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -6468,8 +6478,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 141775733420.114,
-      "gdpPerCapitaUsd": 26147.9028430133,
+      "gdpUsd": 140934076532.375,
+      "gdpPerCapitaUsd": 25992.6748502048,
       "year": 2024
     },
     "politics": {
@@ -6482,7 +6492,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -6554,8 +6564,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 107351800000,
-      "gdpPerCapitaUsd": 9605.26125067263,
+      "gdpUsd": 107352000000,
+      "gdpPerCapitaUsd": 9605.27914559614,
       "year": 2020
     },
     "politics": {
@@ -6568,7 +6578,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -6640,8 +6650,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 113199586004.477,
-      "gdpPerCapitaUsd": 6150.02597767851,
+      "gdpUsd": 113199581158.203,
+      "gdpPerCapitaUsd": 6150.02571438505,
       "year": 2024
     },
     "politics": {
@@ -6654,7 +6664,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -6772,8 +6782,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 483727398216.364,
-      "gdpPerCapitaUsd": 86809.7246897431,
+      "gdpUsd": 483592648313.301,
+      "gdpPerCapitaUsd": 86785.4334489176,
       "year": 2024
     },
     "politics": {
@@ -6786,7 +6796,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -6858,8 +6868,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1391435992.59259,
-      "gdpPerCapitaUsd": 11871.6117006031,
+      "gdpUsd": 1371918518.51852,
+      "gdpPerCapitaUsd": 11705.0902976658,
       "year": 2024
     },
     "politics": {
@@ -6871,7 +6881,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -7075,8 +7085,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 418542042920.189,
-      "gdpPerCapitaUsd": 7913.98801464547,
+      "gdpUsd": 418818154879.271,
+      "gdpPerCapitaUsd": 7919.20886825345,
       "year": 2024
     },
     "politics": {
@@ -7089,7 +7099,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -7161,8 +7171,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1237529866666.67,
-      "gdpPerCapitaUsd": 35057.2252306969,
+      "gdpUsd": 1239804533333.33,
+      "gdpPerCapitaUsd": 35121.6628687742,
       "year": 2024
     },
     "politics": {
@@ -7183,7 +7193,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -7362,8 +7372,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 4659929336890.62,
-      "gdpPerCapitaUsd": 55800.2194549412,
+      "gdpUsd": 4685592577804.69,
+      "gdpPerCapitaUsd": 56103.7323182554,
       "year": 2024
     },
     "politics": {
@@ -7376,7 +7386,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -7448,8 +7458,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 260235932558.996,
-      "gdpPerCapitaUsd": 48747.0136853042,
+      "gdpUsd": 260172385097.616,
+      "gdpPerCapitaUsd": 49205.1792146792,
       "year": 2024
     },
     "politics": {
@@ -7462,7 +7472,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -7504,8 +7514,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 3326544174.37945,
-      "gdpPerCapitaUsd": 58498.9743142433,
+      "gdpUsd": 3326543974.39193,
+      "gdpPerCapitaUsd": 58498.9707973609,
       "year": 2023
     },
     "politics": {
@@ -7518,7 +7528,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -7591,7 +7601,7 @@ export const countries: CountryData[] = [
     },
     "economics": {
       "gdpUsd": 17478259659.2625,
-      "gdpPerCapitaUsd": 2419.26553574523,
+      "gdpPerCapitaUsd": 2420.18542283831,
       "year": 2024
     },
     "politics": {
@@ -7604,7 +7614,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -7762,9 +7772,9 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 3907323961.33964,
-      "gdpPerCapitaUsd": 71774.3522353393,
-      "year": 2023
+      "gdpUsd": 4052937169.76536,
+      "gdpPerCapitaUsd": 74119.6607553879,
+      "year": 2024
     },
     "politics": {
       "headOfState": "Frederik X of Denmark",
@@ -7775,7 +7785,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -7847,8 +7857,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 281849100,
-      "gdpPerCapitaUsd": 15899.4246065324,
+      "gdpUsd": 276733062.744141,
+      "gdpPerCapitaUsd": 15610.8231931032,
       "year": 2023
     },
     "politics": {
@@ -7860,7 +7870,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -7932,8 +7942,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 24322006607.9295,
-      "gdpPerCapitaUsd": 42347.3073860173,
+      "gdpUsd": 24971574502.4475,
+      "gdpPerCapitaUsd": 43898.5781808597,
       "year": 2024
     },
     "politics": {
@@ -7954,7 +7964,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -8028,9 +8038,9 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 19993439949.5435,
-      "gdpPerCapitaUsd": 847.372723418531,
-      "year": 2023
+      "gdpUsd": 23622827079.5047,
+      "gdpPerCapitaUsd": 1051.67149587463,
+      "year": 2022
     },
     "politics": {
       "governmentType": "semi-presidential system",
@@ -8040,7 +8050,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -8112,8 +8122,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1881265333.4187,
-      "gdpPerCapitaUsd": 1343.14886031844,
+      "gdpUsd": 1865608515.41321,
+      "gdpPerCapitaUsd": 1331.9705130185,
       "year": 2024
     },
     "politics": {
@@ -8140,7 +8150,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -8214,8 +8224,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 92526176108.621,
-      "gdpPerCapitaUsd": 23931.4528382746,
+      "gdpUsd": 92983810328.9088,
+      "gdpPerCapitaUsd": 24050.4397933135,
       "year": 2024
     },
     "politics": {
@@ -8228,7 +8238,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -8300,8 +8310,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 32538480023.9998,
-      "gdpPerCapitaUsd": 3076.48786186584,
+      "gdpUsd": 31800428265.5246,
+      "gdpPerCapitaUsd": 3006.70564478923,
       "year": 2024
     },
     "politics": {
@@ -8313,7 +8323,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -8385,8 +8395,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1227543925316.41,
-      "gdpPerCapitaUsd": 68218.7261019406,
+      "gdpUsd": 1214927698572.66,
+      "gdpPerCapitaUsd": 67520.4218956281,
       "year": 2024
     },
     "politics": {
@@ -8399,7 +8409,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -8471,8 +8481,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 4750000000,
-      "gdpPerCapitaUsd": 846.277368387389,
+      "gdpUsd": 4779300900,
+      "gdpPerCapitaUsd": 851.497723870206,
       "year": 2024
     },
     "politics": {
@@ -8484,7 +8494,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -8556,8 +8566,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 12108515109.9996,
-      "gdpPerCapitaUsd": 636.983477589273,
+      "gdpUsd": 11967000000,
+      "gdpPerCapitaUsd": 629.538899449007,
       "year": 2024
     },
     "politics": {
@@ -8570,7 +8580,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -8642,9 +8652,9 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 482359318767.703,
-      "gdpPerCapitaUsd": 15943.6127197163,
-      "year": 2014
+      "gdpUsd": 119802963257.783,
+      "gdpPerCapitaUsd": 4217.59102643391,
+      "year": 2024
     },
     "politics": {
       "headOfState": "Nicolás Maduro",
@@ -8656,7 +8666,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -8813,8 +8823,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 263619794506.723,
-      "gdpPerCapitaUsd": 5631.17999109851,
+      "gdpUsd": 269322281664.773,
+      "gdpPerCapitaUsd": 5752.99076651465,
       "year": 2024
     },
     "politics": {
@@ -8835,7 +8845,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -8933,15 +8943,15 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 649206156.194207,
-      "gdpPerCapitaUsd": 21668.3740927942,
+      "gdpUsd": 649206262.847519,
+      "gdpPerCapitaUsd": 21668.3776525323,
       "year": 2021
     },
     "meta": {
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z"
+        "economics": "2026-01-04T03:39:09.633Z"
       },
       "sources": {
         "base": "restcountries.com",
@@ -8979,9 +8989,9 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 3648573136.15155,
-      "gdpPerCapitaUsd": 33984.7906198041,
-      "year": 2023
+      "gdpUsd": 4265650673.00236,
+      "gdpPerCapitaUsd": 39498.5941293797,
+      "year": 2024
     },
     "politics": {
       "headOfState": "William Alexander of the Netherlands",
@@ -8993,7 +9003,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -9151,8 +9161,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 11008925322.5134,
-      "gdpPerCapitaUsd": 508.371273531708,
+      "gdpUsd": 11316411329.4619,
+      "gdpPerCapitaUsd": 522.570393642547,
       "year": 2024
     },
     "politics": {
@@ -9164,7 +9174,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -9547,8 +9557,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 20867044935.6729,
-      "gdpPerCapitaUsd": 8218.76307061848,
+      "gdpUsd": 20895684425.6752,
+      "gdpPerCapitaUsd": 8230.04311451151,
       "year": 2024
     },
     "politics": {
@@ -9561,7 +9571,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -9719,8 +9729,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 436906331671.859,
-      "gdpPerCapitaUsd": 4771.40029026226,
+      "gdpUsd": 475252089215.416,
+      "gdpPerCapitaUsd": 5190.16959024821,
       "year": 2024
     },
     "politics": {
@@ -9741,7 +9751,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -9815,8 +9825,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 288406138230.669,
-      "gdpPerCapitaUsd": 14005.3487362345,
+      "gdpUsd": 291480274648.826,
+      "gdpPerCapitaUsd": 14154.6324958076,
       "year": 2024
     },
     "politics": {
@@ -9829,7 +9839,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -9987,8 +9997,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 33462807982.85,
-      "gdpPerCapitaUsd": 82703.8579937471,
+      "gdpUsd": 33255181468.9382,
+      "gdpPerCapitaUsd": 86040.5309851288,
       "year": 2024
     },
     "politics": {
@@ -10000,18 +10010,18 @@ export const countries: CountryData[] = [
     "culture": {
       "religions": [
         {
-          "name": "Lutheranism"
+          "name": "Church of Iceland"
         }
       ],
-      "updatedAt": "2025-12-12T15:56:08.584Z"
+      "updatedAt": "2026-01-04T03:39:14.238Z"
     },
     "meta": {
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
-        "culture": "2025-12-12T15:56:08.584Z"
+        "culture": "2026-01-04T03:39:14.238Z"
       },
       "sources": {
         "base": "restcountries.com",
@@ -10083,8 +10093,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 72485008929.2766,
-      "gdpPerCapitaUsd": 34089.3527652778,
+      "gdpUsd": 72972015197.3859,
+      "gdpPerCapitaUsd": 34301.0318686594,
       "year": 2024
     },
     "politics": {
@@ -10097,7 +10107,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -10215,8 +10225,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 51326764684.8595,
-      "gdpPerCapitaUsd": 1762.3683508844,
+      "gdpUsd": 53296694320.2057,
+      "gdpPerCapitaUsd": 1830.00833684727,
       "year": 2024
     },
     "politics": {
@@ -10229,7 +10239,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -10301,8 +10311,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 633266692533.689,
-      "gdpPerCapitaUsd": 13858.2039802008,
+      "gdpUsd": 638365455340.04,
+      "gdpPerCapitaUsd": 13969.7836603737,
       "year": 2024
     },
     "politics": {
@@ -10323,7 +10333,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -10398,7 +10408,7 @@ export const countries: CountryData[] = [
     },
     "economics": {
       "gdpUsd": 74315882352.9412,
-      "gdpPerCapitaUsd": 7283.83562954872,
+      "gdpPerCapitaUsd": 7283.8499076179,
       "year": 2024
     },
     "politics": {
@@ -10411,7 +10421,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -10483,8 +10493,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 53651874313.9836,
-      "gdpPerCapitaUsd": 1072.71369837695,
+      "gdpUsd": 53911907086.1525,
+      "gdpPerCapitaUsd": 1077.91278452817,
       "year": 2024
     },
     "politics": {
@@ -10497,7 +10507,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -10569,8 +10579,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 19537639288.0633,
-      "gdpPerCapitaUsd": 722.748650326257,
+      "gdpUsd": 19876128485.7857,
+      "gdpPerCapitaUsd": 735.270255787226,
       "year": 2024
     },
     "politics": {
@@ -10582,7 +10592,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -10692,8 +10702,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 74079772652.4286,
-      "gdpPerCapitaUsd": 1359.25961394135,
+      "gdpUsd": 74068349523.8095,
+      "gdpPerCapitaUsd": 1359.05001560107,
       "year": 2024
     },
     "politics": {
@@ -10706,7 +10716,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -10778,8 +10788,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 914696430325.391,
-      "gdpPerCapitaUsd": 25022.6716445953,
+      "gdpUsd": 917767106146.761,
+      "gdpPerCapitaUsd": 25103.565661423,
       "year": 2024
     },
     "politics": {
@@ -10792,7 +10802,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -10919,8 +10929,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 407106738445.069,
-      "gdpPerCapitaUsd": 54107.034521746,
+      "gdpUsd": 406863396487.342,
+      "gdpPerCapitaUsd": 54074.6928519479,
       "year": 2024
     },
     "politics": {
@@ -10960,7 +10970,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -11034,8 +11044,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 70749355652.1207,
-      "gdpPerCapitaUsd": 647.435704836002,
+      "gdpUsd": 70962185790.7094,
+      "gdpPerCapitaUsd": 649.383338556725,
       "year": 2024
     },
     "politics": {
@@ -11048,7 +11058,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -11205,8 +11215,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 307862546.789627,
-      "gdpPerCapitaUsd": 2288.63458265531,
+      "gdpUsd": 307862564.489711,
+      "gdpPerCapitaUsd": 2288.63471423684,
       "year": 2024
     },
     "politics": {
@@ -11218,7 +11228,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -11290,8 +11300,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 280357844.229802,
-      "gdpPerCapitaUsd": 7466.65186507409,
+      "gdpUsd": 290108489.990234,
+      "gdpPerCapitaUsd": 7726.33668877794,
       "year": 2024
     },
     "politics": {
@@ -11303,7 +11313,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -11375,8 +11385,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 23250214909.5391,
-      "gdpPerCapitaUsd": 987.321378101867,
+      "gdpUsd": 23124729853.0218,
+      "gdpPerCapitaUsd": 981.992649769081,
       "year": 2024
     },
     "politics": {
@@ -11389,7 +11399,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -11461,8 +11471,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 44187704410.1191,
-      "gdpPerCapitaUsd": 2656.40937654332,
+      "gdpUsd": 41539411516.4448,
+      "gdpPerCapitaUsd": 2497.20332208763,
       "year": 2024
     },
     "politics": {
@@ -11474,7 +11484,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -11546,8 +11556,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 124498691699.125,
-      "gdpPerCapitaUsd": 2206.1349785176,
+      "gdpUsd": 120339557905.932,
+      "gdpPerCapitaUsd": 2132.43452097647,
       "year": 2024
     },
     "politics": {
@@ -11559,7 +11569,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -11631,8 +11641,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1546164420.32442,
-      "gdpPerCapitaUsd": 1784.11546860293,
+      "gdpUsd": 1440991455.45188,
+      "gdpPerCapitaUsd": 1662.75663312504,
       "year": 2024
     },
     "politics": {
@@ -11653,7 +11663,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -11774,8 +11784,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 15463134387.2013,
-      "gdpPerCapitaUsd": 33417.8357740437,
+      "gdpUsd": 15340808592.48,
+      "gdpPerCapitaUsd": 33153.4738913513,
       "year": 2024
     },
     "politics": {
@@ -11802,7 +11812,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -11876,8 +11886,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 610117791237.089,
-      "gdpPerCapitaUsd": 57723.2345031532,
+      "gdpUsd": 603715224265.798,
+      "gdpPerCapitaUsd": 57117.4877440616,
       "year": 2024
     },
     "politics": {
@@ -11890,7 +11900,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -11962,8 +11972,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 2271541845.62002,
-      "gdpPerCapitaUsd": 971.814620468788,
+      "gdpUsd": 2271759454.51107,
+      "gdpPerCapitaUsd": 971.90771824829,
       "year": 2024
     },
     "politics": {
@@ -11976,7 +11986,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -12189,8 +12199,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 78779864877.3018,
-      "gdpPerCapitaUsd": 1185.74548339844,
+      "gdpUsd": 78844405385.2195,
+      "gdpPerCapitaUsd": 1186.71691894531,
       "year": 2024
     },
     "politics": {
@@ -12202,7 +12212,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -12274,8 +12284,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 2767599017.44874,
-      "gdpPerCapitaUsd": 5272.85253011419,
+      "gdpUsd": 2725414150.72735,
+      "gdpPerCapitaUsd": 5192.48157325878,
       "year": 2024
     },
     "politics": {
@@ -12288,7 +12298,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -12456,8 +12466,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 4039844390.22543,
-      "gdpPerCapitaUsd": 49303.6733899464,
+      "gdpUsd": 4039842405.48117,
+      "gdpPerCapitaUsd": 49303.6491674336,
       "year": 2024
     },
     "politics": {
@@ -12470,7 +12480,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -12542,8 +12552,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 257144811301.673,
-      "gdpPerCapitaUsd": 24752.1068401681,
+      "gdpUsd": 256238371778.118,
+      "gdpPerCapitaUsd": 24626.1481858973,
       "year": 2024
     },
     "politics": {
@@ -12564,7 +12574,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -12842,8 +12852,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 46636278901.9016,
-      "gdpPerCapitaUsd": 6318.40314031017,
+      "gdpUsd": 48487151215.345,
+      "gdpPerCapitaUsd": 6569.16408678648,
       "year": 2024
     },
     "politics": {
@@ -12856,7 +12866,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -12928,8 +12938,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 308683317392.68,
-      "gdpPerCapitaUsd": 28844.4979246799,
+      "gdpUsd": 313271185085.102,
+      "gdpPerCapitaUsd": 29292.242104753,
       "year": 2024
     },
     "politics": {
@@ -12942,7 +12952,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -13014,8 +13024,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 373071855731.539,
-      "gdpPerCapitaUsd": 1484.74985864775,
+      "gdpUsd": 371570000121.266,
+      "gdpPerCapitaUsd": 1478.77277977996,
       "year": 2024
     },
     "politics": {
@@ -13036,7 +13046,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -13110,8 +13120,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 6975146349.42592,
-      "gdpPerCapitaUsd": 13215.5353637008,
+      "gdpUsd": 7061608267.25451,
+      "gdpPerCapitaUsd": 13379.3513577224,
       "year": 2024
     },
     "politics": {
@@ -13131,7 +13141,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -13205,8 +13215,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 154430996472.752,
-      "gdpPerCapitaUsd": 3993.38745117188,
+      "gdpUsd": 160610994054.734,
+      "gdpPerCapitaUsd": 4153.1943359375,
       "year": 2024
     },
     "politics": {
@@ -13227,7 +13237,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -13301,8 +13311,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 28343394203.4694,
-      "gdpPerCapitaUsd": 8957.37294188215,
+      "gdpUsd": 29613572022.8993,
+      "gdpPerCapitaUsd": 9358.78768951134,
       "year": 2024
     },
     "politics": {
@@ -13332,7 +13342,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -13406,8 +13416,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1068025243.63929,
-      "gdpPerCapitaUsd": 4898.77140817676,
+      "gdpUsd": 1175749785.65113,
+      "gdpPerCapitaUsd": 5392.87761915762,
       "year": 2024
     },
     "politics": {
@@ -13419,7 +13429,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -13560,8 +13570,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 106942782834.85,
-      "gdpPerCapitaUsd": 20248.4168124608,
+      "gdpUsd": 107137198769.386,
+      "gdpPerCapitaUsd": 20285.2272897377,
       "year": 2024
     },
     "politics": {
@@ -13582,7 +13592,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -13656,8 +13666,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 47736702127.6596,
-      "gdpPerCapitaUsd": 30048.2177718844,
+      "gdpUsd": 47109734308.5106,
+      "gdpPerCapitaUsd": 29653.5682731534,
       "year": 2024
     },
     "politics": {
@@ -13678,7 +13688,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -13752,8 +13762,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 29184890000000,
-      "gdpPerCapitaUsd": 85809.9003846356,
+      "gdpUsd": 28750956130731.2,
+      "gdpPerCapitaUsd": 84534.0407841548,
       "year": 2024
     },
     "politics": {
@@ -13766,7 +13776,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -13808,8 +13818,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 125841500000,
-      "gdpPerCapitaUsd": 39285.0174585856,
+      "gdpUsd": 126029527033.705,
+      "gdpPerCapitaUsd": 39343.7154660139,
       "year": 2024
     },
     "politics": {
@@ -13820,7 +13830,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -13978,8 +13988,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 16685236492.0675,
-      "gdpPerCapitaUsd": 9310.02790015256,
+      "gdpUsd": 16951682245.4202,
+      "gdpPerCapitaUsd": 9291.85661671864,
       "year": 2024
     },
     "politics": {
@@ -13992,7 +14002,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -14064,8 +14074,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 53409988744.5968,
-      "gdpPerCapitaUsd": 4350.3717971875,
+      "gdpUsd": 51332285656.5422,
+      "gdpPerCapitaUsd": 4181.13789301228,
       "year": 2024
     },
     "politics": {
@@ -14078,7 +14088,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -14150,8 +14160,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 26428963758.1307,
-      "gdpPerCapitaUsd": 19314.7163432664,
+      "gdpUsd": 25633544529.4849,
+      "gdpPerCapitaUsd": 18733.4110406494,
       "year": 2024
     },
     "politics": {
@@ -14164,7 +14174,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -14236,8 +14246,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 42764929169.3258,
-      "gdpPerCapitaUsd": 31170.0915091887,
+      "gdpUsd": 43130419829.35,
+      "gdpPerCapitaUsd": 31428.3547816104,
       "year": 2024
     },
     "politics": {
@@ -14250,7 +14260,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -14430,8 +14440,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 86260400000,
-      "gdpPerCapitaUsd": 19102.8521936399,
+      "gdpUsd": 86523959131.7472,
+      "gdpPerCapitaUsd": 19161.2188501596,
       "year": 2024
     },
     "politics": {
@@ -14444,7 +14454,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -14517,7 +14527,7 @@ export const countries: CountryData[] = [
     },
     "economics": {
       "gdpUsd": 936564198048.516,
-      "gdpPerCapitaUsd": 103669.872008144,
+      "gdpPerCapitaUsd": 103998.186685604,
       "year": 2024
     },
     "politics": {
@@ -14530,7 +14540,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -14838,8 +14848,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 400260724226.067,
-      "gdpPerCapitaUsd": 6253.37158194543,
+      "gdpUsd": 401144998373.585,
+      "gdpPerCapitaUsd": 6267.186814093,
       "year": 2024
     },
     "politics": {
@@ -14852,7 +14862,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -14924,8 +14934,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 8287748667.20832,
-      "gdpPerCapitaUsd": 207973.617746758,
+      "gdpUsd": 8239379403.22096,
+      "gdpPerCapitaUsd": 206780.590353385,
       "year": 2023
     },
     "politics": {
@@ -14938,7 +14948,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -15010,8 +15020,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 2179412080828.59,
-      "gdpPerCapitaUsd": 10280.3148624429,
+      "gdpUsd": 2185821648943.86,
+      "gdpPerCapitaUsd": 10310.5488778166,
       "year": 2024
     },
     "politics": {
@@ -15024,7 +15034,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -15096,8 +15106,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 25786585949.6346,
-      "gdpPerCapitaUsd": 8500.60522486719,
+      "gdpUsd": 25955275380.0321,
+      "gdpPerCapitaUsd": 8556.21406956719,
       "year": 2024
     },
     "politics": {
@@ -15118,7 +15128,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -15192,8 +15202,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 33776141250.5716,
-      "gdpPerCapitaUsd": 9193.66366361489,
+      "gdpUsd": 34189423544.9955,
+      "gdpPerCapitaUsd": 9241.49122313713,
       "year": 2024
     },
     "politics": {
@@ -15214,7 +15224,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -15334,8 +15344,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 217982967032.967,
-      "gdpPerCapitaUsd": 76275.9076782833,
+      "gdpUsd": 219162637362.637,
+      "gdpPerCapitaUsd": 76688.6941743178,
       "year": 2024
     },
     "politics": {
@@ -15356,7 +15366,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -15515,7 +15525,7 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 190741263731.535,
+      "gdpUsd": 190741262414.705,
       "gdpPerCapitaUsd": 5389.47314453125,
       "year": 2024
     },
@@ -15529,7 +15539,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -15601,8 +15611,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 25334307878.737,
-      "gdpPerCapitaUsd": 1717.02318120779,
+      "gdpUsd": 25008678293.4084,
+      "gdpPerCapitaUsd": 1694.95375862193,
       "year": 2024
     },
     "politics": {
@@ -15615,7 +15625,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -15725,8 +15735,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 345036675975.047,
-      "gdpPerCapitaUsd": 31706.6234229743,
+      "gdpUsd": 347034062928.479,
+      "gdpPerCapitaUsd": 31823.3078290564,
       "year": 2024
     },
     "politics": {
@@ -15750,7 +15760,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -15824,8 +15834,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 521642466921.745,
-      "gdpPerCapitaUsd": 56833.1960472053,
+      "gdpUsd": 534790720466.822,
+      "gdpPerCapitaUsd": 58268.8787651601,
       "year": 2024
     },
     "politics": {
@@ -15838,7 +15848,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -15910,8 +15920,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1066681481.48148,
-      "gdpPerCapitaUsd": 22771.4168922033,
+      "gdpUsd": 1122388888.88889,
+      "gdpPerCapitaUsd": 23960.6534357084,
       "year": 2024
     },
     "politics": {
@@ -15924,7 +15934,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -16082,15 +16092,15 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 21606160663.0131,
-      "gdpPerCapitaUsd": 633.887202450998,
+      "gdpUsd": 21606160663.0318,
+      "gdpPerCapitaUsd": 633.887202451545,
       "year": 2018
     },
     "politics": {
       "headOfState": "Rashad al-Alimi",
-      "headOfGovernment": "Maeen Abdulmalik Saeed",
+      "headOfGovernment": "Salem Saleh bin Braik",
       "governmentType": "presidential system; republic",
-      "updatedAt": "2025-12-12T15:56:08.584Z"
+      "updatedAt": "2026-01-04T03:39:14.238Z"
     },
     "culture": {
       "religions": [
@@ -16104,8 +16114,8 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
-        "politics": "2025-12-12T15:56:08.584Z",
+        "economics": "2026-01-04T03:39:09.633Z",
+        "politics": "2026-01-04T03:39:14.238Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -16178,8 +16188,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 14251642231.4932,
-      "gdpPerCapitaUsd": 999.654561402699,
+      "gdpUsd": 14251642235.0968,
+      "gdpPerCapitaUsd": 999.65456165547,
       "year": 2024
     },
     "politics": {
@@ -16192,7 +16202,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -16264,9 +16274,9 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 9995350547.12166,
-      "gdpPerCapitaUsd": 256580.515122745,
-      "year": 2023
+      "gdpUsd": 11125783372.4794,
+      "gdpPerCapitaUsd": 288001.433369041,
+      "year": 2024
     },
     "politics": {
       "headOfState": "Albert II, Prince of Monaco",
@@ -16286,7 +16296,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -16360,8 +16370,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 764274042.735043,
-      "gdpPerCapitaUsd": 3244.82899741459,
+      "gdpUsd": 822154621.088897,
+      "gdpPerCapitaUsd": 3490.56883486557,
       "year": 2024
     },
     "politics": {
@@ -16373,7 +16383,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -16445,8 +16455,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 15719985776.3966,
-      "gdpPerCapitaUsd": 2482.24894743495,
+      "gdpUsd": 15719986076.6464,
+      "gdpPerCapitaUsd": 2482.2489948456,
       "year": 2024
     },
     "politics": {
@@ -16459,7 +16469,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -16531,8 +16541,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 44458118399.6669,
-      "gdpPerCapitaUsd": 6416.09709002917,
+      "gdpUsd": 44458118397.4445,
+      "gdpPerCapitaUsd": 6416.09708970845,
       "year": 2024
     },
     "politics": {
@@ -16544,7 +16554,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -16616,8 +16626,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 22416650343.4786,
-      "gdpPerCapitaUsd": 647.28579950207,
+      "gdpUsd": 22745341305.0622,
+      "gdpPerCapitaUsd": 656.776824637306,
       "year": 2024
     },
     "politics": {
@@ -16629,7 +16639,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -16701,8 +16711,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 3162079073495.78,
-      "gdpPerCapitaUsd": 46150.4876861593,
+      "gdpUsd": 3160442622465.08,
+      "gdpPerCapitaUsd": 46103.0840855884,
       "year": 2024
     },
     "politics": {
@@ -16715,7 +16725,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -16787,8 +16797,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 4891883720.15742,
-      "gdpPerCapitaUsd": 3936.10969242371,
+      "gdpUsd": 4858885840.77236,
+      "gdpPerCapitaUsd": 3909.55892378182,
       "year": 2024
     },
     "politics": {
@@ -16801,7 +16811,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -16873,8 +16883,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 7165000000,
-      "gdpPerCapitaUsd": 25365.7949424181,
+      "gdpUsd": 7498050000,
+      "gdpPerCapitaUsd": 26544.8707282621,
       "year": 2024
     },
     "politics": {
@@ -16887,7 +16897,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -16959,8 +16969,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1722745978335.16,
-      "gdpPerCapitaUsd": 35297.0094995565,
+      "gdpUsd": 1725671652742.19,
+      "gdpPerCapitaUsd": 35326.7683069278,
       "year": 2024
     },
     "politics": {
@@ -16981,7 +16991,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -17055,8 +17065,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 526411265427.683,
-      "gdpPerCapitaUsd": 7345.13569000377,
+      "gdpUsd": 526517658841.684,
+      "gdpPerCapitaUsd": 7346.62022142185,
       "year": 2024
     },
     "politics": {
@@ -17089,7 +17099,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -17163,8 +17173,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 2119865935.24909,
-      "gdpPerCapitaUsd": 962.983627901892,
+      "gdpUsd": 2218393804.54798,
+      "gdpPerCapitaUsd": 1007.74151728028,
       "year": 2024
     },
     "politics": {
@@ -17175,7 +17185,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -17247,8 +17257,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 80396942241.6233,
-      "gdpPerCapitaUsd": 2122.08368991872,
+      "gdpUsd": 100998916781.079,
+      "gdpPerCapitaUsd": 2665.87444776753,
       "year": 2024
     },
     "politics": {
@@ -17261,7 +17271,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -17333,8 +17343,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 3912686168582.21,
-      "gdpPerCapitaUsd": 2696.66389984463,
+      "gdpUsd": 3909891533858.08,
+      "gdpPerCapitaUsd": 2694.73780859961,
       "year": 2024
     },
     "politics": {
@@ -17370,7 +17380,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -17460,9 +17470,9 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 9623318718.31459,
-      "gdpPerCapitaUsd": 33516.363085906,
-      "year": 2022
+      "gdpUsd": 8548919387.12607,
+      "gdpPerCapitaUsd": 29213.1923192946,
+      "year": 2024
     },
     "politics": {
       "headOfGovernment": "Philippe Germain",
@@ -17472,7 +17482,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -17675,8 +17685,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 3643834188782.91,
-      "gdpPerCapitaUsd": 52636.7865943853,
+      "gdpUsd": 3686033044482.13,
+      "gdpPerCapitaUsd": 53246.3676145108,
       "year": 2024
     },
     "politics": {
@@ -17697,7 +17707,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -17771,8 +17781,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 5840564072.77313,
-      "gdpPerCapitaUsd": 6288.39867264416,
+      "gdpUsd": 5968125909.27126,
+      "gdpPerCapitaUsd": 6425.74151715712,
       "year": 2024
     },
     "politics": {
@@ -17784,7 +17794,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -17856,9 +17866,9 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1831700577.08904,
-      "gdpPerCapitaUsd": 54264.570495898,
-      "year": 2022
+      "gdpUsd": 2027527227.831,
+      "gdpPerCapitaUsd": 59879.7173015651,
+      "year": 2023
     },
     "politics": {
       "headOfState": "Dalibor Riccardi; Denise Bronzetti; Francesca Civerchia; Italo Righi; Manuel Ciavatta; Maria Luisa Berti",
@@ -17869,7 +17879,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -17941,8 +17951,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 26588067731.1692,
-      "gdpPerCapitaUsd": 1086.1762176779,
+      "gdpUsd": 26794747239.8805,
+      "gdpPerCapitaUsd": 1094.61949265799,
       "year": 2024
     },
     "politics": {
@@ -17954,7 +17964,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -18026,8 +18036,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 2241253230970.34,
-      "gdpPerCapitaUsd": 54282.6176051733,
+      "gdpUsd": 2243636826633.76,
+      "gdpPerCapitaUsd": 54340.3477224733,
       "year": 2024
     },
     "politics": {
@@ -18040,7 +18050,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -18112,8 +18122,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 19930288337.028,
-      "gdpPerCapitaUsd": 7019.74634780454,
+      "gdpUsd": 22014397089.7689,
+      "gdpPerCapitaUsd": 7753.8006955432,
       "year": 2024
     },
     "politics": {
@@ -18125,7 +18135,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -18197,8 +18207,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 160350639.549467,
-      "gdpPerCapitaUsd": 13421.8330584638,
+      "gdpUsd": 162588620.632234,
+      "gdpPerCapitaUsd": 13609.158837552,
       "year": 2024
     },
     "politics": {
@@ -18210,7 +18220,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -18447,8 +18457,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 86538413923.3943,
-      "gdpPerCapitaUsd": 2709.89511641252,
+      "gdpUsd": 87113179149.284,
+      "gdpPerCapitaUsd": 2727.8935220697,
       "year": 2024
     },
     "politics": {
@@ -18461,7 +18471,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -18533,8 +18543,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 160227273001.348,
-      "gdpPerCapitaUsd": 32213.8622292316,
+      "gdpUsd": 160227273053.334,
+      "gdpPerCapitaUsd": 32717.7186631255,
       "year": 2024
     },
     "politics": {
@@ -18547,7 +18557,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -18721,8 +18731,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 24835899825.8993,
-      "gdpPerCapitaUsd": 29883.6341152001,
+      "gdpUsd": 24662709832.1343,
+      "gdpPerCapitaUsd": 29675.2443873316,
       "year": 2024
     },
     "politics": {
@@ -18735,7 +18745,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -18807,8 +18817,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 222904723252.11,
-      "gdpPerCapitaUsd": 23310.7512733957,
+      "gdpUsd": 222722738925.641,
+      "gdpPerCapitaUsd": 23292.3263882478,
       "year": 2024
     },
     "politics": {
@@ -18821,7 +18831,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -18893,8 +18903,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 1852722885258.11,
-      "gdpPerCapitaUsd": 14157.9445835849,
+      "gdpUsd": 1856365616165.94,
+      "gdpPerCapitaUsd": 14185.7812248529,
       "year": 2024
     },
     "politics": {
@@ -18907,7 +18917,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -19057,22 +19067,22 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 382767571329.158,
-      "gdpPerCapitaUsd": 20072.4079244042,
+      "gdpUsd": 382564217988.866,
+      "gdpPerCapitaUsd": 20080.2096215595,
       "year": 2024
     },
     "politics": {
       "headOfState": "Nicușor Dan",
-      "headOfGovernment": "Ilie Bolovan",
+      "headOfGovernment": "Ilie Bolojan",
       "governmentType": "semi-presidential system",
-      "updatedAt": "2025-12-12T15:56:08.584Z"
+      "updatedAt": "2026-01-04T03:39:14.238Z"
     },
     "meta": {
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
-        "politics": "2025-12-12T15:56:08.584Z"
+        "economics": "2026-01-04T03:39:09.633Z",
+        "politics": "2026-01-04T03:39:14.238Z"
       },
       "sources": {
         "base": "restcountries.com",
@@ -19143,8 +19153,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 4714267822.2233,
-      "gdpPerCapitaUsd": 7430.70219176443,
+      "gdpUsd": 4416775112.09627,
+      "gdpPerCapitaUsd": 6961.78955961526,
       "year": 2024
     },
     "politics": {
@@ -19157,7 +19167,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -19397,8 +19407,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 20625711664.6472,
-      "gdpPerCapitaUsd": 1016.08880662712,
+      "gdpUsd": 19518819751.283,
+      "gdpPerCapitaUsd": 961.55975562506,
       "year": 2024
     },
     "politics": {
@@ -19409,7 +19419,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -19481,8 +19491,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 89083506277.2344,
-      "gdpPerCapitaUsd": 13523.7246826854,
+      "gdpUsd": 90097765959.1114,
+      "gdpPerCapitaUsd": 13679.2065983557,
       "year": 2024
     },
     "politics": {
@@ -19494,7 +19504,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z"
       },
       "sources": {
@@ -19566,8 +19576,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 46352647034.7775,
-      "gdpPerCapitaUsd": 2627.8796974226,
+      "gdpUsd": 46352647037.2406,
+      "gdpPerCapitaUsd": 2627.87969756224,
       "year": 2024
     },
     "politics": {
@@ -19588,7 +19598,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -19662,8 +19672,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 421972102253.57,
-      "gdpPerCapitaUsd": 11867.2586435443,
+      "gdpUsd": 422227005428.688,
+      "gdpPerCapitaUsd": 11874.4273684245,
       "year": 2024
     },
     "politics": {
@@ -19684,7 +19694,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },
@@ -19758,8 +19768,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 36333022329.4981,
-      "gdpPerCapitaUsd": 38654.16796875,
+      "gdpUsd": 37634533331.8902,
+      "gdpPerCapitaUsd": 38674.29296875,
       "year": 2024
     },
     "politics": {
@@ -19772,7 +19782,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T16:33:23.621Z"
       },
       "sources": {
@@ -19966,8 +19976,8 @@ export const countries: CountryData[] = [
       }
     },
     "economics": {
-      "gdpUsd": 50183212761.3484,
-      "gdpPerCapitaUsd": 73046.8890267079,
+      "gdpUsd": 49467258923.3244,
+      "gdpPerCapitaUsd": 72004.7437020733,
       "year": 2024
     },
     "politics": {
@@ -19992,7 +20002,7 @@ export const countries: CountryData[] = [
       "lastUpdated": {
         "base": "2025-12-12T15:55:47.135Z",
         "pt": "2025-12-12T15:55:47.135Z",
-        "economics": "2025-12-12T15:55:50.087Z",
+        "economics": "2026-01-04T03:39:09.633Z",
         "politics": "2025-12-12T15:56:08.584Z",
         "culture": "2025-12-12T15:56:08.584Z"
       },

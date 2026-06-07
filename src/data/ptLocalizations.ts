@@ -1,4 +1,4 @@
-// Generated from src/data/countries.ts for runtime use
+// Generated from scripts/update-countries-data.ts
 
 export const ptCountryNames: Record<string, string> = {
   "antigua-and-barbuda": "Antígua e Barbuda",
@@ -372,7 +372,7 @@ export const ptCapitalNames: Record<string, string> = {
   "aruba": "Oranjestad",
   "egypt": "Cairo",
   "malawi": "Lilongwe",
-  "equatorial-guinea": "Malabo",
+  "equatorial-guinea": "Ciudad de la Paz",
   "united-states-virgin-islands": "Charlotte Amalie",
   "ecuador": "Quito",
   "uzbekistan": "Tashkent",
